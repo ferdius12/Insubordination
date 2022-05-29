@@ -1206,6 +1206,23 @@
  AFY_DEF:0 "Движение Субхи"
  AFY_ADJ:0 "Афьонск."
  
- 
-
+ #ARGENTINA#
+ ARG:0 "Аргентина"
+ ARG_DEF:0 "Аргентина"
+ ARG_ADJ:0 "Аргентинск."
+ ARG_communism:0 "Аргентинская коммуна"
+ ARG_communism_DEF:0 "Аргентинская коммуна"
+ ARG_communism_ADJ:0 "Аргентинск."
+ ARG_syndicalist:0 "Аргентинская коммуна" 
+ ARG_syndicalist_DEF:0 "Аргентинская коммуна" 
+ ARG_syndicalist_ADJ:0 "Аргентинск."
+ ARG_radical_socialist:0 "Аргентинская коммуна" 
+ ARG_radical_socialist_DEF:0 "Аргентинская коммуна" 
+ ARG_radical_socialist_ADJ:0 "Аргентинск."
+ ARG_paternal_autocrat:0 "Королевство Аргентина" 
+ ARG_paternal_autocrat_DEF:0 "Королевство Аргентина" 
+ ARG_paternal_autocrat_ADJ:0 "Аргентинск."
+ ARG_fascism:0 "Аргентинская хунта" 
+ ARG_fascism_DEF:0 "Аргентинская хунта" 
+ ARG_fascism_ADJ:0 "Аргентинск."
 

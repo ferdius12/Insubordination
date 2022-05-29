@@ -1,0 +1,18 @@
+characters = { 
+
+		ARG_marselo_de_alvear = {
+		name = ARG_marselo_de_alvear
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/portrait_Australia_John_Lawrence_Baird.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}
