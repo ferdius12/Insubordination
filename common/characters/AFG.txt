@@ -1,0 +1,19 @@
+characters={
+
+    AFG_amanullah_khan = {
+		name = AFG_amanullah_khan
+		portraits = {
+			civilian = {
+				large="gfx/leaders/AFG/portrait_Afghanistan_Amanullah_Khan.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+	}
+	
+	}

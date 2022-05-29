@@ -1,0 +1,19 @@
+characters={
+
+    AFY_ethem_nejat = {
+		name = AFY_ethem_nejat
+		portraits = {
+			civilian = {
+				large="gfx/leaders/AFY/portrait_Afyon_Ethem_Nejat.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+	}
+	
+	}

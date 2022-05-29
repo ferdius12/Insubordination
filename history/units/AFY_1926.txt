@@ -1,0 +1,77 @@
+division_template = {
+	name = "Infantry Division"		
+	division_names_group = TUR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+
+	}
+	support = {
+		engineer = { x = 0 y = 0 }		
+	}
+}
+
+division_template = {
+	name = "Cavarly Brigade"  		# Motorized Cavalry Brigade
+	division_names_group = TUR_CAV_01
+										# Note: motorized cavalry. Most sources have them truck-equipped.
+	regiments = {
+		cavarly = { x = 0 y = 0 }
+		cavarly = { x = 0 y = 1 }
+		cavarly = { x = 1 y = 0 }
+	}
+}
+
+units = { 
+
+    division = {
+	   location = 9878
+       division_template = "Infantry Division"
+	   start_experience_factor = 0.3
+	   start_equipment_factor = 0.65
+	}
+	
+	division = {
+	   location = 9878
+       division_template = "Infantry Division"
+	   start_experience_factor = 0.3
+	   start_equipment_factor = 0.65
+	}
+	
+	division = {
+	   location = 9878
+       division_template = "Infantry Division"
+	   start_experience_factor = 0.3
+	   start_equipment_factor = 0.65
+	}
+	
+	division = {
+	   location = 11831
+       division_template = "Infantry Division"
+	   start_experience_factor = 0.3
+	   start_equipment_factor = 0.65
+	}
+	
+	division = {
+	   location = 6877
+       division_template = "Infantry Division"
+	   start_experience_factor = 0.3
+	   start_equipment_factor = 0.65
+	}
+	
+	division = {
+	   location = 3856
+       division_template = "Cavarly Brigade"
+	   start_experience_factor = 0.3
+	   start_equipment_factor = 0.65
+	}
+	
+	division = {
+	   location = 981
+       division_template = "Cavarly Brigade"
+	   start_experience_factor = 0.3
+	   start_equipment_factor = 0.65
+	}

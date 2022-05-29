@@ -895,4 +895,8 @@ TAS = {
 	color = rgb { 191 111 13 }
 	color_ui = rgb { 191 111 13 }
 }
+AFY = {
+	color = rgb { 224 43 43 }
+	color_ui = rgb { 224 43 43 }
+}
 

@@ -1178,6 +1178,34 @@
  PER_fascism_DEF:0 "Персидская Шаханхаство" 
  PER_fascism_ADJ:0 "Персидск." 
  
+ #AFGHANISTAN#
+ AFG:0 "Афганистан"
+ AFG_DEF:0 "Афганистан"
+ AFG_ADJ:0 "Афганск."
+ AFG_communism:0 "Рабочая республика Афганистан"
+ AFG_communism_DEF:0 "Рабочая республика Афганистан"
+ AFG_communism_ADJ:0 "Афганск."
+ AFG_syndicalist:0 "Рабочая республика Афганистан" 
+ AFG_syndicalist_DEF:0 "Рабочая республика Афганистан" 
+ AFG_syndicalist_ADJ:0 "Афганск."
+ AFG_radical_socialist:0 "Рабочая республика Афганистан" 
+ AFG_radical_socialist_DEF:0 "Рабочая республика Афганистан" 
+ AFG_radical_socialist_ADJ:0 "Афганск."
+ AFG_authoritarian_democrat:0 "Эмират Афганистан" 
+ AFG_authoritarian_democrat_DEF:0 "Эмират Афганистан" 
+ AFG_authoritarian_democrat_ADJ:0 "Афганск."
+ AFG_paternal_autocrat:0 "Эмират Афганистан" 
+ AFG_paternal_autocrat_DEF:0 "Эмират Афганистан" 
+ AFG_paternal_autocrat_ADJ:0 "Афганск."
+ AFG_fascism:0 "Исламское государство Афганистан" 
+ AFG_fascism_DEF:0 "Исламское государство Афганистан" 
+ AFG_fascism_ADJ:0 "Афганск." 
+ 
+ #AFYON#
+ AFY:0 "Движение Субхи"
+ AFY_DEF:0 "Движение Субхи"
+ AFY_ADJ:0 "Афьонск."
+ 
  
 
 
