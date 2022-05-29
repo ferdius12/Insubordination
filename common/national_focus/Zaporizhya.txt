@@ -1,0 +1,1888 @@
+focus_tree = {
+	id = Zaporizhya
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ZAZ
+		}
+	}
+	default = no
+	focus = {
+		id = ocenka_promishlennosti
+		text = zaz_ocenka_prom
+		icon = GFX_goal_generic_production
+		cost = 4,00
+		x = 6
+		y = 0
+			completion_reward = {
+					add_tech_bonus = {
+							name = industrial_bonus
+							bonus = 0.75
+							uses = 2
+							category = industry
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_army_reform
+		text = zaz_army_reform
+		icon = GFX_focus_generic_manpower
+		cost = 4,00
+		x = 20
+		y = 0
+			completion_reward = {
+					army_experience = 25
+				}
+
+	}
+	focus = {
+		id = zaz_legacy_of_cossack
+		text = zaz_legacy_of_cossack
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 3,00
+		x = 28
+		y = 0
+			completion_reward = {
+					country_event = {
+							id = leg.1
+							days = 0
+							random_days = 0
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_ready_to_fight
+		text = zaz_ready_to_fight
+		icon = GFX_zaz_ready_to_fight
+		cost = 5,00
+		x = 14
+		y = 0
+			available = {
+					date > 1938.2.27
+				}
+			completion_reward = {
+					add_political_power = 50
+					add_manpower = 25000
+					add_ideas = UKR_patriotism
+				}
+
+	}
+	focus = {
+		id = zaz_infrastructure_repaining
+		text = zaz_infrastructure_repaining
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5,00
+		prerequisite = {
+			focus = ocenka_promishlennosti
+		}
+		x = 6
+		y = 1
+			completion_reward = {
+					200 = {
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					196 = {
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+						}
+					137 = {
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_army_industry_1
+		text = zaz_army_industry_1
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_infrastructure_repaining
+		}
+		x = 4
+		y = 2
+			completion_reward = {
+					200 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_army_industry_2
+		text = zaz_army_industry_2
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 7,00
+		prerequisite = {
+			focus = zaz_army_industry_1
+		}
+		x = 4
+		y = 3
+			completion_reward = {
+					137 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					196 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_navy_industry_1
+		text = zaz_navy_industry_1
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 7,00
+		prerequisite = {
+			focus = zaz_army_industry_2
+		}
+		x = 3
+		y = 4
+			completion_reward = {
+					196 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = dockyard
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_civilian_industry_1
+		text = zaz_civilian_industry_1
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_infrastructure_repaining
+		}
+		x = 8
+		y = 2
+			completion_reward = {
+					196 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_civilian_industry_2
+		text = zaz_civilian_industry_2
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 7,00
+		prerequisite = {
+			focus = zaz_civilian_industry_1
+		}
+		x = 8
+		y = 3
+			completion_reward = {
+					200 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_tech_slot
+		text = zaz_tech_slot
+		icon = GFX_focus_research
+		cost = 10,00
+		prerequisite = {
+			focus = zaz_civilian_industry_2
+		}
+		prerequisite = {
+			focus = zaz_army_industry_2
+		}
+		x = 6
+		y = 4
+			completion_reward = {
+					add_research_slot = 1
+				}
+
+	}
+	focus = {
+		id = zaz_infrastucture_resourses_1
+		text = zaz_infrastucture_resourses_1
+		icon = GFX_focus_generic_steel
+		cost = 8,00
+		prerequisite = {
+			focus = zaz_civilian_industry_2
+		}
+		x = 9
+		y = 4
+			completion_reward = {
+					137 = {
+							add_resource = {
+									type = steel
+									amount = 12
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_infrastucture_resourses_2
+		text = zaz_infrastucture_resourses_2
+		icon = GFX_goal_generic_construction2
+		cost = 8,00
+		prerequisite = {
+			focus = zaz_infrastucture_resourses_1
+		}
+		x = 9
+		y = 5
+			completion_reward = {
+					200 = {
+							add_resource = {
+									type = aluminium
+									amount = 19
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_build_bunkers
+		text = zaz_build_bunkers
+		icon = GFX_goal_generic_fortify_city
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_ready_to_fight
+		}
+		x = 13
+		y = 1
+			completion_reward = {
+					196 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = bunker
+											level = 2
+											province = 721
+											instant_build = yes
+										}
+									add_building_construction = {
+											type = bunker
+											level = 2
+											province = 737
+											instant_build = yes
+										}
+									add_building_construction = {
+											type = bunker
+											level = 2
+											province = 3573
+											instant_build = yes
+										}
+								}
+						}
+					200 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = bunker
+											level = 2
+											province = 588
+											instant_build = yes
+										}
+									add_building_construction = {
+											type = bunker
+											level = 2
+											province = 11405
+											instant_build = yes
+										}
+									add_building_construction = {
+											type = bunker
+											level = 2
+											province = 3399
+											instant_build = yes
+										}
+									add_building_construction = {
+											type = bunker
+											level = 2
+											province = 429
+											instant_build = yes
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_combat_readiness
+		text = zaz_combat_readiness
+		icon = GFX_focus_generic_little_entente
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_ready_to_fight
+		}
+		x = 15
+		y = 1
+			completion_reward = {
+					add_political_power = 25
+					137 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					200 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_fight_with_fate
+		text = zaz_fight_with_fate
+		icon = GFX_UKR_declare_war_DNI
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_build_bunkers
+		}
+		prerequisite = {
+			focus = zaz_combat_readiness
+		}
+		x = 14
+		y = 2
+			completion_reward = {
+					declare_war_on = {
+							target = DNI
+							type = annex_everything
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_finnish_the_vinnica_murder
+		text = zaz_finnish_the_vinnica_murder
+		icon = GFX_goal_generic_secret_weapon
+		cost = 2,00
+		prerequisite = {
+			focus = zaz_fight_with_fate
+		}
+		x = 12
+		y = 3
+			available = {
+					is_puppet = no
+					NOT = {
+							has_war_with = DNI
+						}
+					ROOT = {
+							controls_state = 198
+						}
+				}
+			completion_reward = {
+					add_state_core = 198
+					add_political_power = -25
+					add_stability = -0.04
+				}
+
+	}
+	focus = {
+		id = zaz_dnipropetrovsk_bureocraty
+		text = zaz_dnipropetrovsk_bureocraty
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_fight_with_fate
+		}
+		x = 14
+		y = 3
+			available = {
+					is_puppet = no
+					NOT = {
+							has_war_with = DNI
+						}
+					ROOT = {
+							controls_state = 226
+							controls_state = 197
+						}
+				}
+			completion_reward = {
+					add_state_core = 226
+					add_state_core = 197
+					add_political_power = -50
+					add_stability = -0.08
+				}
+
+	}
+	focus = {
+		id = zaz_deal_with_poltava_peasants
+		text = zaz_deal_with_poltava_peasants
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 2,00
+		prerequisite = {
+			focus = zaz_fight_with_fate
+		}
+		x = 16
+		y = 3
+			available = {
+					is_puppet = no
+					NOT = {
+							has_war_with = DNI
+						}
+					ROOT = {
+							controls_state = 203
+							controls_state = 259
+						}
+				}
+			completion_reward = {
+					add_state_core = 203
+					add_state_core = 259
+					add_political_power = -25
+					add_stability = -0.04
+				}
+
+	}
+	focus = {
+		id = zaz_execute_dictator
+		text = zaz_execute_dictator
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_deal_with_poltava_peasants
+		}
+		prerequisite = {
+			focus = zaz_dnipropetrovsk_bureocraty
+		}
+		prerequisite = {
+			focus = zaz_finnish_the_vinnica_murder
+		}
+		x = 14
+		y = 4
+			available = {
+					is_puppet = no
+					NOT = {
+							has_war_with = DNI
+						}
+				}
+			completion_reward = {
+					country_event = {
+							id = leg.5
+							days = 0
+							random_days = 0
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_infantry_army
+		text = zaz_infantry_army
+		icon = GFX_focus_generic_military_academy
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_army_reform
+		}
+		x = 18
+		y = 1
+			completion_reward = {
+					army_experience = 10
+					add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 0.75
+							uses = 2
+							category = land_doctrine
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_artilerry_army
+		text = zaz_artilerry_army
+		icon = GFX_goal_generic_army_artillery2
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_army_reform
+		}
+		x = 20
+		y = 1
+			completion_reward = {
+					add_tech_bonus = {
+							name = infantry_artillery_bonus
+							bonus = 1.0
+							uses = 2
+							category = infantry_weapons
+							category = artillery
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_motorized_infantry
+		text = zaz_motorized_infantry
+		icon = GFX_goal_generic_cavalry
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_army_reform
+		}
+		x = 22
+		y = 1
+			completion_reward = {
+					add_tech_bonus = {
+							name = motorized_bonus
+							bonus = 3.0
+							technology = motorised_infantry
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_army_reform_completed
+		text = zaz_army_reform_completed
+		icon = GFX_zaz_army_reform_completed
+		cost = 8,00
+		prerequisite = {
+			focus = zaz_artilerry_army
+		}
+		prerequisite = {
+			focus = zaz_infantry_army
+		}
+		prerequisite = {
+			focus = zaz_motorized_infantry
+		}
+		x = 20
+		y = 2
+			completion_reward = {
+					remove_ideas = ZAZ_untrained_army
+					army_experience = 10
+					add_stability = 0.1
+				}
+
+	}
+	focus = {
+		id = zaz_leader_of_country
+		text = zaz_leader_of_country
+		icon = GFX_zaz_leader_of_country
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_legacy_of_cossack
+		}
+		x = 28
+		y = 1
+			completion_reward = {
+					country_event = {
+							id = leg.3
+							days = 0
+							random_days = 0
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_why_we_are_the_fight
+		text = zaz_why_we_are_the_fight
+		icon = GFX_focus_generic_treaty
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_leader_of_country
+		}
+		x = 28
+		y = 2
+			completion_reward = {
+					country_event = {
+							id = leg.4
+							days = 0
+							random_days = 0
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_integrate_in_monarchist
+		text = zaz_integrate_in_monarchist
+		icon = GFX_focus_generic_home_defense
+		cost = 7,00
+		prerequisite = {
+			focus = zaz_why_we_are_the_fight
+		}
+		mutually_exclusive = {
+			focus = zaz_powered_in_center
+			focus = zaz_democratic_reform
+		}
+		x = 22
+		y = 3
+			completion_reward = {
+					add_popularity = {
+							ideology = fascism
+							popularity = 0.05
+						}
+					add_popularity = {
+							ideology = communism
+							popularity = -0.1
+						}
+					add_political_power = -25
+					add_stability = -0.05
+					add_ideas = ZAZ_coalition_with_monarchists_1
+					custom_effect_tooltip = available_political_advisor
+					show_ideas_tooltip = ZAZ_mikola_lebid
+				}
+
+	}
+	focus = {
+		id = zaz_powered_in_center
+		text = zaz_powered_in_center
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 7,00
+		prerequisite = {
+			focus = zaz_why_we_are_the_fight
+		}
+		mutually_exclusive = {
+			focus = zaz_integrate_in_monarchist
+			focus = zaz_democratic_reform
+		}
+		x = 28
+		y = 3
+			completion_reward = {
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.1
+						}
+					add_political_power = 35
+					add_ideas = ZAZ_power_in_center_1
+					custom_effect_tooltip = available_political_advisor
+					show_ideas_tooltip = ZAZ_nikolay_shapovalov
+				}
+
+	}
+	focus = {
+		id = zaz_agree_with_politican
+		text = zaz_agree_with_politican
+		icon = GFX_goal_tripartite_pact
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_powered_in_center
+		}
+		x = 28
+		y = 4
+			completion_reward = {
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.05
+						}
+					add_political_power = 30
+					add_stability = 0.05
+				}
+
+	}
+	focus = {
+		id = zaz_democratic_reform
+		text = zaz_democratic_reform
+		icon = GFX_goal_support_democracy
+		cost = 7,00
+		prerequisite = {
+			focus = zaz_why_we_are_the_fight
+		}
+		mutually_exclusive = {
+			focus = zaz_integrate_in_monarchist
+			focus = zaz_powered_in_center
+		}
+		x = 34
+		y = 3
+			completion_reward = {
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.05
+						}
+					add_popularity = {
+							ideology = democratic
+							popularity = 0.05
+						}
+					add_stability = 0.1
+					add_ideas = ZAZ_nansent_democraty
+					custom_effect_tooltip = available_political_advisor
+					show_ideas_tooltip = ZAZ_evgeniy_byiniy
+				}
+
+	}
+	focus = {
+		id = zaz_lift_the_ban_political_parties
+		text = zaz_lift_the_ban_political_parties
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_democratic_reform
+		}
+		x = 34
+		y = 4
+			completion_reward = {
+					add_popularity = {
+							ideology = democratic
+							popularity = 0.15
+						}
+					add_popularity = {
+							ideology = communism
+							popularity = 0.05
+						}
+					add_popularity = {
+							ideology = fascism
+							popularity = 0.05
+						}
+					add_political_power = 50
+					add_stability = -0.05
+				}
+
+	}
+	focus = {
+		id = zaz_deal_with_the_promonarchist
+		text = zaz_deal_with_the_promonarchist
+		icon = GFX_zaz_deal_with_the_promonarchist
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_lift_the_ban_political_parties
+			focus = zaz_agree_with_politican
+		}
+		x = 31
+		y = 5
+			completion_reward = {
+					remove_ideas = ZAZ_disloyal_officers
+					add_political_power = 25
+				}
+
+	}
+	focus = {
+		id = zaz_start_preparing_early_elections
+		text = zaz_start_preparing_early_elections
+		icon = GFX_focus_generic_treaty
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_deal_with_the_promonarchist
+		}
+		prerequisite = {
+			focus = zaz_execute_dictator
+		}
+		x = 35
+		y = 6
+			available = {
+					is_puppet = no
+					democratic > 0.35
+				}
+			completion_reward = {
+					add_political_power = -50
+					add_stability = -0.1
+				}
+
+	}
+	focus = {
+		id = zaz_start_elections
+		text = zaz_start_elections
+		icon = GFX_goal_continuous_boost_freedom
+		cost = 7,00
+		prerequisite = {
+			focus = zaz_start_preparing_early_elections
+		}
+		x = 35
+		y = 7
+			completion_reward = {
+					country_event = {
+							id = leg.8
+							days = 0
+							random_days = 0
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_purges_the_monarchists_in_officer
+		text = zaz_purges_the_monarchists_in_officer
+		icon = GFX_zaz_purges_the_monarchists_in_officer
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_start_elections
+		}
+		x = 33
+		y = 8
+			completion_reward = {
+					add_popularity = {
+							ideology = fascism
+							popularity = -0.1
+						}
+					add_popularity = {
+							ideology = neutrality
+							popularity = -0.05
+						}
+					add_timed_idea = {
+							idea = ZAZ_purges_in_officers
+							days = 90
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_acces_with_socialist
+		text = zaz_acces_with_socialist
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_start_elections
+		}
+		x = 37
+		y = 8
+			completion_reward = {
+					remove_ideas = ZAZ_communist_strikes
+					add_stability = 0.05
+					add_popularity = {
+							ideology = democratic
+							popularity = 0.05
+						}
+					add_popularity = {
+							ideology = communism
+							popularity = 0.05
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_new_rifle
+		text = zaz_new_rifle
+		icon = GFX_goal_generic_small_arms
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_acces_with_socialist
+			focus = zaz_purges_the_monarchists_in_officer
+		}
+		x = 35
+		y = 9
+			completion_reward = {
+					army_experience = 5
+					add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 1.0
+							uses = 1
+							category = land_doctrine
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_bulding_help_with_socialistick_group
+		text = zaz_bulding_help_with_socialistick_group
+		icon = GFX_goal_generic_soviet_construction
+		cost = 7,00
+		prerequisite = {
+			focus = zaz_acces_with_socialist
+		}
+		x = 37
+		y = 10
+			completion_reward = {
+					add_popularity = {
+							ideology = communism
+							popularity = 0.05
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+											add_building_construction = {
+													type = infrastructure
+													level = 1
+													instant_build = yes
+												}
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 1
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																	add_building_construction = {
+																			type = infrastructure
+																			level = 1
+																			instant_build = yes
+																		}
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+											add_building_construction = {
+													type = infrastructure
+													level = 1
+													instant_build = yes
+												}
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 1
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																	add_building_construction = {
+																			type = infrastructure
+																			level = 1
+																			instant_build = yes
+																		}
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_loyality_in_politics
+		text = zaz_loyality_in_politics
+		icon = GFX_goal_generic_demand_territory
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_purges_the_monarchists_in_officer
+		}
+		x = 33
+		y = 10
+			completion_reward = {
+					add_political_power = 100
+				}
+
+	}
+	focus = {
+		id = zaz_ready_to_test
+		text = zaz_ready_to_test
+		icon = GFX_goal_generic_military_sphere
+		cost = 7,00
+		prerequisite = {
+			focus = zaz_bulding_help_with_socialistick_group
+		}
+		prerequisite = {
+			focus = zaz_loyality_in_politics
+		}
+		x = 35
+		y = 11
+			completion_reward = {
+					add_political_power = 50
+					add_stability = 0.05
+					add_popularity = {
+							ideology = democratic
+							popularity = 0.1
+						}
+					swap_ideas = {
+							remove_idea = ZAZ_nansent_democraty
+							add_idea = ZAZ_powered_in_democraty
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_push_the_nomads_east
+		text = zaz_push_the_nomads_east
+		icon = GFX_focus_generic_strike_at_democracy2
+		cost = 10,00
+		prerequisite = {
+			focus = zaz_legimitize_nikita
+			focus = zaz_reclaim_dictatorship_a_pasechnik
+			focus = zaz_ready_to_test
+		}
+		x = 25
+		y = 13
+			bypass = {
+					NOT = {
+							country_exists = PON
+						}
+				}
+			completion_reward = {
+					declare_war_on = {
+							target = PON
+							type = annex_everything
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_navy_industry_2
+		text = zaz_navy_industry_2
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 7,00
+		prerequisite = {
+			focus = zaz_navy_industry_1
+		}
+		x = 3
+		y = 5
+			completion_reward = {
+					137 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_strengthen_the_red_shirts
+		text = zaz_strengthen_the_red_shirts
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_integrate_in_monarchist
+		}
+		x = 22
+		y = 4
+			completion_reward = {
+					add_ideas = ZAZ_red_shirts
+					add_political_power = -25
+					add_popularity = {
+							ideology = fascism
+							popularity = 0.05
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_suppress_the_communist_movement
+		text = zaz_suppress_the_communist_movement
+		icon = GFX_goal_anti_comintern_pact
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_agree_with_politican
+			focus = zaz_strengthen_the_red_shirts
+		}
+		x = 25
+		y = 5
+			completion_reward = {
+					remove_ideas = ZAZ_communist_strikes
+					add_stability = 0.1
+				}
+
+	}
+	focus = {
+		id = zaz_strengthen_the_position_party
+		text = zaz_strengthen_the_position_party
+		icon = GFX_goal_demand_sudetenland
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_deal_with_the_promonarchist
+		}
+		prerequisite = {
+			focus = zaz_suppress_the_communist_movement
+		}
+		prerequisite = {
+			focus = zaz_execute_dictator
+		}
+		x = 28
+		y = 6
+			completion_reward = {
+					add_stability = 0.05
+					add_political_power = 25
+					swap_ideas = {
+							remove_idea = ZAZ_power_in_center_1
+							add_idea = ZAZ_power_in_center_2
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_prepare_conspiracy
+		text = zaz_prepare_conspiracy
+		icon = GFX_goal_generic_CAS
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_suppress_the_communist_movement
+		}
+		prerequisite = {
+			focus = zaz_execute_dictator
+		}
+		x = 21
+		y = 6
+			available = {
+					is_puppet = no
+					fascism > 0.40
+				}
+			completion_reward = {
+					add_timed_idea = {
+							idea = ZAZ_strange_activity
+							days = 25
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_put_the_plan_into_action
+		text = zaz_put_the_plan_into_action
+		icon = GFX_focus_zaz_assasinate_pasechnik
+		cost = 1,00
+		prerequisite = {
+			focus = zaz_prepare_conspiracy
+		}
+		x = 21
+		y = 7
+			available = {
+					not = {
+							has_idea = ZAZ_strange_activity
+						}
+				}
+			completion_reward = {
+					kill_country_leader = yes
+					add_stability = -0.15
+					add_popularity = {
+							ideology = neutrality
+							popularity = -0.2
+						}
+					set_politics = {
+							ruling_party = fascism
+							elections_allowed = no
+						}
+					country_event = {
+							id = leg.7
+							days = 0
+							random_days = 0
+						}
+					hidden_effect = {
+							promote_character = ZAZ_no_power
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_suppress_oppositional_partitions
+		text = zaz_suppress_oppositional_partitions
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 7,00
+		prerequisite = {
+			focus = zaz_strengthen_the_position_party
+		}
+		x = 28
+		y = 7
+			completion_reward = {
+					add_popularity = {
+							ideology = democratic
+							popularity = -0.1
+						}
+					add_popularity = {
+							ideology = communism
+							popularity = -0.1
+						}
+					add_popularity = {
+							ideology = fascism
+							popularity = -0.1
+						}
+					add_stability = 0.15
+					add_political_power = 50
+					add_ideas = ZAZ_democratic_oppozition
+				}
+
+	}
+	focus = {
+		id = zaz_explore_red_shirts
+		text = zaz_explore_red_shirts
+		icon = GFX_focus_generic_little_entente
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_put_the_plan_into_action
+		}
+		x = 19
+		y = 8
+			completion_reward = {
+					add_stability = 0.05
+					add_political_power = -25
+					swap_ideas = {
+							remove_idea = ZAZ_red_shirts
+							add_idea = ZAZ_red_shirts_2
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_assasin_general_trigubov
+		text = zaz_assasin_general_trigubov
+		icon = GFX_goal_generic_military_deal
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_take_a_control_in_city
+		}
+		x = 23
+		y = 9
+			completion_reward = {
+					add_stability = 0.05
+					add_political_power = -25
+					remove_ideas = ZAZ_disloyal_officers
+					swap_ideas = {
+							remove_idea = ZAZ_city_in_fire_4
+							add_idea = ZAZ_city_in_fire_3
+						}
+					country_event = {
+							id = leg.11
+							days = 4
+							random_days = 4
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_take_a_control_in_city
+		text = zaz_take_a_control_in_city
+		icon = GFX_focus_hol_war_on_pacifism
+		cost = 2,00
+		prerequisite = {
+			focus = zaz_put_the_plan_into_action
+		}
+		x = 23
+		y = 8
+			completion_reward = {
+					add_stability = 0.05
+					add_political_power = -25
+					swap_ideas = {
+							remove_idea = ZAZ_city_in_fire_5
+							add_idea = ZAZ_city_in_fire_4
+						}
+					country_event = {
+							id = leg.10
+							days = 3
+							random_days = 3
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_powered_in_party
+		text = zaz_powered_in_party
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_explore_red_shirts
+		}
+		x = 19
+		y = 9
+			completion_reward = {
+					add_political_power = -50
+					swap_ideas = {
+							remove_idea = ZAZ_coalition_with_monarchists_1
+							add_idea = ZAZ_fascism_monarchy
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_proclaim_a_principality
+		text = zaz_proclaim_a_principality
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_assasin_general_trigubov
+		}
+		prerequisite = {
+			focus = zaz_powered_in_party
+		}
+		x = 21
+		y = 10
+			completion_reward = {
+					add_stability = 0.05
+					add_political_power = 25
+					swap_ideas = {
+							remove_idea = ZAZ_city_in_fire_3
+							add_idea = ZAZ_city_in_fire_2
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_legimitize_nikita
+		text = zaz_legimitize_nikita
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_proclaim_a_principality
+		}
+		x = 21
+		y = 11
+			completion_reward = {
+					remove_ideas = ZAZ_city_in_fire_2
+					add_stability = 0.15
+					add_political_power = 50
+				}
+
+	}
+	focus = {
+		id = zaz_expanded_cossack_group
+		text = zaz_expanded_cossack_group
+		icon = GFX_goal_generic_cavalry
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_suppress_oppositional_partitions
+		}
+		x = 26
+		y = 8
+			completion_reward = {
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.05
+						}
+					add_political_power = 10
+					add_stability = 0.05
+				}
+
+	}
+	focus = {
+		id = zaz_apply_methods_salazar
+		text = zaz_apply_methods_salazar
+		icon = GFX_focus_por_estado_novo
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_suppress_oppositional_partitions
+		}
+		x = 30
+		y = 8
+			completion_reward = {
+					add_ideas = ZAZ_new_ukrainian_country
+				}
+
+	}
+	focus = {
+		id = zaz_build_the_industry
+		text = zaz_build_the_industry
+		icon = GFX_focus_generic_industry_1
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_apply_methods_salazar
+		}
+		x = 30
+		y = 9
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+											add_building_construction = {
+													type = infrastructure
+													level = 1
+													instant_build = yes
+												}
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 1
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																	add_building_construction = {
+																			type = infrastructure
+																			level = 1
+																			instant_build = yes
+																		}
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_discrete_democratic_party
+		text = zaz_discrete_democratic_party
+		icon = GFX_focus_generic_strike_at_democracy2
+		cost = 10,00
+		prerequisite = {
+			focus = zaz_expanded_cossack_group
+		}
+		x = 26
+		y = 9
+			completion_reward = {
+					remove_ideas = ZAZ_democratic_oppozition
+					add_stability = 0.1
+				}
+
+	}
+	focus = {
+		id = zaz_centralize_power
+		text = zaz_centralize_power
+		icon = GFX_goal_demand_sudetenland
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_discrete_democratic_party
+		}
+		prerequisite = {
+			focus = zaz_build_the_industry
+		}
+		prerequisite = {
+			focus = zaz_build_the_industry
+		}
+		x = 28
+		y = 10
+			completion_reward = {
+					add_political_power = 50
+				}
+
+	}
+	focus = {
+		id = zaz_reclaim_dictatorship_a_pasechnik
+		text = zaz_reclaim_dictatorship_a_pasechnik
+		icon = GFX_zaz_leader_of_country
+		cost = 7,00
+		prerequisite = {
+			focus = zaz_centralize_power
+		}
+		x = 28
+		y = 11
+			completion_reward = {
+					set_country_leader_ideology = despotism
+					add_stability = -0.1
+					custom_effect_tooltip = set_country_leader_ideology_despotism
+				}
+
+	}
+	focus = {
+		id = zaz_set_ultimate_in_moldavia
+		text = zaz_set_ultimate_in_moldavia
+		icon = GFX_focus_generic_combined_arms
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_ready_to_test
+			focus = zaz_reclaim_dictatorship_a_pasechnik
+		}
+		mutually_exclusive = {
+			focus = zaz_destroyed_moldavian_country
+		}
+		x = 34
+		y = 12
+			bypass = {
+					NOT = {
+							country_exists = MOL
+						}
+				}
+			completion_reward = {
+					MOL = {
+							country_event = {
+									id = leg.12
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_destroyed_moldavian_country
+		text = zaz_destroyed_moldavian_country
+		icon = GFX_UKR_declare_war_MOL
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_reclaim_dictatorship_a_pasechnik
+			focus = zaz_legimitize_nikita
+		}
+		mutually_exclusive = {
+			focus = zaz_set_ultimate_in_moldavia
+		}
+		x = 21
+		y = 12
+			bypass = {
+					has_war_with = MOL
+				}
+			available = {
+					is_puppet = no
+					has_government = neutrality
+					has_government = fascism
+				}
+			completion_reward = {
+					declare_war_on = {
+							target = MOL
+							type = annex_everything
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_occupate_kiev
+		text = zaz_occupate_kiev
+		icon = GFX_UKR_declare_war_KIE
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_reclaim_dictatorship_a_pasechnik
+		}
+		x = 28
+		y = 13
+			completion_reward = {
+					declare_war_on = {
+							target = KIE
+							type = annex_everything
+						}
+				}
+			bypass = {
+					NOT = {
+							country_exists = KIE
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_nationalize_pearl_of_ukraine
+		text = zaz_nationalize_pearl_of_ukraine
+		icon = GFX_focus_generic_self_management
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_occupate_kiev
+		}
+		x = 28
+		y = 15
+			available = {
+					is_puppet = no
+					NOT = {
+							has_war_with = KIE
+						}
+					ROOT = {
+							controls_state = 193
+							controls_state = 202
+						}
+				}
+			completion_reward = {
+					add_state_core = 193
+					add_state_core = 202
+					add_political_power = -50
+					add_stability = -0.08
+					set_capital = 202
+				}
+
+	}
+	focus = {
+		id = zaz_burning_kishinev
+		text = zaz_burning_kishinev
+		icon = GFX_zaz_burning_kishinev
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_destroyed_moldavian_country
+		}
+		x = 21
+		y = 13
+			available = {
+					is_puppet = no
+					NOT = {
+							has_war_with = MOL
+						}
+					ROOT = {
+							controls_state = 766
+							controls_state = 192
+						}
+				}
+			completion_reward = {
+					add_political_power = 50
+					country_event = {
+							id = leg.15
+							days = 0
+							random_days = 0
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_create_moldavian_autonomy
+		text = zaz_create_moldavian_autonomy
+		icon = GFX_UKR_create_alliance_MOL
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_set_ultimate_in_moldavia
+		}
+		x = 34
+		y = 13
+			available = {
+					is_puppet = no
+					NOT = {
+							has_war_with = MOL
+						}
+					ROOT = {
+							controls_state = 766
+							controls_state = 192
+						}
+				}
+			bypass = {
+					has_war_with = MOL
+				}
+			completion_reward = {
+					add_state_core = 766
+					add_state_core = 192
+					add_political_power = -100
+				}
+
+	}
+	focus = {
+		id = zaz_finishing_volhynian_jewish_mason
+		text = zaz_finishing_volhynian_jewish_mason
+		icon = GFX_UKR_declare_war_LVO
+		cost = 5,00
+		prerequisite = {
+			focus = zaz_reclaim_dictatorship_a_pasechnik
+			focus = zaz_legimitize_nikita
+			focus = zaz_ready_to_test
+		}
+		x = 23
+		y = 13
+			bypass = {
+					NOT = {
+							country_exists = LVO
+						}
+				}
+			completion_reward = {
+					declare_war_on = {
+							target = LVO
+							type = annex_everything
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_purges_in_lvov_administration
+		text = zaz_purges_in_lvov_administration
+		icon = GFX_focus_generic_treaty
+		cost = 7,00
+		prerequisite = {
+			focus = zaz_finishing_volhynian_jewish_mason
+		}
+		x = 23
+		y = 14
+			available = {
+					is_puppet = no
+					NOT = {
+							has_war_with = LVO
+						}
+					ROOT = {
+							controls_state = 91
+							controls_state = 93
+							controls_state = 89
+							controls_state = 199
+							controls_state = 201
+						}
+				}
+			completion_reward = {
+					add_state_core = 91
+					add_state_core = 93
+					add_state_core = 89
+					add_state_core = 199
+					add_state_core = 201
+					add_political_power = -100
+					add_stability = -0.1
+					add_timed_idea = {
+							idea = ZAZ_purges_in_lvov_administration
+							days = 105
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_integrate_don_cuban_cossack
+		text = zaz_integrate_don_cuban_cossack
+		icon = GFX_zaz_nationalize_don_cuban
+		cost = 10,00
+		prerequisite = {
+			focus = zaz_push_the_nomads_east
+		}
+		x = 25
+		y = 14
+			available = {
+					is_puppet = no
+					NOT = {
+							has_war_with = PON
+						}
+					ROOT = {
+							controls_state = 221
+							controls_state = 227
+							controls_state = 228
+							controls_state = 218
+							controls_state = 234
+						}
+				}
+			completion_reward = {
+					add_state_core = 221
+					add_state_core = 227
+					add_state_core = 228
+					add_state_core = 218
+					add_state_core = 234
+					add_political_power = -100
+					add_stability = -0.08
+					add_ideas = ZAZ_cuban_cossack
+				}
+
+	}
+	focus = {
+		id = zaz_start_a_dialogue_Kursk
+		text = zaz_start_a_dialogue_Kursk
+		icon = GFX_UKR_create_alliance_KUS
+		cost = 10,00
+		prerequisite = {
+			focus = zaz_reclaim_dictatorship_a_pasechnik
+		}
+		x = 31
+		y = 13
+			bypass = {
+					NOT = {
+							225 = {
+									controller = {
+											original_tag = KUS
+										}
+									owner = {
+											original_tag = KUS
+										}
+								}
+						}
+				}
+			completion_reward = {
+					KUS = {
+							country_event = {
+									id = leg.18
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = zaz_integrate_symi
+		text = zaz_integrate_symi
+		icon = GFX_goal_anschluss
+		cost = 3,00
+		prerequisite = {
+			focus = zaz_start_a_dialogue_Kursk
+		}
+		x = 31
+		y = 14
+			available = {
+					is_puppet = no
+					NOT = {
+							has_war_with = KUS
+						}
+					ROOT = {
+							controls_state = 225
+						}
+				}
+			completion_reward = {
+					add_state_core = 225
+					add_political_power = -25
+					add_stability = -0.04
+				}
+
+	}
+	focus = {
+		id = zaz_batkivshina_united
+		text = zaz_batkivshina_united
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = zaz_nationalize_pearl_of_ukraine
+		}
+		prerequisite = {
+			focus = zaz_integrate_don_cuban_cossack
+		}
+		prerequisite = {
+			focus = zaz_integrate_symi
+		}
+		x = 28
+		y = 16
+			prevequisite = {
+					focus = zaz_burning_kishinev
+					focus = zaz_create_moldavian_autonomy
+				}
+			completion_reward = {
+					add_political_power = 100
+					add_stability = 0.15
+					remove_ideas = UKR_patriotism
+				}
+
+	}
+}

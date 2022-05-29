@@ -1,0 +1,66 @@
+﻿capital = 541
+
+oob = "SAF_1926"
+
+set_stability = 0.8
+set_war_support = 0.4
+
+# Starting tech
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	gwtank_chassis = 1
+	early_ship_hull_light = 1
+	basic_battery = 1
+	basic_torpedo = 1
+	mtg_transport = 1
+}
+
+set_cosmetic_tag = SAF_ANARCHY
+
+add_ideas = {
+SAF_dead_economy
+SAF_legacy_of_british_rule
+SAF_new_age_of_slavery
+SAF_true_anarchy
+SAF_why_we_fight
+closed_economy
+}
+
+set_convoys = 25
+
+set_politics = {
+	ruling_party = syndicalist
+	last_election = "1925.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+    communism = 12
+    syndicalist = 28
+    radical_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 7
+    paternal_autocrat = 32
+    fascism = 21
+}
+
+recruit_character = SAF_anarchy
+recruit_character = SAF_james_hertzog
+recruit_character = SAF_daniel_malan
+recruit_character = SAF_alexander_cambridge

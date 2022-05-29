@@ -1,0 +1,36 @@
+capital = 592
+
+OOB = "GUO_1926"
+
+recruit_character = GUO_chiang_kai_shek
+recruit_character = GUO_chen_duxiu
+
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+	gw_artillery = 1
+}
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1926.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_research_slots = 2
+
+set_popularities = {
+	communism = 25
+    syndicalist = 0
+    radical_socialist = 12
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 51
+    paternal_autocrat = 12
+    fascism = 0
+}

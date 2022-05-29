@@ -1,0 +1,17 @@
+characters={
+
+    INS_wilhelmina = {
+		name = INS_wilhelmina
+		portraits = {
+			civilian = {
+				large="gfx/leaders/INS/portrait_Indonesia_Wilhelmina.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	}

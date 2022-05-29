@@ -1,0 +1,43 @@
+characters = { 
+
+		GUO_chiang_kai_shek = {
+		name = GUO_chiang_kai_shek
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/portrait_China_Chiang_Kai_Shek.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	} 
+	
+	    GUO_chen_duxiu = {
+		name = GUO_chen_duxiu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/Portrait_Central_Asia_Generic_land_new_5.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = syndicalist_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = radical_socialist_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}

@@ -1,0 +1,18 @@
+characters = { 
+
+		AST_john_lawrence_baird = {
+		name = AST_john_lawrence_baird
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/portrait_Australia_John_Lawrence_Baird.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

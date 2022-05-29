@@ -1,0 +1,40 @@
+characters = {
+
+    BUL_boris_iii = {
+		name = BUL_boris_iii
+		portraits = {
+			civilian = {
+				large="gfx/leaders/BUL/portrait_Bulgaria_Boris_III.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = semi_constitutional_monarchy_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	BUL_aleksander_tsankov = {
+		name = BUL_aleksander_tsankov
+		portraits = {
+			civilian = {
+				large="gfx/leaders/BUL/portrait_Bulgaria_Aleksandar_Tsankov.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

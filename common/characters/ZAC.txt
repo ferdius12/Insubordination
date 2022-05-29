@@ -1,0 +1,18 @@
+characters = { 
+
+		ZAK_nikolay_strukov = {
+		name = ZAK_nikolay_strukov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZAK/portrait_Transcaucasia_Tsar_Nikolay.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

@@ -1,0 +1,311 @@
+﻿l_russian:
+ #DESCRIPTION
+ POLITICS_KARL_GUSTAV_DESC:0 "Карл Густав Флейшер тест тест тест."
+ 
+ #ZAPORIZHYA
+ ZAZ_svyatoslav_pasechnik:0 "Святослав Пасечник"
+ ZAZ_lev_astachov:0 "Лев Астахов"
+ ZAZ_power_vacuum:0 "Вакуум Власти"
+ ZAZ_nikita_I:0 "Никита I"
+ ZAZ_denis_lozny:0 "Денис Лозный"
+ ZAZ_no_power:0 "Нет лидера"
+ ZAZ_evgeniy_tkalich:0 "Евгений Ткалич"
+ ZAZ_kirill_marachov:0 "Кирилл Марахов"
+ ZAZ_ivan_lyudnikov:0 "Иван Людников"
+ ZAZ_ivan_pavlenko:0 "Иван Павленко"
+ ZAZ_maksim_prontenko:0 "Максим Пронтенко"
+ ZAZ_illya_trigybov:0 "Илья Тригубов"
+ ZAZ_vladimir_egorovich:0 "Владимир Егорович"
+ ZAZ_nikolay_gulayev:0 "Николай Гулаев"
+ ZAZ_andriy_pokrovskiy:0 "Андрей Покровский"
+ ZAZ_sergey_gorhkov:0 "Сергей Горшков"
+ ZAZ_andrei_onoshko:0 "Андрей Оношко"
+ ZAZ_igor_geletiy:0 "Игорь Гелетей"
+ ZAZ_vladimir_kolcenosniy:0 "Владимир Кольценосный"
+ ZAZ_mikola_lebid:0 "Николай Лебедь"
+ ZAZ_nikolay_shapovalov:0 "Николай Шаповалов"
+ ZAZ_evgeniy_byiniy:0 "Евгений Буйный"
+ 
+ #DNIPRO
+ DNI_sergey_stupack:0 "Сергей Ступак"
+ DNI_scattered_leadership:0 "Разрозненные группы"
+ DNI_danil_karpenko:0 "Данил Карпенко"
+ DNI_konstantin_shcheglov:0 "Константин Щеглов"
+ DNI_dmitriy_drobaha:0 "Дмитрий Дробаха"
+ DNI_vyacheslav_kozyryatsky:0 "Вячеслав Козыряцкий"
+ 
+ #KIEV
+ KIE_bogdan_demidov:0 "Богдан Демидов"
+ KIE_vasyl_lipkovskiy:0 "Патриарх Василь"
+ KIE_grigoriy_petrovskiy:0 "Григорий Петровский"
+ KIE_vacuum_power:0 "Вакуум Власти"
+ KIE_mykola_boretskiy:0 "Николай Борецкий"
+ KIE_yuriy_tyutunnik:0 "Юрий Тютюнник"
+ KIE_adrian_maruchenko:0 "Андриан Марущенко"
+ KIE_vladimir_slyusarenko:0 "Владимир Слюсаренко"
+ 
+ #MOLDAVIA
+ MOL_ion_inculets:0 "Ион Инкулец"
+ 
+ #PONTIC STEPPE
+ PON_yaroslav_the_great:0 "Ярослав Великий"
+ PON_power_vacuum1:0 "Вакуум Власти"
+ PON_power_vacuum2:0 "Вакуум Власти"
+ PON_african_bogaevsky:0 "Африкан Богаевский"
+ PON_maksim_kaledin:0 "Максим Каледин"
+ PON_kirill_vensatn_ylyitin:0 "Кирилл-Венсант Ильютин"
+ PON_grigoriy_kislow:0 "Григорий Кислов"
+ PON_alexander_gyubaryov:0 "Александр Губарёв"
+
+ #WHITE MOVEMENT
+ VLD_aleksandr_kolchak:0 "Александр Колчак"
+ VLD_konstantin_rodzaevsky:0 "Константин Родзаевский"
+ VLD_alexandr_kerensky:0 "Александр Керенский"
+ VLD_anton_denikin:0 "Антон Деникин"
+ VLD_fyodor_abramov:0 "Фёдор Абрамов"
+ VLD_grigory_semyonov:0 "Григорий Семёнов"
+ VLD_sergei_markov:0 "Сергей Марков"
+ VLD_sergey_baranovskiy:0 "Сергей Барановский"
+ 
+ #GERMAN CAMEROON
+ GEK_paul_vorbeck:0 "Пауль фон Леттов-Форбек"
+ GEK_ruben_um_nyobe:0 "Рубен Ум Ниобе"
+ GEK_siegfried_muller:0 "Зигфрид Мюллер"
+ 
+ #BELGIAN CONGO
+ COB_pierre_ruckmans:0 "Пьер Рюкманс"
+ 
+ #BELGIUM
+ BEL_albert:0 "Альберт I"
+ BEL_national_council:0 "Национальный совет"
+ 
+ #POLAND
+ POL_stanislav_voitsekhovsky:0 "Станислав Войцеховский"
+ POL_jozef_pilsudski:0 "Юзеф Пилсудский"
+ POL_ignacy_moscicki:0 "Игнаций Мосцинский"
+ 
+ #RUSSIA
+ RUS_pavel_axsielrod:0 "Павель Аксельрод"
+ RUS_iosif_stalin:0 "Иосиф Сталин"
+ RUS_lev_kamenev:0 "Лев Каменев"
+
+ #FINLAND
+ FIN_otto_kuusinen:0 "Отто Куусинен"
+ FIN_carl_mannerheim:0 "Карл Маннергейм"
+ 
+ #BALTIC UNION
+ PRB_daniel_belousov:0 "Даниелс Бутанс"
+ PRB_johan_pitka:0 "Йохан Питка"
+ PRB_fricis_menders:0 "Фрицис Мендерс"
+ PRB_jaan_anvelt:0 "Ян Анвельт"
+ 
+ #LITHUANIA
+ LIT_sergiusz_czartoryski:0 "Сергиуш Чарторыйский"
+ 
+ #SPAIN
+ SPR_alfonso:0 "Альфонсо XIII"
+ SPR_nikolay_II:0 "Николай Романов"
+ 
+ #GERMANY
+ GER_ernst_thalmann:0 "Эрнст Тельман"
+ GER_adolf_gitler:0 "Адольф Гитлер"
+ GER_paul_von_hindenburg:0 "Пауль фон Гинденбург"
+ 
+ #TRANSCAUCASIA
+ ZAK_nikolay_strukov:0 "Николай Первый"
+ 
+ #SAAR
+ SAR_victor_ro:0 "Виктор Ро"
+ 
+ #FRANCE
+ FRA_gaston_doumergue:0 "Гастон Думерг"
+ 
+ #HOLLAND
+ HOL_david_wijnkoop:0 "Давид Вейнкоп"
+ 
+ #INDONESIA
+ INS_wilhelmina:0 "Вильгельмина"
+ 
+ #SURINAM
+ SUR_anton_kom:0 "Антон де Ком"
+ 
+ #HUNGARY
+ HUN_karl_habsburg:0 "Карл Габсбург"
+ 
+ #NORWAY
+ NOR_karl_gustav_fleicher:0 "Карл Густав Флейшер"
+ NOR_martin_tranmell:0 "Мартин Транмель"
+ NOR_haakon:0 "Хаакон VII"
+ 
+ #KURSK
+ KUS_iosif_vareokos:0 "Иосиф Варейкис"
+ 
+ #RIF
+ rif_leader_crim:0 "Абд аль-Крим"
+ RIF_military_junta:0 "Военная хунта"
+ RIF_work_tips:0 "Рабочие советы"
+ RIF_mohammed:0 "Мухаммед V"
+ 
+ #IRE
+ IRE_william_cosgrave:0 "Уильям Косгрейв"
+ IRE_eamon_de_valera:0 "Имон де Валера"
+ 
+ #ENG
+ ENG_stanley_baldwin:0 "Стэнли Болдуин"
+ 
+ #GRE
+ GRE_theodoros_pangalos:0 "Теодорос Пангалос"
+ 
+ #ANT
+ ANT_aimone_di_torino:0 "Аймоне ди Торино"
+ ANT_ettore_bastico:0 "Этторе Бастико"
+ ANT_vacuum_power:0 "Вакуум Власти"
+ 
+ #SAF
+ SAF_anarchy:0 "Анархия"
+ SAF_james_hertzog:0 "Джеймс Герцог"
+ SAF_daniel_malan:0 "Даниэль Малан"
+ SAF_alexander_cambridge:0 "Александр Кэмбридж"
+ 
+ #CAN
+ CAN_henry_maitland_wilson:0 "Генри Мейтленд Уилсон"
+ CAN_philippe_orlean:0 "Филипп Луи Орлеанский"
+ CAN_mackenzie_king:0 "Маккензи Кинг"
+ 
+ #WLS
+ WLS_niclas_y_glais:0 "Томас Эван Николас"
+ WLS_saunders_lewis:0 "Сондерс Льюис"
+ 
+ #NFL
+ NFL_william_allardyce:0 "Сэр Эллардайс "
+ 
+ #USA
+ USA_calvin_coolidge:0 "Кальвин Кулидж"
+ 
+ #MEX
+ MEX_plutarco_calles:0 "Плутарко Кальес"
+ 
+ #POR
+ POR_bernardiny_mashady:0 "Бернардину Машаду"
+ POR_francisco_rolao_preto:0 "Франсишку Ролан Прету"
+ 
+ #CZE
+ CZE_antonin_zapototskiy:0 "Антонин Запотоцкий"
+ 
+ #SLO
+ SLO_parlament:0 "Парламент"
+ 
+ #AUS
+ AUS_michael_hainisch:0 "Михаэль Хайниш"
+ 
+ #YUG#
+ YUG_alexander_kar:0 "Александр I"
+ 
+ #ALB#
+ ALB_king_zog:0 "Ахмет Зогу"
+ 
+ #BUL#
+ BUL_boris_iii:0 "Борис III"
+ BUL_aleksander_tsankov:0 "Александр Цанков"
+ 
+ #ROM#
+ ROM_ferdinand_i:0 "Фердинанд I"
+ ROM_carol_ii:0 "Кароль II"
+ 
+ #AST#
+ 
+ AST_john_lawrence_baird:0 "Джон Лоуренс Бэрд"
+ #RAJ#
+ 
+ RAJ_edward_wood:0 "Сэр Эдвард Вуд"
+ #NZL#
+ NZL_charles_fergusson:0 "Чарльз Фергюссон"
+ 
+ #MAL#
+ MAL_laurence_guillemard:0 "Лоуренс Гиллемард"
+ 
+ #GUO#
+ GUO_chiang_kai_shek:0 "Чан Кайши"
+ GUO_chen_duxiu:0 "Чэнь Дусю"
+ 
+ #MAN#
+ MAN_zhang_zuolin:0 "Чжан Цзолинь"
+ MAN_puyi:0 "Айсиньгёро Пуи"
+ 
+ #GUC#
+ GUC_feng_yuxiang:0 "Фэн Юйсян"
+ 
+ #SIK#
+ SIK_yang_zengxin:0 "Ян Цзэнсинь"
+ 
+ #XSM#
+ XSM_general_council:0 "Военный совет"
+ 
+ #BEI#
+ BEI_wu_peifu:0 "У Пэйфу"
+ BEI_sun_chuanfang:0 "Сунь Чуаньфан"
+ 
+ #INF#
+ INF_alexandre_varenne:0 "Александр Варенн"
+ 
+ #SIA#
+ SIA_rama_vii:0 "Рама VII"
+ 
+ #MON#
+ MON_regency_counsil:0 "Регентский совет"
+ 
+ #TIB#
+ TIB_dalai_lama_xiii:0 "Далай-лама XIII"
+ 
+ #NEP#
+ NEP_tribhuvan:0 "Трибхуван Бир Бикрам"
+ 
+ #BHU#
+ BHU_ugyen_wangchuck:0 "Угьен Вангчук
+ 
+ #TMS#
+ TMS_michail_dashcevich:0 "Михаил Дашкевич"
+ TMS_fyodor_funticov:0 "Фёдор Фунтиков"
+ 
+ #KAZ#
+ KAZ_filip_goloshekin:0 "Филипп Голощёкин"
+ 
+ #UZB#
+ UZB_seid_alim_khan:0 "Сеид Алим-хан"
+ 
+ #KHI#
+ KHI_junaid_khan:0 "Джунаид-хан"
+ KHI_sayid_abdulla:0 "Саид Абдулла-хан"
+ 
+ #YSV#
+ YSV_anarchist_commune:0 "Анархическая коммуна"
+ 
+ #TAJ#
+ TAJ_mustafa_shokai:0 "Мустафа Шокай"
+ 
+ #TAS#
+ TAS_konstantin_osipov:0 "Константин Осипов"
+ 
+ #LUX#
+ LUX_emiles_reiter:0 "Эмиль Рейтер"
+ 
+ #SWE#
+ SWE_ernst_trygger:0 "Эрнст Трюггер"
+ 
+ #DEN#
+ DEN_thorvald_stauning:0 "Торвальд Стаунинг"
+ 
+ #ETH#
+ ETH_haile_selassie:0 "Тефери Меконнын"
+ ETH_zauditu:0 "Заудиту"
+ 
+ #IRQ#
+ IRQ_henry_dobbs:0 "Генри Доббс"
+ 
+ #BOS#
+ BOS_henri_gouraud:0 "Анри Гуро"
+ 
+ #ITA#
+ ITA_emmanuel_iii:0 "Эммануэль III"
+ ITA_benito_mussolini:0 "Бенито Муссолини"
+

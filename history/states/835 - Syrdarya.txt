@@ -1,0 +1,19 @@
+state={
+	id=835
+	name="STATE_835"
+	state_category = rural
+	provinces = {
+		4629 7682 11687 
+	}
+	history = {
+		owner = UZB
+		buildings = {
+			infrastructure = 2
+			
+		}
+		add_core_of = UZB
+	}
+	manpower=150234
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

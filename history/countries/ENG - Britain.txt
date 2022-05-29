@@ -1,0 +1,99 @@
+﻿capital = 126
+
+set_oob = "ENG_1926"
+set_naval_oob = "ENG_1926_Naval"
+
+starting_train_buffer = 4
+
+set_research_slots = 4
+
+set_stability = 0.6
+set_war_support = 0.1
+add_command_power = 20
+
+# Starting tech
+set_technology = {
+	
+}
+
+recruit_character = ENG_stanley_baldwin
+
+add_ideas = {
+	
+}
+
+set_convoys = 580
+
+
+set_autonomy = {
+		target = MAL
+		autonomous_state = autonomy_integrated_puppet
+}
+set_autonomy = {
+		target = RAJ
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+}
+set_autonomy = {
+		target = NFL
+		autonomous_state = autonomy_colony
+		freedom_level = 0.25
+}
+set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_colony
+		freedom_level = 0.75
+}
+set_autonomy = {
+		target = IRE
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+}
+set_autonomy = {
+		target = AST
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+}
+set_autonomy = {
+		target = NZL
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+}
+set_autonomy = {
+		target = IRQ
+		autonomous_state = autonomy_supervised_state
+		freedom_level = 0.15
+}
+	
+add_to_tech_sharing_group = commonwealth_research
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1924.11.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	communism = 0
+	syndicalist = 9
+	radical_socialist = 0
+	social_democrat = 16
+	social_liberal = 0
+	market_liberal = 21
+	social_conservative = 41
+	authoritarian_democrat = 0
+	paternal_autocrat = 13
+	fascism = 0
+}
+
+
+create_faction = Allies
+add_to_faction = ENG
+add_to_faction = CAN
+add_to_faction = AST
+add_to_faction = NZL
+add_to_faction = IRE
+add_to_faction = RAJ		
+add_to_faction = MAL
+add_to_faction = IRQ
+give_guarantee = BOC

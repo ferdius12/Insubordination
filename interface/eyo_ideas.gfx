@@ -1,0 +1,367 @@
+spriteTypes = {	
+
+	#German Kameroon#
+	
+	spriteType = {
+		name = "GFX_idea_GEK_african_isolation"
+		texturefile = "gfx/interface/ideas/gek_african_isolation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GEK_african_army"
+		texturefile = "gfx/interface/ideas/gek_african_army.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GEK_german_ambition"
+		texturefile = "gfx/interface/ideas/gek_german_ambition.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GEK_fascist_activities"
+		texturefile = "gfx/interface/ideas/gek_fascist_activities.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GEK_fallen_legacy"
+		texturefile = "gfx/interface/ideas/gek_fallen_legacy.dds"
+	}
+	
+	
+	#Finland#
+	
+	spriteType = {
+		name = "GFX_idea_FIN_emils_detachments"
+		texturefile = "gfx/interface/ideas/idea_fin_emils_detachments.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FIN_war_communism"
+		texturefile = "gfx/interface/ideas/idea_fin_war_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FIN_effects_of_famine"
+		texturefile = "gfx/interface/ideas/idea_fin_effects_of_famine.dds"
+	}
+	
+	
+	#Baltica
+	
+	spriteType = {
+		name = "GFX_idea_PRB_baltic_stability_1"
+		texturefile = "gfx/interface/ideas/idea_prb_baltic_stability_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRB_baltic_stability_2"
+		texturefile = "gfx/interface/ideas/idea_prb_baltic_stability_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRB_baltic_stability_3"
+		texturefile = "gfx/interface/ideas/idea_prb_baltic_stability_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRB_baltic_stability_4"
+		texturefile = "gfx/interface/ideas/idea_prb_baltic_stability_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRB_baltic_stability_5"
+		texturefile = "gfx/interface/ideas/idea_prb_baltic_stability_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRB_baltic_stability_6"
+		texturefile = "gfx/interface/ideas/idea_prb_baltic_stability_6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRB_tallin_and_riga"
+		texturefile = "gfx/interface/ideas/idea_prb_tallin_and_riga.dds"
+	}
+	
+	
+	#Transcaucasian#
+	
+	spriteType = {
+		name = "GFX_idea_ZAC_feast_in_plague"
+		texturefile = "gfx/interface/ideas/idea_zac_feast_in_plague.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ZAC_investor_exit"
+		texturefile = "gfx/interface/ideas/idea_zac_investor_exit.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ZAC_orthodox_in_flame"
+		texturefile = "gfx/interface/ideas/idea_zac_orthodox_in_flame.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ZAC_warrior_in_islam"
+		texturefile = "gfx/interface/ideas/idea_zac_warrior_in_islam.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ZAC_british_advisors"
+		texturefile = "gfx/interface/ideas/idea_zac_british_advisors.dds"
+	}
+	
+	
+	#Germany#
+	
+	spriteType = {
+		name = "GFX_idea_GER_unemployment"
+		texturefile = "gfx/interface/ideas/idea_ger_unemployment.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_rot_front"
+		texturefile = "gfx/interface/ideas/idea_ger_rot_front.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_braunhemden"
+		texturefile = "gfx/interface/ideas/idea_GER_braunhemden.dds"
+	}
+	
+	
+	#Indonesia#
+	
+	spriteType = {
+		name = "GFX_idea_INS_brain_drain"
+		texturefile = "gfx/interface/ideas/idea_ins_brain_drain.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_INS_dirk_fok"
+		texturefile = "gfx/interface/ideas/idea_ins_dirk_fok.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_INS_garnison_power_1"
+		texturefile = "gfx/interface/ideas/idea_ins_garnison_power_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_INS_garnison_power_2"
+		texturefile = "gfx/interface/ideas/idea_ins_garnison_power_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_INS_garnison_power_3"
+		texturefile = "gfx/interface/ideas/idea_ins_garnison_power_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_INS_indonesian_nationalism"
+		texturefile = "gfx/interface/ideas/idea_ins_indonesian_nationalism.dds"
+	}
+	
+	
+	#Belgium#
+	
+	spriteType = {
+		name = "GFX_idea_BEL_fighting_for_freedom"
+		texturefile = "gfx/interface/ideas/idea_bel_fighting_for_freedom.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_BEL_french_belgium_attachment"
+		texturefile = "gfx/interface/ideas/idea_bel_french_belgium_attachment.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_BEL_industrial_leap"
+		texturefile = "gfx/interface/ideas/idea_bel_industrial_leap.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_BEL_vallonian_nationalism"
+		texturefile = "gfx/interface/ideas/idea_bel_vallonian_nationalism.dds"
+	}
+	
+	
+	#Norway#
+	
+	spriteType = {
+		name = "GFX_idea_NOR_corporatism"
+		texturefile = "gfx/interface/ideas/idea_nor_corporatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NOR_fighting_in_communism"
+		texturefile = "gfx/interface/ideas/idea_nor_fighting_in_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NOR_intense_fleet"
+		texturefile = "gfx/interface/ideas/idea_nor_intense_fleet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NOR_problems_with_king"
+		texturefile = "gfx/interface/ideas/idea_nor_problems_with_king.dds"
+	}
+	
+	
+	#Rif Republic#
+	
+	spriteType = {
+		name = "GFX_idea_RIF_to_end"
+		texturefile = "gfx/interface/ideas/idea_rif_to_end.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RIF_influx_of_immigrants"
+		texturefile = "gfx/interface/ideas/idea_rif_influx_of_immigrants.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RIF_quarrels_of_leaders"
+		texturefile = "gfx/interface/ideas/idea_rif_quarrels_of_leaders.dds"
+	}
+	
+	#Ireland#
+	
+	spriteType = {
+		name = "GFX_idea_IRE_agrarian_economy"
+		texturefile = "gfx/interface/ideas/idea_ire_agrarian_economy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_IRE_dangerous_police"
+		texturefile = "gfx/interface/ideas/idea_ire_dangerous_police.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_IRE_ira_fianna"
+		texturefile = "gfx/interface/ideas/idea_ire_ira_fianna.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_IRE_ulster_opposition"
+		texturefile = "gfx/interface/ideas/idea_ire_ulster_opposition.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_IRE_tim_healy"
+		texturefile = "gfx/interface/ideas/idea_ire_tim_healy.dds"
+	}
+	
+	#South Africa#
+	
+	spriteType = {
+		name = "GFX_idea_SAF_dead_economy"
+		texturefile = "gfx/interface/ideas/idea_saf_dead_economy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SAF_legacy_of_british_rule"
+		texturefile = "gfx/interface/ideas/idea_saf_legacy_of_british_rule.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SAF_new_age_of_slavery"
+		texturefile = "gfx/interface/ideas/idea_saf_new_age_of_slavery.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SAF_true_anarchy"
+		texturefile = "gfx/interface/ideas/idea_saf_true_anarchy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SAF_why_we_fight"
+		texturefile = "gfx/interface/ideas/idea_saf_why_we_fight.dds"
+	}
+	
+	#Canada#
+	
+	spriteType = {
+		name = "GFX_idea_CAN_canadian_discontent_0"
+		texturefile = "gfx/interface/ideas/idea_can_canadian_discontent_0.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_canadian_discontent_1"
+		texturefile = "gfx/interface/ideas/idea_can_canadian_discontent_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_canadian_discontent_2"
+		texturefile = "gfx/interface/ideas/idea_can_canadian_discontent_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_canadian_discontent_3"
+		texturefile = "gfx/interface/ideas/idea_can_canadian_discontent_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_canadian_discontent_4"
+		texturefile = "gfx/interface/ideas/idea_can_canadian_discontent_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_french_canadian_resistance_1"
+		texturefile = "gfx/interface/ideas/idea_can_french_canadian_resistance_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_french_canadian_resistance_2"
+		texturefile = "gfx/interface/ideas/idea_can_french_canadian_resistance_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_french_canadian_resistance_3"
+		texturefile = "gfx/interface/ideas/idea_can_french_canadian_resistance_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_military_administration"
+		texturefile = "gfx/interface/ideas/idea_can_military_administration.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_support_with_mitropoly_1"
+		texturefile = "gfx/interface/ideas/idea_can_support_with_mitropoly_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_support_with_mitropoly_2"
+		texturefile = "gfx/interface/ideas/idea_can_support_with_mitropoly_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CAN_support_with_mitropoly_3"
+		texturefile = "gfx/interface/ideas/idea_can_support_with_mitropoly_3.dds"
+	}
+	
+	#Pontic Steppe#
+	
+	spriteType = {
+		name = "GFX_idea_PON_cult_of_emperor"
+		texturefile = "gfx/interface/ideas/idea_pon_cult_of_emperor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PON_destroued_industry"
+		texturefile = "gfx/interface/ideas/idea_pon_destroued_industry.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PON_power_in_cavarly"
+		texturefile = "gfx/interface/ideas/idea_pon_power_in_cavarly.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PON_white_movement_volunter"
+		texturefile = "gfx/interface/ideas/idea_pon_white_movement_volunter.dds"
+	}
+	
+}

@@ -1,0 +1,63 @@
+characters = { 
+
+		PRB_daniel_belousov = {
+		name = PRB_daniel_belousov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRB/Portrait_Baltic_Union_Daniel_Belousov.dds"
+			}
+		}
+		country_leader = {
+			ideology = oligarchism_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+	
+	    PRB_johan_pitka = {
+		name = PRB_johan_pitka
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRB/Portrait_Baltic_Union_Johan_Pitka.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_stratocratic_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+	
+	    PRB_jaan_anvelt = {
+		name = PRB_jaan_anvelt
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRB/portrait_Baltic_Union_Jaan_Anvelt.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism_subtype 
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+	
+	    PRB_fricis_menders = {
+		name = PRB_fricis_menders
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRB/portrait_Baltic_Union_Fricis_Menders.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat 
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+	
+	}

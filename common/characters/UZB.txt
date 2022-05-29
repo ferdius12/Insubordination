@@ -1,0 +1,25 @@
+characters = {
+
+	UZB_seid_alim_khan = {
+		name = UZB_seid_alim_khan
+		portraits = {
+			civilian = {
+				large="gfx/leaders/UZB/portrait_Uzbekistan_Seid_Alim_Khan.dds"
+			}
+		}
+		country_leader = {
+			ideology = semi_constitutional_monarchy_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	}

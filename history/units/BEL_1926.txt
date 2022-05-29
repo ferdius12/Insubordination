@@ -1,0 +1,135 @@
+division_template = {
+	name = "Division d'Infanterie"		
+	division_names_group = BEL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+        artilerry = { x = 0 y = 1 }  		
+	}
+}
+
+division_template = {
+	name = "Cavalerie Motorisée"  		# Motorized Cavalry Brigade
+	division_names_group = BEL_MOT_01
+										# Note: motorized cavalry. Most sources have them truck-equipped.
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Division Coloniale"			# Colonial militia, lower experience, equipment
+	division_names_group = BEL_GAR_01 	#TODO make separate namelist for colonial divisions
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+units = { 
+
+    division= {
+	location = 3488  # Hoeselt
+    division_template = "Division d'Infanterie"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.5
+	}
+	
+	division= {
+	location = 6598  # Hoeselt
+	division_template = "Division d'Infanterie"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.5
+	}
+	
+	division= {
+	location = 6560 # Hoeselt
+	division_template = "Division d'Infanterie"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.5
+	}
+	
+	division= {
+	location = 9574  # Hoeselt
+	division_template = "Division d'Infanterie"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.5
+	}
+	
+	division= {
+	location = 11519 # Hoeselt
+	division_template = "Division d'Infanterie"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.5
+	}
+	
+	division= {
+	location = 6537  # Hoeselt
+	division_template = "Division d'Infanterie"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.5
+	}
+	
+	division= {
+	location = 11419  # Hoeselt
+	division_template = "Division d'Infanterie"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.5
+	}
+	
+	division= {
+	location = 516 # Hoeselt
+	division_template = "Cavalerie Motorisée"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.5
+	}
+	
+	division= {
+	location = 6537  # Hoeselt
+	division_template = "Cavalerie Motorisée"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.5
+	}
+	
+	division= {
+	location = 3576  # Hoeselt
+	division_template = "Cavalerie Motorisée"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.5
+	}
+	
+	division= {
+	location = 10968  # Hoeselt
+	division_template = "Division Coloniale"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.5
+	}
+	
+	division= {
+	location = 5117  # Hoeselt
+	division_template = "Division Coloniale"
+	start_experience_factor = 0.3
+	start_equipment_factor = 0.5
+	}
+	
+	
+	

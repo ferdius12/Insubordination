@@ -1,0 +1,134 @@
+ideas = {
+
+country = { 
+
+        INS_brain_drain = {
+				
+			allowed = {
+				original_tag = INS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = INS_brain_drain
+				
+			removal_cost = -1
+				
+			modifier = {
+				research_speed_factor = -0.1
+				political_power_gaim = -0.1
+				
+			}
+		}
+		
+		INS_dirk_fok = {
+				
+			allowed = {
+				original_tag = INS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = INS_dirk_fok
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = 0.05
+				neutrality_drift = 0.02
+			}
+		}
+		
+		INS_garnison_power_1 = {
+				
+			allowed = {
+				original_tag = INS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = INS_garnison_power_1
+				
+			removal_cost = -1
+				
+			modifier = {
+			stability_weekly_factor = 0.02
+			stability_factor = -0.15
+			war_stability_factor - 0.20
+			decryption_factor = -0.25
+			industrial_capacity_factory = -0.10
+			production_speed_buildings_factor = -0.1
+			}
+		}
+		
+		INS_garnison_power_2 = {
+				
+			allowed = {
+				original_tag = INS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = INS_garnison_power_2
+				
+			removal_cost = -1
+				
+			modifier = {
+			stability_factor = 0.05
+			}
+		}
+		
+		INS_garnison_power_3 = {
+				
+			allowed = {
+				original_tag = INS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = INS_garnison_power_3
+				
+			removal_cost = -1
+				
+			modifier = {
+		     stability_factor = 0.1
+		     consumer_goods_factor = -0.05
+			 army_core_defence_factor =  0.05
+			 army_core_attack_factor = 0.05
+			 conscription_factor = 0.10
+			 decryption_factor = 0.15
+			}
+		}
+		
+		INS_indonesian_nationalism = {
+				
+			allowed = {
+				original_tag = INS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = INS_indonesian_nationalism
+				
+			removal_cost = -1
+				
+			modifier = {
+		      conscription_factor = -0.40
+			  war_support_factor = -0.15
+			  political_power_gain = -0.25
+			}
+		}
+		
+		

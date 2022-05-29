@@ -1,0 +1,16 @@
+characters={
+
+    NFL_william_allardyce = {
+		name = NFL_william_allardyce
+		portraits = {
+			civilian = {
+				large="gfx/leaders/NFL/portrait_Newfoundland_William_Allardyce.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}

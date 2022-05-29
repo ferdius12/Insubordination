@@ -1,0 +1,25 @@
+characters = {
+
+SHX_yan_xishan = {
+		name = SHX_yan_xishan
+		portraits = {
+			civilian = {
+				large="gfx/leaders/SHX/portrait_Shanxi_Yan_Xishan.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderatism_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = despotism_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

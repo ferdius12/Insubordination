@@ -1,0 +1,15 @@
+units = {
+
+	fleet = {
+		name = "Conmhaigh patróil"			
+		naval_base = 11293 # Kristiansand
+		task_force = {					
+			name = "Uimhir 1 Ceantar Cabhlaigh"				
+			location =  11293
+			ship = { name = "LÉ Aoife Haarfagre" definition = ship_hull_light equipment = { ship_hull_light_1 = { amount = 1 owner = IRE version_name = "Breac Class" } } }				
+			ship = { name = "LÉ Ciara" definition = ship_hull_light_1 equipment = { ship_hull_light_1 = { amount = 1 owner = IRE version_name = "Breac Class" } } }				
+		}
+		
+		}
+		
+		}

@@ -1,0 +1,63 @@
+division_template = {
+	name = "Roinn Сoisithe"
+	division_names_group = IRE_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Briogáid Feistithe Póilíní"
+	division_names_group = IRE_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+units = {
+
+    division= {	
+		location = 11293
+		division_template = "Roinn Сoisithe" 		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	
+	division= {	
+		location = 3379
+		division_template = "Roinn Сoisithe" 		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	
+	division= {	
+		location = 6313
+		division_template = "Briogáid Feistithe Póilíní" 		
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.45
+	}
+	
+	division= {	
+		location = 9303
+		division_template = "Briogáid Feistithe Póilíní" 		
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.45
+	}
+	
+	division= {	
+		location = 303
+		division_template = "Briogáid Feistithe Póilíní" 		
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.45
+	}
+

@@ -1,0 +1,55 @@
+characters={ 
+
+        NOR_karl_gustav_fleicher = {
+		name = NOR_karl_gustav_fleicher
+		portraits = {
+			civilian = {
+				large="gfx/leaders/NOR/portrait_Norway_Carl_Gustav_Fleischer.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_stratocratic_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	    NOR_martin_tranmell = {
+		name = NOR_martin_tranmell
+		portraits = {
+			civilian = {
+				large="gfx/leaders/NOR/portrait_Norway_Martin_Tranmell.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	    NOR_haakon = {
+		name = NOR_haakon
+		portraits = {
+			civilian = {
+				large="gfx/leaders/NOR/portrait_Norway_Haakon_VII.dds"
+			}
+		}
+		country_leader = {
+			ideology = semi_constitutional_monarchy_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	}

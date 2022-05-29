@@ -1,0 +1,18 @@
+characters = { 
+
+		MAL_laurence_guillemard = {
+		name = MAL_laurence_guillemard
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAL/portrait_Malaya_Laurence_Guillemard.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

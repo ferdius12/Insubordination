@@ -1,0 +1,40 @@
+characters = {
+
+    ROM_ferdinand_i = {
+		name = ROM_ferdinand_i
+		portraits = {
+			civilian = {
+				large="gfx/leaders/ROM/portrait_Romania_Ferdinand_I.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = semi_constitutional_monarchy_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	ROM_carol_ii = {
+		name = ROM_carol_ii
+		portraits = {
+			civilian = {
+				large="gfx/leaders/ROM/portrait_Romania_Carol_II.dds"
+			}
+		}
+		country_leader = {
+			ideology = falangism_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+}

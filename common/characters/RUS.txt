@@ -1,0 +1,33 @@
+characters = { 
+
+		RUS_lev_kamenev = {
+		name = RUS_lev_kamenev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/portrait_Russia_Lev_Kamenev.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_subtype
+			expire = "1953.3.1.1"
+			traits = { indecisive_communist } 
+			id = -1
+		}
+	
+	}
+	    RUS_leon_trotsky = {
+		name = RUS_leon_trotsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/portrait_Russia_Leon_Trotsky.dds"
+			}
+		}
+		country_leader = {
+			ideology = syndicalist_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+	
+	}

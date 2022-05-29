@@ -1,0 +1,25 @@
+characters={
+
+    ALB_king_zog = {
+		name = ALB_king_zog
+		portraits = {
+			civilian = {
+				large="gfx/leaders/ALB/portrait_Albania_Zog_I.dds"
+			}
+		}
+		country_leader = {
+			ideology = semi_constitutional_monarchy_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

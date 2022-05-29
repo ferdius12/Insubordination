@@ -1,0 +1,35 @@
+﻿capital = 323
+
+oob = "NEP_1926"
+
+recruit_character = NEP_tribhuvan
+
+add_ideas = {
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+set_war_support = 0.3
+set_stability = 0.6
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+    syndicalist = 5
+    radical_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    paternal_autocrat = 80
+    fascism = 15
+}

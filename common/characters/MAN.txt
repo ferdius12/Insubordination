@@ -1,0 +1,40 @@
+characters = {
+   
+   MAN_zhang_zuolin = {
+		name = MAN_zhang_zuolin
+		portraits = {
+			civilian = {
+				large="gfx/leaders/MAN/portrait_Fengtian_Zhang_Zuolin.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderatism_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = despotism_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	MAN_puyi = {
+		name = MAN_puyi
+		portraits = {
+			civilian = {
+				large="gfx/leaders/MAN/portrait_Fengtian_Puyi.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_stratocratic_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

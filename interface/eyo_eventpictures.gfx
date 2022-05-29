@@ -1,0 +1,18 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_report_event_saf_anglo_african_war"
+		texturefile = "gfx/event_pictures/report_event_saf_anglo_african_war.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_saf_devastation"
+		texturefile = "gfx/event_pictures/report_event_saf_devastation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_eng_for_empire"
+		texturefile = "gfx/event_pictures/report_event_eng_for_empire.dds"
+	}
+	
+}

@@ -1,0 +1,148 @@
+characters={
+	KIE_bogdan_demidov = {
+		name = KIE_bogdan_demidov
+		portraits = {
+			civilian = {
+				large="gfx/leaders/KIE/portrait_Kiev_Bogdan_Demidov.dds"
+			}
+		}
+		country_leader = {
+			ideology= rexism
+			expire = "1965.1.1.1"
+			traits = { sympatised_japan }
+			id = -1
+		}
+	}
+	
+	KIE_vasyl_lipkovskiy = {
+		name = KIE_vasyl_lipkovskiy 
+		portraits = {
+			civilian = {
+				large="gfx/leaders/KIE/portrait_Kiev_Vasyl_Lipkovskiy.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocraty
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	KIE_grigoriy_petrovskiy = {
+		name = KIE_grigoriy_petrovskiy
+		portraits = {
+			civilian = {
+				large="gfx/leaders/KIE/portrait_Kiev_Grigoriy_Petrovskiy.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	KIE_vacuum_power = {
+		name = KIE_vacuum_power 
+		portraits = {
+			civilian = {
+				large="gfx/leaders/ZAZ/portrait_ZAZ_vacuum_power.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "1965.1.1.1"
+			traits = { no_leader }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = liberalism
+			expire = "1965.1.1.1"
+			traits = { no_leader }
+			id = -1
+		}
+	}
+	
+	KIE_mykola_boretskiy = {
+		name = KIE_mykola_boretskiy
+		portraits = {
+			civilian = {
+				large="gfx/leaders/KIE/portrait_Kiev_Mykola_Boretskiy.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocraty
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	KIE_yuriy_tyutunnik  = {
+	name = KIE_yuriy_tyutunnik 
+	portraits = {
+	   army = {
+				large = "gfx/leaders/KIE/portrait_Kiev_Yuriy_Tyutunnik.dds"
+				small = "gfx/interface/ideas/kiev_advisor/idea_zaz_yuriy_tyutunnik.dds"
+			}
+		}
+		
+		field_marshal = {
+			traits = {brilliant_strategist media_personality organisational_leader}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		}
+		
+		KIE_adrian_maruchenko = {
+	 
+	  name = KIE_adrian_maruchenko
+	  portraits = {
+	  army = { 
+	       large = "gfx/leaders/KIE/portrait_Kiev_Adrian_Maruchenko.dds" 
+	       small = "gfx/interface/ideas/kiev_advisor/idea_kie_adrian_marushenko.dds" 
+		   }
+	  }
+	  
+	  corps_commander = {
+	  traits = { trait_reckless }
+	  skill = 3
+	  attack_skill = 3
+	  defense_skill = 2
+	  planning_skill = 2
+	  logistics_skill = 3
+	}
+	  }
+	  
+	  KIE_vladimir_slyusarenko = {
+	 
+	  name = KIE_vladimir_slyusarenko
+	  portraits = {
+	  army = { 
+	       large = "gfx/leaders/KIE/portrait_Kiev_Vladimir_Slyusarenko.dds" 
+	       small = "gfx/interface/ideas/kiev_advisor/idea_kie_vladimir_slyusarenko.dds" 
+		   }
+	  }
+	  
+	  corps_commander = {
+	  traits = { old_guard }
+	  skill = 3
+	  attack_skill = 2
+	  defense_skill = 3
+	  planning_skill = 2
+	  logistics_skill = 2
+	}
+	  }
+	  
+	  }
+		
+		
+		
+		
+	

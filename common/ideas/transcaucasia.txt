@@ -1,0 +1,28 @@
+ideas = {
+
+	country = { 
+	
+	   ZAC_feast_in_plague = {
+				
+			allowed = {
+				original_tag = ZAC
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = 
+				
+			removal_cost = -1
+				
+			modifier = {
+				
+			}
+		}
+		
+		
+		
+		}
+		
+		}

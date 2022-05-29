@@ -1,0 +1,35 @@
+﻿capital = 266
+
+oob = "PER_1926"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+recruit_character = PER_reza_shah_pahlavi
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1926.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+    syndicalist = 6
+    radical_socialist = 0
+    social_democrat = 0
+    social_liberal = 7
+    market_liberal = 0
+    social_conservative = 21
+    authoritarian_democrat = 12
+    paternal_autocrat = 51
+    fascism = 3
+}

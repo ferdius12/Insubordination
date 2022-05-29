@@ -1,0 +1,149 @@
+characters={ 
+    
+	PON_yaroslav_the_great = {
+		name = PON_yaroslav_the_great
+		portraits = {
+			civilian = {
+				large="gfx/leaders/PON/portait_Pontic_Yaroslav_Pryadko.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_subtype
+			expire = "1965.1.1.1"
+			traits = { dictator }
+			id = -1
+		}
+	}
+	
+	PON_power_vacuum = {
+		name = PON_power_vacuum
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PON/Portrait_Pontic_Power_Vacuum.dds"
+			}
+		}
+		country_leader = {
+			ideology = radical_socialist_subtype
+			expire = "1965.1.1.1"
+			traits = { cabinet_crisis }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = syndicalist_subtype
+			expire = "1965.1.1.1"
+			traits = { cabinet_crisis }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = social_liberal_subtype
+			expire = "1965.1.1.1"
+			traits = { cabinet_crisis }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = social_democrat_subtype
+			expire = "1965.1.1.1"
+			traits = { cabinet_crisis }
+			id = -1
+		}
+	}
+	
+	PON_african_bogaevsky = {
+		name = PON_african_bogaevsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PON/portrait_Pontic_Steppe_African_Bogaevsky.dds"
+				small = "gfx/interface/ideas/pontic_steppe_advisor/idea_pon_african_bogaevsky.dds"
+			}
+		}
+		country_leader = {
+			ideology = oligarchism_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	
+	PON_maksim_kaledin = {
+	name = PON_maksim_kaledin
+	portraits = {
+			army = {
+				large = "gfx/leaders/PON/portrait_Pontic_Steppe_Maksim_Kaledin.dds"
+				small = "gfx/interface/ideas/pontic_steppe_advisor/idea_pon_maksim_kaledin.dds"
+			}
+		}
+		
+            field_marshal = {
+				traits = { infantry_officer offensive_doctrine organisational_leader }
+				skill = 3
+				attack_skill = 3
+				defense_skill = 1
+				planning_skill = 3
+				logistics_skill = 2
+
+			}
+			}
+			
+	PON_kirill_vensatn_ylyitin = {
+	name = PON_kirill_vensatn_ylyitin
+	portraits = {
+	army = {
+		large = "gfx/leaders/PON/portrait_Pontic_Steppe_Kirill_Vensatn_Ylyitin.dds"
+	    small = "gfx/interface/ideas/pontic_steppe_advisor/idea_pon_kirill_vensant_illutin.dds"
+		}
+	}
+        corps_commander = {
+			traits = { cavalry_officer inflexible_strategist }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+			}
+			
+	PON_grigoriy_kislow = {
+	name = PON_grigoriy_kislow 
+	portraits = {
+			army = {
+				large = "gfx/leaders/PON/portrait_Pontic_Steppe_Grigoriy_Kislow.dds"
+				small = "gfx/interface/ideas/pontic_steppe_advisor/idea_pon_grigoriy_kislev.dds"
+			}
+		}
+		
+            corps_commander = {
+				traits = { old_guard politically_connected }
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 2
+
+			}
+			}
+			
+	PON_alexander_gyubaryov = {
+	name = PON_alexander_gyubaryov
+	portraits = {
+			army = {
+				large = "gfx/leaders/PON/portrait_Pontic_Steppe_Alexander_Gyubaryov.dds"
+				small = "gfx/interface/ideas/pontic_steppe_advisor/idea_pon_alexandr_gyubarev.dds"
+			}
+		}
+		
+            corps_commander = {
+				traits = { old_guard trait_reckless }
+				skill = 3
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 1
+				logistics_skill = 3
+
+			}
+			}
+			
+			}

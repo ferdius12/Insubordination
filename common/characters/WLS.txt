@@ -1,0 +1,33 @@
+characters={
+
+    WLS_saunders_lewis = {
+		name = WLS_saunders_lewis
+		portraits = {
+			civilian = {
+				large="gfx/leaders/WLS/portrait_Wales_Saunders_Lewis.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservative_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	WLS_niclas_y_glais = {
+		name = WLS_niclas_y_glais
+		portraits = {
+			civilian = {
+				large="gfx/leaders/WLS/portrait_Wales_Niclas_y_Glais.dds"
+			}
+		}
+		country_leader = {
+			ideology = radical_socialist_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

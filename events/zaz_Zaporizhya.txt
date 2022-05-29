@@ -1,0 +1,444 @@
+﻿add_namespace = leg
+
+country_event = {
+	id = leg.1
+	title = leg.1.t
+	desc = leg.1.d
+	picture = GFX_zaz_legacy_of_cossack_1
+	is_triggered_only = yes
+	option = {
+		name = leg.1.a
+		ai_chance = { factor = 100 }
+		country_event = { id = leg.2 days = 0 random_days = 0 }
+	}
+}
+
+country_event = {
+	id = leg.2
+	title = leg.2.t
+	desc = leg.2.d
+	picture = GFX_zaz_legacy_of_cossack_2
+	is_triggered_only = yes
+	option = {
+		name = leg.2.a
+		ai_chance = { factor = 100 }
+		add_political_power = 25
+	}
+}
+
+country_event = {
+	id = leg.3
+	title = leg.3.t
+	desc = leg.3.d
+	picture = GFX_zaz_leader_of_country_1
+	is_triggered_only = yes
+	option = {
+		name = leg.3.a
+		ai_chance = { factor = 100 }
+		add_political_power = 25
+	}
+}
+
+country_event = {
+	id = leg.4
+	title = leg.4.t
+	desc = leg.4.d
+	picture = GFX_report_event_gre_city_devastated
+	is_triggered_only = yes
+	option = {
+		name = leg.4.a
+		ai_chance = { factor = 100 }
+		add_political_power = 25
+	}
+}
+
+country_event = {
+	id = leg.5
+	title = leg.5.t
+	desc = leg.5.d
+	picture = GFX_zaz_killed_dictator
+	is_triggered_only = yes
+	option = {
+		name = leg.5.a
+		ai_chance = { factor = 100 }
+		add_political_power = -25
+		add_country_leader_trait = kaleka
+	}
+
+}
+
+country_event = {
+    id = leg.6
+    title = leg.6.t
+    desc = leg.6.d
+    picture = GFX_zaz_denis_lozny_powered
+ 
+    fire_only_once = yes
+ 
+    trigger = {
+        original_tag = ZAZ
+        date > 1936.3.24
+        NOT = { has_country_flag = lozny_prezident }
+    }
+
+    mean_time_to_happen = {
+        days = 7
+    }
+
+    option = {
+        name = leg.6.a
+        promote_character = ZAZ_denis_lozny
+        set_country_flag = lozny_prezident
+		add_popularity = {
+							ideology = democratic
+							popularity = 0.1
+						}
+      }
+}
+
+country_event = {
+	id = leg.7
+	title = leg.7.t
+	desc = leg.7.d
+	picture = GFX_zaz_assasinated_pasechnik
+	is_triggered_only = yes
+	option = {
+		name = leg.7.a
+		ai_chance = { factor = 100 }
+                add_ideas = ZAZ_city_in_fire_5
+
+
+}
+}
+country_event = {
+	id = leg.8
+	title = leg.8.t
+	desc = leg.8.d
+	picture = GFX_zaz_elections
+	is_triggered_only = yes
+	option = {
+		name = leg.8.a
+		ai_chance = { factor = 100 }
+		        set_politics = {
+                ruling_party = democratic
+                elections_allowed = yes
+            }
+			    add_popularity = {
+                ideology = neutrality
+                popularity = -0.10
+            }
+			 hidden_effect = {
+                promote_character = ZAZ_no_power
+            }
+	}
+
+}
+
+news_event = {
+	id = leg.9
+	title = leg.9.t
+	desc = leg.9.desc
+	picture = GFX_news_event_unite_ukraine_zaz
+	is_triggered_only = yes
+	
+	option = {
+		name = leg.9.a
+
+		}
+	}
+	
+	country_event = {
+	id = leg.10
+	title = leg.10.t
+	desc = leg.10.d
+	picture = GFX_zaz_battle_in_zaporizhya
+	is_triggered_only = yes
+	option = {
+		name = leg.10.a
+		ai_chance = { factor = 100 }
+		add_manpower = -750
+		add_stability = -0.1
+ 
+}
+}
+
+
+country_event = {
+	id = leg.11
+	title = leg.11.t
+	desc = leg.11.d
+	picture = GFX_zaz_assasinate_trigubov
+	is_triggered_only = yes
+	option = {
+		name = leg.11.a
+		ai_chance = { factor = 100 }
+		add_manpower = -12
+		add_political_power = 50
+		remove_unit_leader = 1251 #Ilya Trigubov
+		add_timed_idea = {
+                idea = ZAZ_destroyed_dniproges
+                days = 180
+				}
+				
+}
+}
+
+country_event = {
+	id = leg.12
+	title = leg.12.t
+	desc = leg.12.desc
+	picture = GFX_report_event_communist_leader
+
+	is_triggered_only = yes
+	
+	option = {
+		name = leg.12.a #Moldavia access it ultimatum
+		ai_chance = {
+			factor = 75
+		}
+		effect_tooltip = {
+			ZAZ = { transfer_state = 192 }
+			ZAZ = { transfer_state = 766 }
+		}
+		hidden_effect = {
+			ZAZ = { 
+				
+				country_event = { id = leg.13 hours = 6 }
+			}
+		}
+	}
+	option = {
+		name = leg.12.b #Moldavia denification in ultimatum
+        
+		ai_chance = {
+			factor = 15
+		}
+		add_manpower = 3500
+		add_stability = 0.1
+		add_war_support = 0.1
+		hidden_effect = {
+			ZAZ = { country_event = { id = leg.14 hours = 4 } }
+		}
+	}
+}
+
+country_event = {
+	id = leg.13
+	title = leg.13.t
+	desc = leg.13.desc
+	picture = GFX_report_event_vienna_award_hungary
+
+	is_triggered_only = yes
+	
+	option = {
+		name = leg.13.a 
+		add_political_power = 25
+		transfer_state = 192
+		transfer_state = 766
+	}
+}
+
+country_event = {
+	id = leg.14
+	title = leg.14.t
+	desc = leg.14.desc
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+	
+	option = {
+		name = leg.14.a #TO BATTLE!
+		add_war_support = 0.1
+		declare_war_on = {
+                target = MOL
+                type = annex_everything
+            }
+	}
+	hidden_effect = {
+			ZAZ = { country_event = { id = leg.14 hours = 4 } }
+		}
+	option = {
+		name = leg.14.b #Awaiting in attack
+		add_political_power = -25
+		add_war_support = -0.05
+		create_wargoal = {
+                type = annex_everything
+                target = MOL
+                expire = 0
+            }
+		hidden_effect = {
+			ZAZ = { country_event = { id = leg.14 hours = 4 } }
+		}
+	}
+}
+
+country_event = {
+	id = leg.15
+	title = leg.15.t
+	desc = leg.15.d
+	picture = GFX_report_event_germany_politician_handshake
+	is_triggered_only = yes
+	option = {
+		name = leg.15.a
+		ai_chance = { factor = 100 }
+		78 = { add_manpower = -12000 }
+		add_state_core = 766
+        add_state_core = 192
+		custom_effect_tooltip = create_a_moldavian_war_area
+		hidden_effect = {
+		ZAZ = {
+			puppet = MOL
+            
+			}
+		MOL = { 
+		   country_event = { id = leg.16 hours = 0 } 
+		   set_cosmetic_tag = MOL_ZAZ
+		   transfer_state = 78 
+		   set_party_name = {
+                ideology = neutrality
+                long_name = MOL_neutrality_military_administration_long
+                name = MOL_neutrality_military_administration
+            }
+			remove_ideas = UKR_varlord
+			
+		   create_country_leader = {
+        	name = "Vladimir Kolcenosniy"
+        	desc = ""
+        	picture = "gfx/leaders/ZAZ/portrait_Zaporizhya_Nikolay_Kolcenosniy.dds"
+        	expire = "1970.1.1"
+        	ideology = despotism
+        	traits = {
+        	}
+        }
+		   
+		}
+		
+			
+	}
+}
+}
+
+country_event = {
+	id = leg.16
+	title = leg.16.t
+	desc = leg.16.d
+	picture = GFX_report_event_germany_politician_handshake
+	is_triggered_only = yes
+	option = {
+		name = leg.16.a
+		ai_chance = { factor = 100 }
+		        set_politics = {
+                ruling_party = neutrality
+                elections_allowed = no
+            }
+			add_popularity = {
+							ideology = neutrality
+							popularity = 0.35
+						}
+		add_ideas = MOL_military_government
+		
+}
+}
+
+news_event = {
+	id = leg.17
+	title = leg.17.t
+	desc = leg.17.desc
+	picture = GFX_new_event_moldavian_occupate
+
+	is_triggered_only = yes
+	
+	option = {
+		name = leg.17.a
+trigger = {
+NOT = { has_government = democratic }
+}
+		}
+		option = {
+		name = leg.17.b
+      trigger = {
+	  has_government = democratic
+		}
+	}
+	
+	option = {
+		name = leg.17.c
+      trigger = {
+	  original_tag = ZAZ
+		}
+	}
+	}
+	
+country_event = {
+	id = leg.18
+	title = leg.18.t
+	desc = leg.18.d
+	picture = GFX_zaz_ultimatun_in_kursk
+	is_triggered_only = yes
+	option = {
+		name = leg.18.a ### NO, we wil fight in all territories ###
+		ZAZ = { 
+		   country_event = { id = leg.19 hours = 0 } 
+		   }
+		   trigger = {
+	  NOT = {has_government = fascism}
+	  NOT = {has_government = neutrality}
+		}
+		ai_chance = { factor = 25 }
+	}
+	
+	option = {
+		name = leg.18.b ###We are accert, in the investition###
+		ai_chance = { factor = 65 }
+		ZAZ = { 
+		   country_event = { id = leg.20 hours = 0 } 
+		   }
+		
+	}
+}
+
+country_event = { 
+    id = leg.19
+	title = leg.19.t
+	desc = leg.19.d
+	picture = GFX_zaz_kursk_accert
+	is_triggered_only = yes
+    option = {
+	name = leg.19.a 
+	add_timed_idea = {
+                idea = ZAZ_investition_in_Kursk
+                days = 150
+            }
+	KUS = { add_timed_idea = {
+                idea = ZAZ_zaporizhya_investition
+                days = 150
+            } }
+			transfer_state = 225
+	}
+	
+	option = {name = leg.19.b
+	create_wargoal = {
+                type = annex_everything
+                target = KUS
+                expire = 0
+            }}
+	
+	}
+	
+	country_event = { 
+    id = leg.20
+	title = leg.20.t
+	desc = leg.20.d
+	picture = GFX_zaz_Kursk_annexced
+	is_triggered_only = yes
+    option = {
+	name = leg.20.a 
+	create_wargoal = {
+                type = annex_everything
+                target = KUS
+                expire = 0
+            }
+			}
+			}
+			
+	

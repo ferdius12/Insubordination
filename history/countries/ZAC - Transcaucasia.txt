@@ -1,0 +1,32 @@
+capital = 231
+
+OOB = "ZAC_1926"
+
+recruit_character = ZAK_nikolay_strukov
+
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1926.1.1"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism = 0
+    syndicalist = 0
+    radical_socialist = 10
+    social_democrat = 14
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 17
+    authoritarian_democrat = 39
+    paternal_autocrat = 5
+    fascism = 15
+}
+
+add_cosmetic_tag = ZAC_ENG
+
+add_ideas = {
+    
+   }

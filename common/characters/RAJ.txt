@@ -1,0 +1,18 @@
+characters = { 
+
+		RAJ_edward_wood = {
+		name = RAJ_edward_wood
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RAJ/portrait_British_Raj_Edward_Wood.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

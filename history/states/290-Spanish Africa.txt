@@ -1,0 +1,51 @@
+
+state={
+	id=290
+	name="STATE_290"
+	manpower = 1357298
+	
+	
+	state_category = town
+	
+	resources={
+		steel=23 # was: 20 . Changed to 23 (from 15) due to Portugal Setup
+	}
+
+	history={
+		owner = RIF
+		add_claim_by = SPR
+		add_core_of = MOR
+		add_core_of = RIF
+		victory_points = {
+			9945 3
+		}
+		
+		victory_points = {
+			7215 10
+		}
+		
+		victory_points = {
+			10013 5
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 3
+			12100 = {
+				naval_base = 3
+			}
+			9945 = {
+				naval_base = 2
+			}
+			
+			
+		}
+	}
+
+	provinces={
+		4199 7215 9945 10113 12087 12100  1194  10013
+	}
+
+	local_supplies=0.0 
+}

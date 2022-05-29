@@ -1,0 +1,24 @@
+characters = {
+
+    SIA_rama_vii = {
+		name = SIA_rama_vii
+		portraits = {
+			civilian = {
+				large="gfx/leaders/SIA/Portrait_Siam_Rama_VII.dds"
+			}
+		}
+		country_leader = {
+			ideology = semi_constitutional_monarchy_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	}

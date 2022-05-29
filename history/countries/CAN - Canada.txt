@@ -1,0 +1,67 @@
+﻿capital = 276
+
+set_oob = "CAN_1926"
+set_naval_oob = "CAN_1926_naval"
+
+
+recruit_character = CAN_henry_maitland_wilson
+recruit_character = CAN_philippe_orlean
+recruit_character = CAN_mackenzie_king
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	basic_train = 1
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+	basic_naval_mines = 1
+	early_ship_hull_light = 1
+	early_ship_hull_cruiser = 1
+	basic_battery = 1
+	basic_light_battery = 1
+	basic_torpedo = 1
+	basic_depth_charges = 1
+	mtg_transport = 1
+}
+
+set_cosmetic_tag = CAN_UK
+add_to_tech_sharing_group = commonwealth_research
+
+add_ideas = {
+CAN_support_with_mitropoly_3
+CAN_canadian_discontent_2
+CAN_french_canadian_resistance_1
+CAN_military_administration
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1926.1.1"
+	election_frequency = 24
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 8
+    syndicalist = 0
+    radical_socialist = 0
+    social_democrat = 0
+    social_liberal = 3
+    market_liberal = 25
+    social_conservative = 15
+    authoritarian_democrat = 38
+    paternal_autocrat = 0
+    fascism = 11
+
+}
+
+set_convoys = 35
+
+

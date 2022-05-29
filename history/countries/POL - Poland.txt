@@ -1,0 +1,48 @@
+﻿capital = 10
+
+oob = "POL_1926"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	trench_warfare = 1
+	basic_train = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1922.12.20"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	communism = 21
+    syndicalist = 0
+    radical_socialist = 0
+    social_democrat = 0
+    social_liberal = 15
+    market_liberal = 0
+    social_conservative = 32
+    authoritarian_democrat = 0
+    paternal_autocrat = 27
+    fascism = 5
+}
+
+
+recruit_character = POL_stanislav_voitsekhovsky
+recruit_character = POL_jozef_pilsudski
+recruit_character = POL_ignacy_moscicki
+

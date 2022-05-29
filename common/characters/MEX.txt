@@ -1,0 +1,16 @@
+characters={
+
+    MEX_plutarco_calles = {
+		name = MEX_plutarco_calles
+		portraits = {
+			civilian = {
+				large="gfx/leaders/MEX/portrait_Mexico_Plutarco_Calles.dds"
+			}
+		}
+		country_leader = {
+			ideology = oligarchism_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}

@@ -1,0 +1,19 @@
+characters = {
+
+	    YSV_anarchist_commune = {
+		name = YSV_anarchist_commune
+		portraits = {
+			civilian = {
+				large="gfx/leaders/YSV/portrait_Ysturt_Territory_Anarchist_Commune.dds"
+			}
+		}
+		country_leader = {
+			ideology = anarcho_syndicalist_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		}
+		
+		}

@@ -1,0 +1,121 @@
+ideas = {
+
+	country = { 
+	
+	   IRE_tim_healy = {
+				
+			allowed = {
+				original_tag = IRE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = IRE_tim_healy
+				
+			removal_cost = -1
+				
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = 0.1
+				drift_defence_factor = 0.15
+                				
+				
+			}
+		}
+		
+		IRE_ira_fianna = {
+				
+			allowed = {
+				original_tag = IRE
+				rulling_party = neutrality
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = IRE_ira_fianna
+				
+			removal_cost = -1
+				
+			modifier = {
+				war_support_factor = -0.25
+				war_stability_factor = -0.30
+				conscription_factor = -0.30
+				weekly_manpower = -100
+				democratic_drift = 0.02
+				autonomy_gain = 0.5
+			}
+		}
+		
+		IRE_dangerous_police = {
+				
+			allowed = {
+				original_tag = IRE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = IRE_dangerous_police
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = 0.1
+				conscription = 0.005
+				political_power_gain = -0.50
+				fascism_drift = 0.02
+			}
+		}
+		
+		IRE_agrarian_economy = {
+				
+			allowed = {
+				original_tag = IRE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = IRE_agrarian_economy
+				
+			removal_cost = -1
+				
+			modifier = {
+				monthly_population = 0.45
+				consumer_goods_factor = 0.1
+                industrial_capacity_factory = 0.1
+                industrial_capacity_dockyard = 0.1
+                production_factory_max_efficiency_factor = -0.15
+                production_lack_of_resource_penalty_factor = 0.20			
+				
+			}
+		}
+		
+		IRE_ulster_opposition = {
+				
+			allowed = {
+				original_tag = IRE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = IRE_ulster_opposition
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.25
+				autonomy_gain = -1
+				drift_defence_factor = -0.15 
+			}
+		}
+		
+		}

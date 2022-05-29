@@ -1,0 +1,28 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_goal_saf_hell_in_earth"
+		texturefile = "gfx/interface/goals/south_africa/focus_saf_hell_in_earth.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_saf_devil"
+		texturefile = "gfx/interface/goals/south_africa/focus_saf_devil.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_saf_duke"
+		texturefile = "gfx/interface/goals/south_africa/focus_saf_duke.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_saf_innocent_soul"
+		texturefile = "gfx/interface/goals/south_africa/focus_saf_innocent_soul.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goal_saf_royalist"
+		texturefile = "gfx/interface/goals/south_africa/focus_saf_royalist.dds"
+	}
+	
+}

@@ -1,0 +1,78 @@
+characters = { 
+
+		SAF_anarchy = {
+		name = SAF_anarchy
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/portrait_South_Africa_Anarchy.dds"
+			}
+		}
+		country_leader = {
+			ideology = anarcho_syndicalist_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	    SAF_james_hertzog = {
+		name = SAF_james_hertzog
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/Portrait_South_Africa_James_Hertzog.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	    SAF_daniel_malan = {
+		name = SAF_daniel_malan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/portrait_South_Africa_Daniel_Malan.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	    SAF_alexander_cambridge = {
+		name = SAF_alexander_cambridge
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/portrait_South_Africa_Alexander_Cambridge.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	SAF_alexander_cambridge = {
+		name = SAF_alexander_cambridge
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAF/portrait_South_Africa_Alexander_Cambridge.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

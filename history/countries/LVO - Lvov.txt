@@ -1,0 +1,23 @@
+capital = 91
+
+OOB = "LVO_1936"
+
+set_politics = {
+	ruling_party = market_liberal
+	last_election = "1935.6.25"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 0
+    syndicalist = 1
+    radical_socialist = 9
+    social_democrat = 14
+    social_liberal = 0
+    market_liberal = 44
+    social_conservative = 12
+    authoritarian_democrat = 11
+    paternal_autocrat = 0
+    fascism = 9
+}

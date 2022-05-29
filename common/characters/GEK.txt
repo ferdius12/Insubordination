@@ -1,0 +1,47 @@
+characters = { 
+
+		GEK_paul_vorbeck = {
+		name = GEK_paul_vorbeck
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEK/Portrait_German_Cameroon_Paul_von_Lettow_Vorbeck.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}    
+	    GEK_ruben_um_nyobe = {
+		name = GEK_ruben_um_nyobe
+		portraits = {
+			civilian = {
+				large = "Portrait_Africa_Generic_land_3.dds"
+			}
+		}
+		country_leader = {
+			ideology = marxism_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+	
+	    GEK_siegfried_muller = {
+		name = GEK_siegfried_muller
+		portraits = {
+			civilian = {
+				large = "Portrait_Germany_Generic_land_5.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_stratocratic_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+	
+	}

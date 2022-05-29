@@ -1,0 +1,36 @@
+capital = 592
+
+OOB = "BEI_1926"
+
+recruit_character = BEI_wu_peifu
+recruit_character = BEI_sun_chuanfang
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	mass_assault = 1
+}
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1926.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_research_slots = 2
+
+set_popularities = {
+	communism = 0
+    syndicalist = 0
+    radical_socialist = 5
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 20
+    paternal_autocrat = 64
+    fascism = 11
+}

@@ -1,0 +1,56 @@
+characters = { 
+
+		GER_ernst_thalmann = {
+		name = GER_ernst_thalmann
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/portrait_Germany_Ernst_Thalmann.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	} 
+	
+	    GER_adolf_gitler = {
+		name = GER_adolf_gitler
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/portrait_Germany_Adolf_Gitler.dds"
+			}
+		}
+		country_leader = {
+			ideology = nazism_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	} 
+	
+	    GER_paul_von_hindenburg = {
+		name = GER_paul_von_hindenburg
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/portrait_Germany_Paul_von_Hindenburg.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = social_conservative_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	} 
+	
+
+	
+	}

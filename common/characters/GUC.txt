@@ -1,0 +1,16 @@
+characters = {
+	GUC_feng_yuxiang = {
+		name = GUC_feng_yuxiang
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GUC/portrait_Guominjun_Feng_Yuxiang.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderatism_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	}

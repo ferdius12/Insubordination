@@ -1,0 +1,259 @@
+ideas = {
+
+	country = { 
+	
+	    CAN_support_with_mitropoly_1 = {
+				
+			allowed = {
+				original_tag = CAN
+				rulling_party = authoritarian_democrat
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = CAN_support_with_mitropoly_1
+				
+			removal_cost = -1
+				
+			modifier = {
+			}
+		}
+		
+		CAN_support_with_mitropoly_2 = {
+				
+			allowed = {
+				original_tag = CAN
+				rulling_party = authoritarian_democrat
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = CAN_support_with_mitropoly_2
+				
+			removal_cost = -1
+				
+			modifier = {
+			}
+		}
+		
+		CAN_support_with_mitropoly_3 = {
+				
+			allowed = {
+				original_tag = CAN
+				rulling_party = authoritarian_democrat
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = CAN_support_with_mitropoly_3
+				
+			removal_cost = -1
+				
+			modifier = {
+			}
+		}
+		
+		CAN_military_administration = {
+				
+			allowed = {
+				original_tag = CAN
+				rulling_party = authoritarian_democrat
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = CAN_military_administration
+				
+			removal_cost = -1
+				
+			modifier = {
+			political_power_gain = 0.15
+			conscription = 0.015
+			war_support_factor = 0.10
+			cic_to_overlord_factor = 0.25
+		    mic_to_overlord_factor = 0.25
+			}
+		}
+		
+		CAN_french_canadian_resistance_1 = {
+				
+			allowed = {
+				original_tag = CAN
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = CAN_french_canadian_resistance_1
+				
+			removal_cost = -1
+				
+			modifier = {
+			stability_factor = -0.1
+            war_support_factor = -0.05
+ 			conscription_factor = -0.10
+			fascism_drift = 0.02		
+			}
+		}
+		
+		CAN_french_canadian_resistance_2 = {
+				
+			allowed = {
+				original_tag = CAN
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = CAN_french_canadian_resistance_2
+				
+			removal_cost = -1
+				
+			modifier = {
+			stability_factor = -0.15
+            war_support_factor = -0.10
+ 			conscription_factor = -0.15
+			fascism_drift = 0.03		
+			}
+		}
+		
+		CAN_french_canadian_resistance_3 = {
+				
+			allowed = {
+				original_tag = CAN
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = CAN_french_canadian_resistance_3
+				
+			removal_cost = -1
+				
+			modifier = {
+			stability_factor = -0.25
+            war_support_factor = -0.25
+ 			conscription_factor = -0.30
+			fascism_drift = 0.05		
+			}
+		}
+	
+	
+	   CAN_canadian_discontent_0 = {
+				
+			allowed = {
+				original_tag = CAN
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = CAN_canadian_discontent_0
+				
+			removal_cost = -1
+				
+			modifier = {
+			political_power_gain = 0.05			
+			}
+		}
+		
+		CAN_canadian_discontent_1 = {
+				
+			allowed = {
+				original_tag = CAN
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = CAN_canadian_discontent_1
+				
+			removal_cost = -1
+				
+			modifier = {
+			political_power_gain = -0.1
+            stability_factor = -0.05
+            drift_defence_factor = -0.05	 		
+			}
+		}
+		
+		CAN_canadian_discontent_2 = {
+				
+			allowed = {
+				original_tag = CAN
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = CAN_canadian_discontent_2
+				
+			removal_cost = -1
+				
+			modifier = {
+			political_power_gain = -0.15
+            stability_factor = -0.1
+            drift_defence_factor = -0.15
+			}
+		}
+		
+		CAN_canadian_discontent_3 = {
+				
+			allowed = {
+				original_tag = CAN
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = CAN_canadian_discontent_3
+				
+			removal_cost = -1
+				
+			modifier = {
+			political_power_gain = -0.25
+            stability_factor = -0.15
+            drift_defence_factor = -0.30
+			industrial_capacity_factory = -0.10
+			production_speed_buildings_factor = -0.10
+			}
+		}
+		
+		CAN_canadian_discontent_4 = {
+				
+			allowed = {
+				original_tag = CAN
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = CAN_canadian_discontent_4
+				
+			removal_cost = -1
+				
+			modifier = {
+			political_power_gain = -0.50
+            stability_factor = -0.35
+			stability_weekly_factor = -0.002
+            drift_defence_factor = -0.50
+			industrial_capacity_factory = -0.25
+			production_speed_buildings_factor = -0.25
+			}
+		}

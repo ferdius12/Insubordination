@@ -1,0 +1,18 @@
+characters = {
+
+    USA_calvin_coolidge = {
+		name = USA_calvin_coolidge
+		portraits = {
+			civilian = {
+				large="gfx/leaders/USA/portrait_America_Calvin_Coolidge.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

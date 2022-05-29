@@ -1,0 +1,77 @@
+﻿capital = 113
+
+oob = "IRE_1926"
+set_naval_oob = "IRE_1926_naval"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	basic_train = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_military_police = 1
+    early_ship_hull_light = 1
+    basic_depth_charges	 = 1
+	sonar = 1
+	early_ship_hull_cruiser = 1
+	basic_battery = 1
+	damage_control_1 = 1
+	mtg_transport = 1
+}
+
+119 = {
+			add_dynamic_modifier = { modifier = ulster_opposition }
+		}
+
+add_to_tech_sharing_group = commonwealth_research
+
+set_convoys = 6
+
+recruit_character = IRE_william_cosgrave
+recruit_character = IRE_eamon_de_valera
+
+add_ideas = {
+IRE_agrarian_economy
+IRE_dangerous_police
+IRE_ira_fianna
+IRE_ulster_opposition
+IRE_tim_healy
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1933.1.24"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+    syndicalist = 0
+    radical_socialist = 8
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 7
+    social_conservative = 32
+    authoritarian_democrat = 46
+    paternal_autocrat = 0
+    fascism = 7
+}
+
+create_equipment_variant = {
+		name = "Breac Class"	
+		type = ship_hull_light_1
+		name_group = IRE_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}

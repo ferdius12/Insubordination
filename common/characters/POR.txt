@@ -1,0 +1,60 @@
+characters={
+
+    POR_bernardiny_mashady = {
+		name = POR_bernardiny_mashady
+		portraits = {
+			civilian = {
+				large="gfx/leaders/POR/portrait_Portugal_Bernardiny_Mashady.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservative_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	POR_francisco_rolao_preto = {
+		name = POR_francisco_rolao_preto
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POR/portrait_Portugal_Francisco_Rolao_Preto.dds"
+				small = "gfx/interface/ideas/pontic_steppe_advisor/idea_por_francisco_rolao_preto.dds"
+			}
+		}
+		country_leader = {
+			ideology = falangism_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		advisor={
+			slot = political_advisor
+			idea_token = POR_francisco_rolao_preto
+			allowed = {
+				original_tag = POR
+			}
+			traits = {
+				fascist_demagogue 
+			}
+			
+	}
+	
+	POR_bernardiny_mashady_fasci = {
+		name = POR_bernardiny_mashady
+		portraits = {
+			civilian = {
+				large="gfx/leaders/POR/portrait_Portugal_Bernardiny_Mashady_fasci.dds"
+			}
+		}
+		country_leader = {
+			ideology = falangism_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

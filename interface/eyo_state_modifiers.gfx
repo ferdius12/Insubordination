@@ -1,0 +1,28 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_modifiers_ulster_opposition"
+		texturefile = "gfx/interface/state_modifiers/ulster_opposition.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_modifiers_british_control"
+		texturefile = "gfx/interface/state_modifiers/british_control.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_modifiers_devil_control"
+		texturefile = "gfx/interface/state_modifiers/devil_control.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_modifiers_hertzog_control"
+		texturefile = "gfx/interface/state_modifiers/hertzog_control.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_modifiers_syndicalist_control"
+		texturefile = "gfx/interface/state_modifiers/syndicalist_control.dds"
+	}
+	
+}

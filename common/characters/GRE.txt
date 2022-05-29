@@ -1,0 +1,19 @@
+characters = { 
+		GRE_theodoros_pangalos = {
+		name = GRE_theodoros_pangalos
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRE/portrait_Greece_Theodoros_Pangalos.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderatism_subtype
+			expire = "1953.1.1.1"
+			traits = { anti_communist }
+			id = -1
+		}
+	}
+	
+
+	
+	}

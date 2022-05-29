@@ -1,0 +1,114 @@
+division_template = {
+	name = "Infanteridivisjon"		# Infantry Division
+	division_names_group = NOR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	support = {
+  	      engineer = { x = 0 y = 0 }
+ 	}
+}
+division_template = {
+	name = "Kavaleriregiment"  		# Cavalry Division
+	division_names_group = NOR_CAV_01
+
+	regiments = {
+		cavarly = { x = 0 y = 0 }
+		cavarly = { x = 0 y = 1 }
+		cavarly = { x = 1 y = 0 }
+		cavarly = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Artilleri Kystbrigade"  		# Cavalry Division
+	division_names_group = NOR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		artillery = { x = 0 y = 2 }
+		artillery = { x = 1 y = 1 }
+	}
+}
+
+
+units = {
+	division = {
+		location = 6115
+		division_template = "Artilleri Kystbrigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	
+	division = {
+		location = 122
+		division_template = "Artilleri Kystbrigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	
+	division = {
+		location = 6115
+		division_template = "Infanteridivisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	
+	division = {
+		location = 10
+		division_template = "Infanteridivisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	
+	division = {
+		location = 3022
+		division_template = "Infanteridivisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	
+	division = {
+		location = 53
+		division_template = "Infanteridivisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	
+	division = {
+		location = 11151
+		division_template = "Infanteridivisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	
+	division = {
+		location = 192
+		division_template = "Infanteridivisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	
+	division = {
+		location = 9191
+		division_template = "Infanteridivisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	
+	division = {
+		location = 9116
+		division_template = "Infanteridivisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}

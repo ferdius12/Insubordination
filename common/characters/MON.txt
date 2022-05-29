@@ -1,0 +1,17 @@
+characters = {
+
+	MON_regency_counsil = {
+		name = MON_regency_counsil
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/portrait_Mongolia_Regency_Counsil.dds"
+			}
+		}
+		country_leader = {
+			ideology = oligarchism_subtype
+			expire = "1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	}

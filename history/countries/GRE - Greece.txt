@@ -1,0 +1,26 @@
+capital = 47
+
+OOB = "GRE_1926"
+
+recruit_character = GRE_theodoros_pangalos
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1926.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+    syndicalist = 0
+    radical_socialist = 19
+    social_democrat = 0
+    social_liberal = 11
+    market_liberal = 0
+    social_conservative = 12
+    authoritarian_democrat = 45
+    paternal_autocrat = 7
+    fascism = 6
+}
+

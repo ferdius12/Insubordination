@@ -1,0 +1,33 @@
+characters = { 
+
+		ETH_zauditu = {
+		name = ETH_zauditu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETH/portrait_Ethiopia_Zauditu.dds"
+			}
+		}
+		country_leader = {
+			ideology = semi_constitutional_monarchy_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+
+        ETH_haile_selassie = {
+		name = ETH_haile_selassie
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETH/portrait_Ethiopia_Haile_Selassie.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	} 	
+	
+	}

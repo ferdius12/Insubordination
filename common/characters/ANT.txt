@@ -1,0 +1,50 @@
+characters={
+
+    ANT_aimone_di_torino = {
+		name = ANT_aimone_di_torino
+		portraits = {
+			civilian = {
+				large="gfx/leaders/ANT/portait_Anatolia_Aimone_di_Torino.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1965.1.1.1"
+			traits = { reluctant_king }
+			id = -1
+		}
+	}
+	
+	ANT_ettore_bastico = {
+		name = ANT_ettore_bastico
+		portraits = {
+			civilian = {
+				large="gfx/leaders/ANT/portait_Anatolia_Ettore_Bastico.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	ANT_vacuum_power = {
+		name = ANT_vacuum_power
+		portraits = {
+			civilian = {
+				large="gfx/leaders/ANT/portrait_Anatolia_Vacuum_Power.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		
+	}
+	
+	}

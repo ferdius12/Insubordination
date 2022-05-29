@@ -1,0 +1,48 @@
+capital = 218
+
+OOB = "PON_1936"
+set_naval_oob = "PON_1936_naval_mtg"
+
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+set_research_slots = 2
+
+add_ideas = {
+PON_cult_of_emperor
+PON_destroued_industry
+PON_power_in_cavarly
+PON_white_movement_volunter
+}
+
+recruit_character = PON_yaroslav_the_great
+recruit_character = PON_power_vacuum1
+recruit_character = PON_power_vacuum2
+recruit_character = PON_african_bogaevsky 
+recruit_character = PON_maksim_kaledin
+recruit_character = PON_kirill_vensatn_ylyitin
+recruit_character = PON_grigoriy_kislow
+recruit_character = PON_alexander_gyubaryov
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+    syndicalist = 19
+    radical_socialist = 0
+    social_democrat = 6
+    social_liberal = 0
+    market_liberal = 3
+    social_conservative = 4
+    authoritarian_democrat = 0
+    paternal_autocrat = 15
+    fascism = 53
+}
+
+set_convoys = 50

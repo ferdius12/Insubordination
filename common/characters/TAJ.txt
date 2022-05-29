@@ -1,0 +1,19 @@
+characters = { 
+
+        TAJ_mustafa_shokai = {
+		name = TAJ_mustafa_shokai
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TAJ/portrait_Tajikistan_Mustafa_Shokai.dds"
+			}
+		}
+		country_leader = {
+			ideology = islamic_democratic_subtype
+			expire = "1953.3.1.1"
+			traits = { pan_turkist }
+			id = -1
+		}
+	
+	}
+	
+	}

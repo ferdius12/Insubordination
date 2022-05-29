@@ -1,0 +1,31 @@
+﻿capital = 732
+
+oob = "TAJ_1926"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+recruit_character = TAJ_mustafa_shokai
+
+set_convoys = 8
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1924.3.25"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	communism = 0
+    syndicalist = 0
+    radical_socialist = 0
+    social_democrat = 0
+    social_liberal = 4
+    market_liberal = 0
+    social_conservative = 45
+    authoritarian_democrat = 38
+    paternal_autocrat = 0
+    fascism = 13
+}

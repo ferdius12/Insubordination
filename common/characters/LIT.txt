@@ -1,0 +1,18 @@
+characters = { 
+
+        LIT_sergiusz_czartoryski = {
+		name = LIT_sergiusz_czartoryski
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LIT/portrait_Lithuania_Sergiusz_Czartoryski.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+	
+	}

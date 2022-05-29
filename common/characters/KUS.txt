@@ -1,0 +1,33 @@
+characters = { 
+
+        KUS_iosif_vareokos  = {
+		name = KUS_iosif_vareokos 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KUS/portrait_Kursk_Iosif_Vareikis.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism_subtype
+			expire = "1953.1.1.1"
+			traits = { backroom_agent }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = syndicalist_subtype
+			expire = "1953.1.1.1"
+			traits = { backroom_agent }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = marxism_subtype
+			expire = "1953.1.1.1"
+			traits = { backroom_agent }
+			id = -1
+		}
+	}
+
+	
+	}

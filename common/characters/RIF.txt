@@ -1,0 +1,64 @@
+characters = { 
+
+    rif_leader_crim = {
+		name = rif_leader_crim
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RIF/portait_Rif_Republic_Abd_al_Crim.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+
+    RIF_work_tips = {
+		name = RIF_work_tips
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RIF/portrait_Rif_Republic_Work_Tips.dds"
+			}
+		}
+		country_leader = {
+			ideology = anarcho_syndicalist_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	} 	
+	
+	RIF_military_junta = {
+		name = RIF_military_junta
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RIF/portrait_Rif_Republic_Military_Junta.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1953.3.1.1"
+			traits = { militaristic_leadership }
+			id = -1
+		}
+	
+	} 
+	
+	RIF_mohammed = {
+		name = RIF_mohammed
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RIF/portrait_Rif_Republic_Military_Junta.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1953.3.1.1"
+			traits = { military_puppet }
+			id = -1
+		}
+	
+	}
+	}

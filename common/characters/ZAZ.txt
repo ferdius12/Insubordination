@@ -1,0 +1,585 @@
+characters={
+	ZAZ_svyatoslav_pasechnik = {
+		name = ZAZ_svyatoslav_pasechnik
+		portraits = {
+			civilian = {
+				large="gfx/leaders/ZAZ/portrait_ZAZ_pasichnik.dds"
+			}
+		}
+		country_leader = {
+			ideology=centrism
+			expire = "1965.1.1.1"
+			traits = { lord_admiral }
+			id = -1
+		}
+	}
+	
+	ZAZ_lev_astachov = {
+		name = ZAZ_lev_astachov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZAZ/portrait_Zaporizhya_Lev_Astachov.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "1965.1.1.1"
+			traits = { revolutionary_general }
+			id = -1
+		}
+	}
+	
+	ZAZ_power_vacuum = {
+		name = ZAZ_power_vacuum
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZAZ/portrait_ZAZ_vacuum_power.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1965.1.1.1"
+			traits = { cabinet_crisis }
+			id = -1
+		}
+	}
+	
+	ZAZ_nikita_I = {
+		name = ZAZ_nikita_I
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZAZ/portrait_ZAZ_Nikita_Voropay.dds"
+			}
+		}
+		country_leader = {
+			ideology = rexism
+			expire = "1965.1.1.1"
+			traits = { crazy_monarch }
+			id = -1
+		}
+	}
+	
+	ZAZ_denis_lozny = {
+		name = ZAZ_denis_lozny
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZAZ/portrait_Zaporizhya_Democratic_Denis_Lozny.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "1953.3.1.1"
+			id = -1
+			traits = {
+				contacts_in_banks
+			}
+		}
+	}
+	
+	ZAZ_no_power = {
+		name = ZAZ_no_power
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZAZ/portrait_Zaporizhya_Death_Pasechnik.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			traits = { no_leader }
+			id = -1
+		}
+	}
+	
+	 ZAZ_evgeniy_tkalich = {
+	 name = ZAZ_evgeniy_tkalich
+	 portraits = {
+			army = {
+				large = "gfx/leaders/ZAZ/portrait_Zaporizhya_Evgeniy_Tkalich.dds"
+				small = "gfx/interface/ideas/zaporizhya_advisor/idea_zaz_evgeniy_tkalich.dds"
+			}
+		}
+		
+            corps_commander = {
+				traits = { infantry_officer career_officer }
+				skill = 3
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 3
+
+			}
+			
+			advisor = {
+			cost = 100
+			slot = theorist
+			idea_token = ZAZ_evgeniy_tkalich
+			ledger = army
+			allowed = {
+
+				original_tag = ZAZ
+			}
+			
+			traits = {
+				military_theorist
+			}
+		}
+			
+	}
+	
+	ZAZ_kirill_marachov = {
+	name = ZAZ_kirill_marachov 
+	portraits = {
+	   army = {
+				large = "gfx/leaders/ZAZ/portrait_ZAZ_Kirill_Marachov.dds"
+				small = "gfx/interface/ideas/zaporizhya_advisor/idea_zaz_kirill_marachov.dds"
+			}
+		}
+		
+		field_marshal = {
+			traits = { offensive_doctrine inspirational_leader }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		
+	advisor = {
+			slot = army_chief
+			idea_token = ZAZ_kirill_marachov
+			allowed = {
+				original_tag = ZAZ
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+				
+			}
+		}
+	
+	}
+	
+	ZAZ_illya_trigybov = {
+	name = ZAZ_illya_trigybov
+	portraits = {
+	   army = {
+				large = "gfx/leaders/ZAZ/portrait_ZAZ_Illya_Trigubov.dds"
+				small = "gfx/interface/ideas/zaporizhya_advisor/idea_zaz_illya_trigubov.dds"
+			}
+		}
+		
+		corps_commander = {
+			traits = { trait_reckless }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		
+	advisor = {
+			slot = army_chief
+			idea_token = ZAZ_illya_trigybov
+			allowed = {
+				original_tag = ZAZ
+			}
+			traits = {
+				army_chief_maneuver_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+				
+			}
+		}
+	
+	}
+	
+	ZAZ_ivan_lyudnikov = {
+	name = ZAZ_ivan_lyudnikov
+	portraits = {
+	army = {
+				large = "gfx/leaders/ZAZ/portrait_ZAZ_Ivan_Luydnikov.dds"
+				small = "gfx/interface/ideas/zaporizhya_advisor/idea_zaz_ivan_lyudnikov.dds"
+			}
+			}
+	corps_commander = {
+			traits = { infantry_officer war_hero inflexible_strategist }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			
+		}
+		
+		
+		advisor = {
+				slot = high_command
+				idea_token = ZAZ_ivan_lyudnikov
+				ledger = army
+				allowed = {
+					original_tag = ZAZ
+				}
+				traits = {
+					army_infantry_2
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+					
+				}
+			}
+			}
+			
+	  ZAZ_maksim_prontenko = {
+	 
+	  name = ZAZ_maksim_prontenko
+	  portraits = {
+	  army = { 
+	       large = "gfx/leaders/ZAZ/portrait_ZAZ_Maksim_Prontenko.dds" 
+	       small = "gfx/interface/ideas/zaporizhya_advisor/idea_zaz_maksim_prontenko.dds" 
+		   }
+	  }
+	  
+	  corps_commander = {
+	  traits = {  }
+	  skill = 2
+	  attack_skill = 1
+	  defense_skill = 2
+	  planning_skill = 2
+	  logistics_skill = 1
+	}
+	  }
+	  
+	  ZAZ_ivan_pavlenko = {
+	 
+	  name = ZAZ_ivan_pavlenko
+	  portraits = {
+	  army = { 
+	       large = "gfx/leaders/ZAZ/portrait_ZAZ_Ivan_Pavlenko.dds" 
+	       small = "gfx/interface/ideas/zaporizhya_advisor/idea_zaz_ivan_pavlenko.dds" 
+		   }
+	  }
+	  
+	  advisor = {
+				slot = high_command
+				idea_token = ZAZ_ivan_pavlenko
+				ledger = army
+				allowed = {
+					original_tag = ZAZ
+				}
+				traits = {
+					army_cavalry_1
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+					
+				}
+			}
+	  
+	  corps_commander = {
+	  traits = { cavalry_officer old_guard  }
+	  skill = 3
+	  attack_skill = 3
+	  defense_skill = 1
+	  planning_skill = 2
+	  logistics_skill = 3
+	}
+	  }
+	  
+	  ZAZ_vladimir_egorovich = {
+	 
+	  name = ZAZ_vladimir_egorovich
+	  portraits = {
+	  army = { 
+	       small = "gfx/interface/ideas/zaporizhya_advisor/idea_zaz_vladimir_egorovich.dds" 
+		   }
+	  }
+	  
+	  advisor = {
+				slot = high_command
+				idea_token = ZAZ_vladimir_egorovich
+				ledger = army
+				allowed = {
+					original_tag = ZAZ
+				}
+				traits = {
+					army_artillery_2
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+					
+				}
+			}
+	  
+	  }
+	  
+	  ZAZ_nikolay_gulayev = {
+	 
+	  name = ZAZ_nikolay_gulayev
+	  portraits = {
+	  army = { 
+	       small = "gfx/interface/ideas/zaporizhya_advisor/idea_zaz_nikolay_gulayev.dds" 
+		   }
+	  }
+	  
+	  advisor = {
+				slot = high_command
+				idea_token = ZAZ_nikolay_gulayev
+				ledger = army
+				allowed = {
+					original_tag = ZAZ
+				}
+				traits = {
+					air_air_superiority_1
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+					
+				}
+			}
+	  
+	  }
+	  
+	   ZAZ_andriy_pokrovskiy = {
+	   name = ZAZ_andriy_pokrovskiy
+			portraits={
+				army={
+					small="gfx/interface/ideas/zaporizhya_advisor/idea_zaz_andriy_pokrovskiy.dds"
+					large="gfx/leaders/ZAZ/portrait_ZAZ_Andriy_Pokrovskiy.dds"
+				}
+			}
+			advisor={
+				slot = navy_chief
+				idea_token = ZAZ_andriy_pokrovskiy
+				traits = {
+					navy_chief_decisive_battle_1
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+				}
+			}
+
+			navy_leader={
+				traits={ media_personality war_hero }
+				skill=3
+				attack_skill=2
+				defense_skill=3
+				maneuvering_skill=2
+				coordination_skill=2
+			}
+		}
+		
+		ZAZ_sergey_gorhkov = {
+	 
+	  name = ZAZ_sergey_gorhkov
+	  portraits = {
+	  army = { 
+	       large = "gfx/leaders/ZAZ/portrait_Zaporizhya_Sergey_Gorhkov.dds"
+	       small = "gfx/interface/ideas/zaporizhya_advisor/idea_zaz_sergey_gorshkov.dds" 
+		   }
+	  }
+	  
+	  advisor = {
+				slot = high_command
+				idea_token = ZAZ_vladimir_egorovich
+				ledger = army
+				allowed = {
+					original_tag = ZAZ
+				}
+				traits = {
+					navy_amphibious_assault_2
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+					
+				}
+			}
+			
+			navy_leader={
+				traits={ politically_connected }
+				skill=3
+				attack_skill=3
+				defense_skill=3
+				maneuvering_skill=3
+				coordination_skill=1
+			}
+	  
+	  }
+	  
+	  
+	
+			
+			
+	 ZAZ_andrei_onoshko = {
+	 name = ZAZ_andrei_onoshko
+		portraits = {	
+			civilian = {
+				small = "gfx/interface/ideas/zaporizhya_advisor/idea_zaz_andrei_onoshko.dds"
+			}
+			}
+			advisor = { 
+			slot = political_advisor
+			idea_token = ZAZ_andrei_onoshko
+			allowed = {
+					original_tag = ZAZ
+			}
+				traits = {
+					war_industrialist
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+					
+				}
+			}
+			}
+			
+	ZAZ_igor_geletiy = {
+	name = ZAZ_igor_geletiy
+		portraits = {	
+			civilian = {
+				small = "gfx/interface/ideas/zaporizhya_advisor/idea_zaz_igor_geletiy.dds"
+			}
+			}
+			advisor = { 
+			slot = political_advisor
+			idea_token = ZAZ_andrei_onoshko
+			allowed = {
+					original_tag = ZAZ
+			}
+				traits = {
+					captain_of_industry
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+					
+				}
+			}
+			}
+			
+			ZAZ_vladimir_kolcenosniy = {
+	name = ZAZ_vladimir_kolcenosniy
+		portraits = {	
+			civilian = {
+			    large = "gfx/leaders/ZAZ/portrait_Zaporizhya_Nikolay_Kolcenosniy.dds"
+				small = "gfx/interface/ideas/zaporizhya_advisor/idea_zaz_vladimir_kolcenosniy.dds"
+			}
+			}
+			advisor = { 
+			slot = political_advisor
+			idea_token = ZAZ_andrei_onoshko
+			allowed = {
+					original_tag = ZAZ
+			}
+				traits = {
+					prince_of_terror
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+					
+				}
+			}
+			}
+			
+			ZAZ_mikola_lebid = {
+	name = ZAZ_mikola_lebid
+		portraits = {	
+			civilian = {
+				small = "gfx/interface/ideas/zaporizhya_advisor/idea_zaz_mikola_lebid.dds"
+			}
+			}
+			advisor = { 
+			slot = political_advisor
+			idea_token = ZAZ_andrei_onoshko
+			allowed = {
+					original_tag = ZAZ
+			}
+			
+			available = {
+					has_completed_focus = zaz_integrate_in_monarchist 
+				}
+				traits = {
+					fascist_politican 
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+					
+				}
+			}
+			}
+			
+			ZAZ_nikolay_shapovalov = {
+	name = ZAZ_nikolay_shapovalov
+		portraits = {	
+			civilian = {
+				small = "gfx/interface/ideas/zaporizhya_advisor/idea_zaz_nikolay_shapovalov.dds"
+			}
+			}
+			advisor = { 
+			slot = political_advisor
+			idea_token = ZAZ_andrei_onoshko
+			available = {
+					has_completed_focus = zaz_powered_in_center
+				}
+			allowed = {
+					original_tag = ZAZ
+			}
+				traits = {
+					corruption_advisor
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+					
+				}
+			}
+			}
+			
+			ZAZ_evgeniy_byiniy = {
+	name = ZAZ_evgeniy_byiniy
+		portraits = {	
+			civilian = {
+				small = "gfx/interface/ideas/./zaporizhya_advisor/idea_zaz_evgeniy_byiniy.dds"
+			}
+			}
+			advisor = { 
+			slot = political_advisor
+			idea_token = ZAZ_andrei_onoshko
+			allowed = {
+					original_tag = ZAZ
+			}
+			available = {
+					has_completed_focus = zaz_democratic_reform
+				}
+				traits = {
+					democratic_reformator
+				}
+				cost = 150
+				ai_will_do = {
+					factor = 1.000
+					
+				}
+			}
+			}
+			}
+			
+			
+			
+			
+		
+		
+	

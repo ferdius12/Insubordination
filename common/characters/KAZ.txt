@@ -1,0 +1,32 @@
+characters = {
+
+	KAZ_filip_goloshekin = {
+		name = KAZ_filip_goloshekin
+		portraits = {
+			civilian = {
+				large="gfx/leaders/KAZ/portrait_Kazachstan_Filip_Goloshekin.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = syndicalist_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = marxism_subtype 
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	}

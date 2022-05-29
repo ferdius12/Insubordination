@@ -1,0 +1,3 @@
+graphical_culture = POL
+graphical_culture_2d = POL
+color = rgb { 61  158  36 } ##÷вет на политической карте

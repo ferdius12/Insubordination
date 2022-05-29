@@ -1,0 +1,209 @@
+leader_traits = {
+
+  governor = {
+  random = no
+  political_power_gain = -0.15
+  conscription_factor = 0.15
+  army_org_factor = 0.08
+  ai_will_do = {
+			factor = 1
+		}
+	}
+
+  pan_turkist = {
+  random = no
+  political_power_gain = 0.10
+  war_support_factor = 0.1
+  generate_wargoal_tension = -0.35
+  ai_will_do = {
+			factor = 1
+		}
+	}
+	
+  indecisive_communist = {
+  random = no
+  political_power_factor = -0.15
+  stability_factor = -0.1
+  ai_will_do = {
+			factor = 1
+		}
+	}
+  
+  firm_hand = {
+  random = no
+  political_power_factor = 0.10
+  consumer_goods_factor = -0.05
+  ai_will_do = {
+			factor = 1
+		}
+	}
+	
+  deep_wound = {
+  ai_will_do = {
+			factor = 1
+		}
+  random = no
+  political_power_factor = -0.50
+  stability_factor = -0.25
+  ai_focus_defense_factor = 0.75
+  }
+  
+  
+  
+  dublin_tyrant = {
+	random = no    
+		ai_will_do = {
+			factor = 1
+		}
+	political_power_factor = 0.15
+	war_support_factor = -0.1
+	industrial_capacity_factory = 0.05
+	
+    }
+	
+  reluctant_king = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+		political_power_factor = -0.15
+		war_support_factor = -0.1
+		}
+	
+  militaristic_leadership = {
+		random = no
+		political_power_factor = -0.1
+		war_support_factor = 0.05
+		ai_focus_aggressive_factor = 0.35
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+  militaristic_leadership = {
+		random = no
+		political_power_factor = -0.1
+		war_support_factor = 0.05
+		ai_focus_aggressive_factor = 0.35
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+  military_puppet = {
+		random = no
+		political_power_factor = -0.05
+		army_chief_cost_factor = -0.15
+		neutrality_drift = -0.02
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+  no_leader = {
+	random = no
+	political_power_factor = -1.0
+	stability_factor = -0.40
+	war_support_factor = -0.40
+	army_attack_factor = -0.25
+	army_defence_factor = -0.25
+	army_org_factor = -0.25
+	}
+
+
+  kirill_romanov = { random = no }
+
+  crazy_monarch = {
+        random = no 
+		political_power_factor = -0.15
+		stability_factor = -0.05
+		ai_focus_aggressive_factor = 0.5
+		war_support_factor = 0.10
+}
+
+  backroom_agent = {
+        random = no 
+		political_power_factor = -0.05
+		stability_factor = 0.1
+		neutrality_acceptance = 25
+        }
+
+
+  sympatised_japan = {
+  
+         random = no
+	     ai_strategy = {
+			type = friend
+			id = "JAP"			
+			value = 75
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+  kaleka = { 
+		political_power_factor = -0.01
+		random = no
+    }
+  contacts_in_banks = {
+        random = no
+		political_power_factor = 0.05
+        stability_factor = 0.1
+		consumer_goods_factor = -0.05
+		democratic_acceptance = 45
+        ai_will_do = {
+            factor = 1
+        }
+    }
+  king_soldier = {
+        random = no
+		army_morale_factor = 0.05
+		war_support_factor = 0.05
+		neutrality_drift = 0.02
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+  lord_admiral = {
+        random = no
+		experience_gain_navy = 0.02
+		navy_capital_ship_attack_factor = 0.1
+		navy_capital_ship_defence_factor = 0.1
+		navy_screen_attack_factor = 0.1
+		navy_screen_defence_factor = 0.1
+		navy_intel_factor = 0.05
+		political_power_factor = 0.10
+		
+        ai_will_do = {
+            factor = 1
+        }
+    }
+ 
+ eternal_ruler = {
+        random = no
+        resistance_damage_to_garrison = -0.30
+        high_command_cost_factor = -0.30
+		army_org_factor = 0.05
+		army_speed_factor = 0.05 
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+earth_master = {
+        random = no
+        ai_focus_aggressive_factor = 0.5
+        political_power_factor = 0.10
+		democratic_acceptance = -50
+		democratic_drift = -0.02
+        army_core_defence_factor = 0.1
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+	}

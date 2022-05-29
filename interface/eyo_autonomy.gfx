@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_autonomy_soviet_republic_icon"
+		texturefile = "gfx/interface/autonomy/soviet_republic_icon.dds"
+	}
+	
+}

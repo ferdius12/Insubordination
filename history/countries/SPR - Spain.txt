@@ -1,0 +1,27 @@
+﻿capital = 41
+
+oob = "SPR_1936"
+
+recruit_character = SPR_alfonso
+recruit_character = SPR_nikolay_II
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1926.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism = 0
+    syndicalist = 4
+    radical_socialist = 21
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 19
+    authoritarian_democrat = 45
+    paternal_autocrat = 0
+    fascism = 11
+}
+

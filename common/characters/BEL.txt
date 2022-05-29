@@ -1,0 +1,55 @@
+characters = { 
+		
+		
+		BEL_albert = {
+		name = BEL_albert
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BEL/Portrait_Belgium_Albert.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1953.1.1.1"
+			traits = { king_soldier }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = moderatism_subtype
+			expire = "1953.1.1.1"
+			traits = { king_soldier }
+			id = -1
+		}
+	}
+	
+	    BEL_national_council = {
+		name = BEL_national_council
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BEL/Portrait_Belgium_National_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = social_liberal_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = market_liberal_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

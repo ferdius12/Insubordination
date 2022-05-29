@@ -1,0 +1,136 @@
+ideas = {
+
+	country = { 
+	
+	   GEK_african_army = {
+				
+			allowed = {
+				original_tag = GEK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = GEK_african_army
+				
+			removal_cost = -1
+				
+			modifier = {
+				war_support_factor = -0.15
+				conscription_factor = 0.15
+				army_org_factor = -0.10
+				experience_gain_army = -0.02	
+				
+			}
+		}
+		
+		GEK_german_ambition = {
+				
+			allowed = {
+				original_tag = GEK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = GEK_german_ambition
+				
+			removal_cost = -1
+				
+			modifier = {
+			     political_power_gain = 0.10
+				 non_core_manpower = 0.15
+			}
+		}
+		
+		GEK_fallen_legacy = {
+				
+			allowed = {
+				original_tag = GEK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = GEK_fallen_legacy
+				
+			removal_cost = -1
+				
+			modifier = {
+				political_power_gain = -0.15
+				stability_factor = -0.15
+				army_defence_factor = -0.15
+				army_attack_factor = -0.15
+				neutrality_drift = -0.01
+			}
+		}  
+		
+		GEK_fascist_activities = {
+				
+			allowed = {
+				original_tag = GEK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = GEK_fascist_activities
+				
+			removal_cost = -1
+				
+			modifier = {
+					drift_defence_factor = -0.10
+					fascism_drift = 0.02
+					consumer_goods_factor = -0.05
+			}
+		}
+		
+		}
+		
+		economy = {
+		
+		cameroon_isolation = {  
+	
+			name = cameroon_isolation
+
+			picture = GEK_african_isolation
+			
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_industrial_complex_factor = -0.15
+				production_speed_arms_factory_factor = -0.15
+				production_speed_dockyard_factor = -0.15
+
+			}
+			allowed_to_remove = {
+				OR = {
+					has_war_support > 0.50
+					has_stability > 0.60
+					has_war = yes
+				}
+				
+				OR = {
+				has_completed_focus = GEK_reich_investition
+				}
+				
+				OR = {
+				has_completed_focus = GEK_trade_with_allies
+				}
+				
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		}
+		
+		}

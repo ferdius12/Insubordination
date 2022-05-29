@@ -1,0 +1,18 @@
+characters={
+
+    SLO_parlament = {
+		name = SLO_parlament
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SLO/portrait_Slovakia_Parlament.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democratic_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

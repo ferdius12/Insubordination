@@ -1,0 +1,18 @@
+characters={ 
+
+        HOL_david_wijnkoop = {
+		name = HOL_david_wijnkoop
+		portraits = {
+			civilian = {
+				large="gfx/leaders/HOL/portrait_Holland_David_Wijnkoop.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	}

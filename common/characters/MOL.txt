@@ -1,0 +1,17 @@
+characters={ 
+MOL_ion_inculets = {
+		name = MOL_ion_inculets
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MOL/portrait_Moldavia_Ion_Inculets.dds"
+
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	}

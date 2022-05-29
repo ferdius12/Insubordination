@@ -1,0 +1,145 @@
+characters={
+	VLD_aleksandr_kolchak = {
+		name = VLD_aleksandr_kolchak
+		portraits = {
+			civilian = {
+				large="gfx/leaders/VLD/Portrait_VLA_Aleksandr_Kolchak.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	} 
+	
+	
+	VLD_konstantin_rodzaevsky = {
+		name = VLD_konstantin_rodzaevsky
+		portraits = {
+			civilian = {
+				large="gfx/leaders/VLD/Portrait_VLA_Konstantin_Rodzaevsky.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	} 
+	
+	VLD_alexandr_kerensky = {
+		name = VLD_alexandr_kerensky
+		portraits = {
+			civilian = {
+				large="gfx/leaders/VLD/portrait_VLA_Alexander_Kerensky.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+
+    VLD_anton_denikin = {
+	 name = VLD_anton_denikin
+	 portraits = {
+			army = {
+				large = "gfx/leaders/VLD/Portrait_VLA_Anton_Denikin.dds"
+				small = "gfx/interface/ideas/white_movement_advisor/idea_vld_anton_denikin.dds"
+			}
+		}
+		
+            field_marshal = {
+				traits = { cavalry_officer offensive_doctrine harsh_leader }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 2
+
+			}
+}
+
+    VLD_fyodor_abramov = {
+	name = VLD_fyodor_abramov
+	portraits = {
+	army = {
+				large = "gfx/leaders/VLD/Portrait_VLA_Fyodor_Abramov.dds"
+				small = "gfx/interface/ideas/white_movement_advisor/idea_vld_fyodor_abramov.dds"
+			}
+			}
+	corps_commander = {
+			traits = { infantry_officer harsh_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+			
+		}	
+}
+
+    VLD_grigory_semyonov = {
+	name = VLD_grigory_semyonov
+	portraits = {
+	army = {
+				large = "gfx/leaders/VLD/Portrait_VLA_Grigory_Semyonov.dds"
+				small = "gfx/interface/ideas/white_movement_advisor/idea_vld_grirogy_semyonov.dds"
+			}
+			}
+	corps_commander = {
+			traits = { cavalry_leader media_personality }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			
+		}	
+}		
+
+    VLD_sergei_markov = {
+	name = VLD_sergei_markov
+	portraits = {
+	army = {
+				large = "gfx/leaders/VLD/Portrait_VLA_Sergei_Markov.dds"
+				small = "gfx/interface/ideas/white_movement_advisor/idea_vld_sergei_markov.dds"
+			}
+			}
+			
+    corps_commander = {
+			traits = { infantry_leader war_hero brilliant_strategist }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			
+		}	
+}
+
+    VLD_sergey_baranovskiy = {
+	name = VLD_sergey_baranovskiy
+	portraits = {
+	army = {
+				large = "gfx/leaders/VLD/Portrait_VLA_Sergey_Baranovskiy.dds"
+				small = "gfx/interface/ideas/white_movement_advisor/idea_vld_sergey_baranovskiy.dds"
+			}
+			}
+			
+    corps_commander = {
+			traits = { media_personality infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+			
+		}	
+}
+}

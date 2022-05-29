@@ -1,0 +1,64 @@
+ideas = {
+
+	country = { 
+	
+            RIF_to_end = {
+				
+			allowed = {
+				original_tag = RIF
+			}
+
+			picture = RIF_to_end
+				
+			removal_cost = -1
+				
+			modifier = {
+			army_core_defence_factor = 0.15
+			army_core_attack_factor = 0.15
+			army_morale_factor = 0.1
+			resistance_growth_on_our_occupied_states = 0.25
+			surrender_limit = 0.15
+			    
+			}
+		    }
+			
+			RIF_influx_of_immigrants = {
+				
+			allowed = {
+				original_tag = RIF
+			}
+
+			picture = RIF_influx_of_immigrants
+				
+			removal_cost = -1
+				
+			modifier = {
+			monthly_population = 0.75
+			stability_factor = -0.10
+			fascism_drift = 0.02
+			communism_drift = 0.02
+			    
+			}
+		    }
+			
+			RIF_quarrels_of_leaders = {
+				
+			allowed = {
+				original_tag = RIF
+			}
+
+			picture = RIF_quarrels_of_leaders
+				
+			removal_cost = -1
+				
+			modifier = {
+			
+			political_power_gain = -0.35
+			war_support_factor = -0.20
+			command_power_gain = -0.25
+			}
+		    }
+			
+			}
+			
+			}

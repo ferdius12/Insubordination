@@ -1,0 +1,18 @@
+characters={ 
+
+SAR_victor_ro = {
+		name = SAR_victor_ro
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAR/portrait_Saar_Victor_Ro.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderatism_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	}

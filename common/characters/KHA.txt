@@ -1,0 +1,41 @@
+characters = {
+
+	    KHI_sayid_abdulla = {
+		name = KHI_sayid_abdulla
+		portraits = {
+			civilian = {
+				large="gfx/leaders/KHI/portrait_Khiva_Sayid_Abdulla.dds"
+			}
+		}
+		country_leader = {
+			ideology = semi_constitutional_monarchy_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		}
+		
+		KHI_junaid_khan = {
+		name = KHI_junaid_khan
+		portraits = {
+			civilian = {
+				large="gfx/leaders/KAZ/portrait_Khiva_Junaid_Khan.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = national_stratocratic_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		}
+		

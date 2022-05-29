@@ -1,0 +1,19 @@
+characters = { 
+
+
+        SUR_anton_kom = {
+		name = SUR_anton_kom
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SUR/portrait_Surinam_Anton_Kom.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+	
+	}

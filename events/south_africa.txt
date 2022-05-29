@@ -1,0 +1,45 @@
+add_namespace = south
+
+country_event = {
+	id = south.1
+	title = south.1.t
+	desc = south.1.d	
+	picture = GFX_report_event_eng_for_empire
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = south.1.a
+		ai_chance = { factor = 100 }
+		country_event = { id = south.2 days = 0 random_days = 0 }
+	}
+}
+
+country_event = {
+	id = south.2
+	title = south.2.t
+	desc = south.2.d	
+	picture = GFX_report_event_saf_anglo_african_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = south.2.a
+		ai_chance = { factor = 100 }
+		country_event = { id = south.3 days = 0 random_days = 0 }
+	}
+}
+
+country_event = {
+	id = south.3
+	title = south.3.t
+	desc = south.3.d	
+	picture = GFX_report_event_saf_devastation
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = south_africa.3.a
+		ai_chance = { factor = 100 }
+	}
+}

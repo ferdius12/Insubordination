@@ -1,0 +1,75 @@
+focus_tree = {
+	id = south_africa
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SAF
+		}
+	}
+	default = no
+	focus = {
+		id = saf_hell_in_earth
+		text = saf_hell_in_earth
+		icon = GFX_goal_saf_hell_in_earth
+		cost = 2,00
+		x = 5
+		y = 0
+			completion_reward = {
+					country_event = {
+							id = south.1
+							days = 0
+							random_days = 0
+						}
+				}
+
+	}
+	focus = {
+		id = saf_innocent_soul
+		text = saf_innocent_soul
+		icon = GFX_goal_saf_innocent_soul
+		cost = 1,00
+		prerequisite = {
+			focus = saf_hell_in_earth
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = saf_duke
+		text = saf_duke
+		icon = GFX_goal_saf_duke
+		cost = 1,00
+		prerequisite = {
+			focus = saf_innocent_soul
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = saf_devil
+		text = saf_devil
+		icon = GFX_goal_saf_devil
+		cost = 1,00
+		prerequisite = {
+			focus = saf_duke
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = saf_royalist
+		text = saf_royalist
+		icon = GFX_goal_saf_royalist
+		cost = 1,00
+		prerequisite = {
+			focus = saf_devil
+		}
+		x = 5
+		y = 4
+
+	}
+}

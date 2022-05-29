@@ -1,0 +1,18 @@
+characters = {
+
+    TIB_dalai_lama_xiii = {
+		name = TIB_dalai_lama_xiii
+		portraits = {
+			civilian = {
+				large="gfx/leaders/TIB/portrait_Tibet_Dalai_Lama_XIII.dds"
+			}
+		}
+		country_leader = {
+			ideology = theocraty_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

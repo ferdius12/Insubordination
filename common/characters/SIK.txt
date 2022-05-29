@@ -1,0 +1,23 @@
+characters = {
+	SIK_yang_zengxin = {
+		name = SIK_yang_zengxin
+		portraits = {
+			civilian = {
+				large="gfx/leaders/SIK/portrait_Sinkiang_Yang_Zengxin.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderatism_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = despotism_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	}

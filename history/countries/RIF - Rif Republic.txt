@@ -1,0 +1,45 @@
+capital = 290
+
+oob = "RIF_1926"
+
+set_research_slots = 1
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+}
+
+recruit_character = rif_leader_crim 
+recruit_character = RIF_military_junta
+recruit_character = RIF_work_tips
+recruit_character = RIF_mohammed
+
+set_convoys = 10
+
+add_ideas = {
+RIF_quarrels_of_leaders
+RIF_influx_of_immigrants 
+RIF_to_end 
+}
+
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1923.5.26"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	communism = 0
+    syndicalist = 0
+    radical_socialist = 1
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 78
+    authoritarian_democrat = 0
+    paternal_autocrat = 21
+    fascism = 0
+}
+

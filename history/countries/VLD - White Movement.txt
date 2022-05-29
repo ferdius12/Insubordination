@@ -1,0 +1,33 @@
+capital = 408
+
+OOB = "VLD_1936"
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+    syndicalist = 0
+    radical_socialist = 0
+    social_democrat = 13
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 21
+    authoritarian_democrat = 0
+    paternal_autocrat = 57
+    fascism = 9
+}
+
+recruit_character = VLD_aleksandr_kolchak
+recruit_character = VLD_konstantin_rodzaevsky
+recruit_character = VLD_alexandr_kerensky
+recruit_character = VLD_anton_denikin
+recruit_character = VLD_fyodor_abramov
+recruit_character = VLD_grigory_semyonov
+recruit_character = VLD_sergei_markov
+recruit_character = VLD_sergey_baranovskiy 
+	

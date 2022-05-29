@@ -1,0 +1,16 @@
+characters = {
+
+BLD_scukhov = {
+		name = BLD_scukhov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BLD/portrait_Belgorod_Vladimir_Shuchov.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = 1050
+		}
+	}

@@ -1,0 +1,58 @@
+capital = 113
+
+oob = "ITA_1926"
+set_naval_oob = "ITA_1926_naval"
+
+set_research_slots = 4
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	basic_train = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_military_police = 1
+    early_ship_hull_light = 1
+    basic_depth_charges	 = 1
+	sonar = 1
+	early_ship_hull_cruiser = 1
+	basic_battery = 1
+	damage_control_1 = 1
+	mtg_transport = 1
+}
+
+set_convoys = 150
+
+recruit_character = ITA_benito_mussolini
+recruit_character = ITA_emmanuel_iii
+
+add_ideas = {
+
+}
+
+set_autonomy = {
+		target = ANT
+		autonomous_state = autonomy_reichskommissariat
+}
+
+give_guarantee = BOC
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1926.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+    syndicalist = 0
+    radical_socialist = 11
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 21
+    authoritarian_democrat = 0
+    paternal_autocrat = 12
+    fascism = 56
+}

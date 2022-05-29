@@ -1,0 +1,121 @@
+characters = {
+
+DNI_sergey_stupack = { 
+name = DNI_sergey_stupack
+		portraits = {
+			civilian = {
+				large="gfx/leaders/DNI/Portrait_Dnipro_Sergiy_Stupak.dds"
+			}
+		}
+		country_leader = {
+			ideology=despotism
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		}
+		
+		DNI_scattered_leadership = { 
+        name = DNI_scattered_leadership
+		portraits = {
+			civilian = {
+				large="gfx/leaders/DNI/Portrait_Dnipro_Scattered_Leadership.dds"
+			}
+		}
+		country_leader = {
+			ideology=fascism_ideology
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology=leninism
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology=conservatism
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		}
+		
+		DNI_danil_karpenko = {
+	name = DNI_danil_karpenko
+	portraits = {
+	   army = {
+				large = "gfx/leaders/DNI/portrait_Dnipro_Danil_Karpenko.dds"
+				small = "gfx/interface/ideas/dnipropetrovsk_advisor/idea_zaz_danil_karpenko.dds"
+			}
+		}
+		
+		field_marshal = {
+			traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		}
+		DNI_konstantin_shcheglov = {
+	name = DNI_konstantin_shcheglov 
+	portraits = {
+	   army = {
+				large = "gfx/leaders/DNI/portrait_Dnipro_Konstantin_Shcheglov.dds"
+				small = "gfx/interface/ideas/dnipropetrovsk_advisor/idea_dni_konstantin_sheglov.dds"
+			}
+		}
+		
+		corps_commander = {
+			traits = { inflexible_strategist }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		}
+		
+		DNI_dmitriy_drobaha = {
+	name = DNI_dmitriy_drobaha
+	portraits = {
+	   army = {
+				large = "gfx/leaders/DNI/portrait_Dnipro_Dmitriy_Drobaha.dds"
+				small = "gfx/interface/ideas/dnipropetrovsk_advisor/idea_dni_dmitriy_drobaha.dds"
+			}
+		}
+		
+		corps_commander = {
+			traits = { career_officer bearer_of_artillery }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		}
+		
+		DNI_vyacheslav_kozyryatsky = {
+	name = DNI_vyacheslav_kozyryatsky
+	portraits = {
+	   army = {
+				large = "gfx/leaders/DNI/portrait_Dnipro_Vyacheslav_Kozyryatsky.dds"
+				small = "gfx/interface/ideas/dnipropetrovsk_advisor/idea_dni_vyacheslav_koziryatskiy.dds"
+			}
+		}
+		
+		corps_commander = {
+			traits = { inspirational_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		}
+		}

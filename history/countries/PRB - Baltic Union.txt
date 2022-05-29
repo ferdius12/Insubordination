@@ -1,0 +1,44 @@
+capital = 808
+
+OOB = "PRB_1926"
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	early_fighter = 1
+}
+set_research_slots = 2
+
+
+recruit_character = PRB_daniel_belousov
+recruit_character = PRB_johan_pitka
+recruit_character = PRB_fricis_menders
+recruit_character = PRB_jaan_anvelt
+
+add_ideas = {
+        PRB_baltic_stability_3
+		PRB_tallin_and_riga
+   }
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+    syndicalist = 11
+    radical_socialist = 0
+    social_democrat = 14
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 15
+    authoritarian_democrat = 39
+    paternal_autocrat = 0
+    fascism = 21
+}
+
+set_convoys = 10

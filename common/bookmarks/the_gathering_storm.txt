@@ -1,0 +1,103 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1926.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "UKR"
+		default = yes
+		
+		"UKR"={
+			history = "UKR_GATHERING_STORM_DESC"
+			ideology = democratic
+
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"GER"={
+			history = "LVO_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"PON"={
+			history = "PON_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"VLD"={
+			history = "VLD_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"GEK"={
+			history = "COG_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				GEK_german_ambition
+				GEK_fallen_legacy 
+				cameroon_isolation
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"IRE"={
+			history = "IRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"ENG"={
+			history = "BRI_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			
+			}
+			focuses = {
+				
+			}
+		}
+	
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+	}
+}

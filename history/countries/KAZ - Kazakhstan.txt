@@ -1,0 +1,53 @@
+﻿capital = 586 
+
+oob = "KAZ_1926"
+
+set_research_slots = 2
+
+set_technology = {
+	infantry_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	gwtank_chassis = 1
+	basic_light_tank_chassis = 1
+}
+
+recruit_character = KAZ_filip_goloshekin
+
+set_cosmetic_tag = SOV_TAG
+
+set_politics = {
+	ruling_party = radical_socialist
+	last_election = "1926.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+    syndicalist = 0
+    radical_socialist = 100
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    paternal_autocrat = 0
+    fascism = 0
+}
+
+
+
+
+
+

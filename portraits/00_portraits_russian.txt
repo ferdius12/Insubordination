@@ -1,0 +1,76 @@
+### Russian generic portrait set
+
+RUS = {
+	army = {
+		male = {
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_1.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_2.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_3.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_4.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_5.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_6.dds"
+		}
+	}
+	
+	political = { 
+	    male = {
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_1.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_2.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_3.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_4.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_5.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_6.dds"
+		}
+
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Portrait_Russia_Generic_navy_1.dds"
+			"gfx/leaders/Generic/Portrait_Russia_Generic_navy_2.dds"
+			"gfx/leaders/Generic/Portrait_Russia_Generic_navy_3.dds"
+		}
+	}
+}
+
+KUS = {
+	army = {
+		male = {
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_1.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_2.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_3.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_4.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_5.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_6.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Portrait_Russia_Generic_navy_1.dds"
+			"gfx/leaders/Generic/Portrait_Russia_Generic_navy_2.dds"
+			"gfx/leaders/Generic/Portrait_Russia_Generic_navy_3.dds"
+		}
+	}
+}
+
+PON = {
+	army = {
+		male = {
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_1.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_2.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_3.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_4.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_5.dds"
+			"gfx/leaders/RussiaGeneric/Portrait_Russia_Generic_land_6.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/Generic/Portrait_Russia_Generic_navy_1.dds"
+			"gfx/leaders/Generic/Portrait_Russia_Generic_navy_2.dds"
+			"gfx/leaders/Generic/Portrait_Russia_Generic_navy_3.dds"
+		}
+	}
+}
+
+

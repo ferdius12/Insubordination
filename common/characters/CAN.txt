@@ -1,0 +1,47 @@
+characters={
+
+    CAN_henry_maitland_wilson = {
+		name = CAN_henry_maitland_wilson
+		portraits = {
+			civilian = {
+				large="gfx/leaders/CAN/portrait_Canada_Henry_Maitland_Wilson.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	CAN_philippe_orlean = {
+		name = CAN_philippe_orlean
+		portraits = {
+			civilian = {
+				large="gfx/leaders/CAN/portrait_Canada_Philippe_Orlean.dds"
+			}
+		}
+		country_leader = {
+			ideology = falangism_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	CAN_mackenzie_king = {
+		name = CAN_mackenzie_king
+		portraits = {
+			civilian = {
+				large="gfx/leaders/CAN/portrait_Canada_Mackenzie_King.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	}

@@ -1,0 +1,18 @@
+characters = { 
+
+		AUS_michael_hainisch = {
+		name = AUS_michael_hainisch
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AUS/portrait_Austria_Michael_Hainisch.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservative_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+	
+	}

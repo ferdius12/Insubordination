@@ -1,0 +1,45 @@
+characters = { 
+
+		FIN_otto_kuusinen = {
+		name = FIN_otto_kuusinen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/portrait_Finland_Otto_Kuusinen.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = syndicalism_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = marxism_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}  
+	
+	    FIN_carl_mannerheim = {
+		name = FIN_carl_mannerheim
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FIN/portrait_Finland_Carl_Mannerheim.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	} 
+	
+	}

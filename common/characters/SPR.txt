@@ -1,0 +1,33 @@
+characters={
+	
+	SPR_alfonso = {
+		name = SPR_alfonso
+		portraits = {
+			civilian = {
+				large="gfx/leaders/SPR/portrait_Spain_Alfonso_XIII.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1965.1.1.1"
+			traits = { firm_hand }
+			id = -1
+		}
+	}
+	
+	SPR_nikolay_II = {
+		name = SPR_nikolay_II
+		portraits = {
+			civilian = {
+				large="gfx/leaders/SPR/portrait_Spain_Nikolay_II.dds"
+			}
+		}
+		country_leader = {
+			ideology = semi_constitutional_monarchy_subtype
+			expire = "1965.1.1.1"
+			traits = { deep_wound }
+			id = -1
+		}
+	}
+	
+	}

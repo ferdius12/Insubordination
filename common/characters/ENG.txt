@@ -1,0 +1,18 @@
+characters={
+	
+	ENG_stanley_baldwin = {
+		name = ENG_stanley_baldwin
+		portraits = {
+			civilian = {
+				large="gfx/leaders/ENG/portrait_Britain_Stanley_Baldwin.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	}

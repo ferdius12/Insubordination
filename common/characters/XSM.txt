@@ -1,0 +1,32 @@
+characters = {
+
+    XSM_general_council = {
+		name = XSM_general_council
+		portraits = {
+			civilian = {
+				large="gfx/leaders/XSM/portrait_Xibei_Sai_Ma_General_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = oligarchism_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = national_stratocratic_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	}

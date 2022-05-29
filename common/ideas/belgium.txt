@@ -1,0 +1,94 @@
+ideas = {
+
+	country = { 
+	
+		   BEL_fighting_for_freedom = {
+				
+			allowed = {
+				original_tag = BEL
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = BEL_fighting_for_freedom
+				
+			removal_cost = -1
+				
+			modifier = {
+			    war_support_factor = 0.15
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.10
+				surrender_limit = 0.15
+				max_dig = 8
+			}
+		}
+		
+		    BEL_french_belgium_attachment = {
+				
+			allowed = {
+				original_tag = BEL
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = BEL_french_belgium_attachment
+				
+			removal_cost = -1
+				
+			modifier = {
+			    stability_factor = 0.05
+				political_power_gain = 0.1
+				weekly_manpower = 450
+			}
+		}
+		
+		    BEL_industrial_leap = {
+				
+			allowed = {
+				original_tag = BEL
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = BEL_industrial_leap
+				
+			removal_cost = -1
+				
+			modifier = {
+			    consumer_goods_factor = -0.1
+				industrial_capacity_factory = 0.15
+				production_factory_start_efficiency_factor = 0.15
+				production_factory_max_efficiency_factor = 0.15
+			}
+		}
+		
+		    BEL_vallonian_nationalism = {
+				
+			allowed = {
+				original_tag = BEL
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = BEL_vallonian_nationalism
+				
+			removal_cost = -1
+				
+			modifier = {
+			    stability_factor = -0.175
+				war_support_factor = -0.175
+				neutrality_drift = -0.02
+				surrender_limit = -0.15
+			}
+		}
+		
+	}
+	}

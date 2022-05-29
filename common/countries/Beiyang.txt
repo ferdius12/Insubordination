@@ -1,0 +1,5 @@
+
+graphical_culture = GHX
+graphical_culture_2d = asian_2d	 
+
+color = { 83  107  76 }

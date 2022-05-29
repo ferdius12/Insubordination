@@ -1,0 +1,34 @@
+﻿capital = 615
+
+oob = "SHX_1926"
+
+set_stability = 0.4
+set_war_support = 0.5
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+recruit_character = SHX_yan_xishan
+
+add_ideas = {
+}
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1926.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+    syndicalist = 0
+    radical_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 25
+    authoritarian_democrat = 0
+    paternal_autocrat = 75
+    fascism = 0
+}

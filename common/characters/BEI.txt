@@ -1,0 +1,33 @@
+characters = { 
+
+		BEI_wu_peifu = {
+		name = BEI_wu_peifu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BEI/portrait_Beiyang_Wu_Peifu.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	    BEI_sun_chuanfang = {
+		name = BEI_sun_chuanfang
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BEI/portrait_Beiyang_Sun_Chuanfang.dds"
+			}
+		}
+		country_leader = {
+			ideology = oligarchism_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

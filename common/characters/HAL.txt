@@ -1,0 +1,19 @@
+characters = { 
+
+        HAL_united_administration  = {
+		name = HAL_united_administration
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HAL/portrait_HAL_United_Administration.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government
+			expire = "1953.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+
+	
+	}

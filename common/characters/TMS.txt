@@ -1,0 +1,33 @@
+characters = {
+
+    TMS_michail_dashcevich = {
+		name = TMS_michail_dashcevich
+		portraits = {
+			civilian = {
+				large="gfx/leaders/TMS/portrait_Turkmenistan_Michail_Dashcevich.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	TMS_fyodor_funticov = {
+		name = TMS_fyodor_funticov
+		portraits = {
+			civilian = {
+				large="gfx/leaders/TMS/portrait_Zagluchka_Fyodor_Funticow.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+	}

@@ -1,0 +1,18 @@
+characters={
+	
+	SWE_ernst_trygger = {
+		name = SWE_ernst_trygger
+		portraits = {
+			civilian = {
+				large="gfx/leaders/SWE/portrait_Sweden_Ernst_Trygger.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	}

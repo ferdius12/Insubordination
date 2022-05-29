@@ -1,0 +1,18 @@
+characters={
+	
+	LUX_emiles_reiter = {
+		name = LUX_emiles_reiter
+		portraits = {
+			civilian = {
+				large="gfx/leaders/LUX/portrait_Luxembourg_Emiles_Reiter.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democratic_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	}

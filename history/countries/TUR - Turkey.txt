@@ -1,0 +1,59 @@
+capital = 49
+
+OOB = "TUR_1926"
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1926.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+    syndicalist = 8
+    radical_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 17
+    social_conservative = 0
+    authoritarian_democrat = 39
+    paternal_autocrat = 21
+    fascism = 15
+}
+
+recruit_character = TUR
+
+
+add_ideas = {
+
+}
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	marines = 1
+	basic_train = 1
+	bicycle_infantry = 1
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	early_ship_hull_cruiser = 1
+	basic_ship_hull_cruiser = 1
+	basic_battery = 1
+	basic_torpedo = 1
+	basic_depth_charges = 1
+	basic_secondary_battery = 1
+	basic_cruiser_armor_scheme = 1
+	coastal_defense_ships = 1
+	mtg_transport = 1
+}

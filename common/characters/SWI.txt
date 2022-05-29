@@ -1,0 +1,33 @@
+characters = {
+
+	SWI_federal_council = {
+		name = SWI_federal_council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SWI_federal_council
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			expire = "1965.1.1.1"
+			id=-1
+		}
+		
+		country_leader = {
+			ideology = social_liberal_subtype
+			expire = "1965.1.1.1"
+			id=-1
+		}
+		
+		country_leader = {
+			ideology = market_liberal_subtype
+			expire = "1965.1.1.1"
+			id=-1
+		}
+		
+		country_leader = {
+			ideology = christian_democratic_subtype
+			expire = "1965.1.1.1"
+			id=-1
+		}
+	}

@@ -1,0 +1,17 @@
+characters={
+
+    HUN_karl_habsburg = {
+		name = HUN_karl_habsburg
+		portraits = {
+			civilian = {
+				large="gfx/leaders/HUN/portrait_Hungary_Karl_I.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	}

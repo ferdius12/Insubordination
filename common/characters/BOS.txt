@@ -1,0 +1,26 @@
+characters = { 
+
+		BOS_henri_gouraud = {
+		name = BOS_henri_gouraud
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BOS/portrait_Bosphorus_Henri_Gouraud.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderatism_subtype
+			expire = "1953.3.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = despotism_subtype
+			expire = "1953.3.1.1"
+			traits = { governor }
+			id = -1
+		}
+	
+	}
+	
+	}

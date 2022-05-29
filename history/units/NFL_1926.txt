@@ -1,0 +1,64 @@
+division_template = {
+	name = "Newfoundland Infantry Brigade"		
+	division_names_group = CAN_INF_01		
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Newfoundland Cavarly Brigade"		
+	division_names_group = CAN_CAV_01		
+	regiments = {
+		cavarly = { x = 0 y = 0 }
+		cavarly = { x = 0 y = 1 }
+		cavarly = { x = 0 y = 2 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "5st Newfoundland Brigade"
+		location = 12680
+		division_template = "Newfoundland Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	
+	division = {
+		name = "1st New Scotland Brigade"
+		location = 7361
+		division_template = "Newfoundland Infantry Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	
+	division = {
+		name = "4st Newfoundland Cavarly Brigade"
+		location = 12698
+		division_template = "Newfoundland Cavarly Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	
+	division = {
+		name = "2st Newfoundland Cavarly Brigade"
+		location = 12503
+		division_template = "Newfoundland Cavarly Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	
+	division = {
+		name = "3st Newfoundland Cavarly Brigade"
+		location = 4430
+		division_template = "Newfoundland Cavarly Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	
+}
