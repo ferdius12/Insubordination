@@ -73,6 +73,17 @@ semi_autonomous_state = {
 	state_production_speed_buildings_factor = -0.25
 }
 
+belarusian_republic_autonomy = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_belarusian_republic_autonomy
+	
+	local_building_slots_factor = -0.25
+	state_resources_factor = -0.25
+	state_production_speed_buildings_factor = -0.25
+        recruitable_population_factor = -0.50
+}
+
 kurdish_agitation = {
 	enable = { always = yes }
 

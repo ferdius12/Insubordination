@@ -25,4 +25,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/state_modifiers/syndicalist_control.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_modifiers_belarusian_republic_autonomy"
+		texturefile = "gfx/interface/state_modifiers/belarusian_republic_autonomy.dds"
+	}
+	
 }

@@ -76,3 +76,10 @@ set_technology = {
 	coastal_defense_ships = 1
 	mtg_transport = 1
 }
+
+207 = {
+	add_dynamic_modifier = { modifier = belarusian_republic_autonomy }
+		}
+241 = {
+	add_dynamic_modifier = { modifier = belarusian_republic_autonomy }
+		}
