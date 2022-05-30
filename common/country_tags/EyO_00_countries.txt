@@ -26,4 +26,4 @@ YSV = "countries/Ysturt Territory.txt"
 TAS = "countries/Tashkent.txt"
 AFY = "countries/Afyon.txt"
 APW = "countries/Apgabals Wilejka.txt"
-
+VLS = "countries/Volchya Sotnya.txt"

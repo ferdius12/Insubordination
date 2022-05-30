@@ -6,14 +6,14 @@ state={
 		6503 6527 9459 9474 11447 
 	}
     history = {
-		owner = PON
+		owner = VLS
 		buildings = {
 			infrastructure = 2	
 		}
         victory_points = {
 			9459 5 
 		}
-		add_core_of = PON
+		add_core_of = SOV
 	}
 	manpower=123003
 	buildings_max_level_factor=1.000

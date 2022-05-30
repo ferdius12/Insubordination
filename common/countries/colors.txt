@@ -903,4 +903,7 @@ APW = {
 	color = rgb { 141 90 87 }
 	color_ui = rgb { 141 90 87 }
 }
-
+VLS = {
+	color = rgb { 10, 9, 9 }
+	color_ui = rgb { 10, 9, 9 }
+}

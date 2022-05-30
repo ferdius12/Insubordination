@@ -1266,3 +1266,10 @@
  BLR_fascism_DEF:0 "Минское правительство освобождения" 
  BLR_fascism_ADJ:0 "Беларуск."
 
+#VOLCHYASOTNIA#
+ VLS:0 "тест"
+ VLS_DEF:0 "тест"
+ VLS_ADJ:0 "тест"
+ VLS_fascism:0 "Волчья Сотня" 
+ VLS_fascism_DEF:0 "Волчья Сотня" 
+ VLS_fascism_ADJ:0 "Волч. Сотня"

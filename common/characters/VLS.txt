@@ -1,0 +1,19 @@
+characters={
+
+    VLS_andrey_shkyro = {
+		name = VLS_andrey_shkyro
+		portraits = {
+			civilian = {
+				large="gfx/leaders/VLS/portrait_Volchyasotnya_Andrey_Shkyro.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_stratocratic_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+	}
+	
+	}
