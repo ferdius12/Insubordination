@@ -1,4 +1,4 @@
-characters={
+characters = {
 
     ALB_king_zog = {
 		name = ALB_king_zog

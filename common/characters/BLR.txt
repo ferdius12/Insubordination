@@ -1,0 +1,83 @@
+characters = {
+
+    BLR_central_rada = {
+		name = BLR_central_rada
+		portraits = {
+			civilian = {
+				large="gfx/leaders/BLR/portrait_Belarus_Central_Rada.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		}
+		
+	BLR_yazep_drozdovich = {
+		name = BLR_yazep_drozdovich
+		portraits = {
+			civilian = {
+				large="gfx/leaders/BLR/portrait_Belarus_Yazep_Drozdovich.dds"
+			}
+		}
+		country_leader = {
+			ideology = rodnover_syndicalism_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		}
+		
+	BLR_vladimir_ksenevich = {
+		name = BLR_vladimir_ksenevich
+		portraits = {
+			civilian = {
+				large="gfx/leaders/BLR/portrait_Belarus_Vladimir_Ksenevich.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democratic_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		}
+		
+	BLR_vasyl_medvedev = {
+		name = BLR_vasyl_medvedev
+		portraits = {
+			civilian = {
+				large="gfx/leaders/BLR/portrait_Belarus_Vasyl_Medvedev.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		}
+		
+	BLR_bronislav_tarashkevich = {
+		name = BLR_bronislav_tarashkevich
+		portraits = {
+			civilian = {
+				large="gfx/leaders/BLR/portrait_Belarus_Bronislav_Tarashkevich.dds"
+			}
+		}
+		country_leader = {
+			ideology = radical_socialist_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		}
+		
+		}

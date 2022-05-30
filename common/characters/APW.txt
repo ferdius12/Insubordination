@@ -1,0 +1,19 @@
+characters = {
+
+    APW_iosif_lesick = {
+		name = APW_iosif_lesick
+		portraits = {
+			civilian = {
+				large="gfx/leaders/APW/portrait_Wilejka_Iosif_Lesick.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		}
+		
+		}

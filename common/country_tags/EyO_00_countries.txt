@@ -25,4 +25,5 @@ INF = "countries/Indochinese Union.txt"
 YSV = "countries/Ysturt Territory.txt"
 TAS = "countries/Tashkent.txt"
 AFY = "countries/Afyon.txt"
+APW = "countries/Apgabals Wilejka.txt"
 

@@ -5,13 +5,13 @@ set_war_support = 0.6
 
 OOB = "GEK_1936"
 
-recruit_character = GEK_karl_ebermayer
+recruit_character = GEK_paul_vorbeck
 recruit_character = GEK_ruben_um_nyobe
 recruit_character = GEK_siegfried_muller
 
 set_politics = {
 	ruling_party = authoritarian_democrat
-	last_election = "1936.1.1"
+	last_election = "1926.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }

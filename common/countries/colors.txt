@@ -899,4 +899,8 @@ AFY = {
 	color = rgb { 224 43 43 }
 	color_ui = rgb { 224 43 43 }
 }
+APW = {
+	color = rgb { 141 90 87 }
+	color_ui = rgb { 141 90 87 }
+}
 

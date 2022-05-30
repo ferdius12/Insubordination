@@ -1,0 +1,40 @@
+capital = 96
+
+oob = "APW_1926"
+
+set_research_slots = 2
+set_stability = 0.65
+set_war_support = 0.3
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	early_fighter = 1
+	basic_train = 1
+}
+
+recruit_character = APW_iosif_lesick
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1924.5.18"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 0
+	syndicalist = 5
+	radical_socialist = 11
+	social_democrat = 38
+	social_liberal = 0
+	market_liberal = 13
+	social_conservative = 11
+	authoritarian_democrat = 15
+	paternal_autocrat = 0
+	fascism = 7
+}
+
+add_ideas = {
+}
