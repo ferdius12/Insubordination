@@ -13,10 +13,62 @@ ideas = {
 			removal_cost = -1
 				
 			modifier = {
-			    fascism_drift = 0.02
-			
-			}
-		    }
+			  production_speed_arms_factory_factor = -0.1
+			  production_speed_industrial_complex_factor = -0.1
+			  production_speed_dockyard_factor = -0.1
+			  production_speed_infrastructure_factor = -0.1
+			  production_speed_rail_way_factor = -0.1
 			}
 			}
 	
+	        BRA_migration = {
+				
+			 allowed = {
+				original_tag = BRA
+			}
+
+			picture = generic_exploit_mines
+				
+			removal_cost = -1
+				
+			modifier = {
+			weekly_manpower = -150
+			conscription_factor = -0.1
+			industrial_capacity_factory = -0.10
+			
+			}
+			}
+	
+	        BRA_ineffective_government = {
+				
+			 allowed = {
+				original_tag = BRA
+			}
+
+			picture = generic_exploit_mines
+				
+			removal_cost = -1
+				
+			modifier = {
+			political_power_gain = -0.3
+			stability_factor = -0.10
+			war_support_factor = -0.05
+			}
+			}
+			
+			BRA_widespread_corruption_in_the_army = {
+				
+			 allowed = {
+				original_tag = BRA
+			}
+
+			picture = generic_exploit_mines
+				
+			removal_cost = -1
+				
+			modifier = {
+			army_attack_factor = -0.1
+		    army_defence_factor = -0.1
+			mobilization_speed = -0.1
+			}
+			}

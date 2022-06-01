@@ -90,6 +90,9 @@ recruit_character = BRA_arlindo_veiga_dos_santos
 
 add_ideas = {
 BRA_fabric
+BRA_migration
+BRA_ineffective_government
+BRA_widespread_corruption_in_the_army
 }
 
 set_stability = 0.15

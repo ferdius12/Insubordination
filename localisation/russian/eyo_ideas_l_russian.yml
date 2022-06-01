@@ -122,5 +122,11 @@
  PON_power_in_cavarly_desc:0 ""
  PON_white_movement_volunter:0 "Добровольцы из белого движения"
  PON_white_movement_volunter_desc:0 ""
-
-
+ BRA_fabric:0 "Неэфективная экономика"
+ BRA_fabric_desc:0 ""
+ BRA_migration:0 "Миграция"
+ BRA_migration_desc:0 ""
+ BRA_ineffective_government:0 "Неэфективная правительство"
+ BRA_ineffective_government_desc:0 ""
+ BRA_widespread_corruption_in_the_army:0 "Повсеместная коррупция в армии"
+ BRA_widespread_corruption_in_the_army_desc:0 ""
