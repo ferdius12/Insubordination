@@ -56,7 +56,7 @@ ideas = {
 			}
 			}
 			
-			BRA_widespread_corruption_in_the_army = {
+			BRA_moving_of_tenensists = {
 				
 			 allowed = {
 				original_tag = BRA

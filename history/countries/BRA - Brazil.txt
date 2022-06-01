@@ -92,7 +92,7 @@ add_ideas = {
 BRA_fabric
 BRA_migration
 BRA_ineffective_government
-BRA_widespread_corruption_in_the_army
+BRA_moving_of_tenensists
 }
 
 set_stability = 0.15
@@ -100,6 +100,7 @@ set_stability = 0.15
 set_war_support = 0.4
 
 recruit_character = BRA_artur_bernardis
+recruit_character = BRA_isabel_de_bragansa
 
 set_politics = {
 	ruling_party = social_democrat
