@@ -364,4 +364,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_pon_white_movement_volunter.dds"
 	}
 	
+    #BRAZIL#
+	
+    spriteType = {
+		name = "GFX_idea_generic_exploit_mines"
+		texturefile = "gfx/interface/ideas/idea_generic_exploit_mines.dds"
+	}
+	
 }

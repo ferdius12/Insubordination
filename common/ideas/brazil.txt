@@ -1,0 +1,22 @@
+ideas = {
+
+	country = { 
+	
+            BRA_fabric = {
+				
+			allowed = {
+				original_tag = BRA
+			}
+
+			picture = generic_exploit_mines
+				
+			removal_cost = -1
+				
+			modifier = {
+			    fascism_drift = 0.02
+			
+			}
+		    }
+			}
+			}
+	
