@@ -93,6 +93,7 @@ BRA_fabric
 BRA_migration
 BRA_ineffective_government
 BRA_moving_of_tenensists
+BRA_liga_nacij
 }
 
 set_stability = 0.15

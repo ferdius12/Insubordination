@@ -72,3 +72,18 @@ ideas = {
 			mobilization_speed = -0.1
 			}
 			}
+			
+			BRA_liga_nacij = {
+			
+			 allowed = {
+				original_tag = BRA
+			}
+
+			picture = generic_exploit_mines
+				
+			removal_cost = -1
+				
+			modifier = {
+			stability_factor = +0.05
+			}
+			}
