@@ -16,6 +16,12 @@ PON_power_in_cavarly
 PON_white_movement_volunter
 }
 
+set_autonomy = {
+		target = VLS
+		autonomous_state = autonomy_bandit_fiefdom
+		freedom_level = 0.00
+}
+
 recruit_character = PON_yaroslav_the_great
 recruit_character = PON_power_vacuum1
 recruit_character = PON_power_vacuum2

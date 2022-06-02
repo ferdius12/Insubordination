@@ -1,0 +1,36 @@
+﻿capital = 327
+
+oob = "PHI_1926"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+set_convoys = 45
+
+recruit_character = PHI_leonard_wood
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1926.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+    syndicalist = 0
+    radical_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 100
+    paternal_autocrat = 0
+    fascism = 0
+}

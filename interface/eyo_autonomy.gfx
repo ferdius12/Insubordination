@@ -5,4 +5,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/autonomy/soviet_republic_icon.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_autonomy_bandit_fiefdom_icon"
+		texturefile = "gfx/interface/autonomy/bandit_fiefdom_icon.dds"
+	}
+	
 }

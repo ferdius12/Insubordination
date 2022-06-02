@@ -14,23 +14,24 @@ ideas = {
 			picture = NGA_GEK_skirmishe_border
 				
 			removal_cost = -1
-				
-			modifier = {
-				stability_factor = -0.15
-				war_support_weekly_factor = 0.002
-				targeted_modifier = {
+			
+            targeted_modifier = {
+			tag = NGA
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1			
+				}
+			targeted_modifier = {
 			tag = GEK
 			attack_bonus_against = 0.1
 			defense_bonus_against = 0.1
 		}
-		    targeted_modifier = {
-			tag = NGA
-			attack_bonus_against = 0.1
-			defense_bonus_against = 0.1
+			modifier = {
+			stability_factor = -0.15
+			war_support_weekly_factor = 0.002
 		}
 				
 			}
-		}
+		
 		
 		NGA_colonial_garrison = {
 				
