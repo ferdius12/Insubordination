@@ -68,27 +68,6 @@ ideas = {
 			}
 		}  
 		
-		GEK_fascist_activities = {
-				
-			allowed = {
-				original_tag = GEK
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = GEK_fascist_activities
-				
-			removal_cost = -1
-				
-			modifier = {
-					drift_defence_factor = -0.10
-					fascism_drift = 0.02
-					consumer_goods_factor = -0.05
-			}
-		}
-		
 		}
 		
 		economy = {

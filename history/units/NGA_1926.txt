@@ -1,0 +1,72 @@
+division_template = {
+	name = "Colonial Brigade"		
+	division_names_group = ENG_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Cossack Brigade" 	
+	division_names_group = ENG_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+			recon = { x = 0 y = 0 }     
+	}
+}
+
+units = { 
+
+    division= {	
+		name = "1-ya Colonialnaya Brygada"
+		location = 10831
+		division_template = "Colonial Brigade" 		
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+	
+	division= {	
+		name = "2-ya Colonialnaya Brygada"
+		location = 4889
+		division_template = "Colonial Brigade" 		
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+	
+	division= {	
+		name = "3-ya Colonialnaya Brygada"
+		location = 2050
+		division_template = "Colonial Brigade" 		
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+	
+	division= {	
+		name = "1-ya Cozachiya Brygada"
+		location = 1932
+		division_template = "Cossack Brigade" 		
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+	}
+	
+	division= {	
+		name = "2-ya Cozachiya Brygada"
+		location = 4972
+		division_template = "Cossack Brigade" 		
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+	}
+	
+	}
+	
+	

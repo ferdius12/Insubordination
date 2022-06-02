@@ -27,6 +27,8 @@ set_technology = {
 
 recruit_character = NZL_charles_fergusson
 
+set_cosmetic_tag = ENG_COS
+
 add_to_tech_sharing_group = commonwealth_research
 
 set_politics = {

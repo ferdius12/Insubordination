@@ -1,0 +1,50 @@
+﻿capital = 558
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+	tech_support = 1		
+	tech_recon = 1
+	gw_artillery = 1
+	mass_assault = 1
+}
+
+add_ideas = {
+NGA_GEK_skirmishe_border
+NGA_colonial_garrison 
+}
+
+OOB = "NGA_1926"
+
+set_convoys = 25
+
+recruit_character = NGA_pyotr_wrangel
+
+set_cosmetic_tag = ENG_COS
+
+add_opinion_modifier = { 
+			target = GEK
+			modifier = AFR_sworn_enemies
+		}
+
+add_to_tech_sharing_group = commonwealth_research
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1926.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+    syndicalist = 0
+    radical_socialist = 0
+    social_democrat = 5
+    social_liberal = 0
+    market_liberal = 11
+    social_conservative = 0
+    authoritarian_democrat = 21
+    paternal_autocrat = 63
+    fascism = 0
+}

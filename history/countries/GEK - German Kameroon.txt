@@ -3,11 +3,25 @@ capital = 773
 set_stability = 0.7
 set_war_support = 0.6
 
-OOB = "GEK_1936"
+OOB = "GEK_1926"
+
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+	tech_support = 1		
+	tech_recon = 1
+	gw_artillery = 1
+	trench_warfare = 1
+}
 
 recruit_character = GEK_paul_vorbeck
 recruit_character = GEK_ruben_um_nyobe
 recruit_character = GEK_siegfried_muller
+
+add_opinion_modifier = { 
+			target = NGA
+			modifier = AFR_sworn_enemies
+		}
 
 set_politics = {
 	ruling_party = authoritarian_democrat
@@ -31,9 +45,9 @@ set_popularities = {
 
 add_ideas = {
 			GEK_african_army 
+NGA_GEK_skirmishe_border
 			GEK_german_ambition
             GEK_fallen_legacy
-            GEK_fascist_activities
             cameroon_isolation
 		}
 

@@ -52,6 +52,30 @@ autonomous_state = {
 	state_production_speed_buildings_factor = -0.25
 }
 
+british_control = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_british_control
+}
+
+devil_control = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_devil_control
+}
+
+hertzog_control = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_hertzog_control
+}
+
+syndicalist_control = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_syndicalist_control
+}
+
 ulster_opposition = {
 	enable = { always = yes }
 

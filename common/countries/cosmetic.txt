@@ -820,5 +820,9 @@ SAF_ANARCHY = {
     color =  rgb { 0  0  0 }
 	color_ui = rgb { 0  0  0 }
 }
+ENG_COS = {
+    color =  rgb { 201 56 93 }
+	color_ui = rgb { 201 56 93 }
+}
 
 

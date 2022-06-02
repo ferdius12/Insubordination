@@ -369,6 +369,18 @@ spriteTypes = {
     spriteType = {
 		name = "GFX_idea_generic_exploit_mines"
 		texturefile = "gfx/interface/ideas/idea_generic_exploit_mines.dds"
-	}	
+	}
+
+    #Nigeria#
+   	
+	spriteType = {
+		name = "GFX_idea_NGA_colonial_garrison"
+		texturefile = "gfx/interface/ideas/idea_nga_colonial_garrison.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NGA_GEK_skirmishe_border"
+		texturefile = "gfx/interface/ideas/idea_gek_nga_skirmishe_border.dds"
+	}
 	
 }

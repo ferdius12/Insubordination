@@ -1,31 +1,29 @@
 
 state={
-	id=275
-	name="STATE_275"
-	resources={
-		steel=5.000
-		chromium=53.000
+	id=837
+	name="STATE_837"
+	provinces={
+		1468 1494 4556 7900 8178 
 	}
 
-	history={
+		history={
 		owner = SAF
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
 			industrial_complex = 1
+			arms_factory = 1
+			1468 = {
+				naval_base = 2
+			}
 
 		}
 		victory_points = {
-		     5231 5
+			1468 3 
 		}
 		add_core_of = SAF
 
 	}
-
-	provinces={
-		2213 5231 10668 12064 12648 
-	}
-	manpower=1080363
+	manpower=2377294
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

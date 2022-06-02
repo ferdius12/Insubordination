@@ -1,0 +1,54 @@
+ideas = {
+
+	country = { 
+	
+	   NGA_GEK_skirmishe_border = {
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = NGA_GEK_skirmishe_border
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.15
+				war_support_weekly_factor = 0.002
+				targeted_modifier = {
+			tag = GEK
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+		    targeted_modifier = {
+			tag = NGA
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+				
+			}
+		}
+		
+		NGA_colonial_garrison = {
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = NGA_colonial_garrison
+				
+			removal_cost = -1
+				
+			modifier = {
+            conscription_factor = -0.70
+			consumer_goods_factor = -0.05
+			political_power_gain = -0.30
+				
+			}
+		}

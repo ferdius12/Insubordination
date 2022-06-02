@@ -4,7 +4,7 @@ state=
 	name="STATE_297" # Equatorial Guinea
 	manpower = 185000
 	
-	state_category = enclave
+	state_category = pastoral
 	
 	history=
 	{
@@ -14,6 +14,7 @@ state=
 			1903 1 
 		}
 		buildings = {
+			dockyard = 1
 			infrastructure = 1
 			1903 = {
 				naval_base = 1

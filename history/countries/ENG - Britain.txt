@@ -46,23 +46,28 @@ set_autonomy = {
 }
 set_autonomy = {
 		target = IRE
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_colony
 		freedom_level = 0.4
 }
 set_autonomy = {
 		target = AST
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_colony
 		freedom_level = 0.2
 }
 set_autonomy = {
 		target = NZL
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_colony
 		freedom_level = 0.2
 }
 set_autonomy = {
 		target = IRQ
 		autonomous_state = autonomy_supervised_state
 		freedom_level = 0.15
+}
+set_autonomy = {
+		target = NGA
+		autonomous_state = autonomy_supervised_state
+		freedom_level = 0.5
 }
 	
 add_to_tech_sharing_group = commonwealth_research

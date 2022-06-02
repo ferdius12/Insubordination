@@ -1,0 +1,16 @@
+characters={
+
+    NGA_pyotr_wrangel = {
+		name = NGA_pyotr_wrangel
+		portraits = {
+			civilian = {
+				large="gfx/leaders/NGA/portrait_Nigeria_Pyotr_Vrangel_.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}

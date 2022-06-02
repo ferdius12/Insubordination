@@ -7,6 +7,33 @@ set_war_support = 0.4
 
 # Starting tech
 
+681 = {
+	add_dynamic_modifier = { modifier = british_control }
+		}
+		
+541 = {
+	add_dynamic_modifier = { modifier = syndicalist_control }
+		}
+		
+542 = {
+	add_dynamic_modifier = { modifier = syndicalist_control }
+		}
+838 = {
+	add_dynamic_modifier = { modifier = syndicalist_control }
+		}
+719 = {
+	add_dynamic_modifier = { modifier = devil_control }
+		}
+837 = {
+	add_dynamic_modifier = { modifier = devil_control }
+		}
+275 = {
+	add_dynamic_modifier = { modifier = hertzog_control }
+		}
+839 = {
+	add_dynamic_modifier = { modifier = hertzog_control }
+		}
+
 set_technology = {
 	infantry_weapons = 1
 	tech_support = 1		

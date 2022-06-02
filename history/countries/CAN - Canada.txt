@@ -31,7 +31,7 @@ set_technology = {
 	mtg_transport = 1
 }
 
-set_cosmetic_tag = CAN_UK
+set_cosmetic_tag = ENG_COS
 add_to_tech_sharing_group = commonwealth_research
 
 add_ideas = {
