@@ -175,7 +175,7 @@ spriteTypes = {
 	#PATERNAL AUTOCRAT#
 	
 	spriteType = {
-		name = "GFX_ideology_paternal_autocrat_subtype"
+		name = "GFX_ideology_paternal_autocrat_group"
 		texturefile = "gfx/interface/ideologies/paternal_autocrat_group.dds"
 	}
 	
@@ -197,4 +197,41 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_theocraty_subtype"
 		texturefile = "gfx/interface/ideologies/paternal_autocrat_theocraty_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_anarchism_subtype"
+		texturefile = "gfx/interface/ideologies/paternal_autocrat_anarchism_subtype.dds"
+	}
+	
+	#FASCISM#
+	
+	spriteType = {
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_fascism_subtype"
+		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_nazism_subtype"
+		texturefile = "gfx/interface/ideologies/fascism_nationa_socialism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_falangism_subtype"
+		texturefile = "gfx/interface/ideologies/fascism_falangism_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_national_stratocratic_subtype"
+		texturefile = "gfx/interface/ideologies/fascism_national_stratocratic_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_radical_islamism_subtype"
+		texturefile = "gfx/interface/ideologies/fascism_radical_islamism_subtype.dds"
 	}
