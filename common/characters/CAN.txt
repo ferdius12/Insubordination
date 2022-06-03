@@ -23,7 +23,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = falangism_subtype
+			ideology = national_monarchism_subtype
 			expire = "1953.1.1.1"
 			traits = {  }
 			id = -1

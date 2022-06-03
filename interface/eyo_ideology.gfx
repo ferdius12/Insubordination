@@ -227,11 +227,23 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ideology_national_monarchism_subtype"
+		texturefile = "gfx/interface/ideologies/fascism_national_monarchism_subtype.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_national_stratocratic_subtype"
 		texturefile = "gfx/interface/ideologies/fascism_national_stratocratic_subtype.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ultranationalism_subtype"
+		texturefile = "gfx/interface/ideologies/fascism_ultranationalism_subtype.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_ideology_radical_islamism_subtype"
 		texturefile = "gfx/interface/ideologies/fascism_radical_islamism_subtype.dds"
 	}
+	
+}
