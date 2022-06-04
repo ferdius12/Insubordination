@@ -1,6 +1,6 @@
 characters = { 
 
-		ATU_jozef = {
+	ATU_jozef = {
 		name = ATU_jozef
 		portraits = {
 			civilian = {
@@ -13,4 +13,21 @@ characters = {
 			traits = {  }
 			id = -1
 		}
+	}
+	
+	ATU_greaser_smoke = {
+		name = ATU_greaser_smoke
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ATU/greaser_smoke.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
 	}
