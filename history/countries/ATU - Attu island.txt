@@ -7,6 +7,10 @@ set_technology = {
 	gwtank_chassis = 1
 }
 
+add_ideas = {
+
+}
+
 recruit_character = ATU_jozef
 
 set_politics = {

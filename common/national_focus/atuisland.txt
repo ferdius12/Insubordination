@@ -9,11 +9,292 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = newfocus_0
+		id = newfocus_2
+		icon = GFX_goal_unknown
+		cost = 7,00
+		x = 14
+		y = 1
+			completion_reward = {
+					add_political_power = 120
+				}
+
+	}
+	focus = {
+		id = newfocus_3
 		icon = GFX_goal_unknown
 		cost = 10,00
-		x = 7
+		prerequisite = {
+			focus = newfocus_2
+		}
+		x = 14
+		y = 2
+			completion_reward = {
+					ideology = communism
+					popularity = -0.05
+				}
+
+	}
+	focus = {
+		id = newfocus_12
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_3
+		}
+		mutually_exclusive = {
+			focus = newfocus_11
+			focus = newfocus_9
+			focus = newfocus_15
+		}
+		x = 6
+		y = 3
+			completion_reward = {
+					ideology = communism
+					popularity = -0.05
+				}
+
+	}
+	focus = {
+		id = newfocus_9
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_3
+		}
+		mutually_exclusive = {
+			focus = newfocus_12
+		}
+		x = 21
+		y = 3
+			completion_reward = {
+					ideology = communism
+					popularity = -0.05
+				}
+
+	}
+	focus = {
+		id = newfocus_11
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_9
+		}
+		x = 14
+		y = 3
+			completion_reward = {
+					ideology = communism
+					popularity = -0.05
+				}
+
+	}
+	focus = {
+		id = newfocus_11
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_9
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_15
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_11
+		}
+		mutually_exclusive = {
+			focus = newfocus_10
+			focus = newfocus_17
+			focus = newfocus_17
+		}
+		x = 25
+		y = 3
+			completion_reward = {
+					ideology = communism
+					popularity = -0.05
+				}
+
+	}
+	focus = {
+		id = newfocus_4
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_12
+		}
+		mutually_exclusive = {
+			focus = newfocus_5
+			focus = newfocus_14
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_5
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_12
+		}
+		mutually_exclusive = {
+			focus = newfocus_4
+			focus = newfocus_14
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_7
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_11
+		}
+		mutually_exclusive = {
+			focus = newfocus_8
+			focus = newfocus_17
+			focus = newfocus_8
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_8
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_11
+		}
+		mutually_exclusive = {
+			focus = newfocus_10
+			focus = newfocus_7
+			focus = newfocus_17
+			focus = newfocus_17
+			focus = newfocus_7
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_10
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_11
+		}
+		mutually_exclusive = {
+			focus = newfocus_8
+			focus = newfocus_15
+			focus = newfocus_17
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_14
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_12
+		}
+		mutually_exclusive = {
+			focus = newfocus_4
+			focus = newfocus_5
+		}
+		x = 4
+		y = 4
+			completion_reward = {
+					add_timed_idea = {
+							idea = ATU_syndicalist
+							days = 720
+							ideology = communism
+							popularity = -0.1
+						}
+				}
+
+	}
+	focus = {
+		id = newfocus_15
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_11
+		}
+		mutually_exclusive = {
+			focus = newfocus_10
+			focus = newfocus_17
+			focus = newfocus_17
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_16
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_15
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_17
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_11
+		}
+		mutually_exclusive = {
+			focus = newfocus_15
+			focus = newfocus_15
+			focus = newfocus_10
+			focus = newfocus_8
+			focus = newfocus_8
+			focus = newfocus_7
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_16
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_15
+		}
+		x = 31
 		y = 1
+
+	}
+	focus = {
+		id = newfocus_17
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_11
+		}
+		mutually_exclusive = {
+			focus = newfocus_15
+			focus = newfocus_15
+			focus = newfocus_10
+			focus = newfocus_8
+			focus = newfocus_8
+			focus = newfocus_7
+		}
+		x = 31
+		y = 2
 
 	}
 }
