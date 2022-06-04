@@ -8,7 +8,7 @@ ideas = {
 				original_tag = BRA
 			}
 
-			picture = generic_exploit_mines
+			picture = bra_fabric
 				
 			removal_cost = -1
 				
@@ -27,7 +27,7 @@ ideas = {
 				original_tag = BRA
 			}
 
-			picture = generic_exploit_mines
+			picture = bra_migration
 				
 			removal_cost = -1
 				
@@ -45,7 +45,7 @@ ideas = {
 				original_tag = BRA
 			}
 
-			picture = generic_exploit_mines
+			picture = bra_ineffective_government
 				
 			removal_cost = -1
 				
@@ -62,7 +62,7 @@ ideas = {
 				original_tag = BRA
 			}
 
-			picture = generic_exploit_mines
+			picture = bra_moving_of_tenensists
 				
 			removal_cost = -1
 				
@@ -73,17 +73,6 @@ ideas = {
 			}
 			}
 			
-			BRA_liga_nacij = {
+			}
 			
-			 allowed = {
-				original_tag = BRA
-			}
-
-			picture = generic_exploit_mines
-				
-			removal_cost = -1
-				
-			modifier = {
-			stability_factor = +0.05
-			}
 			}
