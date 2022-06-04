@@ -312,9 +312,9 @@ ideologies = {
 		types = {
 			fascism_subtype = { }
 			nazism_subtype = { can_be_randomly_selected = no  }
-			falangism_subtype = 
+			falangism_subtype = { }
 			national_monarchism_subtype = { can_be_randomly_selected = no  }
-			national_stratocratic_subtype = 
+			national_stratocratic_subtype = { }
 			ultranationalism_subtype = { can_be_randomly_selected = no }
 		    radical_islamism_subtype = { can_be_randomly_selected = no }
 		}
