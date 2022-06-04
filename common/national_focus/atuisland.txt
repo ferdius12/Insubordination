@@ -1,0 +1,19 @@
+focus_tree = {
+	id = atuisland
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ATU
+		}
+	}
+	default = no
+	focus = {
+		id = newfocus_0
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 7
+		y = 1
+
+	}
+}
