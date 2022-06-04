@@ -1,0 +1,16 @@
+characters = { 
+
+		ATU_jozef = {
+		name = ATU_jozef
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ATU/jozef.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}

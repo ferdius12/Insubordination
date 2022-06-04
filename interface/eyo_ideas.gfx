@@ -367,8 +367,28 @@ spriteTypes = {
     #BRAZIL#
 	
     spriteType = {
-		name = "GFX_idea_generic_exploit_mines"
-		texturefile = "gfx/interface/ideas/idea_generic_exploit_mines.dds"
+		name = "GFX_idea_bra_liga_nacij"
+		texturefile = "gfx/interface/ideas/idea_bra_liga_nacij.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_bra_migration"
+		texturefile = "gfx/interface/ideas/idea_bra_migration.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_bra_moving_of_tenensists"
+		texturefile = "gfx/interface/ideas/idea_bra_moving_of_tenensists.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_bra_fabric"
+		texturefile = "gfx/interface/ideas/idea_bra_fabric.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_bra_ineffective_government"
+		texturefile = "gfx/interface/ideas/idea_bra_ineffective_government.dds"
 	}
 
     #Nigeria#

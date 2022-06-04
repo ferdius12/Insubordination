@@ -2,12 +2,12 @@ state=
 {
 	id=650
 	name="STATE_650"
-	manpower=20
+	manpower=1000000
 	state_category = tiny_island
 	
 	history=
 	{
-		owner = USA
+		owner = ATU
 		victory_points = {
 			13067 1 
 		}
