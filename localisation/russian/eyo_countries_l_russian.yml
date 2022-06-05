@@ -1360,3 +1360,14 @@
  ATU_falangism:0 "Моя Земля"
  ATU_falangism_DEF:0 "Моя Земля"
  ATU_falangism_ADJ:0 "Мояземельск."
+ 
+ #RUSSKOE PRAVITELSTVO#
+ KOL_paternal_autocrat:0 "Правительство Государства Российского" 
+ KOL_paternal_autocrat_DEF:0 "Российское правительство" 
+ KOL_paternal_autocrat_ADJ:0 "Русскправительств."
+ 
+ #SYBERIA#
+ SYB:0 "Сибирь"
+ SYB_DEF:0 "Сибирь"
+ SYB_ADJ:0 "Сибирск."
+ 

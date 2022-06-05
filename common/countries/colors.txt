@@ -907,3 +907,11 @@ VLS = {
 	color = rgb { 10, 9, 9 }
 	color_ui = rgb { 10, 9, 9 }
 }
+KOL = {
+	color = rgb { 189 215 219 }
+	color_ui = rgb { 189 215 219 }
+}
+SYB = {
+	color = rgb { 196 238 242 }
+	color_ui = rgb { 196 238 242 }
+}

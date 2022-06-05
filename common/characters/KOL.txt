@@ -1,0 +1,19 @@
+characters={
+
+    KOL_alexsander_cumchak = {
+		name = KOL_alexsander_cumchak
+		portraits = {
+			civilian = {
+				large="gfx/leaders/KOL/Portrait_KOL_alexsander_cumchak.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+	}
+	
+	}
