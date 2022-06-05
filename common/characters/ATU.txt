@@ -29,5 +29,3 @@ characters = {
 			id = -1
 		}
 	}
-	
-	}
