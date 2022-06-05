@@ -8,7 +8,9 @@ set_technology = {
 }
 
 add_ideas = {
-
+ATU_syndicalist
+ATU_communism
+ATU_fascism
 }
 
 recruit_character = ATU_jozef

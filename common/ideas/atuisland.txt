@@ -13,6 +13,186 @@ ideas = {
 			removal_cost = -1
 				
 			modifier = {
+			сommunism_drift = -0.1
 			syndicalist_drift = 0.15
+			}
+			}
+			
+			country = { 
+	
+            ATU_fascism = {
+				
+			allowed = {
+				original_tag = ATU
+			}
+
+			picture = atu_fascism
+				
+			removal_cost = -1
+				
+			modifier = {
+			сommunism_drift = -0.1
+			fascism_drift = 0.15
+			}
+			}
+			
+			country = { 
+	
+            ATU_communism = {
+				
+			allowed = {
+				original_tag = ATU
+			}
+
+			picture = atu_communism
+				
+			removal_cost = -1
+				
+			modifier = {
+			communism_drift = 0.15
+			}
+			}
+			
+			country = { 
+	
+            ATU_radical_socialist = {
+				
+			allowed = {
+				original_tag = ATU
+			}
+
+			picture = atu_radical_socialist
+				
+			removal_cost = -1
+				
+			modifier = {
+			сommunism_drift = -0.1
+			radical_socialist_drift = 0.15
+			}
+			}
+			
+			country = { 
+	
+            ATU_social_democrat = {
+				
+			allowed = {
+				original_tag = ATU
+			}
+
+			picture = atu_social_democrat
+				
+			removal_cost = -1
+				
+			modifier = {
+			сommunism_drift = -0.1
+			social_democrat_drift = 0.15
+			}
+			}
+			
+			country = { 
+	
+            ATU_social_liberal = {
+				
+			allowed = {
+				original_tag = ATU
+			}
+
+			picture = atu_social_liberal
+				
+			removal_cost = -1
+				
+			modifier = {
+			сommunism_drift = -0.1
+			social_liberal_drift = 0.15
+			}
+			}
+			
+			country = { 
+	
+            ATU_syndicalist = {
+				
+			allowed = {
+				original_tag = ATU
+			}
+
+			picture = atu_syndicalist
+				
+			removal_cost = -1
+				
+			modifier = {
+			сommunism_drift = -0.1
+			syndicalist_drift = 0.15
+			}
+			}
+			
+			country = { 
+	
+            ATU_market_liberal = {
+				
+			allowed = {
+				original_tag = ATU
+			}
+
+			picture = atu_market_liberal
+				
+			removal_cost = -1
+				
+			modifier = {
+			сommunism_drift = -0.1
+			market_liberal_drift = 0.15
+			}
+			}
+			
+			country = { 
+	
+            ATU_social_conservative = {
+				
+			allowed = {
+				original_tag = ATU
+			}
+
+			picture = atu_social_conservative
+				
+			removal_cost = -1
+				
+			modifier = {
+			сommunism_drift = -0.1
+			social_conservative_drift = 0.15
+			}
+			}
+			
+			country = { 
+	
+            ATU_authoritarian_democrat = {
+				
+			allowed = {
+				original_tag = ATU
+			}
+
+			picture = atu_authoritarian_democrat
+				
+			removal_cost = -1
+				
+			modifier = {
+			сommunism_drift = -0.1
+			authoritarian_democrat_drift = 0.15
+			}
+			}
+			
+			country = { 
+	
+            ATU_paternal_autocrat = {
+				
+			allowed = {
+				original_tag = ATU
+			}
+
+			picture = atu_paternal_autocrat
+				
+			removal_cost = -1
+				
+			modifier = {
+			сommunism_drift = -0.1
+			paternal_autocrat_drift = 0.15
 			}
 			}
