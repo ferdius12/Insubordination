@@ -4,7 +4,7 @@ characters={
 		name = SYB_letov_spryatalsya
 		portraits = {
 			civilian = {
-				large="gfx/leaders/SYB/SYB_letov_spryatalsya.dds"
+				large="gfx/leaders/SYB/portrait_letov_spryatalsya.dds"
 			}
 		}
 		country_leader = {
