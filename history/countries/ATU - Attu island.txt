@@ -14,6 +14,7 @@ ATU_fascism
 }
 
 recruit_character = ATU_jozef
+recruit_character = ATU_greaser_smoke
 
 set_politics = {
 	ruling_party = communism

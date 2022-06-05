@@ -79,7 +79,34 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_9
 		}
+		prerequisite = {
+			focus = newfocus_9
+		}
+		mutually_exclusive = {
+			focus = newfocus_12
+		}
 		x = 14
+		y = 3
+			completion_reward = {
+					ideology = communism
+					popularity = -0.05
+				}
+
+	}
+	focus = {
+		id = newfocus_15
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = newfocus_11
+		}
+		prerequisite = {
+			focus = newfocus_11
+		}
+		mutually_exclusive = {
+			focus = newfocus_12
+		}
+		x = 25
 		y = 3
 			completion_reward = {
 					ideology = communism
@@ -94,27 +121,21 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_9
 		}
-		x = 21
-		y = 4
-
-	}
-	focus = {
-		id = newfocus_15
-		icon = GFX_goal_unknown
-		cost = 10,00
 		prerequisite = {
-			focus = newfocus_11
+			focus = newfocus_9
 		}
 		mutually_exclusive = {
-			focus = newfocus_10
-			focus = newfocus_17
-			focus = newfocus_17
+			focus = newfocus_12
 		}
-		x = 25
-		y = 3
+		x = 21
+		y = 4
 			completion_reward = {
-					ideology = communism
-					popularity = -0.05
+					add_timed_idea = {
+							idea = ATU_paternal_autocrat
+							days = 720
+							ideology = communism
+							popularity = -0.1
+						}
 				}
 
 	}
@@ -131,6 +152,14 @@ focus_tree = {
 		}
 		x = 6
 		y = 4
+			completion_reward = {
+					add_timed_idea = {
+							idea = ATU_radical_socialist
+							days = 720
+							ideology = communism
+							popularity = -0.1
+						}
+				}
 
 	}
 	focus = {
@@ -146,6 +175,14 @@ focus_tree = {
 		}
 		x = 8
 		y = 4
+			completion_reward = {
+					add_timed_idea = {
+							idea = ATU_radical_socialist
+							days = 720
+							ideology = communism
+							popularity = -0.1
+						}
+				}
 
 	}
 	focus = {
@@ -156,12 +193,21 @@ focus_tree = {
 			focus = newfocus_11
 		}
 		mutually_exclusive = {
-			focus = newfocus_8
 			focus = newfocus_17
+			focus = newfocus_15
+			focus = newfocus_10
 			focus = newfocus_8
 		}
 		x = 10
 		y = 4
+			completion_reward = {
+					add_timed_idea = {
+							idea = ATU_social_democrat
+							days = 720
+							ideology = communism
+							popularity = -0.1
+						}
+				}
 
 	}
 	focus = {
@@ -172,14 +218,21 @@ focus_tree = {
 			focus = newfocus_11
 		}
 		mutually_exclusive = {
+			focus = newfocus_17
+			focus = newfocus_15
 			focus = newfocus_10
-			focus = newfocus_7
-			focus = newfocus_17
-			focus = newfocus_17
 			focus = newfocus_7
 		}
 		x = 12
 		y = 4
+			completion_reward = {
+					add_timed_idea = {
+							idea = ATU_social_liberal
+							days = 720
+							ideology = communism
+							popularity = -0.1
+						}
+				}
 
 	}
 	focus = {
@@ -190,12 +243,20 @@ focus_tree = {
 			focus = newfocus_11
 		}
 		mutually_exclusive = {
-			focus = newfocus_8
-			focus = newfocus_15
 			focus = newfocus_17
+			focus = newfocus_8
+			focus = newfocus_7
 		}
 		x = 14
 		y = 4
+			completion_reward = {
+					add_timed_idea = {
+							idea = ATU_market_liberal
+							days = 720
+							ideology = communism
+							popularity = -0.1
+						}
+				}
 
 	}
 	focus = {
@@ -213,7 +274,7 @@ focus_tree = {
 		y = 4
 			completion_reward = {
 					add_timed_idea = {
-							idea = ATU_syndicalist
+							idea = ATU_radical_socialist
 							days = 720
 							ideology = communism
 							popularity = -0.1
@@ -228,13 +289,22 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_11
 		}
+		prerequisite = {
+			focus = newfocus_11
+		}
 		mutually_exclusive = {
-			focus = newfocus_10
-			focus = newfocus_17
-			focus = newfocus_17
+			focus = newfocus_12
 		}
 		x = 16
 		y = 4
+			completion_reward = {
+					add_timed_idea = {
+							idea = ATU_social_conservative
+							days = 720
+							ideology = communism
+							popularity = -0.1
+						}
+				}
 
 	}
 	focus = {
@@ -244,8 +314,19 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_15
 		}
+		prerequisite = {
+			focus = newfocus_15
+		}
 		x = 25
 		y = 4
+			completion_reward = {
+					add_timed_idea = {
+							idea = ATU_fascism
+							days = 720
+							ideology = communism
+							popularity = -0.1
+						}
+				}
 
 	}
 	focus = {
@@ -255,22 +336,34 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_11
 		}
+		prerequisite = {
+			focus = newfocus_11
+		}
 		mutually_exclusive = {
 			focus = newfocus_15
-			focus = newfocus_15
 			focus = newfocus_10
-			focus = newfocus_8
 			focus = newfocus_8
 			focus = newfocus_7
 		}
 		x = 18
 		y = 4
+			completion_reward = {
+					add_timed_idea = {
+							idea = ATU_authoritarian_democrat
+							days = 720
+							ideology = communism
+							popularity = -0.1
+						}
+				}
 
 	}
 	focus = {
 		id = newfocus_16
 		icon = GFX_goal_unknown
 		cost = 10,00
+		prerequisite = {
+			focus = newfocus_15
+		}
 		prerequisite = {
 			focus = newfocus_15
 		}
@@ -285,11 +378,12 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_11
 		}
+		prerequisite = {
+			focus = newfocus_11
+		}
 		mutually_exclusive = {
 			focus = newfocus_15
-			focus = newfocus_15
 			focus = newfocus_10
-			focus = newfocus_8
 			focus = newfocus_8
 			focus = newfocus_7
 		}
