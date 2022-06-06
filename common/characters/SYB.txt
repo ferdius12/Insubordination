@@ -8,7 +8,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = paternal_autocrat
+			ideology = anarchism_subtype
 			expire = "1953.1.1.1"
 			traits = {  }
 			id = -1
