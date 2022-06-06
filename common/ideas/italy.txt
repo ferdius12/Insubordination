@@ -1,0 +1,25 @@
+ideas = {
+
+	country = { 
+	
+	   ITA_turkish_partisans = {
+				
+			allowed = {
+				original_tag = IRE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = ITA_turkish_partisans
+				
+			removal_cost = -1
+				
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.05
+                				
+				
+			}
+		}
