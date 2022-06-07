@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = ZAC
+		owner = AZR
 		victory_points = {
 			7661 10 
 		}
@@ -18,7 +18,6 @@ state={
 			industrial_complex = 2
 			air_base = 1
 		}
-		add_core_of = ZAC
 		add_core_of = AZR
 
 	}

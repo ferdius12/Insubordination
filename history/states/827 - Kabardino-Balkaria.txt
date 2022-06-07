@@ -6,14 +6,13 @@ state = {
 	}
 
 	history = {
-		owner = ZAC
+		owner = MTR
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
 
 		}
-		add_core_of = ZAC
-		add_core_of = KBK
+		add_core_of = MTR
 		victory_points = {
 			11614 1
 		}

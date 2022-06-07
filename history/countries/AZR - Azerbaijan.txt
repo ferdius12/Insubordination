@@ -1,0 +1,41 @@
+﻿capital = 229 #Baku
+
+oob = "AZR_1926"
+
+set_research_slots = 3
+
+recruit_character = 
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_recon = 1	
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+
+recruit_character = AZR_ali_bey_huseynzade
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1925.11.5"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	communism = 0
+    syndicalist = 6
+    radical_socialist = 0
+    social_democrat = 0
+    social_liberal = 22
+    market_liberal = 23
+    social_conservative = 41
+    authoritarian_democrat = 0
+    paternal_autocrat = 0
+    fascism = 8
+}
+
+
+

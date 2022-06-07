@@ -1,0 +1,19 @@
+characters = { 
+
+		ARM_hovhannes_kajaznuni = {
+		name = ARM_hovhannes_kajaznuni
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ARM/portrait_Armenia_Hovhannes_Kajaznuni.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		}
+		
+		}

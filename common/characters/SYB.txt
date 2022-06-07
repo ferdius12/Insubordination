@@ -1,0 +1,19 @@
+characters={
+
+    SYB_letov_spryatalsya = {
+		name = SYB_letov_spryatalsya
+		portraits = {
+			civilian = {
+				large="gfx/leaders/SYB/portrait_letov_spryatalsya.dds"
+			}
+		}
+		country_leader = {
+			ideology = anarchism_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+	}
+	
+	}
