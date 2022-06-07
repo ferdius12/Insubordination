@@ -26,6 +26,6 @@ set_popularities = {
     social_conservative = 0
     authoritarian_democrat = 0
     paternal_autocrat = 100
-    fascism = 10
+    fascism = 0
 }
 

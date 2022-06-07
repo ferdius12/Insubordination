@@ -1,0 +1,18 @@
+characters = { 
+
+		MTR_kotsev = {
+		name = MTR_kotsev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MTR/portrait_Mountain_Republic_Kotsev.dds"
+			}
+		}
+		country_leader = {
+			ideology = oligarchism_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}    
+	
+	}

@@ -1,0 +1,19 @@
+characters = { 
+
+		AZR_ali_bey_huseynzade = {
+		name = AZR_ali_bey_huseynzade
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AZR/portrait_Azerbaijan_Ali_bey_Huseynzade.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			expire = "1953.3.1.1"
+			traits = { }
+			id = -1
+		}
+	
+	}
+	
+	}

@@ -6,14 +6,13 @@ state = {
 	}
 
 	history = {
-		owner = ZAC
+		owner = MTR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 
 		}
-		add_core_of = ZAC
-		add_core_of = NOA
+		add_core_of = MTR
 		victory_points = {
 			9628 3
 		}

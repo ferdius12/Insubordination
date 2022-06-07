@@ -1,0 +1,18 @@
+characters = { 
+
+		GEO_kakutsa_cholokashvili = {
+		name = GEO_kakutsa_cholokashvili
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GEO/portrait_Georgia_Kakutsa_Cholokashvili.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}    
+	
+	}

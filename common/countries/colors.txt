@@ -915,3 +915,7 @@ SYB = {
 	color = rgb { 196 238 242 }
 	color_ui = rgb { 196 238 242 }
 }
+MTR = {
+	color = rgb { 16 96 108 }
+	color_ui = rgb { 16 96 108 }
+}

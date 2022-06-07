@@ -1,0 +1,45 @@
+﻿capital = 231 #Tbilisi
+
+oob = "GEO_1926"
+
+set_research_slots = 3
+
+recruit_character = GEO_kakutsa_cholokashvili
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	early_ship_hull_light = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	mtg_transport = 1
+	basic_battery = 1
+	basic_torpedo = 1
+}
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1926.1.1"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+    syndicalist = 0
+    radical_socialist = 0
+    social_democrat = 0
+    social_liberal = 6
+    market_liberal = 0
+    social_conservative = 13
+    authoritarian_democrat = 0
+    paternal_autocrat = 69
+    fascism = 12
+}
+

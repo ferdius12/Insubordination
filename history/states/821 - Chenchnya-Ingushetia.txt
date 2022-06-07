@@ -11,7 +11,7 @@ state = {
 	}
 
 	history = {
-		owner = ZAC
+		owner = MTR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -19,8 +19,7 @@ state = {
 		victory_points = {
 			3672 5 
 		}
-		add_core_of = ZAC
-		add_core_of = CIN
+		add_core_of = MTR
 	}
 
 	provinces = {
