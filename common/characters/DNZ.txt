@@ -1,0 +1,18 @@
+characters = {
+	
+	DNZ_gehl_julius = {
+		name = DNZ_gehl_julius
+		portraits = {
+			civilian = {
+				large="gfx/leaders/DNZ/portrait_Danzig_Gehl_Julius.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	}

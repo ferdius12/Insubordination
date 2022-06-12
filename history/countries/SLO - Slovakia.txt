@@ -19,12 +19,12 @@ set_technology = {
 	basic_light_tank_chassis = 1
 }
 
-
 recruit_character = SLO_parlament
+recruit_character = SLO_jan_syrovy
 
 set_politics = {
-	ruling_party = social_conservative
-	last_election = "1933.3.5"
+	ruling_party = paternal_autocrat
+	last_election = "1923.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -35,8 +35,8 @@ set_popularities = {
     social_democrat = 0
     social_liberal = 0
     market_liberal = 0
-    social_conservative = 69
+    social_conservative = 21
     authoritarian_democrat = 0
-    paternal_autocrat = 6
+    paternal_autocrat = 54
     fascism = 25
 }

@@ -43,5 +43,20 @@ characters = {
 		}
 	
 	}
+	
+	    POL_feliks_dzierzynski = {
+		name = POL_feliks_dzierzynski
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/portrait_Poland_Feliks_Dzierzynski.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
 
 }	

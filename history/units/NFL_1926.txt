@@ -10,12 +10,12 @@ division_template = {
 }
 
 division_template = {
-	name = "Newfoundland Cavarly Brigade"		
+	name = "Newfoundland Cavalry Brigade"		
 	division_names_group = CAN_CAV_01		
 	regiments = {
-		cavarly = { x = 0 y = 0 }
-		cavarly = { x = 0 y = 1 }
-		cavarly = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
 	}
 }
 

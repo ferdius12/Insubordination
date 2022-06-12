@@ -14,4 +14,20 @@ characters={
 			id = -1
 		}
 	}
+	
+	HUN_miklos_horthy = {
+		name = HUN_miklos_horthy
+		portraits = {
+			civilian = {
+				large="gfx/leaders/HUN/portrait_Hungary_Miklos_Horthy.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_stratocratic_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
 	}

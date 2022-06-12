@@ -16,6 +16,7 @@ set_technology = {
 }
 
 recruit_character = AUS_michael_hainisch
+recruit_character = AUS_adolf_hitler
 
 
 set_politics = {

@@ -1,0 +1,24 @@
+characters = {
+	
+	UKR_simon_petlura = {
+		name = UKR_simon_petlura
+		portraits = {
+			civilian = {
+				large="gfx/leaders/UKR/portrait_Danzig_Gehl_Julius.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderatism_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+		country_leader = {
+			ideology = despotism_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	}

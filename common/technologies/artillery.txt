@@ -42,17 +42,17 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1927.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1938.1.1"
+				date > "1928.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1939.1.1"
+				date > "1929.1.1"
 			}
 		}
 	}

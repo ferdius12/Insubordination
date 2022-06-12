@@ -1,0 +1,52 @@
+﻿capital = 461
+
+set_oob = MOR_1926
+set_naval_oob = MOR_1926_naval
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1			
+	interwar_antiair = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	basic_train = 1
+    basic_naval_mines = 1
+	submarine_mine_laying = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	early_ship_hull_cruiser = 1
+	basic_battery = 1
+	basic_secondary_battery = 1
+	coastal_defense_ships = 1
+}
+
+set_convoys = 20
+
+set_cosmetic_tag = FRA_COS
+
+add_ideas = {
+MOR_loyality_for_people
+MOR_muslim_problem
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1926.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+    syndicalist = 9
+    radical_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 59
+    paternal_autocrat = 21
+    fascism = 11
+}
+
+recruit_character = MOR_theodore_steeg

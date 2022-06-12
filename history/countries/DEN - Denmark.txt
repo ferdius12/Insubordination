@@ -8,6 +8,10 @@ recruit_character = DEN_thorvald_stauning
 set_research_slots = 3
 set_stability = 0.4
 set_war_support = 0.2
+
+add_ideas = {
+COM_member_of_treaty_of_emmen
+}
 set_technology = {
 	infantry_weapons = 1
 	tech_support = 1		

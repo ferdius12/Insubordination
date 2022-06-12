@@ -13,6 +13,22 @@ characters={
 			traits = {  }
 			id = -1
 		}
+		
+	}
+	SLO_jan_syrovy = {
+		name = SLO_jan_syrovy
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SLO/portrait_Slovakia_Jan_Syrovy.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
 	}
 	
 	}

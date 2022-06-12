@@ -129,6 +129,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_GER_braunhemden.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_COM_leader_of_treaty_of_emmen"
+		texturefile = "gfx/interface/ideas/idea_com_leader_of_treaty_of_emmen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_COM_member_of_treaty_of_emmen"
+		texturefile = "gfx/interface/ideas/idea_com_member_of_treaty_of_emmen.dds"
+	}
+	
 	
 	#Indonesia#
 	
@@ -403,4 +413,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_gek_nga_skirmishe_border.dds"
 	}
 	
+	#MOROCCO#
+	
+	spriteType = {
+		name = "GFX_idea_MOR_loyality_for_people"
+		texturefile = "gfx/interface/ideas/idea_mor_loyality_for_people.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MOR_muslim_problem"
+		texturefile = "gfx/interface/ideas/idea_mor_muslim_problem.dds"
+	}
+	
+	#HOLLAND#
+	
+	spriteType = {
+		name = "GFX_idea_HOL_government_crisis"
+		texturefile = "gfx/interface/ideas/idea_hol_government_crisis.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_HOL_veiligheidsdienst"
+		texturefile = "gfx/interface/ideas/idea_hol_veiligheidsdienst.dds"
+	}
+	
+	#SURINAM#
+	
+	spriteType = {
+		name = "GFX_idea_SUR_freedom_or_death"
+		texturefile = "gfx/interface/ideas/idea_sur_freedom_or_death.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SUR_market_communism"
+		texturefile = "gfx/interface/ideas/idea_sur_market_communism.dds"
+	}
 }

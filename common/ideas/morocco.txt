@@ -1,0 +1,54 @@
+ideas = {
+
+country = { 
+
+        MOR_muslim_problem = {
+				
+			allowed = {
+				original_tag = MOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = MOR_muslim_problem
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.10
+				fascism_drift = 0.02
+				command_power_gain = -0.35
+				industry_free_repair_factor = -0.35
+				occupation_cost = 0.15
+			}
+			
+			}
+			
+		MOR_loyality_for_people = {
+				
+			allowed = {
+				original_tag = MOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = MOR_loyality_for_people
+				
+			removal_cost = -1
+				
+			modifier = {
+			conscription = 0.01
+			consumer_goods_factor = -0.05
+			industrial_capacity_factory = 0.1
+			production_speed_buildings_factor = 0.1
+			}
+		}
+		
+		}
+		
+		}

@@ -21,10 +21,10 @@ division_template = {
 	division_names_group = NOR_CAV_01
 
 	regiments = {
-		cavarly = { x = 0 y = 0 }
-		cavarly = { x = 0 y = 1 }
-		cavarly = { x = 1 y = 0 }
-		cavarly = { x = 1 y = 1 }
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
 	}
 }
 

@@ -1,0 +1,18 @@
+characters = { 
+
+        MOR_theodore_steeg = {
+		name = MOR_theodore_steeg
+		portraits = {
+			civilian = {
+				large="gfx/leaders/MOR/portrait_Morocco_Theodore_Steeg.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	}

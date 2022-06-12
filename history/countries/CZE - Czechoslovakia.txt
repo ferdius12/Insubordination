@@ -22,6 +22,10 @@ recruit_character = CZE_antonin_zapototskiy
 
 set_research_slots = 3
 
+add_ideas = {
+COM_member_of_treaty_of_emmen
+}
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1935.5.19"

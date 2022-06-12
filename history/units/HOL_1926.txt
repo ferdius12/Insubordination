@@ -1,0 +1,130 @@
+division_template = {
+	name = "Infanterie Divisie"
+	division_names_group = HOL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Arbeidersmilitie"		
+	division_names_group = INS_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Gemotoriseerde Brigade"		# Marines
+	division_names_group = HOL_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+}
+
+units = {
+    division = {
+		location = 6241  # Amsterdam
+		division_template = "Arbeidersmilitie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9403 # Amsterdam
+		division_template = "Arbeidersmilitie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	
+	division = {
+		location = 11456  # Amsterdam
+		division_template = "Arbeidersmilitie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	
+	division = {
+		location = 480  # Amsterdam
+		division_template = "Arbeidersmilitie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	
+	division = {
+		location = 3262  # Amsterdam
+		division_template = "Arbeidersmilitie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	
+	division = {
+		location = 6500  # Amsterdam
+		division_template = "Arbeidersmilitie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 3314  # Amsterdam
+		division_template = "Arbeidersmilitie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 391 # Amsterdam
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 3211  # Amsterdam
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 11562  # Amsterdam
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 480 # Amsterdam
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 6496  # Amsterdam
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 11318  # Amsterdam
+		division_template = "Gemotoriseerde Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		location = 9498 # Amsterdam
+		division_template = "Gemotoriseerde Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	
+	}

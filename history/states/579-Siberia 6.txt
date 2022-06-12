@@ -4,18 +4,17 @@ state = {
 	name = "STATE_579" # Salekhard
 	manpower = 45484
 	
-	state_category = pastoral
-
+	state_category = wasteland
+        impassable = yes
 	history = {
 		victory_points = {
 			1684 1
 		}
-		owner = RUS
+		owner = SYB
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = RUS
-		add_core_of = YAM
+		add_core_of = SYB
 	}
 
 	provinces = {

@@ -15,11 +15,11 @@ characters = {
 	
 	} 
 	
-	    GER_adolf_gitler = {
-		name = GER_adolf_gitler
+	    GER_joseph_berchtold = {
+		name = GER_joseph_berchtold
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/GER/portrait_Germany_Adolf_Gitler.dds"
+				large = "gfx/leaders/GER/portrait_Germany_Joseph_Berchtold.dds"
 			}
 		}
 		country_leader = {

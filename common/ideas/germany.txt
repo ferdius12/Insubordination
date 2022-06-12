@@ -2,6 +2,57 @@ ideas = {
 
 country = { 
 
+
+       COM_member_of_treaty_of_emmen = {
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = COM_member_of_treaty_of_emmen
+				
+			removal_cost = -1
+				
+			modifier = {
+			experience_gain_army = 0.05
+			production_factory_efficiency_gain_factor = 0.1
+			conscription_factor = 0.1
+			political_power_gain = -0.15
+			autonomy_gain = -0.5
+			}
+	      targeted_modifier = {
+			tag = GER
+			attack_bonus_against = -0.1
+			defense_bonus_against = -0.1
+		}
+				
+			}
+			
+		COM_leader_of_treaty_of_emmen = {
+				
+			allowed = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = COM_leader_of_treaty_of_emmen
+				
+			removal_cost = -1
+				
+			modifier = {
+			war_support_factor = 0.1
+			stability_factor = 0.1
+			political_power_gain = 0.15
+			weekly_manpower = 150
+			}
+		}
+		
+
 	   GER_unemployment = {
 				
 			allowed = {
@@ -19,11 +70,9 @@ country = {
 			modifier = {
 				monthly_population = -0.30
 				consumer_goods_factor = 0.15
-				industrial_capacity_factory = -0.15
 				industrial_capacity_dockyard  = -0.15
-				production_factory_start_efficiency_factor  = -0.15
+				production_factory_start_efficiency_factor  = -0.05
 				production_factory_max_efficiency_factor  = -0.25
-				production_factory_efficiency_gain_factor  = -0.15
 				
 			}
 		}

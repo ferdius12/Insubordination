@@ -1,4 +1,4 @@
-characters={
+characters = {
 	
 	ENG_stanley_baldwin = {
 		name = ENG_stanley_baldwin

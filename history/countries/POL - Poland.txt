@@ -41,8 +41,15 @@ set_popularities = {
     fascism = 5
 }
 
+set_autonomy = {
+		target = DNZ
+		autonomous_state = autonomy_supervised_state
+		freedom_level = 0.25
+}
+
 
 recruit_character = POL_stanislav_voitsekhovsky
 recruit_character = POL_jozef_pilsudski
 recruit_character = POL_ignacy_moscicki
+recruit_character = POL_feliks_dzierzynski
 

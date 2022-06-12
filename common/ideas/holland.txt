@@ -1,0 +1,48 @@
+ideas = {
+
+country = { 
+
+        HOL_government_crisis = {
+				
+			allowed = {
+				original_tag = MOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = HOL_government_crisis
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.20
+				political_power_factor = -0.25
+				communism_drift = -0.02
+			}
+			}
+			
+		HOL_veiligheidsdienst = {
+				
+			allowed = {
+				original_tag = MOR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = HOL_veiligheidsdienst
+				
+			removal_cost = -1
+				
+			modifier = {
+				army_morale_factor = 0.1
+				army_org_factor = 0.08
+				surrender_limit = 0.1
+				resistance_decay_on_our_occupied_states = 0.15
+			}
+			}
+			
+			}

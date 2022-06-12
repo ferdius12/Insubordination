@@ -83,6 +83,7 @@
  POL_stanislav_voitsekhovsky:0 "Станислав Войцеховский"
  POL_jozef_pilsudski:0 "Юзеф Пилсудский"
  POL_ignacy_moscicki:0 "Игнаций Мосцинский"
+ POL_feliks_dzierzynski:0 "Феликс Дзержинский"
  
  #RUSSIA
  RUS_pavel_axsielrod:0 "Павель Аксельрод"
@@ -108,7 +109,7 @@
  
  #GERMANY
  GER_ernst_thalmann:0 "Эрнст Тельман"
- GER_adolf_gitler:0 "Адольф Гитлер"
+ GER_joseph_berchtold:0 "Йозеф Берхтольд"
  GER_paul_von_hindenburg:0 "Пауль фон Гинденбург"
  
  #TRANSCAUCASIA
@@ -131,6 +132,7 @@
  
  #HUNGARY
  HUN_karl_habsburg:0 "Карл Габсбург"
+ HUN_miklos_horthy:0 "Миклош Хорти"
  
  #NORWAY
  NOR_karl_gustav_fleicher:0 "Карл Густав Флейшер"
@@ -194,9 +196,11 @@
  
  #SLO
  SLO_parlament:0 "Парламент"
+ SLO_jan_syrovy:0 "Ян Сыровый"
  
  #AUS
  AUS_michael_hainisch:0 "Михаэль Хайниш"
+ AUS_adolf_hitler:0 "Адольф Гитлер"
  
  #YUG#
  YUG_alexander_kar:0 "Александр I"
@@ -366,4 +370,10 @@
  
  #MTR#
  MTR_kotsev:0 "Пшемахо Коцев"
+ 
+ #MOR#
+ MOR_theodore_steeg:0 "Теодор Стег"
+ 
+ #DNZ#
+ DNZ_gehl_julius:0 "Юлиус Гель"
  

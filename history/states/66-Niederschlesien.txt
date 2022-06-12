@@ -24,18 +24,11 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			air_base = 6
+			air_base = 4
 		}
 		add_core_of = GER
 		add_core_of = SIL
 
-		1939.1.1 = {
-			buildings = {
-				air_base = 10
-				arms_factory = 1
-				industrial_complex = 3
-			}
-		}
 	}
 
 	provinces={

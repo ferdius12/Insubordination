@@ -824,5 +824,9 @@ ENG_COS = {
     color =  rgb { 201 56 93 }
 	color_ui = rgb { 201 56 93 }
 }
+FRA_COS = {
+    color =  rgb { 57 113 228 }
+	color_ui = rgb { 57 113 228 }
+}
 
 
