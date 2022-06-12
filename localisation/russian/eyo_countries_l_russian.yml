@@ -1519,4 +1519,11 @@
  SUR_radical_socialist_DEF:0 "Народная республика Суринам" 
  SUR_radical_socialist_ADJ:0 "Суринамск."
  
+ #RUSSIAN CHITA#
+ RUC:0 "Забайкальская область"
+ RUC_DEF:0 "Забайкальская область"
+ RUC_ADJ:0 "Забайкобл."
+ RUC_fascism:0 "Российская восточная окраина" 
+ RUC_fascism_DEF:0 "Российская восточная окраина" 
+ RUC_fascism_ADJ:0 "Россиокраинск."
  

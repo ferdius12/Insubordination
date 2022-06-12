@@ -1,0 +1,19 @@
+characters={
+
+    RUC_gregory_semen = {
+		name = RUC_gregory_semen
+		portraits = {
+			civilian = {
+				large="gfx/leaders/RUC/Portrait_RUC_gregory_semen.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_stratocratic_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+	}
+	
+	}
