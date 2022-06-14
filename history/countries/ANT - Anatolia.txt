@@ -14,7 +14,11 @@ set_technology = {
 	basic_train = 1
 }
 
+add_ideas = {
 
+ANT_turkish_partisans
+
+}
 
 recruit_character = ANT_aimone_di_torino
 recruit_character = ANT_ettore_bastico
