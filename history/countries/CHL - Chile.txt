@@ -1,11 +1,10 @@
-﻿capital = 278
+capital = 279
 
-oob = "ARG_1926"
+oob = "CHL_1926"
 
-		set_naval_oob = "ARG_1926_naval"
+		set_naval_oob = "CHL_1926_naval"
 
-
-# Starting tech
+set_research_slots = 2
 set_technology = {
         basic_naval_mines = 1
 		early_ship_hull_light = 1
@@ -30,43 +29,38 @@ set_technology = {
 	basic_train = 1
 }
 
-	
-
-recruit_character = ARG_marselo_de_alvear
+recruit_character = CHL_emiliano_figueroa
 
 
-
-set_country_flag = monroe_doctrine
-
-
-
-set_convoys = 120
 set_politics = {
-	ruling_party = social_liberal
-	last_election = "1922.10.12"
+	ruling_party = communism
+	last_election = "1925.10.12"
 	election_frequency = 72
 	elections_allowed = yes
 }
 set_popularities = {
-	communism = 7
+	communism = 55
     syndicalist = 1
     radical_socialist = 3
     social_democrat = 10
-    social_liberal = 60
+    social_liberal = 12
     market_liberal = 1
     social_conservative = 3
     authoritarian_democrat = 2
     paternal_autocrat = 12
     fascism = 1
 }
+set_convoys = 30
 
 create_country_leader = {
-	name = "marselo de alvear" 
-	desc = ""
-	picture = "MarceloTdeAlvearca.dds" 
-	expire = "1965.1.1" 
-	ideology = social_liberal
-	traits = {
-		#
-	}
+    name = "Emiliano Figueroa"
+    desc = ""
+    picture = ""
+    expire = "1965.1.1"
+    ideology = communism
+    traits = {        
+        #
+    }
 }
+}
+
