@@ -39,8 +39,8 @@ bookmarks = {
 			}
 		}
 		
-		"VLD"={
-			history = "VLD_GATHERING_STORM_DESC"
+		"KOL"={
+			history = "KOL_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
 				

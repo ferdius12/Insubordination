@@ -29,7 +29,6 @@ recruit_character = ITA_emmanuel_iii
 
 add_ideas = {
 
-ITA_turkish_partisans
 }
 
 set_autonomy = {
