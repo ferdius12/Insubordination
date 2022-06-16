@@ -28,7 +28,9 @@ recruit_character = ITA_benito_mussolini
 recruit_character = ITA_emmanuel_iii
 
 add_ideas = {
-
+ITA_slight_unemployment
+ITA_victor_emmanuil
+ITA_underdeveloped_south
 }
 
 set_autonomy = {

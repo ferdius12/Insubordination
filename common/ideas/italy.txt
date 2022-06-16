@@ -1,2 +1,57 @@
 ideas = {
 
+      country = { 
+	
+            ITA_victor_emmanuil = {
+				
+			allowed = {
+				original_tag = ITA
+			}
+
+			picture = ITA_victor_emmanuil
+				
+			removal_cost = -1
+				
+			modifier = {
+			  stability_factor = -0.05
+			  political_power_gain = +0.05
+			}
+			}
+			
+			country = { 
+	
+            ITA_slight_unemployment = {
+				
+			allowed = {
+				original_tag = ITA
+			}
+
+			picture = ITA_slight_unemployment
+				
+			removal_cost = -1
+				
+			modifier = {
+			  consumer_goods_factor = 0.05
+			  research_speed_factor = -0.05
+			  conscription_factor = -0.3
+			}
+			}
+			
+			country = { 
+	
+            ITA_underdeveloped_south = {
+				
+			allowed = {
+				original_tag = ITA
+			}
+
+			picture = ITA_underdeveloped_south
+				
+			removal_cost = -1
+				
+			modifier = {
+			  production_speed_dockyard_factor = -0.05
+			  production_speed_industrial_complex_factor = -0.05
+			  production_speed_dockyard_factor = -0.05
+			}
+			}
