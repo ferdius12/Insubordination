@@ -2976,5 +2976,10 @@ spriteTypes = {
 		name = "GFX_focus_SOV_approach_semyonov"
 		texturefile = "gfx/interface/goals/focus_SOV_approach_semyonov.dds"
 	}
+	
+		SpriteType = { 
+		name = "GFX_goal_ita_politic_benito"
+		texturefile = "gfx/interface/goals/italy/goal_ita_politic_benito.dds"
+	}
 
 }
