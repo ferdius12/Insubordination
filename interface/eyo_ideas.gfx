@@ -448,4 +448,21 @@ spriteTypes = {
 		name = "GFX_idea_SUR_market_communism"
 		texturefile = "gfx/interface/ideas/idea_sur_market_communism.dds"
 	}
+	
+	#ITALY#
+	
+	spriteType = {
+		name = "GFX_idea_ITA_victor_emmanuil"
+		texturefile = "gfx/interface/ideas/idea_ITA_victor_emmanuil.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ITA_slight_unemployment"
+		texturefile = "gfx/interface/ideas/idea_ita_slight_unemployment.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ITA_underdeveloped_south"
+		texturefile = "gfx/interface/ideas/idea_ita_underdeveloped_south.dds"
+	}
 }
