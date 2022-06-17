@@ -60,13 +60,3 @@ set_popularities = {
     fascism = 1
 }
 
-create_country_leader = {
-	name = "marselo de alvear" 
-	desc = ""
-	picture = "MarceloTdeAlvearca.dds" 
-	expire = "1965.1.1" 
-	ideology = social_liberal
-	traits = {
-		#
-	}
-}

@@ -1,0 +1,17 @@
+characters = { 
+
+CHL_emiliano_figueroa = {
+		name = CHL_emiliano_figueroa
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COB/portrait_Belgian_Congo_Pierre_Ruckmans.png"
+			}
+		}
+		country_leader = {
+			ideology = communism_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}  
+	}
