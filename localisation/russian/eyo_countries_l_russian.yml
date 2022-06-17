@@ -1544,3 +1544,17 @@
  CHL_DEF:0 "Чили"
  CHL_ADJ:0 "Чилийск."
  
+ #LIBERIA#
+ LIB:0 "Либерия"
+ LIB_DEF:0 "Либерия"
+ LIB_ADJ:0 "Либерийск."
+ LIB_communism:0 "Социалистическая республика Либерия"
+ LIB_communism_DEF:0 "Социалистическая республика Либерия"
+ LIB_communism_ADJ:0 "Либерийск."
+ LIB_syndicalist:0 "Социалистическая республика Либерия" 
+ LIB_syndicalist_DEF:0 "Социалистическая республика Либерия" 
+ LIB_syndicalist_ADJ:0 "Либерийск."
+ LIB_radical_socialist:0 "Социалистическая республика Либерия" 
+ LIB_radical_socialist_DEF:0 "Социалистическая республика Либерия" 
+ LIB_radical_socialist_ADJ:0 "Либерийск."
+ 

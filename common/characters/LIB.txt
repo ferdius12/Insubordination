@@ -1,0 +1,19 @@
+characters = { 
+
+        LIB_charles_king = {
+		name = LIB_charles_king
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LIB/portrait_Liberia_Charles_King.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservative_subtype
+			expire = "1953.1.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		}
+		
+		}

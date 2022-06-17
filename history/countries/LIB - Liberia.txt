@@ -1,0 +1,31 @@
+﻿capital = 298
+
+oob = "LIB_1926"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 10
+
+recruit_character = LIB_charles_king
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1923.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	communism = 0
+    syndicalist = 0
+    radical_socialist = 11
+    social_democrat = 0
+    social_liberal = 0
+    market_liberal = 5
+    social_conservative = 81
+    authoritarian_democrat = 0
+    paternal_autocrat = 0
+    fascism = 3
+}

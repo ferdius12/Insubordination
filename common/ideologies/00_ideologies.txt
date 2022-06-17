@@ -277,9 +277,10 @@ ideologies = {
 		types = {
 			paternal_autocrat_subtype = { }
 			absolute_monarchy_subtype = { can_be_randomly_selected = no }
-			despotism_subtype = { can_be_randomly_selected = no }
+			despotism_subtype = { }
 			theocraty_subtype = { can_be_randomly_selected = no }
 			anarchism_subtype = { can_be_randomly_selected = no }
+			partisan_movement_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_NONALIGNED_1"

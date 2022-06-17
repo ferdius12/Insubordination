@@ -70,7 +70,11 @@
  #GERMAN CAMEROON
  GEK_paul_vorbeck:0 "Пауль фон Леттов-Форбек"
  GEK_ruben_um_nyobe:0 "Рубен Ум Ниобе"
- GEK_siegfried_muller:0 "Зигфрид Мюллер"
+ GEK_ernst_bush:0 "Эрнст Буш"
+ GEK_alfred_braun:0 "Альфред Браун"
+ GEK_akinwumni_twumaci:0 "Акинвумни Твумаси"
+ GEK_wilhelm_iii:0 "Вильгельм III"
+ 
  
  #BELGIAN CONGO
  COB_pierre_ruckmans:0 "Пьер Рюкманс"
@@ -381,3 +385,6 @@
  
  #CHL#
  CHL_emiliano_figueroa:0 "Эмилиано Фигероа"
+ 
+ #LIB#
+ LIB_charles_king:0 "Чарльз Кинг"
