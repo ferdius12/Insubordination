@@ -1,0 +1,18 @@
+characters = { 
+
+COL_pedro_nel_ospina = {
+		name = COL_pedro_nel_ospina
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COB/portrait_Belgian_Congo_Pierre_Ruckmans.png"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}  
+	}
+	

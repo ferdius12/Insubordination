@@ -6,11 +6,41 @@ characters = {
 			civilian = {
 				large = "gfx/leaders/GEK/Portrait_German_Cameroon_Paul_von_Lettow_Vorbeck.dds"
 			}
+			army = {
+				large = "gfx/leaders/GEK/Portrait_German_Cameroon_Paul_von_Lettow_Vorbeck.dds"
+				small = "gfx/interface/ideas/german_cameroon_advisor/idea_gek_paul_von_lettow_vorbeck.dds"
+			}
 		}
 		country_leader = {
 			ideology = moderatism_subtype
 			expire = "1953.3.1.1"
+			traits = { great_war_hero }
 			id = -1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = paul_vorbeck
+			ledger = army
+			allowed = {
+				original_tag = GEK
+			}
+			traits = {
+				army_logistics_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+		
+		field_marshal={
+			traits={ old_guard media_personality jungle_rat}
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=5
+			legacy_id=1
 		}
 	
 	}    
@@ -18,30 +48,100 @@ characters = {
 		name = GEK_ruben_um_nyobe
 		portraits = {
 			civilian = {
-				large = "Portrait_Africa_Generic_land_3.dds"
+				large = "gfx/leaders/GEK/portrait_German_Cameroon_Ruben_Um_Nyobe.dds"
 			}
 		}
 		country_leader = {
-			ideology = marxism_subtype
+			ideology = syndicalist_subtype
 			expire = "1953.3.1.1"
 			id = -1
 		}
 	
 	}
 	
-	    GEK_siegfried_muller = {
-		name = GEK_siegfried_muller
+	    GEK_wilhelm_iii = {
+		name = GEK_wilhelm_iii
 		portraits = {
 			civilian = {
-				large = "Portrait_Germany_Generic_land_5.dds"
+				large = "gfx/leaders/GEK/portrait_German_Cameroon_Wilhelm_III.dds"
 			}
 		}
 		country_leader = {
-			ideology = national_stratocratic_subtype
+			ideology = absolute_monarchy_subtype
 			expire = "1953.3.1.1"
 			id = -1
 		}
 	
 	}
 	
+	    GEK_ernst_bush = {
+		name = GEK_ernst_bush
+		portraits = {
+			army = {
+				large = "gfx/leaders/GEK/Portrait_German_Cameroon_Ernst_Bush.dds"
+				small = "gfx/interface/ideas/german_cameroon_advisor/idea_gek_ernst_bush.dds"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = ernst_bush
+			ledger = army
+			allowed = {
+				original_tag = GEK
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+		
+		corps_commander={
+			traits={ politically_connected harsh_leader infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=2
+		}
+		
+		}
+		
+		GEK_alfred_braun = {
+		portraits = {
+			army = {
+				large = "gfx/leaders/GEK/portrait_German_Cameroon_Alfred_Braun.dds"
+				small = "gfx/interface/ideas/german_cameroon_advisor/idea_gek_alfred_braun.dds"
+			}
+		}
+		corps_commander = {
+			traits = { jungle_rat }
+			skill = 2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+		}
+		}
+	    
+		GEK_akinwumni_twumaci = {
+		portraits = {
+			army = {
+				large = "gfx/leaders/GEK/portrait_German_Cameroon_Akinwumni_Twumaci.dds"
+				small = "gfx/interface/ideas/german_cameroon_advisor/idea_gek_akinwumni_twumaci.dds"
+			}
+		}
+		corps_commander = {
+			traits = { jungle_rat career_officer }
+			skill = 2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+		}
+		}
+	
 	}
+	

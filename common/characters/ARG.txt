@@ -4,7 +4,7 @@ characters = {
 		name = ARG_marselo_de_alvear
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ARG/portrait_Argentina_Marselo_de_Alvear.dds"
+				large = "gfx\leaders\ARG\MarceloTdeAlvearca.dds"
 			}
 		}
 		country_leader = {

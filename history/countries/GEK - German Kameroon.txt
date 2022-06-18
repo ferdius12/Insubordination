@@ -16,7 +16,10 @@ set_technology = {
 
 recruit_character = GEK_paul_vorbeck
 recruit_character = GEK_ruben_um_nyobe
-recruit_character = GEK_siegfried_muller
+recruit_character = GEK_ernst_bush
+recruit_character = GEK_alfred_braun
+recruit_character = GEK_akinwumni_twumaci
+recruit_character = GEK_wilhelm_iii
 
 add_opinion_modifier = { 
 			target = NGA
@@ -45,7 +48,7 @@ set_popularities = {
 
 add_ideas = {
 			GEK_african_army 
-NGA_GEK_skirmishe_border
+            NGA_GEK_skirmishe_border
 			GEK_german_ambition
             GEK_fallen_legacy
             cameroon_isolation
