@@ -1,0 +1,19 @@
+characters={
+
+    ANN_boris_annenkov = {
+		name = ANN_boris_annenkov
+		portraits = {
+			civilian = {
+				large="gfx/leaders/ANN/portrait_boris_annenkov.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_stratocratic_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+	}
+	
+	}

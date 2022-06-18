@@ -848,7 +848,7 @@ LVO = {
 	color_ui = rgb { 0  80  230 }
 }
 PON = {
-	color = rgb { 143 12 125 }
+	color = rgb { 173 118 59 }
 	color_ui = rgb { 143 12 125 }
 }
 RIF = {
@@ -904,15 +904,15 @@ APW = {
 	color_ui = rgb { 141 90 87 }
 }
 VLS = {
-	color = rgb { 10, 9, 9 }
-	color_ui = rgb { 10, 9, 9 }
+	color = rgb { 33 33 33 }
+	color_ui = rgb { 33 33 33 }
 }
 KOL = {
-	color = rgb { 189 215 219 }
+	color = rgb { 83 106 140 }
 	color_ui = rgb { 189 215 219 }
 }
 SYB = {
-	color = rgb { 196 238 242 }
+	color = rgb { 81 107 92 }
 	color_ui = rgb { 196 238 242 }
 }
 MTR = {
@@ -926,4 +926,8 @@ RUC = {
 FCA = {
 	color = rgb { 85 130 55 }
 	color_ui = rgb { 85 130 55 }
+}
+ANN = {
+	color = rgb { 10 10 10 }
+	color_ui = rgb { 10 10 10 }
 }

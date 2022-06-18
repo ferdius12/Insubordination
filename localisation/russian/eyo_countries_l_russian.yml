@@ -1582,3 +1582,11 @@
  FCA_DEF:0 "Французская Экваториальная Африка"
  FCA_ADJ:0 "Экваториан."
  
+ #ORLINOE GNEZDO#
+ ANN:0 "Перевал Скельке"
+ ANN_DEF:0 "Перевал Скельке"
+ ANN_ADJ:0 "Скельск."
+ ANN_paternal_autocrat:0 "Орлиное Гнездо"
+ ANN_paternal_autocrat_DEF:0 "Орлиное Гнездо"
+ ANN_paternal_autocrat_ADJ:0 "Орлиногнездинск."
+ 
