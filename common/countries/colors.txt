@@ -919,7 +919,11 @@ MTR = {
 	color = rgb { 16 96 108 }
 	color_ui = rgb { 16 96 108 }
 }
-}
 RUC = {
 	color = rgb { 184 182 106 }
 	color_ui = rgb { 106 184 144 }
+}
+FCA = {
+	color = rgb { 85 130 55 }
+	color_ui = rgb { 85 130 55 }
+}

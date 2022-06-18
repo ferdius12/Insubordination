@@ -15,4 +15,19 @@ characters={
 		}
 	}
 	
+	    FRA_francois_de_la_rocque = {
+		name = FRA_francois_de_la_rocque
+		portraits = {
+			civilian = {
+				large="gfx/leaders/FRA/portrait_France_Francois_de_la_Rocque.dds"
+			}
+		}
+		country_leader = {
+			ideology = falangism_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
 	}

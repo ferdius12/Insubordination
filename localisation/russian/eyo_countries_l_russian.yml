@@ -1484,8 +1484,8 @@
  MOR_radical_socialist:0 "Бедуинская республика Марокко" 
  MOR_radical_socialist_DEF:0 "Бедуинская республика Марокко" 
  MOR_radical_socialist_ADJ:0 "Марокrанск."
- MOR_authoritarian_democrat:0 "Французкий протекторат Марокко" 
- MOR_authoritarian_democrat_DEF:0 "Французкий протекторат Марокко" 
+ MOR_authoritarian_democrat:0 "Французкое Марокко" 
+ MOR_authoritarian_democrat_DEF:0 "Французкое Марокко" 
  MOR_authoritarian_democrat_ADJ:0 "Мароrканск."
  MOR_paternal_autocrat:0 "Королевство Марокко" 
  MOR_paternal_autocrat_DEF:0 "Королевство Марокко" 
@@ -1576,4 +1576,9 @@
  COL_fascism:0 "Новая Гран-Колумбия" 
  COL_fascism_DEF:0 "Новая Гран-Колумбия" 
  COL_fascism_ADJ:0 "Колумбийск."
+ 
+ #FRENCH CENTRAL AFRICA#
+ FCA:0 "Французская Экваториальная Африка"
+ FCA_DEF:0 "Французская Экваториальная Африка"
+ FCA_ADJ:0 "Экваториан."
  

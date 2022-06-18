@@ -1,6 +1,28 @@
 ideas = {
 
 	country = {
+	
+	FRA_unstable_economy = {
+				
+			allowed = {
+				original_tag = FIN
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = FIN_emils_detachments
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.20
+		 
+			}
+		}
+		
+		
 }
 }
 

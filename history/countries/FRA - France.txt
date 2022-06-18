@@ -10,6 +10,7 @@ add_ideas = {
 }
 
 recruit_character = FRA_gaston_doumergue
+recruit_character = FRA_francois_de_la_rocque
 
 set_autonomy = {
 		target = SAR
@@ -26,6 +27,11 @@ set_autonomy = {
 		target = MOR
 		autonomous_state = autonomy_colony
 		freedom_level = 0.75
+}
+set_autonomy = {
+		target = FCA
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
 }
 
 set_technology = {

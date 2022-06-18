@@ -1,0 +1,18 @@
+characters = { 
+
+		FCA_raphael_antonetti = {
+		name = FCA_raphael_antonetti
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FCA/portrait_French_Central_Africa_Raphael_Antonetti.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+	
+	}

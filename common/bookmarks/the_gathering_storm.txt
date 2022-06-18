@@ -19,8 +19,8 @@ bookmarks = {
 			}
 		}
 		"GER"={
-			history = "LVO_GATHERING_STORM_DESC"
-			ideology = democratic
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = communism
 			ideas = {
 				
 			}
@@ -72,9 +72,9 @@ bookmarks = {
 			}
 		}
 		
-		"IRE"={
-			history = "IRE_GATHERING_STORM_DESC"
-			ideology = neutrality
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = market_liberal
 			ideas = {
 			
 			}

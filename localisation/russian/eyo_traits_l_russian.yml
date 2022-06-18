@@ -1,4 +1,14 @@
 ﻿l_russian:
+ communist_revolutionary:0 "Коммунистический революционер"
+ syndicalist_worker:0 "Рабочий-синдикалист"
+ intelligent_socialist:0 "Социалист-интеллигент"
+ social_democrat_reformer:0 "Социал-демократический реформатор"
+ social_liberal_reformer:0 "Социал-либеральный реформатор"
+ political_bankeer:0 "Банкир-политик"
+ conservative_politician:0 "Консервативный политикан"
+ corrupt_oligarch:0 "Олигарх-коррупционер"
+ retired_officer1:0 "Офицер в отставке"
+ fascist_demagogue:0 "Фашист-демагог"
  governor:0 "Губернатор"
  pan_turkist:0 "Пантюркист"
  indecisive_communist:0 "Неуверенный коммунист"
@@ -22,4 +32,5 @@
  democratic_reformator :0 "Реформатор"
  fascist_politican:0 "Шпик"
  kirill_romanov:0 "Император Всероссийский"
+ 
  

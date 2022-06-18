@@ -1,0 +1,3 @@
+graphical_culture = FRA
+graphical_culture_2d = eastern_european_2d
+color = rgb { 85 130 55 } ##÷вет на политической карте

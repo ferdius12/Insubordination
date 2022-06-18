@@ -29,18 +29,6 @@ create_faction = SovietUnion
 add_to_faction = FIN
 add_to_faction = KAZ
 add_to_faction = KUS
-
-set_autonomy = {
-		target = FIN
-		autonomous_state = autonomy_soviet_republic
-		freedom_level = 0.35
-	}
-	
-set_autonomy = {
-		target = KAZ
-		autonomous_state = autonomy_soviet_republic
-		freedom_level = 0.50
-	}
 	
 set_autonomy = {
 		target = KUS

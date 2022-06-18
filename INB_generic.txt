@@ -1,0 +1,936 @@
+focus_tree = {
+	id = INB_generic
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	default = no
+	focus = {
+		id = generic_choose_our_policy
+		text = generic_choose_our_policy
+		icon = GFX_goal_generic_demand_territory
+		cost = 10,00
+		x = 12
+		y = 0
+		completion_reward = {
+					add_political_power = 120 = generic_left_way
+				}
+
+	}
+	focus = {
+		id = generic_socialist_way
+		text = generic_socialist_way
+		icon = GFX_focus_generic_soviet_politics
+		cost = 5,00
+		prerequisite = {
+			focus = generic_choose_our_policy
+		}
+		mutually_exclusive = {
+			focus = generic_democratic_way
+		}
+		x = 2
+		y = 1
+			available = {
+					OR = {
+							communism > 0.25
+							syndicalist > 0.25
+							radical_socialist > 0.25
+						}
+				}
+			completion_reward = {
+					add_ideas = generic_left_way
+				}
+
+	}
+	focus = {
+		id = generic_communism
+		text = generic_communism
+		icon = GFX_goal_generic_communism
+		cost = 10,00
+		prerequisite = {
+			focus = generic_socialist_way
+		}
+		mutually_exclusive = {
+			focus = generic_syndicalist
+			focus = generic_radical_socialist
+		}
+		x = 0
+		y = 2
+		
+		available = {
+				communism > 0.40
+				}
+			completion_reward = {
+			set_politics = {
+                ruling_party = communism
+                elections_allowed = no
+            }
+					add_popularity = {
+							ideology = communism
+							popularity = 0.1
+						}
+					add_popularity = {
+							ideology = radical_socialist
+							popularity = -0.05
+						}
+					add_popularity = {
+							ideology = syndicalist
+							popularity = -0.05
+						}
+					swap_ideas = {
+							remove_idea = generic_left_way
+							add_idea = generic_left_way_communism
+						}
+				}
+
+	}
+	focus = {
+		id = generic_political_commisar
+		text = generic_political_commisar
+		icon = GFX_goal_generic_communism
+		cost = 7,00
+		prerequisite = {
+			focus = generic_communism
+		}
+		x = 0
+		y = 3
+			completion_reward = {
+					add_ideas = generic_communism_political_comissar
+					add_stability = 0.05
+				}
+
+	}
+	focus = {
+		id = generic_partian_leadership
+		text = generic_partian_leadership
+		icon = GFX_goal_generic_communism
+		cost = 7,00
+		prerequisite = {
+			focus = generic_political_commisar
+		}
+		x = 0
+		y = 4
+			completion_reward = {
+					add_popularity = {
+							ideology = communism
+							popularity = 0.15
+						}
+					add_political_power = 50
+				}
+
+	}
+	focus = {
+		id = generic_planned_economy
+		text = generic_planned_economy
+		icon = GFX_goal_generic_communism
+		cost = 7,00
+		prerequisite = {
+			focus = generic_partian_leadership
+		}
+		x = 0
+		y = 5
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = generic_syndicalist
+		text = generic_syndicalist
+		icon = GFX_goal_generic_syndicalist
+		cost = 10,00
+		prerequisite = {
+			focus = generic_socialist_way
+		}
+		mutually_exclusive = {
+			focus = generic_communism
+			focus = generic_radical_socialist
+		}
+		x = 2
+		y = 2
+		available = {
+				syndicalist > 0.40
+				}
+			completion_reward = {
+			set_politics = {
+                ruling_party = syndicalist
+                elections_allowed = no
+            }
+					add_popularity = {
+							ideology = syndicalist
+							popularity = 0.1
+						}
+					add_popularity = {
+							ideology = radical_socialist
+							popularity = -0.05
+						}
+					add_popularity = {
+							ideology = communism
+							popularity = -0.05
+						}
+					swap_ideas = {
+							remove_idea = generic_left_way
+							add_idea = generic_left_way_syndicalist
+						}
+				}
+
+	}
+	focus = {
+		id = generic_create_syndicats
+		text = generic_create_syndicats
+		icon = GFX_goal_generic_syndicalist
+		cost = 7,00
+		prerequisite = {
+			focus = generic_syndicalist
+		}
+		x = 2
+		y = 3
+		
+		completion_reward = {
+		add_ideas = generic_syndicalist_workers_syndicate
+		}
+
+	}
+	focus = {
+		id = generic_focus_on_internal_exchange
+		text = generic_focus_on_internal_exchange
+		icon = GFX_goal_generic_syndicalist
+		cost = 7,00
+		prerequisite = {
+			focus = generic_create_syndicats
+		}
+		x = 2
+		y = 4
+		completion_reward = {
+		add_ideas = limited_exports
+		swap_ideas = {
+							remove_idea = generic_syndicalist_workers_syndicate
+							add_idea = generic_syndicalist_workers_syndicate_2
+						}
+		}
+
+	}
+	focus = {
+		id = generic_workers_industrialise
+		text = generic_workers_industrialise
+		icon = GFX_goal_generic_syndicalist
+		cost = 7,00
+		prerequisite = {
+			focus = generic_focus_on_internal_exchange
+		}
+		x = 2
+		y = 5
+        completion_reward = {
+		add_stability = 0.05
+		random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+						
+						}
+	}
+	focus = {
+		id = generic_radical_socialist
+		text = generic_radical_socialist
+		icon = GFX_goal_generic_radical_socialist
+		cost = 10,00
+		prerequisite = {
+			focus = generic_socialist_way
+		}
+		mutually_exclusive = {
+			focus = generic_communism
+			focus = generic_syndicalist
+		}
+		x = 4
+		y = 2
+		available = {
+				radical_socialist > 0.40
+				}
+			completion_reward = {
+			set_politics = {
+                ruling_party = radical_socialist
+                elections_allowed = no
+            }
+					add_popularity = {
+							ideology = radical_socialist
+							popularity = 0.1
+						}
+					add_popularity = {
+							ideology = syndicalist
+							popularity = -0.05
+						}
+					add_popularity = {
+							ideology = communism
+							popularity = -0.05
+						}
+					swap_ideas = {
+							remove_idea = generic_left_way
+							add_idea = generic_left_way_radical_socialist
+						}
+				}
+
+	}
+	focus = {
+		id = generic_social_equality
+		text = generic_social_equality
+		icon = GFX_goal_generic_radical_socialist
+		cost = 7,00
+		prerequisite = {
+			focus = generic_radical_socialist
+		}
+		x = 4
+		y = 3
+        completion_reward = {
+		add_political_power = 50
+		add_stability = 0.1
+		add_war_support = 0.1
+	}
+	
+	}
+	focus = {
+		id = generic_party_democraty
+		text = generic_party_democraty
+		icon = GFX_goal_generic_radical_socialist
+		cost = 7,00
+		prerequisite = {
+			focus = generic_social_equality
+		}
+		x = 4
+		y = 4
+		completion_reward = {
+		add_ideas = generic_radical_socialist_party_democratic
+		}
+
+	}
+	
+	focus = {
+		id = generic_people_milita
+		text = generic_people_milita
+		icon = GFX_goal_generic_radical_socialist
+		cost = 7,00
+		prerequisite = {
+			focus = generic_party_democraty
+		}
+		x = 4
+		y = 5
+        completion_reward = {
+		add_ideas = generic_radical_socialist_people_militia 
+		add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = generic_democratic_way
+		text = generic_democratic_way
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = generic_choose_our_policy
+		}
+		mutually_exclusive = {
+			focus = generic_socialist_way
+			focus = generic_right_way
+			focus = generic_authoritarian_way
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = generic_social_democratic
+		text = generic_social_democratic
+		icon = GFX_goal_generic_social_democrat
+		cost = 5,00
+		prerequisite = {
+			focus = generic_democratic_way
+		}
+		mutually_exclusive = {
+			focus = generic_social_liberalism
+			focus = generic_market_liberal
+			focus = generic_social_conservatism
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = generic_social_economic
+		text = generic_social_economic
+		icon = GFX_goal_generic_social_democrat
+		cost = 7,00
+		prerequisite = {
+			focus = generic_social_democratic
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = generic_enlist_the_support_left
+		text = generic_enlist_the_support_left
+		icon = GFX_goal_generic_social_democrat
+		cost = 7,00
+		prerequisite = {
+			focus = generic_social_economic
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = generic_fight_against_monopolies
+		text = generic_fight_against_monopolies
+		icon = GFX_goal_generic_social_democrat
+		cost = 7,00
+		prerequisite = {
+			focus = generic_enlist_the_support_left
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = generic_social_liberalism
+		text = generic_social_liberalism
+		icon = GFX_goal_generic_social_liberal
+		cost = 5,00
+		prerequisite = {
+			focus = generic_democratic_way
+		}
+		mutually_exclusive = {
+			focus = generic_social_democratic
+			focus = generic_market_liberal
+			focus = generic_social_conservatism
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = generic_provide_a_equal_start_for_businnes
+		text = generic_provide_a_equal_start_for_businnes
+		icon = GFX_goal_generic_social_liberal
+		cost = 7,00
+		prerequisite = {
+			focus = generic_social_liberalism
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = generic_attract_immigrants
+		text = generic_attract_immigrants
+		icon = GFX_goal_generic_social_liberal
+		cost = 7,00
+		prerequisite = {
+			focus = generic_provide_a_equal_start_for_businnes
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = generic_social_grants_for_the_poor
+		text = generic_social_grants_for_the_poor
+		icon = GFX_goal_generic_social_liberal
+		cost = 7,00
+		prerequisite = {
+			focus = generic_attract_immigrants
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = generic_market_liberal
+		text = generic_market_liberal
+		icon = GFX_goal_generic_market_liberal
+		cost = 5,00
+		prerequisite = {
+			focus = generic_democratic_way
+		}
+		mutually_exclusive = {
+			focus = generic_social_democratic
+			focus = generic_social_liberalism
+			focus = generic_social_conservatism
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = generic_stimulate_global_trading
+		text = generic_stimulate_global_trading
+		icon = GFX_goal_generic_market_liberal
+		cost = 7,00
+		prerequisite = {
+			focus = generic_market_liberal
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = generic_increace_work_day
+		text = generic_increace_work_day
+		icon = GFX_goal_generic_market_liberal
+		cost = 7,00
+		prerequisite = {
+			focus = generic_stimulate_global_trading
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = generic_minimize_intervention_in_economic
+		text = generic_minimize_intervention_in_economic
+		icon = GFX_goal_generic_market_liberal
+		cost = 7,00
+		prerequisite = {
+			focus = generic_increace_work_day
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = generic_social_conservatism
+                text = generic_social_conservatism
+		icon = GFX_goal_generic_social_conservative
+		cost = 5,00
+		prerequisite = {
+			focus = generic_democratic_way
+		}
+		mutually_exclusive = {
+			focus = generic_social_democratic
+			focus = generic_social_liberalism
+			focus = generic_market_liberal
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = generic_condemn_left_wing
+		text = generic_condemn_left_wing
+		icon = GFX_goal_generic_social_conservative
+		cost = 7,00
+		prerequisite = {
+			focus = generic_social_conservatism
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = generic_investment_in_heavy_industry
+		text = generic_investment_in_heavy_industry
+		icon = GFX_goal_generic_social_conservative
+		cost = 7,00
+		prerequisite = {
+			focus = generic_condemn_left_wing
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = generic_eliminate_the_brain_drain
+		text = generic_eliminate_the_brain_drain
+		icon = GFX_goal_generic_social_conservative
+		cost = 7,00
+		prerequisite = {
+			focus = generic_investment_in_heavy_industry
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = generic_authoritarian_way
+		text = generic_authoritarian_way
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = generic_choose_our_policy
+		}
+		mutually_exclusive = {
+			focus = generic_democratic_way
+			focus = generic_right_way
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = generic_centrism
+		text = generic_centrism
+		icon = GFX_goal_generic_authoritarian_democrat
+		cost = 7,00
+		prerequisite = {
+			focus = generic_authoritarian_way
+		}
+		mutually_exclusive = {
+			focus = generic_reactionary_government
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = generic_defence_for_radical
+		text = generic_defence_for_radical
+		icon = GFX_goal_generic_authoritarian_democrat
+		cost = 7,00
+		prerequisite = {
+			focus = generic_centrism
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = generic_reactionary_government
+		text = generic_reactionary_government
+		icon = GFX_goal_generic_paternal_autocrat
+		cost = 7,00
+		prerequisite = {
+			focus = generic_authoritarian_way
+		}
+		mutually_exclusive = {
+			focus = generic_centrism
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = generic_media_censorship
+		text = generic_media_censorship
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = generic_reactionary_government
+			focus = generic_centrism
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = generic_centralise_power
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = generic_media_censorship
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = generic_diplomatic_corps
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = generic_centralise_power
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = generic_praise_the_leader
+		icon = GFX_goal_generic_paternal_autocrat
+		cost = 7,00
+		prerequisite = {
+			focus = generic_reactionary_government
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = generic_intense_military_exercises
+		text = generic_intense_military_exercises
+		icon = GFX_goal_generic_paternal_autocrat
+		cost = 7,00
+		prerequisite = {
+			focus = generic_praise_the_leader
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = generic_nationalisation_industry
+		text = generic_nationalisation_industry
+		icon = GFX_goal_generic_paternal_autocrat
+		cost = 7,00
+		prerequisite = {
+			focus = generic_intense_military_exercises
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = generic_right_way
+		text = generic_right_way
+		icon = GFX_goal_generic_fascism
+		cost = 5,00
+		prerequisite = {
+			focus = generic_choose_our_policy
+		}
+		mutually_exclusive = {
+			focus = generic_democratic_way
+			focus = generic_authoritarian_way
+		}
+		x = 23
+		y = 1
+
+	}
+	focus = {
+		id = generic_interventionism
+		text = generic_interventionism
+		icon = GFX_goal_generic_authoritarian_democrat
+		cost = 7,00
+		prerequisite = {
+			focus = generic_postpone_elections
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = generic_postpone_elections
+		text = generic_postpone_elections
+		icon = GFX_goal_generic_authoritarian_democrat
+		cost = 10,00
+		prerequisite = {
+			focus = generic_defence_for_radical
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = generic_for_the_country
+		text = generic_for_the_country
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = generic_diplomatic_corps
+			focus = generic_nationalisation_industry
+			focus = generic_interventionism
+		}
+		prerequisite = {
+			focus = generic_diplomatic_corps
+		}
+		x = 18
+		y = 6
+
+	}
+	focus = {
+		id = generic_why_we_fight
+		text = generic_why_we_fight
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = generic_minimize_intervention_in_economic
+			focus = generic_eliminate_the_brain_drain
+			focus = generic_social_grants_for_the_poor
+			focus = generic_fight_against_monopolies
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = generic_international_revolution
+		text = generic_international_revolution
+		icon = GFX_focus_SOV_mobilization_plan
+		cost = 10,00
+		prerequisite = {
+			focus = generic_people_milita
+			focus = generic_workers_industrialise
+			focus = generic_planned_economy
+		}
+		x = 2
+		y = 6
+		completion_reward = { 
+		set_rule = { can_create_factions = yes }
+		add_ideas = generic_left_way_world_revolution
+		add_war_support = 0.05
+		add_stability = 0.05
+		}
+
+	}
+	focus = {
+		id = generic_corporatism
+		text = generic_corporatism
+		icon = GFX_goal_generic_fascism
+		cost = 7,00
+		prerequisite = {
+			focus = generic_right_way
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = generic_militarism
+		text = generic_militarism
+		icon = GFX_goal_generic_fascism
+		cost = 7,00
+		prerequisite = {
+			focus = generic_corporatism
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = generic_union_in_church
+		text = generic_union_in_church
+		icon = GFX_goal_generic_fascism
+		cost = 7,00
+		prerequisite = {
+			focus = generic_militarism
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = generic_ideological_fanatism
+		text = generic_ideological_fanatism
+		icon = GFX_goal_generic_fascism
+		cost = 10,00
+		prerequisite = {
+			focus = generic_union_in_church
+		}
+		x = 23
+		y = 6
+
+	}
+}

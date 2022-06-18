@@ -1,0 +1,304 @@
+ideas = {
+
+country = { 
+
+        generic_left_way = {
+				
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = INS_brain_drain
+				
+			removal_cost = -1
+				
+			modifier = {
+	        stability_factor = 0.05
+			conscription_factor = 0.1
+			custom_effect_tooltip = agreement_socialist_regimes
+			hidden_modifier = {
+				communism_acceptance = 35
+				syndicalist_acceptance = 35
+				radical_socialist_acceptance = 35
+			}
+			}
+		}
+		
+		generic_left_way_communism = {
+				
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_communism
+				
+			removal_cost = -1
+				
+			modifier = {
+	        stability_factor = 0.05
+			conscription_factor = 0.15
+			war_support_factor = 0.05
+			communism_drift = 0.1
+			hidden_modifier = {
+				communism_acceptance = 35
+				syndicalist_acceptance = 35
+				radical_socialist_acceptance = 35
+			}
+			}
+			
+		}
+		
+		generic_left_way_syndicalist = {
+				
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_syndicalist
+				
+			removal_cost = -1
+				
+			modifier = {
+	        stability_factor = 0.1
+			conscription_factor = 0.1
+			production_speed_buildings_factor = 0.05
+			industrial_capacity_factory = 0.05
+			syndicalist_drift = 0.1
+			hidden_modifier = {
+				communism_acceptance = 35
+				syndicalist_acceptance = 35
+				radical_socialist_acceptance = 35
+			}
+			}
+			
+		}
+		
+		generic_left_way_radical_socialist = {
+				
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_radical_socialist
+				
+			removal_cost = -1
+				
+			modifier = {
+	        stability_factor = 0.05
+			war_support_factor = 0.05
+			conscription_factor = 0.05
+			monthly_population = 0.30
+			radical_socialist_drift = 0.1
+			hidden_modifier = {
+				communism_acceptance = 35
+				syndicalist_acceptance = 35
+				radical_socialist_acceptance = 35
+			}
+			}
+			
+		}
+		
+		generic_communism_political_comissar = {
+				
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_communism
+				
+			removal_cost = -1
+				
+			modifier = {
+			political_power_factor = 0.05
+	        army_morale_factor = 0.1
+			army_org_factor = 0.08
+		}
+		
+		}
+		
+		generic_syndicalist_workers_syndicate = {
+				
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_syndicalist
+				
+			removal_cost = -1
+				
+			modifier = {
+			stability_factor = 0.05
+			consumer_goods_factor = -0.05
+			production_speed_buildings_factor = 0.1
+		}
+		
+		}
+		
+		generic_syndicalist_workers_syndicate_2 = {
+				
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_syndicalist
+				
+			removal_cost = -1
+				
+			modifier = {
+			stability_factor = 0.05
+			consumer_goods_factor = -0.05
+			production_speed_buildings_factor = 0.1
+			local_resources_factor = 0.1
+			production_lack_of_resource_penalty_factor = -0.05
+		}
+		
+		}
+		
+		generic_radical_socialist_party_democratic = {
+				
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_radical_socialist
+				
+			removal_cost = -1
+				
+			modifier = {
+			stability_factor = 0.15
+			war_support_factor = 0.1
+			political_power_factor = 0.15	
+			radical_socialist_drift = 0.02
+		}
+		
+		}
+		
+		generic_radical_socialist_people_militia = {
+				
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_radical_socialist
+				
+			removal_cost = -1
+				
+			modifier = {
+			conscription = 0.005
+			war_support_factor = 0.05
+			surrender_limit = 0.1
+			army_core_attack_factor = 0.05
+			army_core_defence_factor = 0.1
+		}
+		
+		}
+		
+		generic_left_way_world_revolution = {
+				
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_world_revolution
+				
+			removal_cost = -1
+				
+			modifier = {
+			conscription = 0.01
+			war_support_factor = 0.1
+			stability_factor = 0.1
+			justify_war_goal_time = -0.35
+			send_volunteer_divisions_required = -0.45
+		}
+		
+		}
+		
+		generic_fascism_way = {
+				
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_world_revolution
+				
+			removal_cost = -1
+				
+			modifier = {
+			war_support_factor = 0.05
+			add_political_power = 0.05
+			max_command_power = 25
+		}
+		
+		}
+		
+		generic_fascism_for_the_nation = {
+				
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_world_revolution
+				
+			removal_cost = -1
+				
+			modifier = {
+			war_support_factor = 0.1
+			add_political_power = 0.1
+			max_command_power = 25
+			army_org_regain = 0.08
+		}
+		
+		}
+		
+		}
+		
+		}
+		

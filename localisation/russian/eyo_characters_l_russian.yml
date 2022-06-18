@@ -124,6 +124,8 @@
  
  #FRANCE
  FRA_gaston_doumergue:0 "Гастон Думерг"
+ FRA_francois_de_la_rocque:0 "Франсуа де ля Рок"
+ FRA_pierre_semard:0 ""
  
  #HOLLAND
  HOL_david_wijnkoop:0 "Давид Вейнкоп"
@@ -391,4 +393,7 @@
  
  #COL#
  COL_pedro_nel_ospina:0 "Педро Нель Оспина"
+ 
+ #FCA#
+ FCA_raphael_antonetti:0 "Рафаэль Антонетти"
  

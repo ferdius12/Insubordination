@@ -465,4 +465,28 @@ spriteTypes = {
 		name = "GFX_idea_ITA_underdeveloped_south"
 		texturefile = "gfx/interface/ideas/idea_ita_underdeveloped_south.dds"
 	}
+	
+	
+    #Generic#
+	
+	spriteType = {
+		name = "GFX_idea_generic_communism"
+		texturefile = "gfx/interface/ideas/idea_generic_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_syndicalist"
+		texturefile = "gfx/interface/ideas/idea_generic_syndicalist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_radical_socialist"
+		texturefile = "gfx/interface/ideas/idea_generic_radical_socialist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_generic_world_revolution"
+		texturefile = "gfx/interface/ideas/idea_generic_world_revolution.dds"
+	}
+	
 }

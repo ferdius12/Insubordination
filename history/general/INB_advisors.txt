@@ -1,0 +1,309 @@
+every_possible_country = {
+	limit = {
+		NOT = { OR = { original_tag = POL } }
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = communist_revolutionary characters = yes }
+		}
+		if = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			NOT = { tag = TUR tag = GRE }
+		}
+	}
+	generate_character = {
+		token_base = generic_communist_revolutionary # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { communist_revolutionary }
+			available = {
+				always = yes
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		NOT = { OR = { original_tag = POL } }
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = syndicalist_worker characters = yes }
+		}
+		if = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			NOT = { tag = TUR tag = GRE }
+		}
+	}
+	generate_character = {
+		token_base = generic_syndicalist_worker # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { syndicalist_worker }
+			available = {
+				always = yes
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		NOT = { OR = { original_tag = POL } }
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = intelligent_socialist characters = yes }
+		}
+		if = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			NOT = { tag = TUR tag = GRE }
+		}
+	}
+	generate_character = {
+		token_base = generic_intelligent_socialist # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { intelligent_socialist }
+			available = {
+				always = yes
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_communist_revolutionary }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		NOT = { OR = { original_tag = POL } }
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = social_democrat_reformer characters = yes }
+		}
+		if = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			NOT = { tag = TUR tag = GRE }
+		}
+	}
+	generate_character = {
+		token_base = generic_social_democrat_reformer # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { social_democrat_reformer }
+			available = {
+				always = yes
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_democratic_reformer }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		NOT = { OR = { original_tag = POL } }
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = social_liberal_reformer characters = yes }
+		}
+		if = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			NOT = { tag = TUR tag = GRE }
+		}
+	}
+	generate_character = {
+		token_base = generic_social_liberal_reformer # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { social_liberal_reformer }
+			available = {
+				always = yes
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_democratic_reformer }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		NOT = { OR = { original_tag = POL } }
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = political_bankeer characters = yes }
+		}
+		if = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			NOT = { tag = TUR tag = GRE }
+		}
+	}
+	generate_character = {
+		token_base = generic_political_bankeer # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { political_bankeer }
+			available = {
+				always = yes
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_democratic_reformer }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		NOT = { OR = { original_tag = POL } }
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = conservative_politician characters = yes }
+		}
+		if = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			NOT = { tag = TUR tag = GRE }
+		}
+	}
+	generate_character = {
+		token_base = generic_conservative_politician # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { conservative_politician }
+			available = {
+				always = yes
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_democratic_reformer }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		NOT = { OR = { original_tag = POL } }
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = corrupt_oligarch characters = yes }
+		}
+		if = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			NOT = { tag = TUR tag = GRE }
+		}
+	}
+	generate_character = {
+		token_base = generic_corrupt_oligarch # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { corrupt_oligarch }
+			available = {
+				always = yes
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_democratic_reformer }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		NOT = { OR = { original_tag = POL } }
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = retired_officer characters = yes }
+		}
+		if = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			NOT = { tag = TUR tag = GRE }
+		}
+	}
+	generate_character = {
+		token_base = generic_retired_officer # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { retired_officer1 }
+			available = {
+				always = yes
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_fascist_demagogue }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		NOT = { OR = { original_tag = POL } }
+		# avoid generic advisors in temporary countries
+		is_dynamic_country = no
+		NOT = {
+			has_allowed_idea_with_traits = { idea = fascist_demagogue characters = yes }
+		}
+		if = {
+			limit = { has_dlc = "Battle for the Bosporus" }
+			NOT = { tag = TUR tag = GRE }
+		}
+	}
+	generate_character = {
+		token_base = generic_fascist_demagogue # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { fascist_demagogue }
+			available = {
+				always = yes
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_fascist_demagogue }
+		}
+	}
+}

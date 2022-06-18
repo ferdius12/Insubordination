@@ -521,44 +521,6 @@ ideas = {
    				factor = 0
    			}
 		}
-		
-		cameroon_isolation = {  
-	
-			name = cameroon_isolation
-
-			picture = GEK_african_isolation
-			
-			allowed = {
-				always = no
-			}
-			removal_cost = -1
-
-			modifier = {
-				consumer_goods_factor = 0.1
-				production_speed_industrial_complex_factor = -0.15
-				production_speed_arms_factory_factor = -0.15
-				production_speed_dockyard_factor = -0.15
-
-			}
-			allowed_to_remove = {
-				OR = {
-					has_war_support > 0.50
-					has_stability > 0.60
-					has_war = yes
-				}
-				
-				OR = {
-				has_completed_focus = GEK_reich_investition
-				}
-				
-				OR = {
-				has_completed_focus = GEK_trade_with_allies
-				}
-				
-			}
-
-			cancel_if_invalid = no
-		}
 	}
 
 	trade_laws = {
@@ -601,6 +563,24 @@ ideas = {
 				}
 			}
 
+			on_remove = {
+				if = {
+					limit = {
+						tag = POL
+						85 = { is_demilitarized_zone = no }
+						has_civil_war = no 
+					}
+					85 = {
+						if = {
+							limit = {
+								has_dynamic_modifier = { modifier = international_city }
+							}
+							remove_dynamic_modifier = { modifier = international_city }
+						}
+					}
+				}
+			}
+			
 			cancel_if_invalid = no
 		}
 
@@ -613,13 +593,6 @@ ideas = {
 						has_dlc = "La Resistance"
 					}
 					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
-				}
-				
-				if = {
-					limit = {
-						original_tag = FIN
-					}
-					NOT = { has_idea = FIN_war_communism }
 				}
 			}
 
@@ -684,13 +657,6 @@ ideas = {
 						has_dlc = "La Resistance"
 					}
 					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
-				}
-				
-				if = {
-					limit = {
-						original_tag = FIN
-					}
-					NOT = { has_idea = FIN_war_communism }
 				}
 			}
 
@@ -775,13 +741,6 @@ ideas = {
 						has_dlc = "La Resistance"
 					}
 					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
-				}
-				
-				if = {
-					limit = {
-						original_tag = FIN
-					}
-					NOT = { has_idea = FIN_war_communism }
 				}
 			}
 
@@ -896,18 +855,7 @@ ideas = {
 					# since they will require our trades
 					has_large_ally_not_pick_closed_economy = yes
 				}
-				
-				allowed_to_remove = {
-				OR = {
-				    NOT = { has_idea = SAF_true_anarchy }
-					original_tag = SAF
-				}
-				OR = {
-					NOT = {	tag = SAF }
-				}
    			}
 		}
 	}
-}
-
 }

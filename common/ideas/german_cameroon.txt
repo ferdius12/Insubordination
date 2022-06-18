@@ -70,7 +70,9 @@ ideas = {
 		
 		}
 		
-		economy = {
+		trade_laws = {
+		law = yes
+		use_list_view = yes
 		
 		cameroon_isolation = {  
 	
@@ -95,14 +97,6 @@ ideas = {
 					has_war_support > 0.50
 					has_stability > 0.60
 					has_war = yes
-				}
-				
-				OR = {
-				has_completed_focus = GEK_reich_investition
-				}
-				
-				OR = {
-				has_completed_focus = GEK_trade_with_allies
 				}
 				
 			}

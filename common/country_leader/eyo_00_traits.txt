@@ -194,7 +194,7 @@ leader_traits = {
         }
     }
 
-earth_master = {
+ earth_master = {
         random = no
         ai_focus_aggressive_factor = 0.5
         political_power_factor = 0.10
@@ -205,5 +205,89 @@ earth_master = {
             factor = 1
         }
     }
+	
+	#ADVISOR TRAITS#
+	
+	communist_revolutionary = {
+		random = no
+		sprite = 13
+		communism_drift = 0.1
+		ai_will_do = {
+			factor = 1
+	}
+	}
+	syndicalist_worker = {
+		random = no
+		sprite = 13
+		syndicalist_drift = 0.1
+		ai_will_do = {
+			factor = 1
+	}
+	}
+	intelligent_socialist = {
+		random = no
+		sprite = 13
+		radical_socialist_drift = 0.1
+		ai_will_do = {
+			factor = 1
+	}
+	}
+	social_democrat_reformer = {
+		random = no
+		sprite = 13
+		social_democrat_drift = 0.1
+		ai_will_do = {
+			factor = 1
+	}
+	}
+	social_liberal_reformer = {
+		random = no
+		sprite = 13
+		social_liberal_drift = 0.1
+		ai_will_do = {
+			factor = 1
+	}
+	}
+	political_bankeer = {
+		random = no
+		sprite = 13
+		market_liberal_drift = 0.1
+		ai_will_do = {
+			factor = 1
+	}
+	}
+	conservative_politician = {
+		random = no
+		sprite = 13
+		social_conservative_drift = 0.1
+		ai_will_do = {
+			factor = 1
+	}
+	}
+	
+	corrupt_oligarch = {
+		random = no
+		sprite = 13
+		authoritarian_democrat_drift = 0.1
+		ai_will_do = {
+			factor = 1
+	}
+	}
+	retired_officer1 = {
+		random = no
+		sprite = 13
+		paternal_autocrat_drift = 0.1
+		ai_will_do = {
+			factor = 1
+	}
+	}
+	fascist_demagogue = {
+		random = no
+		sprite = 13
+		fascist_drift = 0.1
+		ai_will_do = {
+			factor = 1
+	}
+	}
 	
 	}

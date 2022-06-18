@@ -49,6 +49,7 @@ country = {
 			stability_factor = 0.1
 			political_power_gain = 0.15
 			weekly_manpower = 150
+radical_socialist_acceptance = 35
 			}
 		}
 		
