@@ -931,3 +931,7 @@ ANN = {
 	color = rgb { 10 10 10 }
 	color_ui = rgb { 10 10 10 }
 }
+TAR = {
+	color = rgb { 89 11 11 }
+	color_ui = rgb { 89 11 11 }
+}

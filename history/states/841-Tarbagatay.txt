@@ -5,7 +5,7 @@ state={
 		4674 10653 12635 
 	}
 		history={
-		owner = KOL
+		owner = TAR
 		buildings = {
 			infrastructure = 1
 		}

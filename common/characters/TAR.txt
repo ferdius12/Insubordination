@@ -1,0 +1,19 @@
+characters={
+
+    TAR_gornie_orli = {
+		name = TAR_gornie_orli
+		portraits = {
+			civilian = {
+				large="gfx/leaders/TAR/portrait_gornie_orli.dds"
+			}
+		}
+		country_leader = {
+			ideology = partisan_movement_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+	}
+	
+	}

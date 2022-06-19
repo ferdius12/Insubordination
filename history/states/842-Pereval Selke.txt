@@ -2,14 +2,14 @@ state={
 	id=842
 	name="STATE_842"
 	provinces={
-		13197 
+		13197 12662
 	}
 		history={
 		owner = ANN
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = ANN
+		add_core_of = KAZ
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

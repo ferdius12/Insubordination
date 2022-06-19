@@ -1590,3 +1590,11 @@
  ANN_paternal_autocrat_DEF:0 "Орлиное Гнездо"
  ANN_paternal_autocrat_ADJ:0 "Орлиногнездинск."
  
+ #TARBAGATAY#
+ TAR:0 "Тарбагатай"
+ TAR_DEF:0 "Тарбагатай"
+ TAR_ADJ:0 "Тарбагатайск."
+ TAR_paternal_autocrat:0 "Горные Орлы"
+ TAR_paternal_autocrat_DEF:0 "Горные Орлы"
+ TAR_paternal_autocrat_ADJ:0 "Горнорловск."
+ 
