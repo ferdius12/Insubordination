@@ -30,6 +30,8 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = generic_democratic_way
+			focus = generic_authoritarian_way
+			focus = generic_right_way
 		}
 		x = 2
 		y = 1
@@ -674,6 +676,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = generic_democratic_way
 			focus = generic_right_way
+			focus = generic_socialist_way
 		}
 		x = 18
 		y = 1
@@ -802,9 +805,13 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = generic_democratic_way
 			focus = generic_authoritarian_way
+			foucs = generic_socialist_way
 		}
 		x = 23
 		y = 1
+		available = {
+							fascism > 0.25
+							}
 			completion_reward = {
 					add_ideas = generic_fascism_way
 					add_popularity = {
@@ -902,6 +909,68 @@ focus_tree = {
 		}
 		x = 23
 		y = 3
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
 
 	}
 	focus = {
@@ -914,6 +983,9 @@ focus_tree = {
 		}
 		x = 23
 		y = 4
+			completion_reward = {
+					add_ideas = generic_fascism_militarism
+				}
 
 	}
 	focus = {
@@ -926,6 +998,10 @@ focus_tree = {
 		}
 		x = 23
 		y = 5
+			completion_reward = {
+					add_ideas = generic_fascism_union_in_church
+					add_political_power = 35
+				}
 
 	}
 	focus = {
@@ -938,18 +1014,43 @@ focus_tree = {
 		}
 		x = 23
 		y = 6
+			completion_reward = {
+					set_rule = {
+							can_create_factions = yes
+							can_use_kamikaze_pilots = yes
+						}
+					add_ideas = generic_fascism_ideological_fanatism
+					add_war_support = 0.1
+				}
 
 	}
 	focus = {
 		id = generic_for_the_nation
 		text = generic_for_the_nation
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_fascism
 		cost = 7,00
 		prerequisite = {
 			focus = generic_right_way
 		}
 		x = 23
 		y = 2
+			available = {
+					fascism > 0.40
+				}
+			completion_reward = {
+					set_politics = {
+							ruling_party = fascism
+							elections_allowed = no
+						}
+					add_popularity = {
+							ideology = fascism
+							popularity = 0.15
+						}
+					swap_ideas = {
+							remove_idea = generic_fascism_way
+							add_idea = generic_fascism_for_the_nation
+						}
+				}
 
 	}
 }

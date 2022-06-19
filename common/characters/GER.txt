@@ -30,6 +30,21 @@ characters = {
 	
 	} 
 	
+	    GER_kuno_von_vestarp = {
+		name = GER_kuno_von_vestarp
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/portrait_Germany_Kuno_von_Vestarp.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+	
 	    GER_paul_von_hindenburg = {
 		name = GER_paul_von_hindenburg
 		portraits = {
@@ -43,13 +58,25 @@ characters = {
 			id = -1
 		}
 		
-		country_leader = {
-			ideology = social_conservative_subtype
-			expire = "1953.3.1.1"
-			id = -1
-		}
 	
-	} 
+	}
+
+        GER_max_lademann = {
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/portrait_Germany_Max_Lademann.dds"
+				small = "gfx/interface/ideas/german_cameroon_advisor/idea_ger_max_lademann.dds"
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected media_personality }
+			skill = 2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+		}	
 	
 
 	

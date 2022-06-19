@@ -47,6 +47,8 @@
  generic_international_revolution_desc:0 "" 
  generic_right_way:0 "Правый путь"
  generic_right_way_desc:0 "" 
+ generic_for_the_nation:0 "Воля нации" 
+ generic_for_the_nation_desc:0 "" 
  generic_corporatism:0 "Государственный корпоративизм"
  generic_corporatism_desc:0 "" 
  generic_militarism:0 "Внедрение милитаризма"
