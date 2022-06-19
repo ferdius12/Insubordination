@@ -22,8 +22,10 @@ set_popularities = {
     fascism = 0
 }
 
-recruit_character = RUS_lev_kamenev
+recruit_character = RUS_mikhail_kalinin
 recruit_character = RUS_leon_trotsky
+recruit_character = RUS_iosif_stalin
+
 
 create_faction = SovietUnion
 add_to_faction = FIN

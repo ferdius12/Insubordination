@@ -204,6 +204,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/paternal_autocrat_anarchism_subtype.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_ideology_partisan_movement_subtype"
+		texturefile = "gfx/interface/ideologies/paternal_autocrat_partisan_movement_subtype.dds"
+	}
+	
 	#FASCISM#
 	
 	spriteType = {

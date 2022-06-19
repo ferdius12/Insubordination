@@ -7,9 +7,23 @@ bookmarks = {
 		default_country = "UKR"
 		default = yes
 		
-		"UKR"={
-			history = "UKR_GATHERING_STORM_DESC"
-			ideology = democratic
+		"GEK"={
+			history = "GEK_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+
+			ideas = {
+				cameroon_isolation
+				GEK_german_ambition
+                GEK_fallen_legacy
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"ITA"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = fascism
 
 			ideas = {
 				
@@ -18,19 +32,11 @@ bookmarks = {
 				
 			}
 		}
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-		"PON"={
-			history = "PON_GATHERING_STORM_DESC"
-			ideology = fascism
+		
+		"ENG"={
+			history = "UKR_GATHERING_STORM_DESC"
+			ideology = social_conservative
+
 			ideas = {
 				
 			}
@@ -39,9 +45,10 @@ bookmarks = {
 			}
 		}
 		
-		"KOL"={
-			history = "KOL_GATHERING_STORM_DESC"
-			ideology = neutrality
+		"FRA"={
+			history = "UKR_GATHERING_STORM_DESC"
+			ideology = market_liberal
+
 			ideas = {
 				
 			}
@@ -49,13 +56,15 @@ bookmarks = {
 				
 			}
 		}
-		"GEK"={
-			history = "COG_GATHERING_STORM_DESC"
-			ideology = neutrality
+		
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = communism
+
 			ideas = {
-				GEK_german_ambition
-				GEK_fallen_legacy 
-				cameroon_isolation
+				COM_leader_of_treaty_of_emmen
+				GER_rot_front
+				GER_unemployment
 			}
 			focuses = {
 				
@@ -64,37 +73,28 @@ bookmarks = {
 		
 		"RUS"={
 			history = "RUS_GATHERING_STORM_DESC"
+			ideology = radical_socialist
+
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"CZE"={
+			history = "CZE_GATHERING_STORM_DESC"
 			ideology = communism
+
 			ideas = {
-			}
-			focuses = {
 				
-			}
-		}
-		
-		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = market_liberal
-			ideas = {
-			
-			}
-			focuses = {
-				
-			}
-		}
-		
-		"ENG"={
-			history = "BRI_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-			
 			}
 			focuses = {
 				
 			}
 		}
 	
-
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}

@@ -1,16 +1,16 @@
 characters = { 
 
-		RUS_lev_kamenev = {
-		name = RUS_lev_kamenev
+		RUS_mikhail_kalinin = {
+		name = RUS_mikhail_kalinin
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/RUS/portrait_Russia_Lev_Kamenev.dds"
+				large = "gfx/leaders/RUS/portrait_Russia_Mikhail_Kalinin.dds"
 			}
 		}
 		country_leader = {
 			ideology = marxism_subtype
 			expire = "1953.3.1.1"
-			traits = { indecisive_communist } 
+			traits = { } 
 			id = -1
 		}
 	
@@ -24,6 +24,21 @@ characters = {
 		}
 		country_leader = {
 			ideology = syndicalist_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+	
+	    RUS_iosif_stalin = {
+		name = RUS_iosif_stalin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/portrait_Russia_Leon_Trotsky.dds"
+			}
+		}
+		country_leader = {
+			ideology = stalinism_subtype
 			expire = "1953.3.1.1"
 			id = -1
 		}
