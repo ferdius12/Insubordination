@@ -1,0 +1,15 @@
+add_namespace = inb_superevents
+
+country_event = {
+	id = inb_superevents.1
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		trigger = { NOT = { has_global_flag = inb_super_event_flag_german_france_war_off  } }
+		set_global_flag = inb_super_event_flag_german_france_war
+	}
+	option = {
+		trigger = { has_global_flag = inb_super_event_flag_german_france_war_off }
+	}
+}

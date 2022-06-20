@@ -1598,3 +1598,20 @@
  TAR_paternal_autocrat_DEF:0 "Горные Орлы"
  TAR_paternal_autocrat_ADJ:0 "Горнорловск."
  
+ #SERBIA#
+ SER:0 "Сербия"
+ SER_DEF:0 "Сербия"
+ SER_ADJ:0 "Сербск."
+ SER_communism:0 "Социалистическая республика Сербия"
+ SER_communism_DEF:0 "Социалистическая республика Сербия"
+ SER_communism_ADJ:0 "Сербск."
+ SER_syndicalist:0 "Социалистическая республика Сербия" 
+ SER_syndicalist_DEF:0 "Социалистическая республика Сербия" 
+ SER_syndicalist_ADJ:0 "Сербск."
+ SER_radical_socialist:0 "Социалистическая республика Сербия" 
+ SER_radical_socialist_DEF:0 "Социалистическая республика Сербия" 
+ SER_radical_socialist_ADJ:0 "Сербск."
+ SER_paternal_autocrat:0 "Королевство Сербия" 
+ SER_paternal_autocrat_DEF:0 "Королевство Сербия" 
+ SER_paternal_autocrat_ADJ:0 "Сербск."
+ 
