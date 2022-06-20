@@ -5,12 +5,11 @@ state={
 		4674 10653 12635 
 	}
 		history={
-		owner = TAR
+		owner = KOL
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = KAZ
-		add_core_of = KOL
 	}
 	manpower=2
 	buildings_max_level_factor=1.000

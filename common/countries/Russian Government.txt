@@ -1,3 +1,3 @@
 graphical_culture = SOV
 graphical_culture_2d = eastern_european_2d
-color = { 83 106 140}
+color = { 165 172 184 }

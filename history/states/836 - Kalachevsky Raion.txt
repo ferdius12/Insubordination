@@ -6,7 +6,7 @@ state={
 		6503 6527 9459 9474 11447 
 	}
     history = {
-		owner = VLS
+		owner = PON
 		buildings = {
                 arms_factory = 1
 			infrastructure = 2	
@@ -15,7 +15,6 @@ state={
 			9459 5 
 		}
 		add_core_of = RUS
-		add_core_of = VLS
 	}
 	manpower=123003
 	buildings_max_level_factor=1.000

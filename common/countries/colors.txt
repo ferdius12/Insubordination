@@ -868,8 +868,8 @@ ZAC = {
 	color_ui = rgb {  230  65  0 }
 }
 VLD = {
-	color = rgb { 135  132  132 }
-	color_ui = rgb { 135  132  132 }
+	color = rgb { 143 41 70 }
+	color_ui = rgb { 143 41 70 }
 }
 GUO = {
 	color = rgb { 65 87 120 }
@@ -908,20 +908,20 @@ VLS = {
 	color_ui = rgb { 33 33 33 }
 }
 KOL = {
-	color = rgb { 83 106 140 }
-	color_ui = rgb { 189 215 219 }
+	color = rgb { 165 172 184 }
+	color_ui = rgb { 165 172 184 }
 }
 SYB = {
-	color = rgb { 81 107 92 }
-	color_ui = rgb { 196 238 242 }
+	color = rgb { 79 143 41 }
+	color_ui = rgb { 79 143 41 }
 }
 MTR = {
 	color = rgb { 16 96 108 }
 	color_ui = rgb { 16 96 108 }
 }
 RUC = {
-	color = rgb { 184 182 106 }
-	color_ui = rgb { 106 184 144 }
+	color = rgb { 143 126 41 }
+	color_ui = rgb { 143 126 41 }
 }
 FCA = {
 	color = rgb { 85 130 55 }
