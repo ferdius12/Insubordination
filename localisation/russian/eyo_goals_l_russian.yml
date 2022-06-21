@@ -58,3 +58,22 @@
  generic_ideological_fanatism:0 "Идеологический фанатизм"
  generic_ideological_fanatism_desc:0 "" 
  
+ 
+ #IRELAND#
+ focus_IRE_ulster_problem:0 "Рассмотреть Ульcтерскую проблему" 
+ focus_IRE_ulster_problem_desc:0 "" 
+ focus_IRE_unionist_consession:0 "Уступки юнионистам" 
+ focus_IRE_unionist_consession_desc:0 "" 
+ focus_IRE_compromise:0 "Компромисс" 
+ focus_IRE_compromise_desc:0 "" 
+ focus_IRE_unleash_police_on_them:0 "Спустите на них полицию" 
+ focus_IRE_unleash_police_on_them_desc:0 ""
+ focus_IRE_request_support_from_london:0 "Попросить помощи из Лондона"
+ focus_IRE_request_support_from_london_desc:0 ""
+ focus_IRE_improse_martial_law:0 "Ввести военное положение"
+ focus_IRE_improse_martial_law_desc:0 ""
+ focus_IRE_raids_in_unionist:0 "Рейды на юнионистов"
+ focus_IRE_raids_in_unionist_desc:0 ""
+ focus_IRE_unionist_are_nor_irish:0 "Юнионисты - не ирландцы"
+ focus_IRE_unionist_are_nor_irish_desc:0 ""
+ 

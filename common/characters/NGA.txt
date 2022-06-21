@@ -1,4 +1,4 @@
-characters={
+characters = {
 
     NGA_pyotr_wrangel = {
 		name = NGA_pyotr_wrangel
@@ -13,4 +13,6 @@ characters={
 			traits = {  }
 			id = -1
 		}
+	}
+	
 	}

@@ -160,6 +160,11 @@
  #IRE
  IRE_william_cosgrave:0 "Уильям Косгрейв"
  IRE_eamon_de_valera:0 "Имон де Валера"
+ IRE_eoin_o_duffy:0 "Оуэн О’Даффи"
+ IRE_jim_larkin:0 "Джеймс Ларкин"
+ 
+ #NIR#
+ NIR_james_craig:0 "Джеймс Крейг"
  
  #ENG
  ENG_stanley_baldwin:0 "Стэнли Болдуин"
@@ -405,4 +410,7 @@
  
  #TAR#
  TAR_gornie_orli:0 "Горные Орлы"
+ 
+ #EGY#
+ EGY_fuad_i:0 "Фуад I"
  

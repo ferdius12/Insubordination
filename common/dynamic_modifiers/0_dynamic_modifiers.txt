@@ -83,6 +83,17 @@ ulster_opposition = {
 	
 	recruitable_population_factor = -0.75
 	resistance_damage_to_garrison = 0.30
+	resistance_growth = 0.30
+	compliance_growth = -0.35
+}
+
+ulster_opposition_police_1 = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_ulster_opposition
+	
+	recruitable_population_factor = -0.75
+	resistance_damage_to_garrison = 0.20
 	resistance_growth = 0.20
 	compliance_growth = -0.35
 }

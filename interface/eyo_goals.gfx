@@ -77,4 +77,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/generic_fascism.dds"
 	}
 	
+	#IRELAND#
+	
+	spriteType = {
+		name = "GFX_goal_IRE_generic"
+		texturefile = "gfx/interface/goals/IRE_generic.dds"
+	}
+	
 }

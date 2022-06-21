@@ -1,0 +1,30 @@
+﻿capital = 446
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+}
+
+recruit_character = EGY_fuad_i
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1926.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+    syndicalist = 0
+    radical_socialist = 16
+    social_democrat = 1
+    social_liberal = 0
+    market_liberal = 0
+    social_conservative = 11
+    authoritarian_democrat = 12
+    paternal_autocrat = 51
+    fascism = 9
+}

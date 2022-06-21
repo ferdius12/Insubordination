@@ -101,4 +101,5 @@ add_to_faction = IRE
 add_to_faction = RAJ		
 add_to_faction = MAL
 add_to_faction = IRQ
+add_to_faction = EGY
 give_guarantee = BOC

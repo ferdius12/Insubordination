@@ -32,6 +32,7 @@ set_convoys = 6
 
 recruit_character = IRE_william_cosgrave
 recruit_character = IRE_eamon_de_valera
+recruit_character = IRE_eoin_o_duffy
 
 add_ideas = {
 IRE_agrarian_economy

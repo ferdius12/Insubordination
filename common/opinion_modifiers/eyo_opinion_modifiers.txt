@@ -14,5 +14,10 @@ opinion_modifiers = {
 		value = -100
 		trade = no
 	}
+	
+	IRE_refusal_to_help = {
+		value = -15
+		trade = yes
+	}
 
 }	

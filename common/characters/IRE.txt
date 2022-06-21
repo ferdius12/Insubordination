@@ -28,6 +28,50 @@ characters={
 			traits = { }
 			id = -1
 		}
+		
+		country_leader = {
+			ideology = market_liberal_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	IRE_eoin_o_duffy = {
+		name = IRE_eoin_o_duffy
+		portraits = {
+			civilian = {
+				large="gfx/leaders/IRE/portrait_Ireland_Eoin_O_Duffy.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	IRE_jim_larkin = {
+		name = IRE_jim_larkin
+		portraits = {
+			civilian = {
+				large="gfx/leaders/IRE/portrait_Ireland_Jim_Larkin.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = syndicalist_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
 	}
 	
 	}

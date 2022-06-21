@@ -50,6 +50,54 @@ ideas = {
 			}
 		}
 		
+		IRE_ira_fianna_1 = {
+				
+			allowed = {
+				original_tag = IRE
+				rulling_party = neutrality
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = IRE_ira_fianna
+				
+			removal_cost = -1
+				
+			modifier = {
+				war_support_factor = -0.20
+				war_stability_factor = -0.25
+				conscription_factor = -0.20
+				weekly_manpower = -100
+				democratic_drift = 0.03
+				autonomy_gain = 1
+			}
+		}
+		
+		IRE_ira_fianna_2 = {
+				
+			allowed = {
+				original_tag = IRE
+				rulling_party = neutrality
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = IRE_ira_fianna
+				
+			removal_cost = -1
+				
+			modifier = {
+				war_support_factor = -0.35
+				war_stability_factor = -0.30
+				conscription_factor = -0.40
+				weekly_manpower = -150
+			}
+		}
+		
 		IRE_dangerous_police = {
 				
 			allowed = {
@@ -69,6 +117,28 @@ ideas = {
 				conscription = 0.005
 				political_power_gain = -0.50
 				fascism_drift = 0.02
+			}
+		}
+		
+		IRE_dangerous_police_1 = {
+				
+			allowed = {
+				original_tag = IRE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = IRE_dangerous_police
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = 0.05
+				conscription = 0.005
+				political_power_gain = -0.45
+				fascism_drift = 0.05
 			}
 		}
 		
@@ -115,6 +185,26 @@ ideas = {
 				stability_factor = -0.25
 				autonomy_gain = -1
 				drift_defence_factor = -0.15 
+			}
+		}
+		
+		IRE_ulster_opposition_1 = {
+				
+			allowed = {
+				original_tag = IRE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = IRE_ulster_opposition
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.15
+				drift_defence_factor = -0.05
 			}
 		}
 		

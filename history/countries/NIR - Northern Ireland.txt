@@ -23,26 +23,24 @@ set_technology = {
 
 set_convoys = 5
 
-recruit_character = NIR_
-
-
+recruit_character = NIR_james_craig
 
 set_politics = {
 	ruling_party = paternal_autocrat
-	last_election = "1933.1.24"
+	last_election = "1926.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
 	communism = 0
     syndicalist = 0
-    radical_socialist = 0
-    social_democrat = 0
+    radical_socialist = 7
+    social_democrat = 8
     social_liberal = 0
-    market_liberal = 0
-    social_conservative = 0
-    authoritarian_democrat = 0
-    paternal_autocrat = 75
-    fascism = 25
+    market_liberal = 9
+    social_conservative = 35
+    authoritarian_democrat = 9
+    paternal_autocrat = 21
+    fascism = 11
 }
 

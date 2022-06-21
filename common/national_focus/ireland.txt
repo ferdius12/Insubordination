@@ -1,0 +1,272 @@
+focus_tree = {
+	id = ireland
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = IRE
+		}
+	}
+	default = no
+	focus = {
+		id = focus_IRE_ulster_problem
+		text = focus_IRE_ulster_problem
+		icon = GFX_goal_IRE_generic
+		cost = 5,00
+		x = 6
+		y = 0
+			completion_reward = {
+					country_event = {
+							id = ire.1
+							days = 0
+							random_days = 0
+						}
+				}
+
+	}
+	focus = {
+		id = focus_IRE_unionist_consession
+		text = focus_IRE_unionist_consession
+		icon = GFX_goal_IRE_generic
+		cost = 7,00
+		prerequisite = {
+			focus = focus_IRE_ulster_problem
+		}
+		x = 3
+		y = 1
+			available = {
+					has_country_flag = ire_unionist_consession
+				}
+			completion_reward = {
+					add_war_support = -0.05
+					add_stability = 0.05
+					add_popularity = {
+							ideology = authoritarian_democrat
+							popularity = 0.1
+						}
+					swap_ideas = {
+							remove_idea = IRE_ira_fianna
+							add_idea = IRE_ira_fianna_2
+						}
+					swap_ideas = {
+							remove_idea = IRE_ulster_opposition
+							add_idea = IRE_ulster_opposition_1
+						}
+				}
+
+	}
+	focus = {
+		id = focus_IRE_windraw_police_batallion_from_belfast
+		text = focus_IRE_windraw_police_batallion_from_belfast
+		icon = GFX_goal_IRE_generic
+		cost = 10,00
+		prerequisite = {
+			focus = focus_IRE_unionist_consession
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = focus_IRE_compromise
+		text = focus_IRE_compromise
+		icon = GFX_goal_IRE_generic
+		cost = 7,00
+		prerequisite = {
+			focus = focus_IRE_ulster_problem
+		}
+		x = 6
+		y = 1
+			available = {
+					has_country_flag = ire_compromise
+				}
+			completion_reward = {
+					add_political_power = 50
+					add_popularity = {
+							ideology = social_sonservative
+							popularity = 0.05
+						}
+					add_popularity = {
+							ideology = authoritarian_democrat
+							popularity = 0.05
+						}
+					swap_ideas = {
+							remove_idea = IRE_ira_fianna
+							add_idea = IRE_ira_fianna_1
+						}
+				}
+
+	}
+	focus = {
+		id = focus_IRE_increase_pressure_on_ira
+		text = focus_IRE_increase_pressure_on_ira
+		icon = GFX_goal_IRE_generic
+		cost = 7,00
+		prerequisite = {
+			focus = focus_IRE_compromise
+			focus = focus_IRE_unionist_consession
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = focus_IRE_start_process_of_creating_autonomy
+		text = focus_IRE_start_process_of_creating_autonomy
+		icon = GFX_goal_IRE_generic
+		cost = 7,00
+		prerequisite = {
+			focus = focus_IRE_increase_pressure_on_ira
+		}
+		prerequisite = {
+			focus = focus_IRE_windraw_police_batallion_from_belfast
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = focus_IRE_unleash_police_on_them
+		text = focus_IRE_unleash_police_on_them
+		icon = GFX_goal_IRE_generic
+		cost = 7,00
+		prerequisite = {
+			focus = focus_IRE_ulster_problem
+		}
+		x = 9
+		y = 1
+			available = {
+					has_country_flag = ire_unleash_police_on_them
+				}
+			completion_reward = {
+					add_stability = -0.1
+					add_war_support = 0.05
+					add_popularity = {
+							ideology = fascism
+							popularity = 0.1
+						}
+					add_popularity = {
+							ideology = social_sonservative
+							popularity = 0.05
+						}
+					swap_ideas = {
+							remove_idea = IRE_dangerous_police
+							add_idea = IRE_dangerous_police_1
+						}
+				}
+
+	}
+	focus = {
+		id = focus_IRE_request_support_from_london
+		text = focus_IRE_request_support_from_london
+		icon = GFX_goal_IRE_generic
+		cost = 7,00
+		prerequisite = {
+			focus = focus_IRE_unleash_police_on_them
+			focus = focus_IRE_compromise
+		}
+		x = 7
+		y = 2
+			completion_reward = {
+					ENG = {
+							country_event = {
+									id = ire.2
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = focus_IRE_negotiations_with_unionist
+		text = focus_IRE_negotiations_with_unionist
+		icon = GFX_goal_IRE_generic
+		cost = 7,00
+		prerequisite = {
+			focus = focus_IRE_request_support_from_london
+		}
+		prerequisite = {
+			focus = focus_IRE_increase_pressure_on_ira
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = focus_IRE_improse_martial_law
+		text = focus_IRE_improse_martial_law
+		icon = GFX_goal_IRE_generic
+		cost = 10,00
+		prerequisite = {
+			focus = focus_IRE_unleash_police_on_them
+		}
+		x = 11
+		y = 2
+			available = {
+					political_power > 49
+				}
+			completion_reward = {
+					add_war_support = 0.05
+					add_stability = -0.05
+					119 = {
+							add_dynamic_modifier = {
+									modifier = ulster_opposition_police_1
+								}
+							remove_dynamic_modifier = {
+									modifier = ulster_opposition
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = focus_IRE_raids_in_unionist
+		text = focus_IRE_raids_in_unionist
+		icon = GFX_goal_IRE_generic
+		cost = 7,00
+		prerequisite = {
+			focus = focus_IRE_improse_martial_law
+		}
+		prerequisite = {
+			focus = focus_IRE_request_support_from_london
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = focus_IRE_final_decision
+		text = focus_IRE_final_decision
+		icon = GFX_goal_IRE_generic
+		cost = 10,00
+		prerequisite = {
+			focus = focus_IRE_negotiations_with_unionist
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = focus_IRE_create_n_i_a_r
+		text = focus_IRE_create_n_i_a_r
+		icon = GFX_goal_IRE_generic
+		cost = 10,00
+		prerequisite = {
+			focus = focus_IRE_start_process_of_creating_autonomy
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = focus_IRE_unionist_are_nor_irish
+		text = focus_IRE_unionist_are_nor_irish
+		icon = GFX_goal_IRE_generic
+		cost = 10,00
+		prerequisite = {
+			focus = focus_IRE_raids_in_unionist
+		}
+		x = 9
+		y = 4
+
+	}
+}
