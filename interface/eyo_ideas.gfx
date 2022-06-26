@@ -494,4 +494,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_fascism.dds"
 	}
 	
+	#Ukraine#
+	
+	spriteType = {
+		name = "GFX_idea_UKR_under_russian_heel"
+		texturefile = "gfx/interface/ideas/idea_ukr_under_russian_heel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_UKR_soviet_dissidents"
+		texturefile = "gfx/interface/ideas/idea_ukr_soviet_dissidents.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_UKR_not_united_nation"
+		texturefile = "gfx/interface/ideas/idea_ukr_not_united_nation.dds"
+	}
+	
 }

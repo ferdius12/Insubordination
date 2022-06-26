@@ -217,6 +217,13 @@
  SUR_freedom_or_death:0 "Свобода или смерть"
  SUR_freedom_or_death_desc:0 ""
  
+ #UKRAINE#
+ UKR_under_russian_heel:0 "Под русской пятой"
+ UKR_under_russian_heel_desc:0 ""
+ UKR_soviet_dissidents:0 "Советские диссиденты"
+ UKR_soviet_dissidents_desc:0 ""
+ UKR_not_united_nation:0 "НЕ единая нация"
+ UKR_not_united_nation_desc:0 ""
  
  #ATTU#
  ATU_syndicalist:0 "Рост популярности синдикализма"

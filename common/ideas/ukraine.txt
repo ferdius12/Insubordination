@@ -1,0 +1,60 @@
+ideas = {
+
+country = { 
+
+        UKR_under_russian_heel = {
+				
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = UKR_under_russian_heel
+				
+			removal_cost = -1
+				
+			modifier = {
+	        
+			}
+		}
+		
+		UKR_soviet_dissidents = {
+				
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = UKR_soviet_dissidents
+				
+			removal_cost = -1
+				
+			modifier = {
+	        
+			}
+		}
+		
+		UKR_not_united_nation = {
+				
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = UKR_not_united_nation
+				
+			removal_cost = -1
+				
+			modifier = {
+	        
+			}
+		}

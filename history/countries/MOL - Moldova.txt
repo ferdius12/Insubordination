@@ -1,11 +1,9 @@
 ﻿capital = 78
 
-#oob = ""
+set_oob = "MOL_1926"
 
-# Starting tech
 set_technology = {
 	infantry_weapons = 1
-	infantry_weapons1 = 1
 	tech_recon = 1
 	tech_support = 1
 	early_fighter = 1
@@ -16,18 +14,23 @@ set_convoys = 5
 
 recruit_character = MOL_ion_inculets
 
-
 set_politics = {
-	ruling_party = democratic
-	last_election = "1933.5.16"
+	ruling_party = market_liberal
+	last_election = "1926.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 55
-	fascism = 1
-	communism = 30
-	neutrality = 14
+	communism = 0
+    syndicalist = 0
+    radical_socialist = 11
+    social_democrat = 0
+    social_liberal = 15
+    market_liberal = 52
+    social_conservative = 11
+    authoritarian_democrat = 2
+    paternal_autocrat = 0
+    fascism = 9
 }
 
 

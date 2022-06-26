@@ -17,13 +17,11 @@ ideas = {
 			
             targeted_modifier = {
 			tag = NGA
-			attack_bonus_against = 0.1
-			defense_bonus_against = 0.1			
+			attack_bonus_against = 0.1	
 				}
 			targeted_modifier = {
 			tag = GEK
 			attack_bonus_against = 0.1
-			defense_bonus_against = 0.1
 		}
 			modifier = {
 			stability_factor = -0.15

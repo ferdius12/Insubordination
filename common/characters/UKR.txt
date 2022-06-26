@@ -1,24 +1,109 @@
 characters = {
 	
-	UKR_simon_petlura = {
+	UKR_simon_petlura_democrat = {
 		name = UKR_simon_petlura
 		portraits = {
 			civilian = {
-				large="gfx/leaders/UKR/portrait_Danzig_Gehl_Julius.dds"
+				large="gfx/leaders/UKR/Portrait_Ukraine_Symon_Petliura_democrat.dds"
 			}
 		}
 		country_leader = {
 			ideology = moderatism_subtype
 			expire = "1965.1.1.1"
-			traits = { }
+			traits = { skillful_negotiator_petlyura }
 			id = -1
+		}
+	}
+	
+	UKR_simon_petlura_despot = {
+		name = UKR_simon_petlura
+		portraits = {
+			civilian = {
+				large="gfx/leaders/UKR/portrait_Ukraine_Symon_Petliura_despot.dds"
+			}
+			army = {
+				large = "gfx/leaders/UKR/portrait_Ukraine_Symon_Petliura_despot.dds"
+				small = "gfx/interface/ideas/ukraine_advisor/idea_ukr_symon_petliura.dds"
+			}
 		}
 		country_leader = {
 			ideology = despotism_subtype
 			expire = "1965.1.1.1"
+			traits = { skillful_negotiator_petlyura }
+			id = -1
+		}
+		
+		field_marshal={
+			traits={ offensive_doctrine organisational_leader }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=1
+		}
+	}
+	
+	UKR_volodymyr_vinnichenko = {
+		name = UKR_volodymyr_vinnichenko
+		portraits = {
+			civilian = {
+				large="gfx/leaders/UKR/Portrait_UKR_Volodymyr_Vynnychenko.dds"
+			}
+		}
+		country_leader = {
+			ideology = radical_socialist_subtype
+			expire = "1965.1.1.1"
 			traits = { }
 			id = -1
 		}
+		
+		country_leader = {
+			ideology = social_democrat_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+		
+		}
+		
+		
+	UKR_mykola_yunakiv = {
+		name = UKR_mykola_yunakiv
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKR/portrait_Ukraine_Mykola_Yunakiv.dds"
+				small = "gfx/interface/ideas/ukraine_advisor/idea_ukr_mykola_yunakiv.dds"
+			}
+		}
+		
+		corps_commander = {
+			traits = { }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+		}
+	
 	}
+	
+	UKR_oleksandr_rogoza = {
+		name = UKR_oleksandr_rogoza
+		portraits = {
+			army = {
+				large = "gfx/leaders/UKR/Portrait_Ukraine_Oleksandr_Rogoza.dds"
+				small = "gfx/interface/ideas/ukraine_advisor/idea_ukr_oleksandr_rogoza.dds"
+			}
+		}
+		
+		corps_commander = {
+			traits = { infantry_officer war_hero }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+		}
 	
 	}
