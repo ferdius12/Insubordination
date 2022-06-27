@@ -8,6 +8,10 @@ set_technology = {
 }
 
 recruit_character = KOL_alexsander_cumchak
+recruit_character = VLD_fyodor_abramov
+recruit_character = VLD_grigory_semyonov
+recruit_character = VLD_sergei_markov
+recruit_character = VLD_sergey_baranovskiy 
 
 set_politics = {
 	ruling_party = paternal_autocrat
