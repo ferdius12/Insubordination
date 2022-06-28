@@ -1,4 +1,4 @@
-characters={
+characters = {
 
     KOL_alexsander_cumchak = {
 		name = KOL_alexsander_cumchak

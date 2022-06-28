@@ -10,8 +10,9 @@ state={
 			infrastructure = 3
 		}
 		add_core_of = TAS
+                add_core_of = KAZ
 	}	
-	manpower=1
+	manpower=86421
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

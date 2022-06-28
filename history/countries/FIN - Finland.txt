@@ -17,7 +17,7 @@ add_ideas = {
 recruit_character = FIN_otto_kuusinen
 recruit_character = FIN_carl_mannerheim
 
-set_cosmetic_tag = FIN_RUS
+set_cosmetic_tag = SOV_TAG
 
 set_technology = {
 	infantry_weapons = 1
@@ -44,14 +44,14 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 0
-    syndicalist = 0
-    radical_socialist = 100
+	communism = 23
+    syndicalist = 12
+    radical_socialist = 51
     social_democrat = 0
     social_liberal = 0
     market_liberal = 0
     social_conservative = 0
-    authoritarian_democrat = 0
+    authoritarian_democrat = 14
     paternal_autocrat = 0
     fascism = 0
 }

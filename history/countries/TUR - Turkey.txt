@@ -3,10 +3,10 @@ capital = 49
 OOB = "TUR_1926"
 
 set_politics = {
-	ruling_party = authoritarian_democrat
-	last_election = "1926.1.1"
+	ruling_party = social_liberal
+	last_election = "1923.5.25"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -14,16 +14,15 @@ set_popularities = {
     syndicalist = 8
     radical_socialist = 0
     social_democrat = 0
-    social_liberal = 0
-    market_liberal = 17
+    social_liberal = 20
+    market_liberal = 0
     social_conservative = 0
-    authoritarian_democrat = 39
+    authoritarian_democrat = 36
     paternal_autocrat = 21
     fascism = 15
 }
 
-recruit_character = TUR
-
+recruit_character = TUR_fethi_okyar
 
 add_ideas = {
 

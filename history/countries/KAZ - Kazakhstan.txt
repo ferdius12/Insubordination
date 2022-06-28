@@ -27,17 +27,17 @@ recruit_character = KAZ_filip_goloshekin
 set_cosmetic_tag = SOV_TAG
 
 set_politics = {
-	ruling_party = radical_socialist
+	ruling_party = communism
 	last_election = "1926.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 0
+	communism = 67
     syndicalist = 0
-    radical_socialist = 100
-    social_democrat = 0
+    radical_socialist = 25
+    social_democrat = 8
     social_liberal = 0
     market_liberal = 0
     social_conservative = 0

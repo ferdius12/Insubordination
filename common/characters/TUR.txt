@@ -1,0 +1,18 @@
+characters = {
+	
+	TUR_fethi_okyar = {
+		name = TUR_fethi_okyar
+		portraits = {
+			civilian = {
+				large="gfx/leaders/TUR/portrait_Turkey_Fethi_Okyar.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			expire = "1965.1.1.1"
+			traits = { }
+			id = -1
+		}
+	}
+	
+	}
