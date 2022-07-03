@@ -1,0 +1,51 @@
+ideas = {
+
+	country = {
+	
+	PRE_nazi_groups = {
+				
+			allowed = {
+				original_tag = FIN
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = PRE_nazi_groups
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.1
+		        fascism_drift = 0.02
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+	  PRE_prussian_spirit = {
+				
+			allowed = {
+				original_tag = FIN
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = PRE_prussian_spirit
+				
+			removal_cost = -1
+				
+			modifier = {
+				war_support = 0.05
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				conscription = 0.01
+		 
+			}
+		}
+		
+		
+}
+}

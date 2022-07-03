@@ -4,6 +4,9 @@ oob = "POL_1926"
 
 set_research_slots = 3
 
+set_stability = 0.45
+set_war_support = 0.3
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -21,6 +24,11 @@ set_technology = {
 }
 
 set_convoys = 10
+
+add_ideas = {
+POL_dissatisfaction_military_elite
+POL_problems_with_east
+}
 
 set_politics = {
 	ruling_party = social_conservative
@@ -46,7 +54,6 @@ set_autonomy = {
 		autonomous_state = autonomy_supervised_state
 		freedom_level = 0.25
 }
-
 
 recruit_character = POL_stanislav_voitsekhovsky
 recruit_character = POL_jozef_pilsudski

@@ -119,7 +119,7 @@ country_event = {
 	option = {
 		name = leg.8.a
 		ai_chance = { factor = 100 }
-		        set_politics = {
+		    set_politics = {
                 ruling_party = democratic
                 elections_allowed = yes
             }
@@ -202,7 +202,6 @@ country_event = {
 		}
 		hidden_effect = {
 			ZAZ = { 
-				
 				country_event = { id = leg.13 hours = 6 }
 			}
 		}

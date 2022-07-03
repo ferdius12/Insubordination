@@ -146,6 +146,52 @@
  IRE_fascism_party:0 "APNF"
  IRE_fascism_party_long:0 "An Páirtí Náisiúnta Faisisteach"
  
+ #POLAND#
+ POL_communism_party:0 "KPP"
+ POL_communism_party_long:0 "Komunistyczna Partia Polski"
+ POL_syndicalist_party:0 "KPP"
+ POL_syndicalist_party_long:0 "Komunistyczna Partia Polski"
+ POL_radical_socialist_party:0 "PPS"
+ POL_radical_socialist_party_long:0 "Polska Partia Socjalistyczna"
+ POL_social_democrat_party:0 "PPS"
+ POL_social_democrat_party_long:0 "Polska Partia Socjalistyczna"
+ POL_social_liberal_party:0 "NPC"
+ POL_social_liberal_party_long:0 "Niezależna Partia Chłopska"
+ POL_market_liberal_party:0 "LPR"
+ POL_market_liberal_party_long:0 "Liberalna Partia Rzeczypospolitej"
+ POL_social_conservative_party:0 "Piast"
+ POL_social_conservative_party_long:0 "Polskie Stronnictwo Ludowe 'Piast'"
+ POL_authoritarian_democrat_party:0 "Военная элита"
+ POL_authoritarian_democrat_party_long:0 "Военная элита"
+ POL_paternal_autocrat_party:0 "Военная элита"
+ POL_paternal_autocrat_party_long:0 "Военная элита"
+ POL_fascism_party:0 "Narodowa Demokracja"
+ POL_fascism_party_long:0 "Narodowa Demokracja"
+ POL_authoritarian_democrat_sanation_long:0 "Sanacja"
+ POL_authoritarian_democrat_sanation:0 "Sanacja"
+ 
+ #ROMANIA#
+ ROM_communism_party:0 "PCR"
+ ROM_communism_party_long:0 "Partidul Comunist Român"
+ ROM_syndicalist_party:0 "Frontul Poporului"
+ ROM_syndicalist_party_long:0 "Frontul Poporului"
+ ROM_radical_socialist_party:0 "PMdR"
+ ROM_radical_socialist_party_long:0 "Partidul muncitorilor din România"
+ ROM_social_democrat_party:0 "PSMdR"
+ ROM_social_democrat_party_long:0 "Partidul Socialist Muncitoresc din România"
+ ROM_social_liberal_party:0 "PRCaR"
+ ROM_social_liberal_party_long:0 "Partidul Radical Constituțional al României"
+ ROM_market_liberal_party:0 "Partidul Radical"
+ ROM_market_liberal_party_long:0 "Partidul Radical"
+ ROM_social_conservative_party:0 "PNT"
+ ROM_social_conservative_party_long:0 "Partidul Național Țărănesc,"
+ ROM_authoritarian_democrat_party:0 "Род Гогенцоллерн-Зигмаринген"
+ ROM_authoritarian_democrat_party_long:0 "Род Гогенцоллерн-Зигмаринген"
+ ROM_paternal_autocrat_party:0 "Род Гогенцоллерн-Зигмаринген"
+ ROM_paternal_autocrat_party_long:0 "Род Гогенцоллерн-Зигмаринген"
+ ROM_fascism_party:0 "Garda de Fier"
+ ROM_fascism_party_long:0 "Garda de Fier"
+ 
  #UKRAINE#
  UKR_communism_party:0 "РНД"
  UKR_communism_party_long:0 "Рада народних депутатів"
@@ -167,4 +213,8 @@
  UKR_paternal_autocrat_party_long:0 "Директорiя"
  UKR_fascism_party:0 "СУФ"
  UKR_fascism_party_long:0 "Союз українських фашистів"
+ 
+ 
+ 
+
  

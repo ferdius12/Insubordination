@@ -30,9 +30,39 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = falangism_subtype
+			ideology = absolute_monarchy_subtype
 			expire = "1965.1.1.1"
 			traits = {  }
+			id = -1
+		}
+	}
+	
+	ROM_corneliu_codreanu = {
+		name = ROM_corneliu_codreanu
+		portraits = {
+			civilian = {
+				large="gfx/leaders/ROM/portrait_Romania_Corneliu_Zelea_Codreanu.dds"
+			}
+		}
+		country_leader = {
+			ideology = falangism_subtype
+			expire = "1965.1.1.1"
+			traits = { capitanul }
+			id = -1
+		}
+	}
+	
+	ROM_luliu_maniu = {
+		name = ROM_luliu_maniu
+		portraits = {
+			civilian = {
+				large="gfx/leaders/ROM/portrait_Zagluchka_Luliu_Maniu.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			expire = "1965.1.1.1"
+			traits = { }
 			id = -1
 		}
 	}

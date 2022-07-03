@@ -229,6 +229,8 @@
  #ROM#
  ROM_ferdinand_i:0 "Фердинанд I"
  ROM_carol_ii:0 "Кароль II"
+ ROM_corneliu_codreanu:0 "Корнелиу Кодряну"
+ ROM_luliu_maniu:0 "Юлиу Маниу"
  
  #AST#
  
@@ -425,4 +427,8 @@
  
  #TUR#
  TUR_fethi_okyar:0 "Али Фетхи-бей"
+ 
+ #PRE#
+ PRE_oskar_karl_von_preuben:0 "Оскар Прусский"
+ PRE_erich_koch:0 "Эрик Кох"
  

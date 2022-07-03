@@ -225,6 +225,18 @@
  UKR_not_united_nation:0 "НЕ единая нация"
  UKR_not_united_nation_desc:0 ""
  
+ #POLAND#
+ POL_dissatisfaction_military_elite:0 "Недовольство военных элит"
+ POL_dissatisfaction_military_elite_desc:0 ""
+ POL_problems_with_east:0 "Проблемы с востоком"
+ POL_problems_with_east_desc:0 ""
+ 
+ #PRE#
+ PRE_nazi_groups:0 "Нацистские группы"
+ PRE_nazi_groups_desc:0 ""
+ PRE_prussian_spirit:0 "Прусский дух"
+ PRE_prussian_spirit_desc:0 ""
+ 
  #ATTU#
  ATU_syndicalist:0 "Рост популярности синдикализма"
  ATU_syndicalist_desc:0 ""
@@ -238,7 +250,7 @@
  ATU_social_democrat_desc:0 ""
  ATU_social_liberal:0 "Рост популярности социального либерализма"
  ATU_social_liberal_desc:0 ""
- ATU_market_liberal:0 "Рост популярности рыночго либерализма"
+ ATU_market_liberal:0 "Рост популярности рыночного либерализма"
  ATU_market_liberal_desc:0 ""
  ATU_social_conservative:0 "Рост популярности социального консерватизма"
  ATU_social_conservative_desc:0 ""

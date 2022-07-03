@@ -1,0 +1,226 @@
+add_namespace = pol
+country_event = {
+	id = pol.1
+	title = pol.1.t
+	picture = GFX_report_event_pol_pilsudskiy_coup
+	is_triggered_only = yes
+	fire_only_once = yes
+	desc = pol.1.d
+	trigger = {
+        date > 1926.5.11
+		original_tag = POL
+    }
+	mean_time_to_happen = {
+        days = 1
+    }
+	option = {
+	name = pol.1.a
+		ai_chance = {
+				factor = 5
+			}
+		set_politics = {
+                ruling_party = authoritarian_democrat
+                elections_allowed = no
+            }
+	    add_popularity = {
+                ideology = authoritarian_democrat
+                popularity = 0.27
+            }
+		add_popularity = {
+                ideology = social_conservative
+                popularity = -0.15
+            }
+		add_popularity = {
+                ideology = social_democrat
+                popularity = 0.15
+            }
+		add_popularity = {
+                ideology = paternal_autocrat
+                popularity = -0.27
+           }
+		add_stability = 0.15
+		add_war_support = -0.1
+		remove_ideas = { POL_dissatisfaction_military_elite }
+		hidden_effect = {
+        set_party_name = {
+                ideology = authoritarian_democrat
+                long_name = POL_authoritarian_democrat_sanation_long
+                name = POL_authoritarian_democrat_sanation
+            }		
+		news_event = { id = pol.2 days = 0 random_days = 0 }
+		}
+
+	}
+	option = {
+	name = pol.1.b
+		ai_chance = {
+				factor = 95
+			}
+	    add_stability = -0.25
+		add_war_support = 0.15
+		add_political_power = -100
+		set_country_flag = pol_civil_war
+		add_popularity = {
+                ideology = paternal_autocrat
+                popularity = -0.15
+            }
+			add_popularity = {
+                ideology = communism
+                popularity = -0.15
+            }
+		hidden_effect = { 
+				country_event = { id = pol.3 hours = 6 }
+		}
+		10 = {
+			set_demilitarized_zone = yes
+		}
+		87 = {
+			set_demilitarized_zone = yes
+		}
+	}
+
+	}
+	
+news_event = {
+	id = pol.2
+	title = pol.2.t
+	desc = pol.2.d
+	picture = GFX_news_event_pilsudskiy_coup
+	is_triggered_only = yes
+	
+	option = {
+	name = pol.2.a
+      trigger = {
+	  OR = { has_government = market_liberal
+	         has_government = social_liberal
+			 has_government = social_democrat
+			 has_government = social_conservative
+		}
+		}
+	}
+	
+	option = {
+	name = pol.2.b
+      trigger = {
+	  OR = { has_government = fascism
+	         has_government = paternal_autocrat
+			 has_government = authoritarian_democrat
+			 
+		}
+		}
+	}
+	
+	option = {
+	name = pol.2.c
+      trigger = {
+	  OR = { has_government = communism
+	         has_government = syndicalist
+			 has_government = radical_socialist
+		}
+		}
+	}
+	
+	option = {
+	name = pol.2.v
+      trigger = {
+	   original_tag = POL
+		}
+	}
+	
+	}
+	
+country_event = {
+	id = pol.3
+	title = pol.3.t
+	desc = pol.3.d
+	picture = GFX_report_event_pol_prussian_revolt
+	is_triggered_only = yes
+	option = {
+		name = pol.3.a
+		add_stability = -0.15
+		PRE = { 
+		transfer_state = 5 
+		load_oob = PRE_revolt
+		change_tag_from = POL	
+		}
+	}
+	
+	option = {
+		name = pol.3.b
+		add_stability = -0.15
+		PRE = { 
+		load_oob = PRE_revolt
+		transfer_state = 5
+        change_tag_from = POL		
+		}
+	}
+}
+
+country_event = {
+	id = pol.5
+	title = pol.5.t
+	desc = pol.5.d
+	picture = GFX_report_event_pol_prussian_revolt
+	is_triggered_only = yes
+	option = {
+		name = pol.5.a
+		add_stability = 0.05
+		add_war_support = 0.05
+		MLR = { 
+		transfer_state = 5 
+		load_oob = MLR_revolt
+		change_tag_from = POL	
+		}
+	}
+	
+	option = {
+		name = pol.5.b
+		add_stability = 0.05
+		add_war_support = 0.05
+		MLR = { 
+		load_oob = MLR_revolt
+		transfer_state = 88
+		transfer_state = 90
+		transfer_state = 762
+		transfer_state = 72
+        change_tag_from = POL		
+		}
+	}
+}
+
+country_event = {
+	id = pol.4
+	title = pol.4.t
+	desc = pol.4.d
+	picture = GFX_report_event_pol_danzig
+	is_triggered_only = yes
+	trigger = {
+        date > 1926.5.13
+		original_tag = DNZ
+		POL = { has_country_flag = pol_civil_war }
+    }
+	mean_time_to_happen = {
+        days = 4
+    }
+	option = {
+		name = pol.4.a
+		ai_chance = {
+				factor = 100
+			}
+		DNZ = { 
+		transfer_state = 807
+		}
+		
+	}
+	option = {
+		name = pol.4.b
+		ai_chance = {
+				factor = 0
+			}
+		add_stability = 0.1
+		add_political_power = 25
+		add_war_support = -0.15
+	}
+	
+	
+	}

@@ -1757,5 +1757,30 @@
  LVO_paternal_autocrat_ADJ:0 "Галицск."
  LVO_fascism:0 "Западно-украинское государство" 
  LVO_fascism_DEF:0 "Западно-украинское государство" 
- LVO_fascism_ADJ:0 "Западноукраинск." 
+ LVO_fascism_ADJ:0 "Западноукраинск."
+
+ #PRE#
+ PRE:0 "Пруссия"
+ PRE_DEF:0 "Пруссия"
+ PRE_ADJ:0 "Прусск."
+ PRE_communism:0 "Народная республика Пруссия"
+ PRE_communism_DEF:0 "Народная республика Пруссия"
+ PRE_communism_ADJ:0 "Прусск."
+ PRE_syndicalist:0 "Народная республика Пруссия" 
+ PRE_syndicalist_DEF:0 "Народная республика Пруссия" 
+ PRE_syndicalist_ADJ:0 "Прусск."
+ PRE_radical_socialist:0 "Народная республика Пруссия" 
+ PRE_radical_socialist_DEF:0 "Народная республика Пруссия" 
+ PRE_radical_socialist_ADJ:0 "Прусск."
+ PRE_paternal_autocrat:0 "Прусское королевство" 
+ PRE_paternal_autocrat_DEF:0 "Прусское королевство" 
+ PRE_paternal_autocrat_ADJ:0 "Прусск."
+ PRE_fascism:0 "Остпруссен" 
+ PRE_fascism_DEF:0 "Остпруссен" 
+ PRE_fascism_ADJ:0 "Прусск." 
+ 
+ #Wojewodztvo Malopolske#
+ MLR:0 "Воеводство Малопольское"
+ MLR_DEF:0 "Воеводство Малопольское"
+ MLR_ADJ:0 "Малопольск."
  

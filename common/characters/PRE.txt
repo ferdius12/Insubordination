@@ -1,0 +1,35 @@
+characters = {
+
+    PRE_oskar_karl_von_preuben = {
+		name = PRE_oskar_karl_von_preuben
+		portraits = {
+			civilian = {
+				large="gfx/leaders/PRE/portrait_Prussia_Oskar_Karl_von_Preuben.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+	}
+	
+	PRE_erich_koch = {
+		name = PRE_erich_koch
+		portraits = {
+			civilian = {
+				large="gfx/leaders/PRE/portrait_Prussia_Erich_Koch.dds"
+			}
+		}
+		country_leader = {
+			ideology = nazism_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+	}
+	
+	}

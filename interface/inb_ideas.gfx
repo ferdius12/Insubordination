@@ -511,4 +511,33 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_ukr_not_united_nation.dds"
 	}
 	
+	#Poland#
+	
+	spriteType = {
+		name = "GFX_idea_POL_dissatisfaction_military_elite"
+		texturefile = "gfx/interface/ideas/idea_pol_dissatisfaction_military_elite.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POL_problems_with_east"
+		texturefile = "gfx/interface/ideas/idea_pol_problems_with_east.dds"
+	}
+	
+	#Prussia#
+	
+	spriteType = {
+		name = "GFX_idea_PRE_nazi_groups"
+		texturefile = "gfx/interface/ideas/idea_pre_nazi_groups.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRE_prussian_spirit"
+		texturefile = "gfx/interface/ideas/idea_pre_prussian_spirit.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRE_lithuanian_support"
+		texturefile = "gfx/interface/ideas/idea_pre_lithuanian_support.dds"
+	}
+	
 }

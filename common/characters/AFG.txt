@@ -1,4 +1,4 @@
-characters={
+characters = {
 
     AFG_amanullah_khan = {
 		name = AFG_amanullah_khan

@@ -24,4 +24,26 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_ire_generic.dds"
 	}
 	
+	#POL#
+	
+	spriteType = {
+		name = "GFX_news_event_pilsudskiy_coup"
+		texturefile = "gfx/event_pictures/GFX_news_event_pilsudskiy_coup.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_pol_pilsudskiy_coup"
+		texturefile = "gfx/event_pictures/report_event_pol_pilsudskiy_coup.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_pol_prussian_revolt"
+		texturefile = "gfx/event_pictures/report_event_pol_prussian_revolt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_pol_danzig"
+		texturefile = "gfx/event_pictures/report_event_pol_danzig.dds"
+	}
+	
 }

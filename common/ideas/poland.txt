@@ -1,0 +1,51 @@
+ideas = {
+
+	country = { 
+	
+	  POL_dissatisfaction_military_elite = {
+				
+			allowed = {
+			    original_tag = POL
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = POL_dissatisfaction_military_elite
+				
+			removal_cost = -1
+				
+			modifier = {
+			custom_modifier_tooltip = SPR_military_disloyalty_tt
+            war_support_factor = -0.15
+			command_power_gain_mult = -0.45
+            political_power_gain = -0.15
+  
+			}
+		}
+		
+	   POL_problems_with_east = {
+				
+			allowed = {
+			    original_tag = POL
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = POL_problems_with_east
+				
+			removal_cost = -1
+				
+			modifier = {
+            stability_factor = -0.10
+			conscription_factor = -0.15
+            local_resources_factor = -0.1
+			}
+		}
+		
+		}
+		
+		}
