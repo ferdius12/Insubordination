@@ -2,17 +2,18 @@ add_namespace = pol
 country_event = {
 	id = pol.1
 	title = pol.1.t
-	picture = GFX_report_event_pol_pilsudskiy_coup
-	is_triggered_only = yes
-	fire_only_once = yes
 	desc = pol.1.d
+	picture = GFX_news_event_pilsudskiy_coup
+
 	trigger = {
-        date > 1926.5.11
-		original_tag = POL
-    }
-	mean_time_to_happen = {
-        days = 1
-    }
+		tag = POL
+		date > 1926.1.1
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = { days = 2 }
+
 	option = {
 	name = pol.1.a
 		ai_chance = {
@@ -69,7 +70,7 @@ country_event = {
                 popularity = -0.15
             }
 		hidden_effect = { 
-				country_event = { id = pol.3 hours = 6 }
+				country_event = { id = pol.3 hours = 54 }
 		}
 		10 = {
 			set_demilitarized_zone = yes
@@ -91,6 +92,7 @@ news_event = {
 	option = {
 	name = pol.2.a
       trigger = {
+	  NOT = { tag = POL }
 	  OR = { has_government = market_liberal
 	         has_government = social_liberal
 			 has_government = social_democrat
@@ -141,7 +143,6 @@ country_event = {
 		PRE = { 
 		transfer_state = 5 
 		load_oob = PRE_revolt
-		change_tag_from = POL	
 		}
 	}
 	
@@ -149,8 +150,8 @@ country_event = {
 		name = pol.3.b
 		add_stability = -0.15
 		PRE = { 
+		transfer_state = 5 
 		load_oob = PRE_revolt
-		transfer_state = 5
         change_tag_from = POL		
 		}
 	}
@@ -160,16 +161,28 @@ country_event = {
 	id = pol.5
 	title = pol.5.t
 	desc = pol.5.d
-	picture = GFX_report_event_pol_prussian_revolt
-	is_triggered_only = yes
+	picture = GFX_report_event_eng_edward_and_wallis
+
+	trigger = {
+		tag = POL
+		has_country_flag = pol_civil_war
+		date > 1926.1.15
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = { days = 3 }
+
 	option = {
 		name = pol.5.a
 		add_stability = 0.05
 		add_war_support = 0.05
 		MLR = { 
-		transfer_state = 5 
 		load_oob = MLR_revolt
-		change_tag_from = POL	
+		transfer_state = 88
+		transfer_state = 90
+		transfer_state = 762
+		transfer_state = 72
 		}
 	}
 	
@@ -192,16 +205,18 @@ country_event = {
 	id = pol.4
 	title = pol.4.t
 	desc = pol.4.d
-	picture = GFX_report_event_pol_danzig
-	is_triggered_only = yes
+	picture = GFX_report_event_eng_edward_and_wallis
+
 	trigger = {
-        date > 1926.5.13
-		original_tag = DNZ
+		tag = DNZ
 		POL = { has_country_flag = pol_civil_war }
-    }
-	mean_time_to_happen = {
-        days = 4
-    }
+		date > 1926.1.12
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = { days = 3 }
+
 	option = {
 		name = pol.4.a
 		ai_chance = {
@@ -210,6 +225,7 @@ country_event = {
 		DNZ = { 
 		transfer_state = 807
 		}
+		807 = { add_core_of = DNZ }
 		
 	}
 	option = {

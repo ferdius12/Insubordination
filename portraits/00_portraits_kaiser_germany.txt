@@ -1,0 +1,43 @@
+PRE = {
+	army = {
+		male = {
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_5.dds"
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_6.dds"
+		}
+	}
+	
+}
+
+GEK = {
+	army = {
+		male = {
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_5.dds"
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_6.dds"
+		}
+	}
+	
+}
+
+DNZ = {
+	army = {
+		male = {
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_1.dds"
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_2.dds"
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_3.dds"
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_4.dds"
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_5.dds"
+			"gfx/leaders/German_Generic/Portrait_Germany_Generic_land_6.dds"
+		}
+	}
+	
+}
+	
+	

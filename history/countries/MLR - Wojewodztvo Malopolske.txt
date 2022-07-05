@@ -37,4 +37,4 @@ set_popularities = {
     fascism = 11
 }
 
-recruit_character = POL_jozef_pilsudski
+recruit_character = MLR_jozef_pilsudski

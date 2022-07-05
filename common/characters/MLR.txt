@@ -1,0 +1,18 @@
+characters = { 
+
+        MLR_jozef_pilsudski = {
+		name = POL_jozef_pilsudski
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/portrait_Poland_Jozef_Pilsudski.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+	
+	}
