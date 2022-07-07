@@ -3,7 +3,7 @@ country_event = {
 	id = pol.1
 	title = pol.1.t
 	desc = pol.1.d
-	picture = GFX_news_event_pilsudskiy_coup
+	picture = GFX_report_event_pol_pilsudskiy_coup
 
 	trigger = {
 		tag = POL
@@ -12,7 +12,7 @@ country_event = {
 	
 	fire_only_once = yes
 
-	mean_time_to_happen = { days = 2 }
+	mean_time_to_happen = { days = 0 }
 
 	option = {
 	name = pol.1.a
@@ -71,6 +71,10 @@ country_event = {
             }
 		hidden_effect = { 
 				country_event = { id = pol.3 hours = 54 }
+				country_event = { id = pol.5 hours = 62 }
+			DNZ = { 
+			country_event = { id = pol.4 hours = 62 } 
+				  }
 		}
 		10 = {
 			set_demilitarized_zone = yes
@@ -161,13 +165,9 @@ country_event = {
 	id = pol.5
 	title = pol.5.t
 	desc = pol.5.d
-	picture = GFX_report_event_eng_edward_and_wallis
-
-	trigger = {
-		tag = POL
-		has_country_flag = pol_civil_war
-		date > 1926.1.15
-	}
+	picture = GFX_report_event_pol_pilsudskiy_coup
+	
+	is_triggered_only = yes
 	
 	fire_only_once = yes
 
@@ -205,17 +205,11 @@ country_event = {
 	id = pol.4
 	title = pol.4.t
 	desc = pol.4.d
-	picture = GFX_report_event_eng_edward_and_wallis
-
-	trigger = {
-		tag = DNZ
-		POL = { has_country_flag = pol_civil_war }
-		date > 1926.1.12
-	}
+	picture = GFX_report_event_pol_danzig
 	
 	fire_only_once = yes
 
-	mean_time_to_happen = { days = 3 }
+        is_triggered_only = yes
 
 	option = {
 		name = pol.4.a
@@ -226,6 +220,7 @@ country_event = {
 		transfer_state = 807
 		}
 		807 = { add_core_of = DNZ }
+		set_autonomy = autonomy_free 
 		
 	}
 	option = {
