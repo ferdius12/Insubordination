@@ -6,6 +6,10 @@ characters = {
 			civilian = {
 				large="gfx/leaders/PRE/portrait_Prussia_Oskar_Karl_von_Preuben.dds"
 			}
+			army = {
+				large = "gfx/leaders/GEK/portrait_Prussia_Oskar_Karl_von_Preuben_general.dds"
+				small = "gfx/interface/ideas/german_cameroon_advisor/idea_gek_paul_von_lettow_vorbeck.dds"
+			}
 		}
 		country_leader = {
 			ideology = paternal_autocrat_subtype
