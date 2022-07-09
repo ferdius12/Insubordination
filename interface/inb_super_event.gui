@@ -8,7 +8,7 @@ guiTypes = {
 		Origo = center
 		clipping = no
 		moveable = yes
-		show_sound = super_event_german_france_war_se
+		show_sound = super_event_german_france_war
 		
 		background = {
 			name = "Background"

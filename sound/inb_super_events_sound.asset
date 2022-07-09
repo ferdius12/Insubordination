@@ -1,0 +1,5 @@
+sound = {
+	name = "super_event_german_france_war"
+	file = "superevents/inb_se_german_france_war.wav"
+	always_load = no
+}

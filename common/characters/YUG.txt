@@ -1,4 +1,4 @@
-characters={
+characters = {
 
     YUG_alexander_kar = {
 		name = YUG_alexander_kar
@@ -7,8 +7,29 @@ characters={
 				large="gfx/leaders/YUG/portrait_Yugoslavia_Alexander_Karageorgievich.dds"
 			}
 		}
+	    country_leader = {
+			ideology = conservative_democratic_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
 		country_leader = {
-			ideology = semi_constitutional_monarchy_subtype
+			ideology = market_liberal_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = social_liberal_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+		country_leader = {
+			ideology = social_democrat_subtype
 			expire = "1953.1.1.1"
 			traits = {  }
 			id = -1
