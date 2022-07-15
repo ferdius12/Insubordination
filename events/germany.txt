@@ -1,0 +1,44 @@
+add_namespace = gnews
+
+news_event = {
+	id = gnews.1
+	title = gnews.1.t
+	desc = gnews.1.d
+	picture = GFX_news_event_pilsudskiy_coup
+	fire_only_once = yes
+	
+	trigger = {
+	  OR = {
+	    GER = { has_war_with = FRA } 
+	    FRA = { has_war_with = GER } 
+	       }
+    }
+	
+	mean_time_to_happen = {
+		days = 0
+	}
+	
+	option = {
+	     name = gnews.1.a
+		 trigger = { 
+		    tag = GER
+		 }
+         set_global_flag = inb_super_event_flag_german_france_war
+	}
+	option = {
+	     name = gnews.1.b
+		 trigger = { 
+		    tag = FRA
+		 }
+         set_global_flag = inb_super_event_flag_german_france_war
+	}
+	option = {
+	     name = gnews.1.c
+		 trigger = { 
+		    NOT = { tag = GER }
+			NOT = { tag = FRA }
+		 }
+         set_global_flag = inb_super_event_flag_german_france_war
+	}
+	
+	}

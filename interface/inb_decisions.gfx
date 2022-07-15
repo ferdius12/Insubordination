@@ -1,0 +1,17 @@
+spriteTypes = {	
+
+    #PICTURE#
+    
+	spriteType = {
+		name = "GFX_decision_cat_picture_middle_asia_integration"
+		texturefile = "gfx/interface/decisions/decision_cat_middle_asia_integration.dds"
+	}
+	
+	#ICONS#
+	
+	spriteType = {
+		name = "GFX_decision_category_integrate_states
+		texturefile = "gfx/interface/decisions/decision_category_integrate_states.dds"
+	}
+	
+}

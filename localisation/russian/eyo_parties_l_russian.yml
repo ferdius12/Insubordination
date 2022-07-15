@@ -214,7 +214,25 @@
  UKR_fascism_party:0 "СУФ"
  UKR_fascism_party_long:0 "Союз українських фашистів"
  
- 
- 
-
+ #TURKMENISTAN#
+ TMS_communism_party:0 "Советские диссиденты"
+ TMS_communism_party_long:0 "Советские диссиденты"
+ TMS_syndicalist_party:0 "Советские диссиденты"
+ TMS_syndicalist_party_long:0 "Советские диссиденты"
+ TMS_radical_socialist_party:0 "Советские диссиденты"
+ TMS_radical_socialist_party_long:0 "Советские диссиденты"
+ TMS_social_democrat_party:0 "Сторонники Фунтикова"
+ TMS_social_democrat_party_long:0 "Сторонники Фунтикова"
+ TMS_social_liberal_party:0 "Разрозненные группы"
+ TMS_social_liberal_party_long:0 "Разрозненные группы"
+ TMS_market_liberal_party:0 "Разрозненные группы"
+ TMS_market_liberal_party_long:0 "Разрозненные группы"
+ TMS_social_conservative_party:0 "Разрозненные группы"
+ TMS_social_conservative_party_long:0 "Разрозненные группы"
+ TMS_authoritarian_democrat_party:0 "Британская экспедиция"
+ TMS_authoritarian_democrat_party_long:0 "Британская экспедиционная миссия"
+ TMS_paternal_autocrat_party:0 "Корниловцы Ерогина"
+ TMS_paternal_autocrat_party_long:0 "Корниловцы Ерогина"
+ TMS_fascism_party:0 "Хунта Савицкого"
+ TMS_fascism_party_long:0 "Хунта Савицкого"
  

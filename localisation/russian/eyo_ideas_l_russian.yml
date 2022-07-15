@@ -237,6 +237,16 @@
  PRE_prussian_spirit:0 "Прусский дух"
  PRE_prussian_spirit_desc:0 ""
  
+ #TMS#
+ TMS_undeground_gun_industry:0 "Кустарное производство"
+ TMS_british_gun_industry:0 "Британская промышленная база"
+ TMS_we_are_alone:0 "Мы остались одни"
+ TMS_we_are_alone_desc:0 ""
+ TMS_kornilov_work_alive:0 "Дело Корнилова живо!"
+ TMS_kornilov_work_alive_desc:0 ""
+ middle_asia_underdeveloped_economy:0 "Отсталая промышленность"
+ middle_asia_underdeveloped_economy_desc:0 ""
+ 
  #ATTU#
  ATU_syndicalist:0 "Рост популярности синдикализма"
  ATU_syndicalist_desc:0 ""

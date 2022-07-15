@@ -1,0 +1,16 @@
+middle_asia_coring_categories = {
+
+	icon = integrate_states
+    
+	picture = GFX_decision_cat_picture_middle_asia_integration
+	
+	allowed = {
+		OR = {
+		  original_tag = TMS
+          original_tag = YSV
+          original_tag = UZB
+          original_tag = KHI
+          original_tag = TAJ
+          original_tag = TAS
+	}
+}

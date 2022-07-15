@@ -1,17 +1,50 @@
 characters = {
 
-    TMS_michail_dashcevich = {
-		name = TMS_michail_dashcevich
+    TMS_lev_erogin = {
+		name = TMS_lev_erogin
 		portraits = {
 			civilian = {
-				large="gfx/leaders/TMS/portrait_Turkmenistan_Michail_Dashcevich.dds"
+				large="gfx/leaders/TMS/portrait_Turkmenistan_Lev_Erogin.dds"
+			}
+			army = {
+				large = "gfx/leaders/TMS/portrait_Turkmenistan_Lev_Erogin.dds"
+				small = "gfx/interface/ideas/turkmenistan_advisor/idea_tms_lev_erogin.dds"
 			}
 		}
+		
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = despotism_subtype
 			expire = "1953.1.1.1"
 			traits = {  }
 			id = -1
+		}
+		
+		corps_commander = {
+			traits = { harsh_leader media_personality }
+			skill = 2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	
+	TMS_michail_dashcevich = {
+		name = TMS_michail_dashcevich
+		portraits = {
+			army = {
+				large = "gfx/leaders/TMS/portrait_Turkmenistan_Michail_Dashcevich.dds"
+				small = "gfx/interface/ideas/turkmenistan_advisor/idea_tms_michail_dashcevich.dds"
+			}
+		}
+		
+		corps_commander = {
+			traits = { trait_reckless }
+			skill = 2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
 		}
 	}
 	
@@ -27,6 +60,33 @@ characters = {
 			expire = "1953.1.1.1"
 			traits = {  }
 			id = -1
+		}
+	}
+	
+	TMS_wilfrid_malleson = {
+		name = TMS_wilfrid_malleson
+		portraits = {
+			civilian = {
+				large="gfx/leaders/TMS/portrait_Turkmenistan_Wilfrid_Malleson.dds"
+			}
+			army = {
+				large = "gfx/leaders/TMS/portrait_Turkmenistan_Wilfrid_Malleson.dds"
+				small = "gfx/interface/ideas/turkmenistan_advisor/idea_tms_wilfrid_malleson.dds"
+			}
+		}
+		country_leader = {
+			ideology = colonial_government_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		corps_commander = {
+			traits = { trait_cautious  }
+			skill = 3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
 		}
 	}
 	

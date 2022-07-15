@@ -24,6 +24,11 @@ set_technology = {
 
 recruit_character = KAZ_filip_goloshekin
 
+add_opinion_modifier = { 
+			target = RUS
+			modifier = SOV_leader
+		}
+
 set_cosmetic_tag = SOV_TAG
 
 set_politics = {

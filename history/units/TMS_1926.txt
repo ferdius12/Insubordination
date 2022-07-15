@@ -1,0 +1,93 @@
+division_template = {
+	name = "Infantry Division"
+	division_names_group = TMS_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "British Expedition Brigade"
+	division_names_group = TMS_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+	support = { 
+	    recon = { x = 0 y = 0 } 
+		artillery = { x = 0 y = 1 } 
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+	division_names_group = TMS_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		
+	}
+}
+
+units = {
+
+	division = {
+		name = "British Expedition Brigade"
+		location = 12333 
+		division_template = "British Expedition Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	
+	division = {
+		name = "1-ya Zakaspiyska Diviziya"
+		location = 1632
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		name = "3-ya Turkestanskaya Strelkovaya Diviziya"
+		location = 10414
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		name = "5-ya Turkestanskaya Strelkovaya Diviziya"
+		location = 7635
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		name = "Konnaya Dagestanskaya Brigada"
+		location = 10359
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	
+	division = {
+		name = "Osetinsko-Turkestanskaya Konnaya Brigada"
+		location = 4482
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	
+}
+	
+	

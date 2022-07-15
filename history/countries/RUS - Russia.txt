@@ -26,6 +26,15 @@ recruit_character = RUS_mikhail_kalinin
 recruit_character = RUS_leon_trotsky
 recruit_character = RUS_iosif_stalin
 
+add_opinion_modifier = { 
+			target = KAZ
+			modifier = SOV_member
+		}
+		
+add_opinion_modifier = { 
+			target = FIN
+			modifier = SOV_member
+		}
 
 create_faction = SovietUnion
 add_to_faction = FIN
@@ -37,6 +46,7 @@ set_autonomy = {
 		autonomous_state = autonomy_soviet_republic
 		freedom_level = 0.35
 	}
+
 
 set_technology = {
 	infantry_weapons = 1

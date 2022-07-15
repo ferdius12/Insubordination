@@ -17,7 +17,17 @@ opinion_modifiers = {
 	
 	IRE_refusal_to_help = {
 		value = -15
-		trade = yes
+		trade = no
+	}
+	
+	SOV_member = {
+		value = 50
+		trade = no
+	}
+	
+	SOV_leader = {
+		value = 75
+		trade = no
 	}
 
 }	

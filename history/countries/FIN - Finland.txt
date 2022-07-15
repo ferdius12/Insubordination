@@ -17,6 +17,11 @@ add_ideas = {
 recruit_character = FIN_otto_kuusinen
 recruit_character = FIN_carl_mannerheim
 
+add_opinion_modifier = { 
+			target = RUS
+			modifier = SOV_leader
+		}
+
 set_cosmetic_tag = SOV_TAG
 
 set_technology = {

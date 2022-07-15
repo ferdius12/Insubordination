@@ -19,8 +19,17 @@ set_technology = {
 }
 set_convoys = 5
 
-recruit_character = TMS_michail_dashcevich 
+add_ideas = {
+TMS_undeground_gun_industry
+TMS_we_are_alone
+TMS_kornilov_work_alive
+middle_asia_underdeveloped_economy
+}
+
+recruit_character = TMS_lev_erogin
+recruit_character = TMS_wilfrid_malleson
 recruit_character = TMS_fyodor_funticov
+recruit_character = TMS_michail_dashcevich
 
 set_politics = {
 	ruling_party = paternal_autocrat

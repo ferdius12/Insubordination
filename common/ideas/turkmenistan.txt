@@ -1,0 +1,138 @@
+ideas = {
+ 
+	country = { 
+	
+	   TMS_we_are_alone = {
+				
+			allowed = {
+				original_tag = TMS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = TMS_we_are_alone
+				
+			removal_cost = -1
+				
+			modifier = {
+				stability_factor = -0.20
+				war_support_factor = -0.20
+				army_org_factor = -0.15
+				political_power_factor = -0.15
+			}
+		}
+		
+		TMS_kornilov_work_alive = {
+				
+			allowed = {
+				original_tag = TMS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = GFX_idea_TMS_kornilov_work_alive
+				
+			removal_cost = -1
+				
+			modifier = {
+				surrender_limit = 0.15
+				experience_loss_factor = -0.25
+				weekly_manpower = 100
+			}
+		}
+		
+		
+		middle_asia_underdeveloped_economy = {
+				
+			allowed = {
+				OR = {
+				    original_tag = TMS
+					original_tag = YSV
+					original_tag = UZB
+					original_tag = KHI
+					original_tag = TAJ
+					original_tag = TAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = middle_asia_underdeveloped_economy
+				
+			removal_cost = -1
+				
+			modifier = {
+				industrial_capacity_factor = -0.05
+				production_factory_max_efficiency_factor = -0.40
+				production_factory_efficiency_gain_factor = -0.30
+				production_factory_start_efficiency_factor = -0.1
+			}
+		}
+	
+	}
+	
+	industrial_concern = {
+	
+		TMS_undeground_gun_industry = {
+			
+			picture = GFX_idea_TMS_underground_guns_industries
+
+			allowed = {
+				NOT = { country_flag = TMS_middle_asia_united }
+				original_tag = TMS
+			}
+				
+			cost = 150
+			removal_cost = 50
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.25
+					reliability = -0.45
+					instant = yes
+				}
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.05
+			}
+			
+			traits = { industrial_concern }
+		}
+		
+		TMS_british_gun_industry = {
+			
+			picture = GFX_idea_TMS_british_gun_industry
+
+			allowed = {
+				NOT = { country_flag = TMS_middle_asia_united }
+				original_tag = TMS
+			}
+			
+			cost = 150
+			removal_cost = 50
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = 0.10
+					reliability = 0.20
+					instant = yes
+				}
+			}
+			
+			research_bonus = {
+				infantry_weapons = -0.1
+			}
+			
+			traits = { industrial_concern }
+		}
+		
+	}
+	
+}
+	

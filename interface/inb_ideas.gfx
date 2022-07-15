@@ -540,4 +540,33 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_pre_lithuanian_support.dds"
 	}
 	
+	#Turkmenistan#
+	
+	spriteType = {
+		name = "GFX_idea_TMS_british_gun_industry"
+		texturefile = "gfx/interface/ideas/concern/TMS_british_gun_industry.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_TMS_underground_guns_industries"
+		texturefile = "gfx/interface/ideas/concern/TMS_underground_guns_industries.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_TMS_we_are_alone"
+		texturefile = "gfx/interface/ideas/idea_TMS_we_are_alone.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_TMS_kornilov_work_alive"
+		texturefile = "gfx/interface/ideas/idea_TMS_kornilov_work_alive.dds"
+	}
+	
+	#Middle Asia#
+	
+	spriteType = {
+		name = "GFX_idea_middle_asia_underdeveloped_economy"
+		texturefile = "gfx/interface/ideas/idea_middle_asia_underdeveloped_economy.dds"
+	}
+	
 }
