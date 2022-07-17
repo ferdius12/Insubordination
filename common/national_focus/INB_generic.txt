@@ -674,12 +674,18 @@ focus_tree = {
 			focus = generic_choose_our_policy
 		}
 		mutually_exclusive = {
+			focus = generic_socialist_way
 			focus = generic_democratic_way
 			focus = generic_right_way
-			focus = generic_socialist_way
 		}
 		x = 18
 		y = 1
+			available = {
+					OR = {
+							authoritarian_democrat > 0.20
+							paternal_autocrat > 0.15
+						}
+				}
 
 	}
 	focus = {
@@ -695,6 +701,13 @@ focus_tree = {
 		}
 		x = 17
 		y = 2
+			available = {
+					ruling_party = authoritarian_democrat
+				}
+			completion_reward = {
+					add_political_power = 25
+					add_stability = 0.05
+				}
 
 	}
 	focus = {
@@ -707,6 +720,9 @@ focus_tree = {
 		}
 		x = 16
 		y = 3
+			available = {
+					ruling_party = authoritarian_democrat
+				}
 
 	}
 	focus = {
@@ -722,6 +738,20 @@ focus_tree = {
 		}
 		x = 19
 		y = 2
+			available = {
+					paternal_autocrat > 0.35
+				}
+			completion_reward = {
+					set_politics = {
+							ruling_party = paternal_autocrat
+							elections_allowed = no
+						}
+					add_popularity = {
+							ideology = paternal_autocrat
+							popularity = 0.10
+						}
+					add_stability = -0.1
+				}
 
 	}
 	focus = {
@@ -735,10 +765,17 @@ focus_tree = {
 		}
 		x = 18
 		y = 3
+			available = {
+					OR = {
+							ruling_party = authoritarian_democrat
+							ruling_party = paternal_autocrat
+						}
+				}
 
 	}
 	focus = {
 		id = generic_centralise_power
+		text = generic_centralise_power
 		icon = GFX_goal_unknown
 		cost = 5,00
 		prerequisite = {
@@ -746,10 +783,20 @@ focus_tree = {
 		}
 		x = 18
 		y = 4
+			available = {
+					OR = {
+							ruling_party = authoritarian_democrat
+							ruling_party = paternal_autocrat
+						}
+				}
+			completion_reward = {
+					add_political_power = 75
+				}
 
 	}
 	focus = {
 		id = generic_diplomatic_corps
+		text = generic_diplomatic_corps
 		icon = GFX_goal_unknown
 		cost = 5,00
 		prerequisite = {
@@ -757,10 +804,17 @@ focus_tree = {
 		}
 		x = 18
 		y = 5
+			available = {
+					OR = {
+							ruling_party = authoritarian_democrat
+							ruling_party = paternal_autocrat
+						}
+				}
 
 	}
 	focus = {
 		id = generic_praise_the_leader
+		text = generic_praise_the_leader
 		icon = GFX_goal_generic_paternal_autocrat
 		cost = 7,00
 		prerequisite = {
@@ -768,6 +822,9 @@ focus_tree = {
 		}
 		x = 20
 		y = 3
+			available = {
+					ruling_party = paternal_autocrat
+				}
 
 	}
 	focus = {
@@ -780,6 +837,9 @@ focus_tree = {
 		}
 		x = 20
 		y = 4
+			available = {
+					ruling_party = paternal_autocrat
+				}
 
 	}
 	focus = {
@@ -792,6 +852,9 @@ focus_tree = {
 		}
 		x = 20
 		y = 5
+			available = {
+					ruling_party = paternal_autocrat
+				}
 
 	}
 	focus = {
@@ -803,15 +866,15 @@ focus_tree = {
 			focus = generic_choose_our_policy
 		}
 		mutually_exclusive = {
+			focus = generic_socialist_way
 			focus = generic_democratic_way
 			focus = generic_authoritarian_way
-			foucs = generic_socialist_way
 		}
 		x = 23
 		y = 1
-		available = {
-							fascism > 0.25
-							}
+			available = {
+					fascism > 0.25
+				}
 			completion_reward = {
 					add_ideas = generic_fascism_way
 					add_popularity = {
@@ -831,6 +894,9 @@ focus_tree = {
 		}
 		x = 16
 		y = 5
+			available = {
+					ruling_party = authoritarian_democrat
+				}
 
 	}
 	focus = {
@@ -843,6 +909,9 @@ focus_tree = {
 		}
 		x = 16
 		y = 4
+			available = {
+					ruling_party = paternal_autocrat
+				}
 
 	}
 	focus = {
@@ -860,6 +929,12 @@ focus_tree = {
 		}
 		x = 18
 		y = 6
+			available = {
+					OR = {
+							ruling_party = authoritarian_democrat
+							ruling_party = paternal_autocrat
+						}
+				}
 
 	}
 	focus = {
