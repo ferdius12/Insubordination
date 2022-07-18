@@ -19,8 +19,8 @@ ideas = {
 			modifier = {
 				stability_factor = -0.20
 				war_support_factor = -0.20
-				army_org_factor = -0.15
-				political_power_factor = -0.15
+				experience_loss_factor = 0.30
+				political_power_factor = -0.20
 			}
 		}
 		
@@ -40,23 +40,13 @@ ideas = {
 				
 			modifier = {
 				surrender_limit = 0.15
-				experience_loss_factor = -0.25
+				army_org_factor = 0.12
 				weekly_manpower = 100
 			}
 		}
 		
 		
 		middle_asia_underdeveloped_economy = {
-				
-			allowed = {
-				OR = {
-				    original_tag = TMS
-					original_tag = YSV
-					original_tag = UZB
-					original_tag = KHI
-					original_tag = TAJ
-					original_tag = TAS
-			}
 
 			allowed_civil_war = {
 				always = yes
@@ -67,10 +57,8 @@ ideas = {
 			removal_cost = -1
 				
 			modifier = {
-				industrial_capacity_factor = -0.05
-				production_factory_max_efficiency_factor = -0.40
-				production_factory_efficiency_gain_factor = -0.30
-				production_factory_start_efficiency_factor = -0.1
+				production_factory_max_efficiency_factor = -0.35
+				production_speed_buildings_factor = -0.15
 			}
 		}
 	
@@ -80,7 +68,7 @@ ideas = {
 	
 		TMS_undeground_gun_industry = {
 			
-			picture = GFX_idea_TMS_underground_guns_industries
+			picture = TMS_underground_guns_industries
 
 			allowed = {
 				NOT = { country_flag = TMS_middle_asia_united }
@@ -107,7 +95,7 @@ ideas = {
 		
 		TMS_british_gun_industry = {
 			
-			picture = GFX_idea_TMS_british_gun_industry
+			picture = TMS_british_gun_industry
 
 			allowed = {
 				NOT = { country_flag = TMS_middle_asia_united }
@@ -123,7 +111,7 @@ ideas = {
 					reliability = 0.20
 					instant = yes
 				}
-			}
+			}			
 			
 			research_bonus = {
 				infantry_weapons = -0.1
