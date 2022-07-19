@@ -13,7 +13,7 @@ state={
 		}
 		add_core_of = UZB
 	}
-	manpower=150234
+	manpower=380234
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

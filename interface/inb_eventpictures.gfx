@@ -46,4 +46,11 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_pol_danzig.dds"
 	}
 	
+	#GER#
+	
+	spriteType = {
+		name = "GFX_news_event_german_france_war"
+		texturefile = "gfx/event_pictures/GFX_news_event_german_france_war.dds"
+	}
+	
 }

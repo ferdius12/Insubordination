@@ -1,30 +1,31 @@
-state = {
 
-	id = 831
-	name = "STATE_831" #Khiva
+state={
+	id=831
+	name="STATE_831"
 
-	history = {
-	
+	history={
 		victory_points = {
-			12465 1
+			10435 5
+		}
+		victory_points = {
+			1614 1 
 		}
 		owner = KHI
 		buildings = {
 			infrastructure = 2
+                        arms_factory = 1
+			industrial_complex = 2
 
 		}
-		
 		add_core_of = KHI
-		
+
 	}
 
-	provinces = {
-		 10395 10435 12324 12454 12465
+	provinces={
+		1479 1576 1614 4488 4618 10395 10435 12324 12465 12471 
 	}
-	
-	manpower = 258430
-	buildings_max_level_factor = 1.000
-	state_category = rural
-
-	local_supplies = 0.0 
+	manpower=588430
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

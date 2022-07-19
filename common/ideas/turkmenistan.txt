@@ -71,8 +71,12 @@ ideas = {
 			picture = TMS_underground_guns_industries
 
 			allowed = {
-				NOT = { country_flag = TMS_middle_asia_united }
 				original_tag = TMS
+			}
+			
+			available = { 
+			   NOT = { country_flag = TMS_middle_asia_united }
+			   NOT = { has_government = authoritarian_democrat }
 			}
 				
 			cost = 150
@@ -100,6 +104,7 @@ ideas = {
 			allowed = {
 				NOT = { country_flag = TMS_middle_asia_united }
 				original_tag = TMS
+				
 			}
 			
 			cost = 150
@@ -115,6 +120,41 @@ ideas = {
 			
 			research_bonus = {
 				infantry_weapons = -0.1
+			}
+			
+			traits = { industrial_concern }
+		}
+		
+		TMS_national_industries = {
+			
+			picture = TMS_national_industries
+
+			allowed = {
+				original_tag = TMS
+			}
+			
+			available = { 
+			   NOT = { country_flag = TMS_middle_asia_united }
+			   NOT = { has_government = authoritarian_democrat }
+			   has_completed_focus = TMS_CONCERN
+			}
+			
+			cost = 150
+			removal_cost = 50
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.08
+					instant = yes
+				}
+			}
+
+            modifier = {
+            conscription_factor = -0.05
+            }			
+			
+			research_bonus = {
+				infantry_weapons = 0.1
 			}
 			
 			traits = { industrial_concern }

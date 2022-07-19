@@ -553,6 +553,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_TMS_national_industries"
+		texturefile = "gfx/interface/ideas/concern/TMS_national_industries.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_TMS_we_are_alone"
 		texturefile = "gfx/interface/ideas/idea_TMS_we_are_alone.dds"
 	}

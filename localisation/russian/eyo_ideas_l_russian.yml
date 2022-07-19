@@ -240,6 +240,7 @@
  #TMS#
  TMS_undeground_gun_industry:0 "Кустарное производство"
  TMS_british_gun_industry:0 "Британская промышленная база"
+ TMS_national_industries:0 "Национальная промышленность"
  TMS_we_are_alone:0 "Мы остались одни"
  TMS_we_are_alone_desc:0 ""
  TMS_kornilov_work_alive:0 "Дело Корнилова живо!"

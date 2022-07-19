@@ -35,6 +35,7 @@ leader_traits = {
   political_power_gain = 0.10
   war_support_factor = 0.1
   generate_wargoal_tension = -0.35
+  conscription = 0.001
   ai_will_do = {
 			factor = 1
 		}

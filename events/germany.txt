@@ -4,14 +4,11 @@ news_event = {
 	id = gnews.1
 	title = gnews.1.t
 	desc = gnews.1.d
-	picture = GFX_news_event_pilsudskiy_coup
+	picture = GFX_news_event_german_france_war
 	fire_only_once = yes
 	
 	trigger = {
-	  OR = {
 	    GER = { has_war_with = FRA } 
-	    FRA = { has_war_with = GER } 
-	       }
     }
 	
 	mean_time_to_happen = {

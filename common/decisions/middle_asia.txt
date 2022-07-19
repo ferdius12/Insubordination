@@ -1,0 +1,476 @@
+middle_asia_coring_categories = { 
+
+   middle_asia_integrate_ysturt = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			has_full_control_of_state = 587
+		}
+
+		highlight_states = {
+           highlight_state_targets = { state = 587 } 
+        }
+
+		cost = 20
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { 587 = { is_core_of = ROOT } }
+		}
+        
+		days_remove = 60
+		
+		modifier = {
+			stability_weekly = -0.0015
+			political_power_gain = -0.1
+		}
+		
+		cancel_if_not_visible = yes
+
+		remove_effect  = {
+			add_state_core = 587
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			
+		}
+	}
+	
+	middle_asia_integrate_ashhabat = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			has_full_control_of_state = 584
+		}
+
+		highlight_states = {
+           highlight_state_targets = { state = 584 } 
+        }
+
+		cost = 35
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { 584 = { is_core_of = ROOT } }
+		}
+        
+		days_remove = 75
+		
+		modifier = {
+			stability_weekly = -0.0030
+			political_power_gain = -0.25
+		}
+		
+		cancel_if_not_visible = yes
+
+		remove_effect  = {
+			add_state_core = 584
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			
+		}
+	}
+	
+	middle_asia_integrate_dashoguz = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			has_full_control_of_state = 832
+		}
+
+		highlight_states = {
+           highlight_state_targets = { state = 832 } 
+        }
+
+		cost = 20
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { 832 = { is_core_of = ROOT } }
+		}
+        
+		days_remove = 60
+		
+		modifier = {
+			stability_weekly = -0.0010
+			political_power_gain = -0.10
+		}
+		
+		cancel_if_not_visible = yes
+
+		remove_effect  = {
+			add_state_core = 832
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			
+		}
+	}
+	
+	middle_asia_integrate_kungrad = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			has_full_control_of_state = 823
+		}
+
+		highlight_states = {
+           highlight_state_targets = { state = 823 } 
+        }
+
+		cost = 20
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { 823 = { is_core_of = ROOT } }
+		}
+        
+		days_remove = 60
+		
+		modifier = {
+			stability_weekly = -0.0010
+			political_power_gain = -0.10
+		}
+		
+		cancel_if_not_visible = yes
+
+		remove_effect  = {
+			add_state_core = 823
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			
+		}
+	}
+	
+	middle_asia_integrate_khiva = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			has_full_control_of_state = 831
+		}
+
+		highlight_states = {
+           highlight_state_targets = { state = 831 } 
+        }
+
+		cost = 35
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { 831 = { is_core_of = ROOT } }
+		}
+        
+		days_remove = 75
+		
+		modifier = {
+			stability_weekly = -0.0030
+			political_power_gain = -0.25
+		}
+		
+		cancel_if_not_visible = yes
+
+		remove_effect  = {
+			add_state_core = 831
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			
+		}
+	}
+	
+	middle_asia_integrate_bukhara = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			has_full_control_of_state = 830
+		}
+
+		highlight_states = {
+           highlight_state_targets = { state = 830 } 
+        }
+
+		cost = 50
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { 830 = { is_core_of = ROOT } }
+		}
+        
+		days_remove = 80
+		
+		modifier = {
+			stability_weekly = -0.0030
+			political_power_gain = -0.25
+		}
+		
+		cancel_if_not_visible = yes
+
+		remove_effect  = {
+			add_state_core = 830
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			
+		}
+	}
+	
+	middle_asia_integrate_syrdarya = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			has_full_control_of_state = 835
+		}
+
+		highlight_states = {
+           highlight_state_targets = { state = 835 } 
+        }
+
+		cost = 20
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { 835 = { is_core_of = ROOT } }
+		}
+        
+		days_remove = 60
+		
+		modifier = {
+			stability_weekly = -0.0010
+			political_power_gain = -0.10
+		}
+		
+		cancel_if_not_visible = yes
+
+		remove_effect  = {
+			add_state_core = 835
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			
+		}
+	}
+	
+	middle_asia_integrate_navoi = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			has_full_control_of_state = 585
+		}
+
+		highlight_states = {
+           highlight_state_targets = { state = 585 } 
+        }
+
+		cost = 35
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { 585 = { is_core_of = ROOT } }
+		}
+        
+		days_remove = 60
+		
+		modifier = {
+			stability_weekly = -0.0010
+			political_power_gain = -0.10
+		}
+		
+		cancel_if_not_visible = yes
+
+		remove_effect  = {
+			add_state_core = 585
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			
+		}
+	}
+	
+	middle_asia_integrate_dushanbe = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			has_full_control_of_state = 742
+		}
+
+		highlight_states = {
+           highlight_state_targets = { state = 742 } 
+        }
+
+		cost = 35
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { 742 = { is_core_of = ROOT } }
+		}
+        
+		days_remove = 60
+		
+		modifier = {
+			stability_weekly = -0.0010
+			political_power_gain = -0.10
+		}
+		
+		cancel_if_not_visible = yes
+
+		remove_effect  = {
+			add_state_core = 742
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			
+		}
+	}
+	
+	middle_asia_integrate_pamir = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			has_full_control_of_state = 732
+		}
+
+		highlight_states = {
+           highlight_state_targets = { state = 732 } 
+        }
+
+		cost = 35
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { 732 = { is_core_of = ROOT } }
+		}
+        
+		days_remove = 60
+		
+		modifier = {
+			stability_weekly = -0.0010
+			political_power_gain = -0.10
+		}
+		
+		cancel_if_not_visible = yes
+
+		remove_effect  = {
+			add_state_core = 732
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			
+		}
+	}
+	
+	middle_asia_integrate_tashkent = {
+
+		icon = GFX_decision_generic_form_nation
+
+		available = {
+			has_full_control_of_state = 405
+		}
+
+		highlight_states = {
+           highlight_state_targets = { state = 405 } 
+        }
+
+		cost = 35
+
+		fire_only_once = yes
+
+		visible = {
+			NOT = { 405 = { is_core_of = ROOT } }
+		}
+        
+		days_remove = 75
+		
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.25
+		}
+		
+		cancel_if_not_visible = yes
+
+		remove_effect  = {
+			add_state_core = 405
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			
+		}
+	}
+	
+}
