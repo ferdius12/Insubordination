@@ -34,7 +34,7 @@ set_politics = {
 recruit_character = YUG_alexander_kar
 
 set_politics = {
-	ruling_party = authoritarian_democrat 
+	ruling_party = social_conservative
 	last_election = "1926.1.1"
 	election_frequency = 48
 	elections_allowed = no

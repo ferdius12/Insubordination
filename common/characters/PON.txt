@@ -65,6 +65,12 @@ characters={
 			traits = {  }
 			id = -1
 		}
+                country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1965.1.1.1"
+			traits = {  }
+			id = -1
+		}
 	}
 	
 	

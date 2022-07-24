@@ -1,6 +1,6 @@
 every_possible_country = {
 	limit = {
-		NOT = { OR = { original_tag = POL } }
+		NOT = { OR = { original_tag = POL TMS } }
 		# avoid generic advisors in temporary countries
 		is_dynamic_country = no
 		NOT = {
@@ -31,7 +31,7 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { original_tag = POL } }
+		NOT = { OR = { original_tag = POL TMS } }
 		# avoid generic advisors in temporary countries
 		is_dynamic_country = no
 		NOT = {
@@ -62,7 +62,7 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { original_tag = POL } }
+		NOT = { OR = { original_tag = POL TMS } }
 		# avoid generic advisors in temporary countries
 		is_dynamic_country = no
 		NOT = {
@@ -93,7 +93,7 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { original_tag = POL } }
+		NOT = { OR = { original_tag = POL TMS } }
 		# avoid generic advisors in temporary countries
 		is_dynamic_country = no
 		NOT = {
@@ -124,7 +124,7 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { original_tag = POL } }
+		NOT = { OR = { original_tag = POL TMS } }
 		# avoid generic advisors in temporary countries
 		is_dynamic_country = no
 		NOT = {
@@ -155,7 +155,7 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { original_tag = POL } }
+		NOT = { OR = { original_tag = POL TMS } }
 		# avoid generic advisors in temporary countries
 		is_dynamic_country = no
 		NOT = {
@@ -186,7 +186,7 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { original_tag = POL } }
+		NOT = { OR = { original_tag = POL TMS } }
 		# avoid generic advisors in temporary countries
 		is_dynamic_country = no
 		NOT = {
@@ -217,7 +217,7 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { original_tag = POL } }
+		NOT = { OR = { original_tag = POL TMS } }
 		# avoid generic advisors in temporary countries
 		is_dynamic_country = no
 		NOT = {
@@ -248,7 +248,7 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { original_tag = POL } }
+		NOT = { OR = { original_tag = POL TMS } }
 		# avoid generic advisors in temporary countries
 		is_dynamic_country = no
 		NOT = {
@@ -279,7 +279,7 @@ every_possible_country = {
 
 every_possible_country = {
 	limit = {
-		NOT = { OR = { original_tag = POL } }
+		NOT = { OR = { original_tag = POL TMS } }
 		# avoid generic advisors in temporary countries
 		is_dynamic_country = no
 		NOT = {

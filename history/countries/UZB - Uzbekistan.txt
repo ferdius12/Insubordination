@@ -9,6 +9,10 @@ set_technology = {
 
 set_convoys = 5
 
+add_ideas = {
+middle_asia_underdeveloped_economy
+}
+
 recruit_character = UZB_seid_alim_khan
 
 set_politics = {

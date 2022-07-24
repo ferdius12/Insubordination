@@ -90,4 +90,52 @@ characters = {
 		}
 	}
 	
+	TMS_alexander_borovskiy = {
+	    portraits = {
+			army = {
+				large = "gfx/leaders/TMS/portrait_Turkmenistan_Alexander_Borovskiy.dds"
+				small = "gfx/interface/ideas/turkmenistan_advisor/idea_tms_alexander_borovskiy.dds"
+			}
+		}
+	
+	    advisor = {
+				cost = 100
+				slot = theorist
+				idea_token = TMS_alexander_borovskiy
+				ledger = army
+				allowed = {
+					original_tag = TMS
+				}
+				traits = {
+					military_theorist
+				}
+			}
+	
+	}
+	
+	TMS_boris_kazanovich = {
+	    portraits = {
+			army = {
+				small = "gfx/interface/ideas/turkmenistan_advisor/idea_tms_boris_kazanovich.dds"
+			}
+		}
+		
+		advisor={
+				slot = high_command
+				idea_token = TMS_boris_kazanovich
+				ledger = army
+				allowed = {
+					original_tag = TMS
+				}
+				traits = {
+					army_chief_maneuver_2
+				}
+				cost = 100
+				ai_will_do = {
+					factor = 1.000
+				}
+			}
+	
+	}
+	
 	}

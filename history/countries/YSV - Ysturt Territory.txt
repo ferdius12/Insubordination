@@ -13,6 +13,7 @@ set_technology = {
 recruit_character = YSV_anarchist_commune
 
 add_ideas = {
+middle_asia_underdeveloped_economy
 }
 
 set_convoys = 28

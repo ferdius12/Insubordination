@@ -1,27 +1,6 @@
 ideas = {
 
 	country = { 
-	
-	   PON_cult_of_emperor = {
-				
-			allowed = {
-				original_tag = PON
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = PON_cult_of_emperor
-				
-			removal_cost = -1
-				
-			modifier = {
-			political_power_gain = 0.15
-			stability_factor = 0.1
-			war_support_factor = 0.1
-			}
-		}
 		
 		PON_destroued_industry = {
 				

@@ -30,6 +30,8 @@ recruit_character = TMS_lev_erogin
 recruit_character = TMS_wilfrid_malleson
 recruit_character = TMS_fyodor_funticov
 recruit_character = TMS_michail_dashcevich
+recruit_character = TMS_alexander_borovskiy
+recruit_character = TMS_boris_kazanovich
 
 set_politics = {
 	ruling_party = paternal_autocrat

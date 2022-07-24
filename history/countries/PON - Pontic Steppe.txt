@@ -10,7 +10,6 @@ set_technology = {
 set_research_slots = 2
 
 add_ideas = {
-PON_cult_of_emperor
 PON_destroued_industry
 PON_power_in_cavarly
 PON_white_movement_volunter
@@ -32,8 +31,8 @@ recruit_character = PON_grigoriy_kislow
 recruit_character = PON_alexander_gyubaryov
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1936.1.1"
+	ruling_party = paternal_autocrat
+	last_election = "1926.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -45,10 +44,10 @@ set_popularities = {
     social_democrat = 6
     social_liberal = 0
     market_liberal = 3
-    social_conservative = 4
-    authoritarian_democrat = 0
-    paternal_autocrat = 15
-    fascism = 53
+    social_conservative = 14
+    authoritarian_democrat = 4
+    paternal_autocrat = 45
+    fascism = 9
 }
 
 set_convoys = 50

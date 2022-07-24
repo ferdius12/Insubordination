@@ -13,6 +13,7 @@ set_technology = {
 recruit_character = TAS_konstantin_osipov
 
 add_ideas = {
+middle_asia_underdeveloped_economy
 }
 
 set_convoys = 28

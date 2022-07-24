@@ -9,6 +9,10 @@ set_technology = {
 
 recruit_character = TAJ_mustafa_shokai
 
+add_ideas = {
+middle_asia_underdeveloped_economy
+}
+
 set_convoys = 8
 
 set_politics = {
