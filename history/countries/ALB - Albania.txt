@@ -31,10 +31,12 @@ set_technology = {
 }
 
 recruit_character = ALB_king_zog
+recruit_character = ALB_wilhelm_wied
+recruit_character = ALB_fan_noli
 
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1926.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -42,14 +44,14 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-    syndicalist = 5
+    syndicalist = 0
     radical_socialist = 0
     social_democrat = 0
     social_liberal = 0
-    market_liberal = 0
-    social_conservative = 0
-    authoritarian_democrat = 0
-    paternal_autocrat = 85
+    market_liberal = 8
+    social_conservative = 11
+    authoritarian_democrat = 56
+    paternal_autocrat = 15
     fascism = 10
 }
 
