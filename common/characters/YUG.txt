@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 	    country_leader = {
-			ideology = conservative_democratic_subtype
+			ideology = social_conservative_subtype
 			expire = "1953.1.1.1"
 			traits = {  }
 			id = -1

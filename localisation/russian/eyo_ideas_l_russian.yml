@@ -251,6 +251,8 @@
  #GRE#
  GRE_defense_democratic_state:0 "Указ о 'Защите демократического государства'"
  GRE_defense_democratic_state_desc:0 ""
+ GRE_bloated_military_budget:0 "Раздутый военный бюджет" 
+ GRE_bloated_military_budget_desc:0 "" 
  
  #ATTU#
  ATU_syndicalist:0 "Рост популярности синдикализма"

@@ -1,4 +1,4 @@
-characters={ 
+characters = { 
     
 	PON_yaroslav_the_great = {
 		name = PON_yaroslav_the_great

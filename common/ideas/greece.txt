@@ -24,5 +24,29 @@ country = {
 			}
 				
 			}
+			
+		GRE_bloated_military_budget = {
+				
+			allowed = {
+				original_tag = GRE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = GRE_bloated_military_budget
+				
+			removal_cost = -1
+				
+			modifier = {
+			   stability_factor = -0.1
+			   war_support_factor = -0.05
+			   consumer_goods_factor = 0.1
+			   production_speed_arms_factory_factor = 0.15 
+			   conscription_factor = 0.1
+			}
+				
+			}
 		}
 }

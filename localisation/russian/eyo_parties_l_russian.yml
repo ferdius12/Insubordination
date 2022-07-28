@@ -278,7 +278,7 @@
  #GREECE#
  GRE_communism_party:0 "KKE"
  GRE_communism_party_long:0 "Kommounistikó Kómma Elládas"
- GRE_syndicalist_party:0 KKE""
+ GRE_syndicalist_party:0 "KKE"
  GRE_syndicalist_party_long:0 "Kommounistikó Kómma Elládas"
  GRE_radical_socialist_party:0 "SKE"
  GRE_radical_socialist_party_long:0 "Sosialistikó Kómma Elládas"
@@ -292,8 +292,8 @@
  GRE_social_conservative_party_long:0 "Laïkón Kómma"
  GRE_authoritarian_democrat_party:0 "DFK"
  GRE_authoritarian_democrat_party_long:0 "Dimokratikó Fileléfthero Kómma"
- GRE_paternal_autocrat_party:0 ""
- GRE_paternal_autocrat_party_long:0 ""
- GRE_fascism_party:0 ""
- GRE_fascism_party_long:0 ""
+ GRE_paternal_autocrat_party:0 "Династия Глюксбургов"
+ GRE_paternal_autocrat_party_long:0 "Династия Глюксбургов"
+ GRE_fascism_party:0 "KtE"
+ GRE_fascism_party_long:0 "Kómma ton Eleftherofrónon"
  

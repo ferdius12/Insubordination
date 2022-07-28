@@ -3,6 +3,8 @@ capital = 47
 OOB = "GRE_1926"
 
 recruit_character = GRE_theodoros_pangalos
+recruit_character = GRE_eleftherios_venizelos
+recruit_character = GRE_ioannis_metaxas
 
 set_politics = {
 	ruling_party = authoritarian_democrat
@@ -11,8 +13,25 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	early_fighter = 1
+	gwtank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	interwar_antitank = 1
+	gw_artillery = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	superior_firepower = 1
+}
+
 add_ideas = {
 GRE_defense_democratic_state
+GRE_bloated_military_budget 
 }
 
 set_popularities = {
