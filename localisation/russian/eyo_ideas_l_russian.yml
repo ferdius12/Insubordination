@@ -248,6 +248,10 @@
  middle_asia_underdeveloped_economy:0 "Отсталая промышленность"
  middle_asia_underdeveloped_economy_desc:0 ""
  
+ #GRE#
+ GRE_defense_democratic_state:0 "Указ о 'Защите демократического государства'"
+ GRE_defense_democratic_state_desc:0 ""
+ 
  #ATTU#
  ATU_syndicalist:0 "Рост популярности синдикализма"
  ATU_syndicalist_desc:0 ""

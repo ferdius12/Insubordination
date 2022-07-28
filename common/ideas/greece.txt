@@ -1,0 +1,28 @@
+ideas = { 
+
+country = { 
+
+       GRE_defense_democratic_state = {
+				
+			allowed = {
+				original_tag = GRE
+				has_government = authoritarian_democrat
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = GRE_defense_democratic_state
+				
+			removal_cost = -1
+				
+			modifier = {
+			   drift_defence_factor = 0.20
+			   political_power_gain = 0.1
+			   stability_factor = -0.05
+			}
+				
+			}
+		}
+}

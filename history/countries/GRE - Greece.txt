@@ -11,6 +11,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+GRE_defense_democratic_state
+}
+
 set_popularities = {
 	communism = 0
     syndicalist = 0

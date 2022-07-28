@@ -574,4 +574,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_middle_asia_underdeveloped_economy.dds"
 	}
 	
+	#Greece#
+	
+	spriteType = {
+		name = "GFX_idea_GRE_defense_democratic_state"
+		texturefile = "gfx/interface/ideas/idea_gre_defense_democratic_state.dds"
+	}
+	
 }
