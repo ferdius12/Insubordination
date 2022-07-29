@@ -137,3 +137,18 @@
  focus_IRE_unionist_are_nor_irish:0 "Юнионисты - не ирландцы"
  focus_IRE_unionist_are_nor_irish_desc:0 ""
  
+ #GREECE#
+ focus_gre_plight:0 "Бедственное положение режима"
+ focus_gre_plight_desc:0 ""
+ focus_gre_democratic_concession:0 "Демократические уступки"
+ focus_gre_democratic_concession_desc:0 ""
+ focus_gre_i_am_dictator:0 "Я - диктатор!"
+ focus_gre_i_am_dictator_desc:0 ""
+ focus_gre_constitution_is_not_vain_written:0 "Конституция не просто так писана"
+ focus_gre_constitution_is_not_vain_written_desc:0 ""
+ focus_gre_agree_with_constitutionalist:0 "Заручится поддержкой конституционалистов"
+ focus_gre_agree_with_constitutionalist_desc:0 ""
+ focus_gre_increace_pressure_of_communist:0 "Усилить давление на коммунистов"
+ focus_gre_increace_pressure_of_communist_desc:0 ""
+ 
+ 

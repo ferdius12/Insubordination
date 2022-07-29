@@ -9,23 +9,83 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = gre_focus_1
-		text = gre_focus_1
+		id = focus_gre_plight
+		text = focus_gre_plight
 		icon = GFX_goal_unknown
-		cost = 3,00
-		x = 4
+		cost = 1,00
+		x = 5
 		y = 0
 			completion_reward = {
-					add_political_power = 25
+					country_event = {
+							id = gre.1
+						}
+					add_political_power = 50
 				}
 
 	}
 	focus = {
-		id = newfocus_1
-		text = newfocus_1
+		id = focus_gre_democratic_concession
+		text = focus_gre_democratic_concession
 		icon = GFX_goal_unknown
-		cost = 10,00
+		cost = 4,00
+		prerequisite = {
+			focus = focus_gre_plight
+		}
+		mutually_exclusive = {
+			focus = focus_gre_i_am_dictator
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = focus_gre_i_am_dictator
+		text = focus_gre_i_am_dictator
+		icon = GFX_goal_unknown
+		cost = 4,00
+		prerequisite = {
+			focus = focus_gre_plight
+		}
+		mutually_exclusive = {
+			focus = focus_gre_democratic_concession
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = focus_gre_constitution_is_not_vain_written
+		text = focus_gre_constitution_is_not_vain_written
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = focus_gre_democratic_concession
+		}
 		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = focus_gre_agree_with_constitutionalist
+		text = focus_gre_agree_with_constitutionalist
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = focus_gre_democratic_concession
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = focus_gre_increace_pressure_of_communist
+		text = focus_gre_increace_pressure_of_communist
+		icon = GFX_goal_unknown
+		cost = 6,00
+		prerequisite = {
+			focus = focus_gre_i_am_dictator
+		}
+		x = 6
 		y = 2
 
 	}
