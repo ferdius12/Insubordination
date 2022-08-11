@@ -93,7 +93,6 @@ characters = {
 	TMS_alexander_borovskiy = {
 	    portraits = {
 			army = {
-				large = "gfx/leaders/TMS/portrait_Turkmenistan_Alexander_Borovskiy.dds"
 				small = "gfx/interface/ideas/turkmenistan_advisor/idea_tms_alexander_borovskiy.dds"
 			}
 		}
@@ -120,7 +119,7 @@ characters = {
 			}
 		}
 		
-		advisor={
+		advisor = {
 				slot = high_command
 				idea_token = TMS_boris_kazanovich
 				ledger = army

@@ -15,6 +15,21 @@ characters = {
 	
 	} 
 	
+		GER_otto_ruhle = {
+		name = GER_otto_ruhle
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/portrait_Germany_Otto_Ruhle.dds"
+			}
+		}
+		country_leader = {
+			ideology = syndicalist_subtype
+			expire = "1953.3.1.1"
+			id = -1
+		}
+	
+	}
+	
 	    GER_joseph_berchtold = {
 		name = GER_joseph_berchtold
 		portraits = {
