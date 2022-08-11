@@ -165,16 +165,6 @@ guiTypes = {
 		}
 		
 		ButtonType = {
-			name = "sp_tutorial_button"
-			position = { x = 16 y = 138}
-			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "FE_TUTORIAL"
-			buttonFont = "hoi_24header"
-			clicksound = click_default
-			oversound = ui_menu_over
-		}
-		
-		ButtonType = {
 			name = "sp_back_button"
 			position = { x = 16 y = 218 }
 			quadTextureSprite ="GFX_main_lobby_button"	
@@ -251,16 +241,6 @@ guiTypes = {
 		}
 		
 
-		ButtonType = {
-			name = "credits_button"
-			position = {  x = 16 y = 138 }
-			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "FE_CREDITS"
-			buttonFont = "hoi_24header"
-			clicksound = click_default
-			oversound = ui_menu_over
-		}
-		
 		ButtonType = {
 			name = "nudge_button"
 			position = { x = 16 y = 178 }
