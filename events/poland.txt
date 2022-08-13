@@ -1,5 +1,6 @@
 add_namespace = pol
 add_namespace = mlr
+add_namespace = zaolzie
 
 country_event = {
 	id = pol.1
@@ -82,13 +83,25 @@ country_event = {
 				  93 = { remove_core_of = POL }
 				  91 = { remove_core_of = POL }
 				  89 = { remove_core_of = POL }
+	              67 = { set_demilitarized_zone = yes }
+				  86 = { set_demilitarized_zone = yes }
+				  72 = { set_demilitarized_zone = yes }
+				  762 = { set_demilitarized_zone = yes }
+				  88 = { set_demilitarized_zone = yes }
+				  90 = { set_demilitarized_zone = yes }
+				  762 = { set_demilitarized_zone = yes }
+				  92 = { set_demilitarized_zone = yes }
+				  97 = { set_demilitarized_zone = yes }
+				  98 = { set_demilitarized_zone = yes }
+				  807 = { set_demilitarized_zone = yes }
+				  5 = { set_demilitarized_zone = yes }
+				  95 = { set_demilitarized_zone = yes }
+				  94 = { set_demilitarized_zone = yes }
+				  93 = { set_demilitarized_zone = yes }
+				  91 = { set_demilitarized_zone = yes }
+				  89 = { set_demilitarized_zone = yes }
 		}
-		10 = {
-			set_demilitarized_zone = yes
-		}
-		87 = {
-			set_demilitarized_zone = yes
-		}
+		
 	}
 
 	}
@@ -151,6 +164,7 @@ country_event = {
 	option = {
 		name = pol.3.a
 		add_stability = -0.15
+		5 = { set_demilitarized_zone = no}
 		PRE = { 
 		transfer_state = 5 
 		load_oob = PRE_revolt
@@ -160,6 +174,7 @@ country_event = {
 	option = {
 		name = pol.3.b
 		add_stability = -0.15
+		5 = { set_demilitarized_zone = no }
 		PRE = { 
 		transfer_state = 5 
 		load_oob = PRE_revolt
@@ -223,6 +238,12 @@ country_event = {
 		transfer_state = 72
         change_tag_from = POL		
 		}
+		hidden_effect = {
+		762 = { set_demilitarized_zone = no }
+		88 = { set_demilitarized_zone = no }
+		90 = { set_demilitarized_zone = no }
+		72 = { set_demilitarized_zone = no }
+		}
 	}
 }
 
@@ -241,6 +262,7 @@ country_event = {
 		ai_chance = {
 				factor = 100
 			}
+		807 = { set_demilitarized_zone = no }
 		DNZ = { 
 		transfer_state = 807
 		}
@@ -345,14 +367,118 @@ country_event = {
 		ai_chance = {
 				factor = 60
 			}
+		start_border_war = {
+				change_state_after_war = no
+				
+				attacker = {
+					state = 70
+					state = 71
+					num_provinces = 2
+					on_win = zaolzie.1
+					on_lose = zaolzie.2
+					on_cancel = zaolzie.2
+				}
+
+				defender = {
+					state = 72
+					num_provinces = 2
+					on_win = zaolzie.3
+					on_lose = zaolzie.4
+					on_cancel = zaolzie.3
+				}
+			}
 		}
 	option = {
 		name = mlr.2.с
 		ai_chance = {
 				factor = 25
 			}
-		}
 		add_political_power = 25
 		add_stability = 0.1
 		add_war_support = 0.05
+	}
+}
+
+country_event = {
+	id = zaolzie.1
+	title = zaolzie.1.t
+	desc = zaolzie.1.d
+	picture = GFX_report_event_romanian_soldiers
+	
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = zaolzie.1.a
+		ai_chance = {
+				factor = 100
+			}
+		SLO = {
+		   transfer_state = 72
+		}
+		add_political_power = 25
+		add_war_support = 0.05
+		}
+}
+
+country_event = {
+	id = zaolzie.2
+	title = zaolzie.2.t
+	desc = zaolzie.2.d
+	picture = GFX_report_event_romanian_soldiers
+	
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = zaolzie.2.a
+		ai_chance = {
+				factor = 100
+			}
+	    add_war_support = -0.1
+		add_stability = -0.1
+		}
+}
+
+country_event = {
+	id = zaolzie.3
+	title = zaolzie.3.t
+	desc = zaolzie.3.d
+	picture = GFX_report_event_romanian_soldiers
+	
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = zaolzie.3.a
+		ai_chance = {
+				factor = 100
+			}
+	    add_political_power = 25
+		add_stability = 0.1
+		}
+}
+
+country_event = {
+	id = zaolzie.4
+	title = zaolzie.4.t
+	desc = zaolzie.4.d
+	picture = GFX_report_event_romanian_soldiers
+	
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = zaolzie.4.a
+		ai_chance = {
+				factor = 100
+			}
+	    add_political_power = -50
+		add_stability = -0.1
+		add_war_support = -0.1
+		}
 }

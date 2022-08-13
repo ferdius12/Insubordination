@@ -17,6 +17,11 @@ set_technology = {
 	early_bomber = 1
 }
 
+
+recruit_character = MLR_joseph_pilsudskiy
+recruit_character = MLR_joseph_lokietek
+recruit_character = MLR_valeriy_slavek
+
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1926.1.1"
@@ -36,5 +41,3 @@ set_popularities = {
     paternal_autocrat = 41
     fascism = 11
 }
-
-recruit_character = MLR_jozef_pilsudski

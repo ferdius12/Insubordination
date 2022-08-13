@@ -1,0 +1,23 @@
+division_template = {
+	name = "Test"		
+	division_names_group = CZE_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+	}
+}
+
+units = {
+	
+	division = {
+		location = 11542
+		division_template = "Test"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+}

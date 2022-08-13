@@ -1,18 +1,48 @@
-characters = { 
+characters = {
 
-        MLR_jozef_pilsudski = {
-		name = POL_jozef_pilsudski
+    MLR_joseph_pilsudskiy = {
+		name = MLR_joseph_pilsudskiy
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/POL/portrait_Poland_Jozef_Pilsudski.dds"
+				large="gfx/leaders/POL/portrait_Poland_Jozef_Pilsudski.dds"
 			}
 		}
 		country_leader = {
 			ideology = despotism_subtype
-			expire = "1953.3.1.1"
+			expire = "1953.1.1.1"
+			traits = {  }
 			id = -1
 		}
-	
 	}
 	
+	MLR_joseph_lokietek = {
+		name = MLR_joseph_lokietek
+		portraits = {
+			civilian = {
+				large="gfx/leaders/POL/portrait_Poland_Jozef_Lokietek.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
 	}
+	
+	MLR_valeriy_slavek = {
+		name = MLR_valeriy_slavek
+		portraits = {
+			civilian = {
+				large="gfx/leaders/POL/portrait_Poland_Valeriy_Slavek.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+}
