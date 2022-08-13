@@ -1,0 +1,48 @@
+PER_MIL_01 = 
+{
+	name = "State Militia Unit"
+
+	for_countries = { PER }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d State Militia Unit"
+}
+PER_INF_01 = 
+{
+	name = "Infantry Divisions"
+
+	for_countries = { PER }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Infantry Divisions"
+}
+PER_CAV_02 = 
+{
+	name = "Infantry Divisions"
+
+	for_countries = { PER }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "%d Cossak Brigade."
+}
+PER_MOU_01 = 
+{
+	name = "Mountaineer Brigade"
+
+	for_countries = { PER }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	fallback_name = "%d Mountaineer Brigade."
+}
