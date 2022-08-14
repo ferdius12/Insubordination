@@ -1,6 +1,6 @@
 capital = 94
 
-oob = "PHI_1926"
+oob = "PMS_1926"
 
 # Starting tech
 set_technology = {
@@ -12,7 +12,7 @@ set_technology = {
 	early_bomber = 1
 }
 
-set_convoys = 45
+set_convoys = 0
 
 recruit_character = PMS_wladyslaw_sikorski
 
@@ -23,7 +23,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 0
+    communism = 0
     syndicalist = 0
     radical_socialist = 0
     social_democrat = 0

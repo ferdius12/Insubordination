@@ -1,5 +1,22 @@
 division_template = {
-	name = "Test"		
+	name = "Pesi divize"		
+	division_names_group = CZE_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }		
+	}
+}
+
+division_template = {
+	name = "Milice"		
 	division_names_group = CZE_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -7,17 +24,133 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 	}
-	support = {
+	support = {	
 	}
+	
+	priority = 0
 }
+
+division_template = {
+	name = "Horska divize"		
+	division_names_group = CZE_INF_01
+	regiments = {
+		mountaineers  = { x = 0 y = 0 }
+		mountaineers  = { x = 0 y = 1 }
+		mountaineers  = { x = 0 y = 2 }
+		mountaineers  = { x = 1 y = 0 }
+		mountaineers  = { x = 1 y = 1 }
+		mountaineers  = { x = 1 y = 2 }
+	}
+	support = {	
+	}
+	
+	priority = 2
+}
+
+division_template = { 
+	name = "Tankova Brigada" 
+	division_names_group = CZE_ARM_01 
+
+	regiments = { 
+		cavalry = { x = 0 y = 0 } 
+		cavalry = { x = 0 y = 1 } 
+		light_armor = { x = 1 y = 0 }											
+	} 
+} 
 
 units = {
 	
 	division = {
-		location = 11542
-		division_template = "Test"
+		location = 6590
+		division_template = "Pesi divize"
 		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		location = 557
+		division_template = "Pesi divize"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		location = 11542
+		division_template = "Pesi divize"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		location = 543
+		division_template = "Pesi divize"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		location = 5283
+		division_template = "Horska divize"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		location = 3583
+		division_template = "Horska divize"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		location = 11542
+		division_template = "Tankova Brigada"
+		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
+	
+	division = {
+		location = 11511
+		division_template = "Milice"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		location = 6590
+		division_template = "Milice"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		location = 494
+		division_template = "Milice"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		location = 3585
+		division_template = "Milice"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		location = 6418
+		division_template = "Milice"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		location = 583
+		division_template = "Milice"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	
+	
 	
 }
