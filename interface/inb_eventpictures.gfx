@@ -46,6 +46,11 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_pol_danzig.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_report_event_pol_lvov_revolt"
+		texturefile = "gfx/event_pictures/report_event_pol_lvov_revolt.dds"
+	}
+	
 	#GER#
 	
 	spriteType = {

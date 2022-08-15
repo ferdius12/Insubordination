@@ -1,0 +1,19 @@
+characters = {
+
+    LVO_andriy_melnyk = {
+		name = LVO_andriy_melnyk
+		portraits = {
+			civilian = {
+				large="gfx/leaders/UKR/Portrait_Ukraine_Andriy_Melnyk.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+	}
+	
+}

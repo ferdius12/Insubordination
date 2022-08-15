@@ -939,3 +939,7 @@ MLR = {
 	color = rgb { 105 53 52 }
 	color_ui = rgb { 105 53 52 }
 }
+PMS = {
+	color = rgb { 232 149 169 }
+	color_ui = rgb { 232 149 169 }
+}

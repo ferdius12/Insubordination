@@ -3,11 +3,34 @@ capital = 91
 OOB = "LVO_1936"
 
 set_politics = {
-	ruling_party = market_liberal
-	last_election = "1935.6.25"
+	ruling_party = fascism
+	last_election = "1926.9.11"
 	election_frequency = 36
 	elections_allowed = yes
 }
+
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	trench_warfare = 1
+	basic_train = 1
+}
+
+add_ideas = {
+LVO_volunteers
+LVO_surrounded_by_enemies
+LVO_new_act_zluki
+}
+
+recruit_character = LVO_andriy_melnyk
 
 set_popularities = {
 	communism = 0
@@ -15,9 +38,9 @@ set_popularities = {
     radical_socialist = 9
     social_democrat = 14
     social_liberal = 0
-    market_liberal = 44
+    market_liberal = 14
     social_conservative = 12
     authoritarian_democrat = 11
     paternal_autocrat = 0
-    fascism = 9
+    fascism = 39
 }

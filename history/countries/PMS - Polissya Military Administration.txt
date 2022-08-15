@@ -12,12 +12,18 @@ set_technology = {
 	early_bomber = 1
 }
 
+add_ideas = {
+PMS_growing_discontent
+low_economic_mobilisation
+extensive_conscription
+}
+
 set_convoys = 0
 
 recruit_character = PMS_wladyslaw_sikorski
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1926.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -30,7 +36,7 @@ set_popularities = {
     social_liberal = 0
     market_liberal = 0
     social_conservative = 0
-    authoritarian_democrat = 100
-    paternal_autocrat = 0
+    authoritarian_democrat = 35
+    paternal_autocrat = 65
     fascism = 0
 }

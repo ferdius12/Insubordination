@@ -1,5 +1,6 @@
 add_namespace = pol
 add_namespace = mlr
+add_namespace = pms
 add_namespace = zaolzie
 
 country_event = {
@@ -418,6 +419,65 @@ country_event = {
 		add_stability = 0.1
 		add_war_support = 0.05
 	}
+}
+
+country_event = {
+	id = pms.1
+	title = pms.1.t
+	desc = pms.1.d
+	picture = GFX_report_event_pol_lvov_revolt
+	
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = pms.1.a
+		ai_chance = {
+				factor = 100
+			}
+		add_war_support = -0.05
+		add_political_power = 50
+		PMS = { 
+		  load_oob = PMS_revolt
+		  transfer_state = 94
+		  transfer_state = 95
+		  transfer_state = 93
+		  add_core_of = 94
+		  add_core_of = 95
+		  add_core_of = 93
+		}
+		LVO = { 
+		  load_oob = LVO_revolt
+		  transfer_state = 91
+		  transfer_state = 89
+		}
+	}
+	
+	option = {
+		name = pms.1.a
+		ai_chance = {
+				factor = 100
+			}
+		add_war_support = -0.05
+		add_political_power = 50
+		PMS = { 
+		  load_oob = PMS_revolt
+		  transfer_state = 94
+		  transfer_state = 95
+		  transfer_state = 93
+		  add_core_of = 94
+		  add_core_of = 95
+		  add_core_of = 93
+		}
+		LVO = { 
+		  load_oob = LVO_revolt
+		  transfer_state = 91
+		  transfer_state = 89
+		}
+	}
+		
+		}
 }
 
 country_event = {

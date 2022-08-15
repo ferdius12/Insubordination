@@ -1,0 +1,18 @@
+characters = {
+	
+	PMS_wladyslaw_sikorski = {
+		name = PMS_wladyslaw_sikorski
+		portraits = {
+			civilian = {
+				large="gfx/leaders/POL/portrait_Poland_Wladyslaw_Sikorski.dds"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			expire = "1965.1.1.1"
+			traits = { eastern_resistance }
+			id = -1
+		}
+	}
+	
+	}

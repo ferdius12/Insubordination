@@ -586,4 +586,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_gre_bloated_military_budget.dds"
 	}
 	
+	#Polissya Military Administration#
+	
+	spriteType = {
+		name = "GFX_idea_PMS_growing_discontent"
+		texturefile = "gfx/interface/ideas/idea_pms_growing_discontent.dds"
+	}
+	
+	#Lvov#
+	
+	spriteType = {
+		name = "GFX_idea_LVO_new_act_zluki"
+		texturefile = "gfx/interface/ideas/idea_lvo_new_act_zluki.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_LVO_surrounded_by_enemies"
+		texturefile = "gfx/interface/ideas/idea_lvo_surrounded_by_enemies.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_LVO_volunteers"
+		texturefile = "gfx/interface/ideas/idea_lvo_volunteers.dds"
+	}
+	
 }
