@@ -14,6 +14,7 @@ set_technology = {
 
 add_ideas = {
 PMS_growing_discontent
+PMS_green_oak
 low_economic_mobilisation
 extensive_conscription
 }

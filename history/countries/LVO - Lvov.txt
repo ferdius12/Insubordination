@@ -2,6 +2,9 @@ capital = 91
 
 OOB = "LVO_1936"
 
+set_stability = 0.7
+set_war_support = 0.7
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1926.9.11"

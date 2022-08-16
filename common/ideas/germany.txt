@@ -71,9 +71,8 @@ radical_socialist_acceptance = 35
 			modifier = {
 				monthly_population = -0.30
 				consumer_goods_factor = 0.15
-				industrial_capacity_dockyard  = -0.15
-				production_factory_start_efficiency_factor  = -0.05
-				production_factory_max_efficiency_factor  = -0.25
+				industrial_capacity_factory  = -0.10
+				production_factory_max_efficiency_factor  = -0.15
 				
 			}
 		}

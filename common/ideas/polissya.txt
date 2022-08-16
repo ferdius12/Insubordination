@@ -20,7 +20,29 @@ ideas = {
             war_support_factor = -0.15
 			stability_factor = -0.10
 			army_attack_factor = -0.1
-			conscription_factor = -0.15
+			}
+		}
+		
+		PMS_green_oak = {
+				
+			allowed = {
+			    original_tag = PMS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = PMS_green_oak
+				
+			removal_cost = -1
+				
+			modifier = {
+			conscription_factor = -0.25
+			war_support_factor = -0.1
+			industrial_capacity_factory = -0.10
+			production_factory_max_efficiency_factor  = -0.15
+			industry_free_repair_factor = -0.50
 			}
 		}
 		

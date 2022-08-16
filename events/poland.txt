@@ -74,10 +74,11 @@ country_event = {
                 popularity = -0.15
             }
 		hidden_effect = { 
-				country_event = { id = pol.3 hours = 54 }
-				country_event = { id = pol.5 hours = 62 }
+				country_event = { id = pol.3 hours = 73 }
+				country_event = { id = pol.5 hours = 130 }
+				country_event = { id = pms.1 hours = 185 }
 			DNZ = { 
-			country_event = { id = pol.4 hours = 62 } 
+			country_event = { id = pol.4 hours = 56 } 
 				  }
 				  95 = { remove_core_of = POL }
 				  94 = { remove_core_of = POL }
@@ -200,6 +201,7 @@ country_event = {
 		name = pol.5.a
 		add_stability = 0.05
 		add_war_support = 0.05
+		remove_ideas = { POL_dissatisfaction_military_elite }
 		MLR = { 
 		load_oob = MLR_revolt
 		transfer_state = 88
@@ -235,6 +237,7 @@ country_event = {
 		name = pol.5.b
 		add_stability = 0.05
 		add_war_support = 0.05
+		remove_ideas = { POL_dissatisfaction_military_elite }
 		MLR = { 
 		load_oob = MLR_revolt
 		transfer_state = 88
@@ -438,43 +441,60 @@ country_event = {
 			}
 		add_war_support = -0.05
 		add_political_power = 50
+		remove_ideas = { POL_problems_with_east }
 		PMS = { 
-		  load_oob = PMS_revolt
 		  transfer_state = 94
 		  transfer_state = 95
 		  transfer_state = 93
-		  add_core_of = 94
-		  add_core_of = 95
-		  add_core_of = 93
+		  load_oob = PMS_revolt
 		}
 		LVO = { 
-		  load_oob = LVO_revolt
 		  transfer_state = 91
 		  transfer_state = 89
+		  load_oob = LVO_revolt
 		}
-	}
+		hidden_effect = {
+		  89 = { set_demilitarized_zone = no }
+		  91 = { set_demilitarized_zone = no }
+		  93 = { set_demilitarized_zone = no }
+		  94 = { set_demilitarized_zone = no }
+		  95 = { set_demilitarized_zone = no }
+		  94 = { add_core_of = PMS }
+		  95 = { add_core_of = PMS }
+		  93 = { add_core_of = PMS }
+		  }
+		}
 	
 	option = {
-		name = pms.1.a
+		name = pms.1.b
 		ai_chance = {
 				factor = 100
 			}
 		add_war_support = -0.05
 		add_political_power = 50
+		remove_ideas = { POL_problems_with_east }
 		PMS = { 
-		  load_oob = PMS_revolt
 		  transfer_state = 94
 		  transfer_state = 95
 		  transfer_state = 93
-		  add_core_of = 94
-		  add_core_of = 95
-		  add_core_of = 93
+		  load_oob = PMS_revolt
 		}
 		LVO = { 
-		  load_oob = LVO_revolt
 		  transfer_state = 91
 		  transfer_state = 89
+		  load_oob = LVO_revolt
+		  change_tag_from = POL	
 		}
+		hidden_effect = {
+		  89 = { set_demilitarized_zone = no }
+		  91 = { set_demilitarized_zone = no }
+		  93 = { set_demilitarized_zone = no }
+		  94 = { set_demilitarized_zone = no }
+		  95 = { set_demilitarized_zone = no }
+		  94 = { add_core_of = PMS }
+		  95 = { add_core_of = PMS }
+		  93 = { add_core_of = PMS }
+		  }
 	}
 		
 		}

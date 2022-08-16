@@ -593,6 +593,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_pms_growing_discontent.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_PMS_green_oak"
+		texturefile = "gfx/interface/ideas/idea_pms_green_oak.dds"
+	}
+	
 	#Lvov#
 	
 	spriteType = {

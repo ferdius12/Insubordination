@@ -1,0 +1,98 @@
+division_template = {
+	name = "Dywizja Piechoty"		
+	division_names_group = POL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Brygada Kawalerii" 
+	division_names_group = POL_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }     
+	}
+}
+
+units = {
+
+	division = {
+		location = 6557
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	
+	division = {
+		location = 513
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	
+	division = {
+		location = 3392
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	
+	division = {
+		location = 474
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	
+	division = {
+		location = 535
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	
+	division = {
+		location = 9304
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	
+	division = {
+		location = 3393
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	
+	division = {
+		location = 3412
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	
+	division = {
+		location = 11285
+		division_template = "Brygada Kawalerii"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.60
+	}
+	
+}

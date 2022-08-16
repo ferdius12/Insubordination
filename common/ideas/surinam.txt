@@ -18,8 +18,8 @@ country = {
 				
 			modifier = {
 				consumer_goods_factor = -0.1
-				add_offsite_building = { type = industrial_complex level = 2 }
-				add_offsite_building = { type = arms_factory = 1 }
+				industrial_factory_donations = 2
+                                military_factory_donations = 1
 				political_power_gain = -0.25
 				communism_drift = -0.02
 				stability_factor = -0.15
