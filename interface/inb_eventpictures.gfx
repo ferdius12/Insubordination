@@ -51,6 +51,13 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_pol_lvov_revolt.dds"
 	}
 	
+	#BLR#
+	
+	spriteType = {
+		name = "GFX_report_event_blr_operation_oak"
+		texturefile = "gfx/event_pictures/report_event_blr_operation_oak.dds"
+	}
+	
 	#GER#
 	
 	spriteType = {

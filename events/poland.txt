@@ -454,6 +454,9 @@ country_event = {
 		  load_oob = LVO_revolt
 		}
 		hidden_effect = {
+		  BLR = { 
+			country_event = { id = pms.2 hours = 35 } 
+		  }
 		  89 = { set_demilitarized_zone = no }
 		  91 = { set_demilitarized_zone = no }
 		  93 = { set_demilitarized_zone = no }
@@ -494,10 +497,40 @@ country_event = {
 		  94 = { add_core_of = PMS }
 		  95 = { add_core_of = PMS }
 		  93 = { add_core_of = PMS }
+		LVO = { { declare_war_on = {
+			target = PMS
+			type = take_state
+		} }
+	    PMS = { { declare_war_on = {
+			target = LVO
+			type = civil_war
+		}  }
 		  }
 	}
 		
 		}
+}
+
+country_event = {
+	id = pms.2
+	title = pms.2.t
+	desc = pms.2.d
+	picture = GFX_report_event_blr_operation_oak
+	
+	fire_only_once = yes
+
+    is_triggered_only = yes
+
+	option = {
+		name = pms.2.a
+		ai_chance = {
+				factor = 100
+			}
+		add_war_support = 0.15
+		declare_war_on = {
+			target = PMS
+			type = take_state
+		}	
 }
 
 country_event = {
