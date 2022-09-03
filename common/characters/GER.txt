@@ -91,7 +91,75 @@ characters = {
 			planning_skill=2
 			logistics_skill=1
 		}
+		}
+
+        GER_christian_hansen = {
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/portrait_Germany_Christian_Hansen.dds"
+				small = "gfx/interface/ideas/german_advisor/idea_ger_christian_hansen.dds"
+			}
+		}
+		corps_commander = {
+			traits = { organizer }
+			skill = 3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+		}
+		}
+
+        GER_baptist_kniess = {
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/portrait_Germany_Baptist_Kniess.dds"
+				small = "gfx/interface/ideas/german_advisor/idea_ger_baptist_kniess.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_cautious  }
+			skill = 2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+		}
+		}
+
+        GER_vincenz_muller = {
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/portrait_Germany_Vincenz_Muller.dds"
+				small = "gfx/interface/ideas/german_advisor/idea_ger_vincenz_muller.dds"
+			}
+		}
+		corps_commander = {
+			traits = { engineer_officer }
+			skill = 3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+		}
 		}	
+
+        GER_willy_leow = {
+		portraits = {
+			army = {
+				large = "gfx/leaders/GER/portrait_Germany_Willy_Leow.dds"
+				small = "gfx/interface/ideas/german_advisor/idea_ger_willy_leow.dds"
+			}
+		}
+		field_marshall = {
+			traits = { expert_delegator }
+			skill = 2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+		}
+		}		
 	
 
 	

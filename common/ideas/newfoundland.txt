@@ -1,0 +1,61 @@
+ideas = { 
+
+country = { 
+
+       NFL_military_mandate = {
+				
+			allowed = {
+				original_tag = NFL
+				OR = { 
+				   has_government = authoritarian_democrat
+				   has_government = paternal_autocrat
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = NFL_military_mandate
+				
+			removal_cost = -1
+				
+			modifier = {
+			   disabled_ideas = 1
+			   cic_to_overlord_factor = -1
+			   mic_to_overlord_factor = -1
+			   war_support_factor = 0.10
+			}
+			targeted_modifier = {
+			      tag = CAN
+			      attack_bonus_against = 0.1
+				  defence_bonus_against = 0.20
+		       }
+				
+			}
+			
+       NFL_novo_scotia_incident = {
+				
+			allowed = {
+				original_tag = NFL
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = NFL_novo_scotia_incident
+				
+			removal_cost = -1
+				
+			modifier = {
+			   stability_factor = -0.15
+			   war_support_factor = -0.1
+			   surrender_limit = -0.1
+			   political_power_factor = -0.1
+			   conscription = -0.01
+			}
+				
+			}
+			
+		}

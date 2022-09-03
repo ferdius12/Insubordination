@@ -55,6 +55,10 @@ recruit_character = GER_joseph_berchtold
 recruit_character = GER_paul_von_hindenburg
 recruit_character = GER_max_lademann
 recruit_character = GER_kuno_von_vestarp
+recruit_character = GER_christian_hansen
+recruit_character = GER_baptist_kniess
+recruit_character = GER_vincenz_muller
+recruit_character = GER_willy_leow 
 
 create_faction = International_Ger
 add_to_faction = GER

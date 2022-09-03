@@ -123,6 +123,10 @@
  GER_kuno_von_vestarp:0 "Куно фон Вестарп"
  GER_max_lademann:0 "Макс Ладеман"
  GER_otto_ruhle:0 "Отто Рюле"
+ GER_christian_hansen:0 "Кристиан Хансен"
+ GER_baptist_kniess:0 "Баптист Книсс"
+ GER_vincenz_muller:0 "Винсент Мюллер" 
+ GER_willy_leow:0 "Вилли Леов"
  
  #TRANSCAUCASIA
  ZAK_nikolay_strukov:0 "Николай Первый"
@@ -199,7 +203,8 @@
  WLS_saunders_lewis:0 "Сондерс Льюис"
  
  #NFL
- NFL_william_allardyce:0 "Сэр Эллардайс "
+ NFL_adrian_wiart:0 "Адриан Виарт"
+ NFL_bros_campbell:0 "Броз Кэмпбелл"
  
  #USA
  USA_calvin_coolidge:0 "Кальвин Кулидж"
@@ -443,5 +448,5 @@
  
  #PRE#
  PRE_oskar_karl_von_preuben:0 "Оскар Прусский"
- PRE_erich_koch:0 "Эрик Кох"
+ PRE_erich_koch:0 "Эрих Кох"
  

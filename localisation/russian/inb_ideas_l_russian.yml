@@ -268,6 +268,12 @@
  LVO_new_act_zluki:0 "Новый 'Акт Злуки'?"
  LVO_new_act_zluki_desc:0 ""
  
+ #NFL#
+ NFL_military_mandate:0 "Военный мандат"
+ NFL_military_mandate_desc:0 ""
+ NFL_novo_scotia_incident:0 "Монктонский кризис"
+ NFL_novo_scotia_incident_desc:0 ""
+ 
  #ATTU#
  ATU_syndicalist:0 "Рост популярности синдикализма"
  ATU_syndicalist_desc:0 ""

@@ -615,4 +615,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_lvo_volunteers.dds"
 	}
 	
+	#Newfoundland#
+	
+	spriteType = {
+		name = "GFX_idea_NFL_novo_scotia_incident"
+		texturefile = "gfx/interface/ideas/idea_nfl_novo_scotia_incident.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NFL_military_mandate"
+		texturefile = "gfx/interface/ideas/idea_nfl_military_mandate.dds"
+	}
+	
 }

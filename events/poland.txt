@@ -497,18 +497,8 @@ country_event = {
 		  94 = { add_core_of = PMS }
 		  95 = { add_core_of = PMS }
 		  93 = { add_core_of = PMS }
-		LVO = { { declare_war_on = {
-			target = PMS
-			type = take_state
-		} }
-	    PMS = { { declare_war_on = {
-			target = LVO
-			type = civil_war
-		}  }
-		  }
-	}
-		
 		}
+	}
 }
 
 country_event = {
@@ -531,6 +521,8 @@ country_event = {
 			target = PMS
 			type = take_state
 		}	
+}
+
 }
 
 country_event = {

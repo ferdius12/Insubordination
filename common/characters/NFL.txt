@@ -1,10 +1,14 @@
-characters={
+characters = {
 
-    NFL_william_allardyce = {
-		name = NFL_william_allardyce
+    NFL_adrian_wiart = {
+		name = NFL_adrian_wiart
 		portraits = {
 			civilian = {
-				large="gfx/leaders/NFL/portrait_Newfoundland_William_Allardyce.dds"
+				large="gfx/leaders/NFL/portrait_Newfoundland_Adrian_Wiart.dds"
+			}
+			army = {
+				large = "gfx/leaders/NFL/portrait_Newfoundland_Adrian_Wiart.dds"
+				small = "gfx/interface/ideas/newfoundland_advisor/idea_newfoundland_adrian_wiart.dds"
 			}
 		}
 		country_leader = {
@@ -13,4 +17,40 @@ characters={
 			traits = {  }
 			id = -1
 		}
+		country_leader = {
+			ideology = despotism_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		corps_commander = {
+			traits = { old_guard trait_reckless }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=4
+		}
 	}
+	
+		NFL_bros_campbell = {
+		name = NFL_bros_campbell
+		portraits = {
+			army = {
+				large = "gfx/leaders/NFL/portrait_Newfoundland_Bros_Campbell.dds"
+				small = "gfx/interface/ideas/newfoundland_advisor/idea_newfoundland_bros_campbell.dds"
+			}
+		}
+		
+		corps_commander = {
+			traits = { harsh_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	
+	}
+
+}
