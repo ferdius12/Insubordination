@@ -1,0 +1,72 @@
+division_template = {
+	name = "Piachotnaja Dyvizija"
+	division_names_group = BLR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Strelkovaya Diviziya"
+	division_names_group = BLR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	    artillery = { x = 0 y = 1 } 		
+	}
+}
+
+
+units = {
+	
+	division = {
+		location = 11370
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
+	}
+	
+	division = {
+		location = 9554
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	
+	division = {
+		location = 11313
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	
+	division = {
+		location = 9289
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	
+	division = {
+		location = 6232
+		division_template = "Piachotnaja Dyvizija"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.85
+	}
+	
+}
