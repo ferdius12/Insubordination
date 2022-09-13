@@ -1,0 +1,14 @@
+characters = {
+	SAU_abdulaziz_ibn_saud = {
+		name = SAU_abdulaziz_ibn_saud
+		portraits={
+			civilian={
+				large ="gfx/leaders/SAU/portrait_Saudi_Arabia_Abdulazis_Ibn_Saud_KX.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1965.1.1.1"
+			id=-1
+		}
+	}

@@ -1,0 +1,14 @@
+characters = {
+	 HIJ_ali_bin_hussein = {
+		name = HIJ_ali_bin_hussein
+		portraits={
+			civilian={
+				large ="gfx/leaders/HIJ/portrait_Hejaz_Ali_Bin_Hussein.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolute_monarchy_subtype
+			expire = "1965.1.1.1"
+			id=-1
+		}
+	}

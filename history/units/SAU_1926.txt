@@ -1,0 +1,60 @@
+division_template = {
+	name = "Militia"	
+
+	division_names_group = SAU_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Bedouins"
+
+	division_names_group = SAU_CAV_01
+
+	regiments = {
+		camelry = { x = 0 y = 0 }
+		camelry = { x = 1 y = 0 }
+
+	}
+}
+
+units = {
+	
+	division = {
+		location = 5027
+		division_template = "Bedouins"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+	
+	division = {
+		location = 8060
+		division_template = "Bedouins"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+	
+	division = {
+		location = 10892
+		division_template = "Bedouins"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.85
+	}
+	
+	division = {
+		location = 12727
+		division_template = "Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.45
+	}
+	
+	division = {
+		location = 12749
+		division_template = "Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.45
+	}

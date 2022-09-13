@@ -1,0 +1,18 @@
+characters = {
+
+        YEM_imam_yahya = {
+		name = YEM_imam_yahya
+		portraits = {
+			civilian = {
+				large="gfx/leaders/YEM/portrait_Yeman_Imam_Yaha.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_monarchism_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+	}
+	
+}

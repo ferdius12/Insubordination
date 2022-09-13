@@ -3,23 +3,25 @@ state={
 	name="STATE_679"
 	manpower = 1511000
 	
-	state_category = pastoral
+	state_category = pastoral 
 
 	history={
-		owner = SAU
+		owner = HIJ
 		victory_points = {
 			12758 1 
 		}
 		victory_points = {
-			12883 1 
+			12883 5 
 		}
 		buildings = {
 			infrastructure = 2
+                        arms_factory = 2
 			12883 = {
 				naval_base = 5
 			}
 		}
-		add_core_of = SAU
+		add_core_of = HIJ
+                add_core_of = SAU
 	}
 
 	provinces={

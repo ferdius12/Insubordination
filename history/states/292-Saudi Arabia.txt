@@ -22,7 +22,14 @@ state={
 		victory_points = {
 			12727 5
 		}
+		victory_points = {
+			12749 1
+		}
+		victory_points = {
+			2057 1
+		}
 		add_core_of = SAU
+		add_core_of = HIJ
 	}
 
 	provinces={
