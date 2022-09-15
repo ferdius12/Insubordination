@@ -1,0 +1,19 @@
+characters = {
+
+    OMA_taimur_bin_feisal = {
+		name = OMA_taimur_bin_feisal
+		portraits = {
+			civilian = {
+				large="gfx/leaders/OMA/portrait_Oman_Taimur_Bin_Feisal.dds"
+			}
+		}
+		country_leader = {
+			ideology = semi_constitutional_monarchy_subtype
+			expire = "1953.1.1.1"
+			traits = {  }
+			id = -1
+		}
+		
+	}
+
+}
