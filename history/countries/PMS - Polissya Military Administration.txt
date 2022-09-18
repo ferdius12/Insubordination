@@ -22,6 +22,9 @@ extensive_conscription
 set_convoys = 0
 
 recruit_character = PMS_wladyslaw_sikorski
+recruit_character = PMS_jan_romer
+recruit_character = PMS_franciszek_latinik 
+recruit_character = PMS_leonard_skierski
 
 set_politics = {
 	ruling_party = paternal_autocrat

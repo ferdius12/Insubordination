@@ -6,6 +6,10 @@ characters = {
 			civilian = {
 				large="gfx/leaders/POL/portrait_Poland_Wladyslaw_Sikorski.dds"
 			}
+			army = {
+				large = "gfx/leaders/POL/portrait_Poland_Wladyslaw_Sikorski.dds"
+				small = "gfx/interface/ideas/poland_advisor/idea_pol_wladyslaw_sikorski.dds"
+			}
 		}
 		country_leader = {
 			ideology = paternal_autocrat_subtype
@@ -13,6 +17,65 @@ characters = {
 			traits = { eastern_resistance }
 			id = -1
 		}
+		field_marshal = {
+			traits = { logistics_wizard organisational_leader }
+			skill = 4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
+		}
 	}
+	
+	PMS_jan_romer = {
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/portrait_Poland_Jan_Romer.dds"
+				small = "gfx/interface/ideas/poland_advisor/idea_pol_jan_romer.dds"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard infantry_leader }
+			skill = 3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=3
+		}
+		}
+	
+	PMS_franciszek_latinik = {
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/portrait_Poland_Franciszek_Latinik.dds"
+				small = "gfx/interface/ideas/poland_advisor/idea_pol_franciszek_latinik.dds"
+			}
+		}
+		corps_commander = {
+			traits = { swamp_fox  }
+			skill = 2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+		}
+		
+	PMS_leonard_skierski = {
+		portraits = {
+			army = {
+				large = "gfx/leaders/POL/portrait_Poland_Leonard_Skierski.dds"
+				small = "gfx/interface/ideas/poland_advisor/idea_pol_leonard_skierski.dds"
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist }
+			skill = 2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+		}
+		}
 	
 	}
